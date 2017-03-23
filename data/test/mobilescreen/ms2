@@ -1,0 +1,664 @@
+
+ Patents
+12 of 21,92,140
+Search Terms
+Search Fields
+Before priority
+After filing
+Method of dividing screen areas and mobile terminal employing the same
+Abstract
+A method of supporting divided screen areas and a mobile terminal employing the same are disclosed. The method includes: generating input signals for one of sequentially and simultaneously activating a plurality of user functions; activating the user functions according to generated input signals; dividing a screen into divided screen areas that correspond to activated user functions; and outputting functional view areas associated with the activated user functions to the corresponding divided screen areas.
+Images (19)
+Classifications
+G06F3/04817 Interaction techniques based on graphical user interfaces [GUI] based on specific properties of the displayed interaction object or a metaphor-based environment, e.g. interaction with desktop elements like windows or icons, or assisted by a cursor's changing behaviour or appearance using icons
+View 15 more classifications
+US20100248788A1
+
+US Application
+Download PDF
+Find Prior Art
+
+Legal status
+    Pending 
+Application number
+    US12728357
+
+Inventor
+    Hyung Min YOOK 
+    Sung Sik Yoo 
+    Kang Won LEE 
+    Myeong Lo Lee 
+    Young Ae Kang 
+    Hui Chul YANG 
+    Yong Ki Min 
+Current Assignee
+    Samsung Electronics Co Ltd 
+Original Assignee
+    Samsung Electronics Co Ltd 
+
+Priority date
+    2009-03-25 
+Filing date
+    2010-03-22 
+Publication date
+    2010-09-30
+
+Info
+    Patent citations (34)
+    Cited by (198)
+    Also published as (13)
+    Legal events
+    Similar documents
+External links
+    USPTO
+    USPTO Assignment
+    Espacenet
+    Global Dossier
+    Discuss
+
+Description
+
+    CLAIM OF PRIORITY
+    [0001]
+    This application claims the benefit of U.S. Provisional Application Ser. No. 61/163,259 filed Mar. 25, 2009, and also claims the benefit of priority under 35 U.S.C. §119 from Korean patent application No. 10-2009-0128711 filed on Dec. 22, 2009, the contents of which are herein incorporated by reference in its entirety.
+    BACKGROUND OF THE INVENTION
+    [0002]
+    1. Field of the Invention
+    [0003]
+    The present invention relates generally to a mobile terminal and, more particularly, to a method and mobile terminal that can divide the screen into individual divided screen areas and simultaneously present user functions on the individual divided screen areas.
+    [0004]
+    2. Description of the Related Art
+    [0005]
+    Recently, mobile terminals supporting mobility and various user functions have come into widespread use. To support user functions, mobile terminals can provide a variety of input means. For example, a mobile terminal can have a physical keypad for entering characters and numbers. To support portability, a mobile terminal can have a limited size. A mobile terminal can have a touch screen embedding a touch pad, in which case the screen size can be expanded by removing the keypad. Thanks to advances in display technology, screen sizes of mobile terminals have been significantly increased. Hence, there is a need for a method that enables a mobile terminal to effectively operate a large screen for user convenience.
+    SUMMARY OF THE INVENTION
+    [0006]
+    The present invention provides a method and mobile terminal having a screen that can divide the screen into a plurality of divided screen areas and simultaneously present user functions on each of the individual divided screen areas according to usage conditions.
+    [0007]
+    In accordance with an exemplary embodiment of the present invention, there is provided a screen area dividing method for a mobile terminal, including: generating input signals for one of sequentially and simultaneously activating a plurality of user functions; activating the plurality of user functions according to the generated input signals; in accordance with the activated functions, dividing the screen into corresponding divided screen areas; and outputting functional view areas associated with the activated user functions to the corresponding divided screen areas.
+    [0008]
+    In accordance with another exemplary embodiment of the present invention, there is provided a mobile terminal capable of supporting a plurality of divided screen areas, including: a storage unit for storage of a plurality of application programs that implement user functions; an input unit for generation of a plurality of input signals for one of sequential and simultaneous activation of user functions; a control unit for activation of user functions according to the plurality of generated input signals, and for output of functional view areas associated with the user functions to be on the plurality of divided screen areas; and a display unit for display of the functional view areas.
+    [0009]
+    The present invention provides a divided screen area function comprising a plurality of divided screen areas such that a user can execute user functions using divided screen areas in an easy and effective manner.
+    BRIEF DESCRIPTION OF THE DRAWINGS
+    [0010]
+    The features and advantages of the present invention will be more apparent from the following detailed description taken in conjunction with the accompanying drawings, in which:
+    [0011]
+    FIG. 1 illustrates an external appearance of a mobile terminal according to an exemplary embodiment of the present invention;
+    [0012]
+    FIG. 2 is an illustration of an exemplary block diagram of the mobile terminal of FIG. 1;
+    [0013]
+    FIG. 3 illustrates presentation of user functions on a plurality of divided screen areas, according to an exemplary embodiment of the present invention;
+    [0014]
+    FIGS. 4A to 4E illustrate splitting and merging of screens, according to an exemplary embodiment of the present invention;
+    [0015]
+    FIGS. 5A to 5D illustrate transitions between screens associated with user functions, in an exemplary embodiment of the present invention;
+    [0016]
+    FIG. 6 illustrates a screen representation for a first example of user interaction, in an exemplary embodiment of the present invention;
+    [0017]
+    FIGS. 7A to 7C illustrate screen representations for a second example of user interaction, in an exemplary embodiment of the present invention;
+    [0018]
+    FIG. 8 illustrates a screen representation for a third example of user interaction, in an exemplary embodiment of the present invention;
+    [0019]
+    FIG. 9 illustrates a screen representation for a fourth example of user interaction, in an exemplary embodiment of the present invention;
+    [0020]
+    FIGS. 10 and 11 illustrate screen representations for a fifth example of user interaction, in an exemplary embodiment of the present invention;
+    [0021]
+    FIG. 12 illustrates a screen representation for a sixth example of user interaction, in an exemplary embodiment of the present invention; and
+    [0022]
+    FIG. 13 illustrates a screen representation for a seventh example of user interaction, in an exemplary embodiment of the present invention.
+    DETAILED DESCRIPTION OF EXEMPLARY EMBODIMENTS
+    [0023]
+    Hereinafter, exemplary embodiments of the present invention are described in detail with reference to the accompanying drawings. The same reference symbols are used throughout the drawings to refer to the same or like parts. Detailed descriptions of well-known functions and structures incorporated herein are omitted to avoid obscuring the subject matter of the present invention. Particular terms are defined to describe the invention in the best manner. Accordingly, the meaning of specific terms or words used in the specification and the claims should not be limited to the literal or commonly employed sense, but should be construed in accordance with the spirit of the invention. The description of the various embodiments is to be construed as exemplary only and does not describe every possible instance of the invention. Therefore, it should be understood that various changes can be made and equivalents can be substituted for elements of the invention.
+    [0024]
+    FIG. 1 illustrates an external appearance of a mobile terminal 100 according to an exemplary embodiment of the present invention, and FIG. 2 illustrates an example of a block diagram of the mobile terminal 100.
+    [0025]
+    Referring to FIG. 1 and FIG. 2, the mobile terminal 100 includes a radio frequency unit 110, an input unit 120, an audio processing unit 130, a touch screen 140, a storage unit 150, and a control unit 160. The mobile terminal 100 depicted in FIG. 1 is of a slide type. However, the present invention is not limited thereto. For example, the mobile terminal 100 composed of an upper slide body and a lower slide body can be transformed into a bar type mobile terminal by removing the lower slide body having the input unit 120. The touch screen 140 with a key map can act as an input means for the bar type mobile terminal.
+    [0026]
+    The mobile terminal 100 having the above configuration can activate a screen area management program stored in the storage unit 150 in response to a user request, divide the screen into divided screen areas if necessary, and output functional view areas related to activated user functions on the individual divided screen areas. The mobile terminal 100 can support information exchange between the functional view areas and perform subsequent operations using the exchanged information. Next, each component of the mobile terminal 100 is described in more detail.
+    [0027]
+    The radio frequency unit 110 establishes a communication channel for voice, video and data communication under the control of the control unit 160. That is, the radio frequency unit 110 establishes a communication channel for a voice call, a data call and a video call to a mobile communication system. To achieve this, the radio frequency unit can include a radio frequency transmitter for upconverting the frequency of a signal to be transmitted and amplifying the signal, and a radio frequency receiver for low-noise amplifying a received signal and downconverting the frequency of the received signal. For effective operation of the radio frequency unit 110, the mobile terminal can display various information items including a phonebook on the display unit 141. If the mobile terminal 100 is not designed to support mobile communication, the radio frequency unit 110 can be eliminated from the configuration. The functional view area related to the radio frequency unit 110 can be displayed on one of divided screen areas. For example, in response to a signal for one of an outgoing call and an incoming call requiring activation of the radio frequency unit 110, the mobile terminal 100 can divide the screen of the display unit 141 into a plurality of divided screen areas, and output a functional view area related to a user function on one divided screen area and output a functional view area related to operation of the radio frequency unit 110 on another divided screen area.
+    [0028]
+    The input unit 120 includes a plurality of alphanumeric and function keys for inputting alphanumeric information and for setting various functions. The function keys can include functions selected from the group consisting of direction, side, and shortcut keys associated with specific functions. In particular, as illustrated in FIG. 1, the input unit 120 can include a touch pad 121 near the display unit 141 on an upper slide body, and a plurality of key buttons 123 on a lower slide body slidable under the upper slide body. The touch pad 121 arranged at the touch screen 140 can generate an input signal corresponding to a touch of the user and send the input signal to the control unit 160. The plurality of key buttons 123 are placed on the front of the lower slide body, and can be arranged in a plurality of forms like a keyboard. The plurality of key buttons 123 can also be arranged on a metal keypad.
+    [0029]
+    The audio processing unit 130 includes a speaker SPK for outputting incoming and outgoing audio data during a call and for outputting audio data contained in any of received messages and stored in the storage unit 150, and a microphone MIC for collecting an audio signal such as a voice signal during a call. The audio processing unit 130 can generate a sound alert indicating formation of divided screen areas and output the audio component of functional view areas displayed in the divided screen areas. When each functional view area displayed in the divided screen areas contains audio data, the audio processing unit 130 can output audio data related to a particular divided screen area or simultaneously output audio data related to all the divided screen areas, according to any of user settings and user selections. The audio processing unit 130 can not generate a sound alert indicating formation of divided screen areas according to user settings.
+    [0030]
+    The touch screen 140 includes a display unit 141 and a touch panel 143. The touch panel 143 can be arranged on the front of the display unit 141. The size of the touch screen 140 can depend on the size of the touch panel 143. For example, the touch screen 140 can be a full touch screen completely covering the front of the display unit 141.
+    [0031]
+    The display unit 141 displays at least one of each of menus, information input by the user, and information to be provided to the user. For example, the display unit 141 can output a plurality of screens related to utilization of the mobile terminal 100, such as any screen selected from the group consisting of an idle screen, menu screen, message composition screen, and call handling screen. The display unit 141 can be implemented using any of liquid crystal display (LCD) devices and organic light emitting diodes (OLED). As described before, the touch screen 140 including the touch panel 143 can act as an input means. In particular, under the control of the control unit 160, the display unit 141 can divide the screen into a plurality of divided screen areas and output functional view areas related to user functions to the individual divided screen areas. Outputting functional view areas to the divided screen areas is described later in more detail.
+    [0032]
+    The touch panel 143 is installed on the display unit 141, and can generate a touch event corresponding to a touch on one of a specific image and item displayed on the display unit 141. For example, in response to a touch on a displayed instrument image, the touch panel 143 generates a corresponding touch event and sends the touch event to the control unit 160. A displayed image or item can be associated with a user function.
+    [0033]
+    The storage unit 150 can store any of application programs related to the present invention, and key maps and menu maps for the touch screen capability. The key maps can correspond to various keyboards including any of a 3*4 keyboard and a Qwerty keyboard, and can include a control key map for controlling execution of an activated application program. The menu maps can include any of a menu map for controlling execution of an activated application program, and a menu map related to the menus of the mobile terminal 100. The storage unit 150 can include any of a program zone and a data zone.
+    [0034]
+    The program zone can store any of an operating system (OS) for booting and operating the mobile terminal 100, application programs for reproduction of various files, application programs for call-related functions, a browser for accessing a web server, application programs for playback of MP3 data, and application programs for viewing still images and moving images. In particular, the storage unit 150 stores a screen area management program.
+    [0035]
+    The screen area management program can be loaded on the control unit 160 in response to activation of a particular user function. The screen area management program is a control program that, when divided screen area formation is requested during execution of a user function, divides the screen of the display unit 141 into a plurality of divided screen areas and outputs functional view areas related to active user functions to the individual divided screen areas. To achieve this, the screen area management program can include any of a routine for detecting an input signal generated during execution of a user function, a routine for determining whether an input signal corresponds to a condition preset for divided screen area formation, and a routine for dividing the screen if the input signal corresponds to a condition preset for divided screen area formation. The screen area management program can further include any of an output routine for outputting two functional view areas related to a user function and the input signal to the corresponding divided screen areas of the display unit 141, and an action routine for performing any of inserting, setting, searching, copying, moving, and invoking one of a data item in and a data item between the two displayed functional view areas for information exchange. The output routine can include any of a subroutine for reformatting the functional view area related to the user function according to the corresponding divided screen area, and a subroutine for adjusting the functional view area related to the input signal according to the corresponding divided screen area. The action routine is described in more detail later.
+    [0036]
+    The data zone is an area that stores data generated by the use of the mobile terminal 100, and can store any of phonebook information, at least one icon associated with widgets, and at least one content. The data zone can store user data input through the touch screen 140. In particular, the data zone can temporarily store screen data related to user functions, and descriptive information regarding divided screen areas after divided screen area formation in response to a specific input signal.
+    [0037]
+    The control unit 160 controls supply of power to the components of the mobile terminal 100 for initialization, and controls the components to provide a user interface for supporting divided screen areas and to perform requested operations. In particular, the control unit 160 controls an operation to demarcate the display unit 141 into two areas according to properties of activated user functions, and outputs functional view areas related to the user functions to the two areas.
+    [0038]
+    Referring to FIG. 3, when a first user function and a second user function, which are independent of each other, are activated at one of the same time and in sequence, as illustrated in screen 301, the control unit 160 can control the display unit 141 to divide the screen into two areas, and cause a functional view area A.App for the first user function to be displayed on one area and cause a functional view area B.App for the second user function to be displayed on the other area. The functional view area A.App and the functional view area B.App can include an image and a text string depending upon the first and second user functions. For example, if the first user function is related to music playback, the functional view area A.App can include a control key map for controlling music playback and an image depicting the music file being played back. If the second user function is related to message composition, the functional view area B.App can include a key map and a message composition view area for composing a message.
+    [0039]
+    When two instances of a user function are activated, the control unit 160 can control the display unit 141 to divide the screen into two areas, and cause two functional view areas to be displayed on the corresponding areas as illustrated in screen 302. For example, when a first user function being a message composition function is activated, the control unit 160 can control the display unit 141 to display one of a message composition view area in a full screen format and to display a message composition view area and a key map in a full screen format. Thereafter, when the user activates a second user function being the message composition function, the control unit 160 controls the display unit 141 to divide the screen into two areas, to display a functional view area A1.App (i.e., resized message composition view area) for the first user function on one area, and to display a functional view area A2.App for the second user function on the other area. For another example, when the user activates an application requiring two Web connections, the control unit 160 can control the display unit 141 to display a functional view area A1.App as to one Web connection and a functional view area A2.App as to the other Web connection on the corresponding areas.
+    [0040]
+    When related user functions are activated, the control unit 160 can control the display unit 141 to divide the screen into two areas, and cause two functional view areas to be displayed on the corresponding areas as illustrated in screen 303. For example, when the user activates a message composition function first and then activates a file search function for message composition, the control unit 160 can control the display unit 141 to divide the screen into two areas, to display a functional view area A.App as to the message composition function on one area, and to display a functional view area LinkA.App as to the file search function on the other area. Hence, the user can compose a message using the functional view area A.App displayed on one area and can find and attach a necessary file using the functional view area LinkA.App displayed on the other area.
+    [0041]
+    When a user function is activated first and then a sub function thereof is activated, the control unit 160 can control the display unit 141 to divide the screen into two areas, and cause two functional view areas to be displayed on the corresponding areas as illustrated in screen 304. For example, when a message search function is activated for received messages, the control unit 160 can control the display unit 141 to display a list of all received messages in a full screen format. Thereafter, when a user input signal is generated to select and view a received message of the list, the control unit 160 can activate a sub user function for selecting and viewing a desired received message. Here, the control unit 160 can control the display unit 141 to divide the screen into two areas, to display a functional view area A.App as to the message search function on one area, and to display a functional view area SubA.App as to the message viewing function on the other area.
+    [0042]
+    As described above, the control unit 160 can control the display unit 141 to divide the screen into different areas, and cause functional view areas associated with any of independent user functions, instances of the same user function, related user functions, and main and subordinate user functions, to be displayed on the corresponding areas.
+    [0043]
+    Next, a description is given of divided screen area formation in connection with FIGS. 4A to 4E.
+    [0044]
+    Referring to FIG. 4A, the user of the mobile terminal 100 can generate an input signal to display a plurality of one of menu items and widget items. As illustrated in screen 401, the mobile terminal 100 can display a plurality of menu items on the screen in response to an input signal. The plurality of menu items can include a dual menu item, which is to be displayed on divided screen areas. Here, when a dual menu item is activated, the screen of the display unit 141 is divided into two areas and two functional view areas as to two menus are displayed on the two areas. A dual menu item can be one of created according to design settings and be created when the user combines two menu items together. The mobile terminal 100 can provide a special menu that enables the user to combine two selected menu items together into a dual menu item. In screen 401, menu items E, F, G, H, I, J, K and L are a single menu item, and menu items “AB”, “CB” and “CD” are a dual menu items.
+    [0045]
+    When the user selects a dual menu item “AB” in screen 401, the mobile terminal 100 can activate application programs related to the menu items A and B, display a functional view area App.A as to the application program related to the menu item A on a divided screen area, and display a functional view area App.B as to the application program related to the menu item B on the other divided screen area, as illustrated in screen 403. As described above, the mobile terminal 100 can provide a feature for setting a dual menu item and output a functional view area related to the dual menu item to the divided screen areas.
+    [0046]
+    Referring to FIG. 4B, when the user generates an input signal to activate a menu ‘C’ or a function ‘C’, the mobile terminal 100 can display a functional view area App.C as to the menu ‘C’ or function ‘C’ on the screen, as illustrated in screen 411. Thereafter, when the user generates an input signal to activate a function ‘A’ in screen 411, the mobile terminal 100 can display a functional view area App.A as to the function ‘A’ on the display unit 141, as illustrated in screen 413. For example, when the user activates a Web browser, the mobile terminal 100 can access a Web server using a preset Web address and display a Web access view area received from the Web server as illustrated in screen 411. Thereafter, when the user generates an input signal to select an item having a link from the Web access view area, the mobile terminal 100 can display a linked Web access view area on the display unit 141, as illustrated in screen 413.
+    [0047]
+    The mobile terminal 100 can provide simultaneous presentation of two pieces of data related by an event history. For example, when the user generates an input signal corresponding to one of a particular key and a touch event like the ‘Home’ key in screen 413, the mobile terminal 100 can simultaneously output two functional view areas App.C and App.A to the display unit 141 as illustrated in screen 415, where the functional view area App.C is related by an event history to the functional view area App.A. In this case, the mobile terminal 100 can control the display unit 141 to divide the screen into two areas, and cause functional view areas to be displayed on the corresponding areas. That is, the mobile terminal 100 can display the functional view area App.A (presented immediately before pressing the ‘Home’ key) on the left divided screen area, and display the functional view area App.C (presented in relation to the function ‘C’ before the function ‘A’) on the right divided screen area. The mobile terminal 100 can move a functional view area to another divided screen area in response to occurrence of, for example, a drag event. When the ‘Home’ key is pressed again during display of divided screen areas, the mobile terminal 100 can return to the previous screen as illustrated in screen 413. As described above, when two functional view areas are related to each other through an event history, the mobile terminal 100 can simultaneously present the two functional view areas on the divided screen areas.
+    [0048]
+    Referring to FIG. 4C, when the user generates an input signal to activate a function ‘A’, the mobile terminal 100 can display a functional view area App.A as to the function ‘A’ on the display unit 141, as illustrated in screen 421. Thereafter, when the user generates an input signal to activate a sub task of the function ‘A’ in screen 421, the mobile terminal 100 activates the sub task, and can display a functional view area A_Main as to the function ‘A’ on one divided screen area and display a functional view area A_Sub as to the sub task on the other divided screen area as illustrated in screen 423. Here, the functional view area A_Main in screen 423 is one of a resized and a simplified version of the functional view area App.A in screen 421. The divided screen areas to which the functional view area A_Main and functional view area A_Sub are output can be any of fixed, altered, and randomly determined according to user settings.
+    [0049]
+    When the sub task A_Sub one of ends and is terminated by the user, the mobile terminal 100 can output a functional view area App.A-1 reflecting the result of the sub task A_Sub to the display unit 141 in a full screen format, as illustrated in screen 425.
+    [0050]
+    As an example for the case in FIG. 4C, when the user generates an input signal to activate a message composition program, the mobile terminal 100 can display a functional view area App.A (a message composition view area) as to the message composition program on the screen, as illustrated in screen 421. Thereafter, when the user generates an input signal for finding an attached file, the mobile terminal 100 can output a functional view area A_Sub as to the file search function as illustrated in screen 423. Here, the functional view area App.A (message composition view area) in screen 421 can be one of resized and changed in attribute into the functional view area A_Main as illustrated in screen 423. Thereafter, when the user selects an image in the functional view area A_Sub and attaches the selected image to the functional view area A_Main, the mobile terminal 100 can output a functional view area App.A-1 as to a message with an attached image in a full screen format as illustrated in screen 425. When the user generates an input signal for ending file search, the mobile terminal 100 can return to screen 421. As described above, when a function and subordinate function are activated, the mobile terminal 100 can output functional view areas related to the function and subordinate function to divided screen areas.
+    [0051]
+    Referring to FIG. 4D, the user of the mobile terminal 100 can generate an input signal for activating a function ‘A’, the mobile terminal 100 can display a functional view area App.A as to the function ‘A’ on the display unit 141, as illustrated in screen 431. Thereafter, when an event corresponding to one of a schedule and a condition is generated, the mobile terminal 100 can activate an application program for handling the event and output a functional view area as to the event handling application program to the display unit 141. Here, as illustrated in screen 433, the mobile terminal 100 can display the functional view area App.A as to the function ‘A’ on one divided screen area through resizing, and display a functional view area Event as to the event handling application program on the other divided screen area.
+    [0052]
+    As an example for the case in FIG. 4C, when the user generates an input signal to activate a function ‘A’ for moving image playback, the mobile terminal 100 can display a functional view area App.A as to moving image playback on the display unit 141 in a full screen format, as illustrated in screen 431. Thereafter, when an incoming call is received, the mobile terminal 100 can generate an alert for call reception, and output a functional view area related to call event handling to the display unit 141. Here, as illustrated in screen 433, the mobile terminal 100 can display the functional view area App.A as to the function ‘A’ on one divided screen area, and display a functional view area Event as to call event handling on the other divided screen area.
+    [0053]
+    As depicted above, in response to reception of an incoming call, the mobile terminal 100 can output a functional view area related to call event handling to the display unit 141. In the case of a call event, as the user normally grips the mobile terminal 100 and moves it close to the user's face, the mobile terminal 100 can pause moving image playback and turn off the display unit 141 to save battery power. When the incoming call is ended, the mobile terminal 100 can return to screen 431.
+    [0054]
+    In response to a schedule alert event, the mobile terminal 100 can output a functional view area (an alert message) related to schedule alert handling to the left divided screen area, as illustrated in screen 433. Here, as handling of a schedule alert event is not in conflict with playback of moving images, the functional view area related to playback of moving images can be retained. Options for playback of moving images including continue and pause can be set by the design and changed by the user. As described above, in response to occurrence of one of an external and internal event when a functional view area related to a user function is output in a full screen format, the mobile terminal can display the functional view area related to the event and the functional view area related to the user function on divided screen areas.
+    [0055]
+    Referring to FIG. 4E, the user of the mobile terminal 100 can generate an input signal for activating a listing function, the mobile terminal 100 can display a functional view area “List A” as to the listing function on the display unit 141 and further display a splitter icon for divided screen areas, as illustrated in screen 441. Thereafter, when the user touches the splitter icon, the mobile terminal 100 can output a functional view area (items of List A) related to detailed viewing as illustrated in screen 443. That is, the mobile terminal 100 can divide the screens, output a resized functional view area “List A” to the display unit 141, and output the functional view area related to detailed viewing to the display unit 141 together with the functional view area “List A”. Here, in the mobile terminal 100, divided screen areas can be formed in portrait mode as illustrated in screen 445 and screen 447.
+    [0056]
+    The mobile terminal 100 can provide a “merge” icon for returning to the previous screen as illustrated in screen 445 or screen 447. When the user selects the “merge” icon, the mobile terminal 100 can return to screen 441 or screen 445.
+    [0057]
+    Hereinabove, a description is given of divided screen area formation in connection with FIGS. 4A to 4E. Next, transitions between divided screen areas are described.
+    [0058]
+    FIGS. 5A to 5D illustrate transitions between divided screen areas associated with user functions.
+    [0059]
+    Referring to FIG. 5A, when the user activates a file search function, the mobile terminal 100 can display a functional view area as to the file search function on the display unit 141. Here, when the user activates the file search function based on divided screen areas, the mobile terminal 100 can divide the screen into divided screen areas and output functional view areas related to files on the divided screen areas as illustrated in screen 501. For example, after display of dual menu items, the user can generate an input signal for selecting a dual menu item. Then, the mobile terminal 100 can output functional view areas related to the dual menu item on the divided screen areas as illustrated in screen 501. Alternatively, as described before in connection with FIG. 4, in response to activation of a user function, the mobile terminal 100 can output a functional view area related to the user function on the divided screen areas. The mobile terminal 100 can divide the screen of the display unit 141 into two divided screen areas, and output two functional view areas A.App and B.App related to the selected files on the divided screen areas. The mobile terminal 100 can further output a search view area, which can overlap with the divided screen areas, on the display unit 141. The search view area can be output in response to a given touch event occurring when a functional view area is displayed on the display unit 141, and can be removed from the display unit 141 after expiration of a preset time. The mobile terminal 100 can also divide the screen of the display unit 141 into three areas, and output a functional view area A.App, a functional view area B.App, and the search view area on the three areas, respectively. In the search view area, icons associated with the functional view area being currently displayed on the display unit 141, and icons associated with other files can be present. The icons associated with the functional view area being currently displayed can be highlighted to indicate the files being selected and output.
+    [0060]
+    In screen 501, when the user generates an input signal for selecting an icon App.C, the mobile terminal 100 can output a functional view area C.App related to the icon App.C to the display unit 141 as illustrated in screen 503. During this process, the mobile terminal 100 can replace the functional view area A.App with the functional view area C.App. To output a new functional view area, the mobile terminal 100 can identify the oldest functional view area on display and replace the oldest functional view area with the new functional view area.
+    [0061]
+    As described above, to support divided-screen area transition, the mobile terminal 100 can perform any one or more of display a separate search view area, select a desired icon in the search view area, and replace one functional view area being output with a functional view area related to the selected icon.
+    [0062]
+    Referring to FIG. 5B, the mobile terminal 100 can also output a functional view area when the user selects a file in the search view area. To be more specific, as illustrated in screen 511, it is assumed that the mobile terminal 100 displays functional view areas A.App and B.App in response to selection of an icon App.A and icon App.B in the search view area. The user can select an icon App.C and move the icon App.C to the location where the functional view area A.App is displayed through touch and drag. The user can also select an icon App.F and move the icon App.F to the location where the functional view area B.App is displayed through touch and drag.
+    [0063]
+    In response to the user actions, as illustrated in screen 513, the mobile terminal 100 can replace the functional view area A.App with a functional view area C.App related to the icon App.C, and replace the functional view area B.App with a functional view area F.App related to the icon App.F.
+    [0064]
+    As described above, when the user selects an icon in the search view area and directly moves the selected icon to a desired location on the screen, the mobile terminal 100 can display a functional view area related to the selected icon at the desired location.
+    [0065]
+    Referring to FIG. 5C, as described before in connection with FIG. 4, in response to activation of user functions, the mobile terminal 100 can divide the screen of the display unit 141 into two divided screen areas, and output two functional view areas App.A and App.B related to the user functions on the divided screen areas as illustrated in screen 521.
+    [0066]
+    Thereafter, the user can enter the “Home” key provided on the mobile terminal 100. In response, the mobile terminal 100 can resize the functional view areas App.A and App.B into functional view areas ‘A’ and ‘B’ and place the functional view areas ‘A’ and ‘B’ at preset locations, and can output a menu view area corresponding to the “Home” key on the display unit 141. That is, as illustrated in screen 523, the mobile terminal 100 can display the resized functional view area ‘A’ at a left area on the display unit 141, display the resized functional view area ‘B’ at a right area, and output the menu view area related to the “Home” key between the functional view area ‘A’ and the functional view area ‘B’. In screen 523, the user can select a function icon ‘C’ among at least one function icon in the menu view area and move the function icon ‘C’ to the functional view area ‘A’ through drag and drop.
+    [0067]
+    In response to movement of the function icon ‘C’, as illustrated in screen 525, the mobile terminal 100 can replace the functional view area ‘A’ with the functional view area ‘C’ related to the function icon ‘C’. Thereafter, when the user generates an input signal for tapping a split area in screen 525, the mobile terminal 100 can remove the menu view area and resize the functional view area being output to fit in the corresponding split area of the display unit 141 as illustrated in screen 527. For example, the menu view area is hidden in screen 527; the functional view area ‘C’ in screen 525 is resized into a functional view area App.C fitting in the corresponding split area in screen 527; and the functional view area ‘B’ in screen 525 is resized into a functional view area App.B fitting in the corresponding split area in screen 527.
+    [0068]
+    Referring to FIG. 5D, the mobile terminal 100 can replace existing functional view areas with new functional view areas at once through the menu view area. To be more specific, as described before in connection with FIG. 4, in response to activation of user functions, the mobile terminal 100 can divide the screen of the display unit 141 into two divided screen areas, and output two functional view areas App.E and App.H related to the user functions on the divided screen areas as illustrated in screen 531.
+    [0069]
+    The user can cause a menu view area containing at least one function icon to be displayed on the display unit 141. To achieve this, the mobile terminal 100 can provide a special key like the “Home” key. When the user enters the “Home” key, the mobile terminal 100 can display a menu view area containing at least one function icon on the display unit 141 in a full screen format as illustrated in screen 533. As described before, the menu view area can include a dual menu item. A dual menu item can be created and destroyed in a manner selected from the group consisting of automatically and according to user settings. The mobile terminal 100 can provide a special interface that enables the user to create a dual menu item.
+    [0070]
+    When the user generates an input signal for selecting a dual menu item “AB” in the menu view area illustrated in screen 533, the mobile terminal 100 can output two functional view areas App.A and App.B related to the dual menu item “AB” on the divided screen areas as illustrated in screen 535. Here, when the user selects a dual menu item in screen 533, the mobile terminal 100 can directly output a functional view area related to the selected dual menu item as illustrated in screen 535. Alternatively, when the user selects a dual menu item in screen 533 and generates one of a given key signal and touch event for outputting functional view areas related to the selected dual menu item, the mobile terminal 100 can output the functional view areas as illustrated in screen 535.
+    [0071]
+    As described above, the mobile terminal 100 can perform screen transition according to one of the methods selected from the group consisting of selection of an icon in a search view area, movement of an icon in a search view area to a desired split area, output of a menu view area through rearrangement of divided screen areas and selection of an icon in the menu view area, and output of a menu view area through display of divided screen areas and selection of a dual menu item in the menu view area.
+    [0072]
+    Hereinabove, a description is given of the configuration of the mobile terminal 100. A description is also given of divided screen areas and screen transitions. Next, a description is given of a plurality of user interactions using divided screen areas with reference to the drawings.
+    [0073]
+    FIG. 6 illustrates a screen representation for a first example of user interaction, in an exemplary embodiment of the present invention.
+    [0074]
+    In FIG. 6, user interaction is related to a message composition view area. The message composition view area can be displayed on the display unit by any of activating a user menu and selecting a message composition function through the user menu, and by entering a given key associated with message composition. For example, as illustrated in screen 601, when the user selects an information item registered as “Yun” in the phonebook and activates a message composition function, the mobile terminal 100 can output a message composition view area.
+    [0075]
+    When the user touches a zone 61 reserved for more options as illustrated in screen 601, the mobile terminal 100 can display an option view area 63 on the display unit 141 as illustrated in screen 603. The option view area 63 can include a plurality of items related to the message composition view area, selected from the group including “File”, “Namecard”, “Calendar”, “Task”, and “Memo”. When the user selects the item “File” in the option view area 63, the mobile terminal 100 can display subordinates items of the item “File” on the display unit 141. For example, the mobile terminal 100 can display a subordinate item view area 65 selected from the group including “Add multimedia”, “Add subject”, “Add attachment”, “Save in”, “Recipients”, “Add test”, “Add Cc/Bcc”, and “Sending Options”. Here, the mobile terminal 100 can display the subordinate item view area 65 of the item “File” in an overlay format on the message composition view area, and arrange the subordinate item view area 65 and the option view area 63 so that they do not overlap with each other.
+    [0076]
+    When the user selects an item “Add Attachment” in the subordinate item view area 65, the mobile terminal 100 can divide the screen of the display unit 141 into split areas and output a first functional view area 62 related to message composition and a second functional view area 64 related to file attachment on the split areas as illustrated in screen 605. When the user selects a folder “Images” in the second functional view area 64, the mobile terminal 100 can display a listing view area 66 containing a list of files in the folder “Images” on the corresponding split area as illustrated in screen 607. Here, display of the second functional view area 64 can be replaced with display of the listing view area 66. When the user selects specific files “Picture1.jpg” and “Picture2.jpg” in the listing view area 66 and selects an icon “Add” for file attachment as illustrated in screen 609, the mobile terminal 100 can display the message composition view area containing the selected files on the display unit 141 in a full screen format as illustrated in screen 611. Here, to clearly indicate the attached files, the mobile terminal 100 can display a file attach view area 67 at a region of the message composition view area. The file attach view area 67 can include information indicating selected files such as “Picture1.jpg” and “Picture2.jpg”.
+    [0077]
+    FIGS. 7A to 7C illustrate screen representations for a second example of user interaction, and are related to transferring information between functional view areas, in an exemplary embodiment of the present invention.
+    [0078]
+    Referring to FIG. 7A, the user of the mobile terminal 100 can cause activation of two user functions related to, for example, Web access and music file playback in one of sequentially and in parallel by the use of one of a dual menu item and a single menu item. In response to the user action, the mobile terminal 100 can activate a Web access function and connect to a server using a preset address. After Web connection establishment, the mobile terminal 100 can display a Web access view area 72 for outputting data provided by the server on one divided screen area as illustrated in screen 701. In addition, the mobile terminal 100 can activate a music file player and display a music file play view area 73 related to the music file player on the other divided screen area.
+    [0079]
+    A illustrated in screen 701, the user generates an input signal for selecting artist information “ABBA” in the Web access view area 72, extracts the selected artist information “ABBA” (double tap), and moves the extracted artist information “ABBA” to a search box of the Web access view area 72 (drag and drop) as illustrated in screen 703. Then, the mobile terminal 100 can display the selected information at the search box of the Web access view area 72 as illustrated in screen 705.
+    [0080]
+    When the user generates an input signal “Panning” for shifting the Web access view area 72 at the divided screen area, the touch panel of the display unit 141 generates a corresponding touch event and sends the touch event to the control unit 160. Then, the mobile terminal 100 can shift the Web access view area 72 according to the input signal as illustrated in screen 707. Thereafter, when the user selects an item “Web search” of the Web access view area 72 for searching the Web, the mobile terminal 100 can perform Web search using the artist information input to the search box as a search keyword and outputs Web search results to the Web access view area 72 as illustrated in screen 709. Here, the mobile terminal 100 can send a message containing the artist information input to the search box to a given Web server, and can receive corresponding Web search results from the Web server through the radio frequency unit 110 and output the received Web search results to the display unit 141.
+    [0081]
+    Referring to FIG. 7B, the user can make an activation request for a mail check function of the mobile terminal 100. In response to the user request, the mobile terminal 100 can display a list of received electronic mail on the display unit 141, and, upon selection of an electronic mail, output the contents of the selected electronic mail on a given area of the display unit 141 as illustrated in screen 711. When the user makes an activation request for a map viewing function, the mobile terminal 100 can activate the map viewing function and display a preset map on the display unit 141. Here, the mobile terminal 100 can output an email handling view area 73 related to the mail check function on one divided screen area of the display unit 141, and output a map viewing view area 76 related to the map viewing function on the other divided screen area. Here, the mobile terminal 100 can control the email handling view area 73 and the map viewing view area 76 to have different sizes. That is, when the user generates an input signal through the touch pad 121 for resizing at least one of the email handling view area 73 and the map viewing view area 76, the mobile terminal 100 can adjust the size of at least one of the email handling view area 73 and the map viewing view area 76.
+    [0082]
+    As illustrated in screen 711, the user can select a desired information element of the email handling view area 73. For example, the user can select address information 74 of the email handling view area 73 in a plurality of ways. That is, when the user drags a region where the address information 74 is output and when a block covering the address information 74 is set, the user can select the address information 74 by tapping the block. After selecting the address information 74, the user can move the address information 74 to the map viewing view area 76 by dragging.
+    [0083]
+    Then, the mobile terminal 100 can execute the map viewing function using the address information 74 transferred from the email handling view area 73 to the map viewing view area 76, and output the map of the geographical region indicated by the address information 74 at a given scale on the map viewing view area 76 as illustrated in screen 713. In other words, the mobile terminal 100 can treat the address information 74 transferred from the email handling view area 73 to the map viewing view area 76 as a search word, and invoke the map viewing function on the basis of the address information 74. Then, the mobile terminal 100 can adjust the scale of the map of the geographical region indicated by the address information 74 at a preset value, and display the scale-adjusted map on the map viewing view area 76. Here, the size of the email handling view area 73 and the map viewing view area 76 can be adjusted according to one of an input signal from the input unit 120 and according to a touch event from the touch screen 140. For example, the boundary region between the email handling view area 73 and the map viewing view area 76 can be moved upwards or downwards according to a touch and drag event, and the email handling view area 73 and the map viewing view area 76 can be adjusted in size according to movement of the boundary region. In response to size adjustment of a view area, one of additional information can be displayed in the view area, and a portion of information displayed on the view area can be hidden.
+    [0084]
+    Referring to FIG. 7C, when the user make an electronic mail request, the mobile terminal 100 can activate an electronic mail function and output a list of electronic mail. Thereafter, when the user selects a specific electronic mail, the mobile terminal 100 can output the contents of the selected electronic mail to the email handling view area 75 on the display unit 141 as illustrated in screen 721. When the user generates an input signal for making a call while the electronic mail function is activated, the mobile terminal 100 can output a dialing view area 77 for call making on the display unit 141.
+    [0085]
+    The user can generate an input signal for selecting specific information such as a phone number 78 in the email handling view area 75. That is, the user can select the phone number 78 in the email handling view area 75 by dragging or tapping. After selecting the phone number 78, the user can transfer the phone number 78 to the dialing view area 77 by dragging.
+    [0086]
+    Then, the mobile terminal 100 can display the phone number 78 transferred by the user in the dialing view area 77 as depicted by screen 723. Thereafter, the mobile terminal 100 can one of automatically make a call using the phone number 78, and can make a call using a newly dialed pone number, if present.
+    [0087]
+    As described above, the mobile terminal 100 can output a plurality of functional view areas on divided screen areas of the display unit 141 according to a user request. The mobile terminal 100 enables the user to select an information item displayed on a first functional view area and to move the selected information item to a second functional view area, and invokes the function associated with the second functional view area using the transferred information item. In the case of the example illustrated in FIG. 7B, the user transfers the address information 74 to the map viewing view area 76. When the address information 74 does not match geographical information stored in the storage unit 150, the mobile terminal 100 can output a message indicating “not found”. In the case of FIG. 7C, the user transfers the phone number 78 to the dialing view area 77. When the phone number 78 is wrong due to the presence of one of a special character and other invalid character, the mobile terminal 100 can output an error message indicating such a situation.
+    [0088]
+    FIG. 8 illustrates a screen representation for a third exemplary embodiment of user interaction according to the present invention that is embodies copying and transferring information between functional view areas.
+    [0089]
+    Referring to FIG. 8, when the user generates an input signal for activating a Web access function, the mobile terminal 100 can activate the Web access function. Here, the mobile terminal 100 can connect to a server using one of a preset address and an input address, and display a Web access view area 81 for outputting data provided by the server on the display unit 141 as illustrated in screen 801. When the user generates an input signal for activating a memo function, the mobile terminal 100 can divide the screen of the display unit 141 into split areas, display the Web access view area 81 on one split area, and display a memo function view area 82 on the other split area.
+    [0090]
+    When the user generates an input signal for activating a memo create function in the memo function view area 82, the mobile terminal 100 can output a memo writing view area 83 on the display unit 141 as illustrated in screen 803. To achieve this, the mobile terminal 100 can provide one of a menu item for memo writing and output a memo writing icon to the memo function view area 82, as illustrated in screen 801.
+    [0091]
+    When the user selects an information item displayed in the Web access view area 81 and transfers the selected information item to the memo writing view area 83, as illustrated in screen 805, the mobile terminal 100 can display the transferred information item in the memo writing view area 83 as illustrated in screen 807. Here, the user can select a piece of information in the Web access view area 81 by generating a touch drag event.
+    [0092]
+    Thereafter, as illustrated in screen 807, the mobile terminal 100 can display a color selection bar 85 to enable the user to set the color of the memo writing view area 83. When the user selects a color of the color selection bar 85 through a tap, the mobile terminal 100 can set the color of the memo writing view area 83 to the selected color as illustrated in screen 809. When the user selects a “save” icon of the memo writing view area 83, the mobile terminal 100 can return to the memo function view area 82 as illustrated in screen 811. Here, the memo function view area 82 includes a new memo 86 written by the memo writing function.
+    [0093]
+    FIG. 9 illustrates a screen representation for a fourth exemplary embodiment of user interaction according to the present invention of file transfer between functional view areas.
+    [0094]
+    Referring to FIG. 9, when the user generates an input signal for activating a file search function, the mobile terminal 100 can display a first file search view area 91 on the display unit 141 as illustrated in screen 901. When the user generates an input signal for activating another file search function, the mobile terminal 100 can divide the screen of the display unit 141 into split areas, display the first file search view area 91 on one split area, and display a second file search view area 92 related to the file search function activated later on the other split area.
+    [0095]
+    When the user selects an item “Images” in the second file search view area 92, the mobile terminal 100 can display a first listing view area 93 containing subordinate items of the selected item “Images” including any of “User Folder 1”, “User Folder 2”, “Picture1.jpg”, “Picture2.jpg” and “Picture3.jpg” as illustrated in screen 903. When the user selects a folder item “User Folder 1” in the first listing view area 93, the mobile terminal 100 can display a second listing view area 94 containing subordinate items of the selected folder item “User Folder 1” as illustrated in screen 905. The second listing view area 94 can contain items including any of “Father.jpg”, “Kathy.jpg”, “Sea.jpg”, “Fed Flower.jpg”, and “Cute.jpg”. The user can generate an input signal for moving a selected item in the second listing view area 94 to a folder item “Family” in the first file search view area 91. For example, the user can generate an input signal for selecting an item “Father.jpg” in the second listing view area 94 and for moving the selected item to the folder item “Family” in the first file search view area 91 through drag. Then, the mobile terminal 100 can move the selected item “Father.jpg” from the folder “User Folder 1” displayed in the first listing view area 93 to the folder “Family” displayed in the first file search view area 91 as illustrated in screen 907. The mobile terminal 100 can then remove the item “Father.jpg” from the folder “User Folder 1” (i.e. from the second listing view area 94).
+    [0096]
+    FIG. 10 illustrates a screen representation for a fifth exemplary of user interaction according to the present invention, of interworking between functional view areas supporting Web access.
+    [0097]
+    Referring to FIG. 10, when the user generates an input signal for activating a Web access function, the mobile terminal 100 can connect to a Web server using one of a preset address and an input address and display a Web access view area for outputting data provided by the Web server on the display unit 141. When the user generates an input signal for activating the “Twitter” function, the mobile terminal 100 can connect to a Twitter server and display a Twitter view area for outputting data provided by the Twitter server on the display unit 141. Hence, as illustrated in screen 1001, the mobile terminal 100 can display a Web access view area 101 and a Twitter view area 102 on corresponding divided screen areas of the display unit 141.
+    [0098]
+    The user can browse news in the Web access view area 101 by generating a touch event such as a tap. For example, when the user selects a link “Health care”, the mobile terminal 100 can send the link selection information to the Web server, receive a news item related to “Health care” from the Web server, and output the received news item in the Web access view area 101, as illustrated in screen 1003.
+    [0099]
+    As illustrated in screen 1005, when the user select an update field 103 in the Twitter view area 102, the mobile terminal 100 can allow the user to enter an input in the update field 103. That is, the user can generate an input signal for entering a text string “Health care yahoe news is here!” in the update field 103 as illustrated in screen 1007. The user can generate an input signal for selecting, for example, a URL address 104 displayed in the Web access view area 101 through a double tap, and for entering the selected URL address 104 in the update field 103 of the access view area 102 through a drag event, as illustrated in screen 1009.
+    [0100]
+    The mobile terminal 100 can enter both the text string (screen 1005) and the URL address 104 (screen 1009) in the update field 103 as illustrated in screen 1011. Thereafter, when the user generates an input signal for uploading the input information to the Twitter server, the mobile terminal 100 can upload the input information to the Twitter server.
+    [0101]
+    In FIG. 10, information obtained from the Web access view area is applied to the Twitter view area. Information obtained from the Twitter view area can also be applied to the Web access view area as described below in connection with FIG. 11.
+    [0102]
+    Referring to FIG. 11, when the user activates a Web access function and a Twitter function, the mobile terminal 100 can display a Twitter view area 102 and a Web access view area 101 on the corresponding divided screen areas of the display unit 141 as illustrated in screen 1101.
+    [0103]
+    When the user generates an input signal (a touch event) for selecting, for example, a URL address 104 displayed in the Twitter view area 102, the mobile terminal 100 can display Web data received from a Web server indicated by the URL address 104 in the Web access view area 101 as illustrated in screen 1103.
+    [0104]
+    FIG. 12 illustrates a screen representation for a sixth exemplary embodiment of user interaction according to the present invention, of interaction between a file search function and a twitter function.
+    [0105]
+    Referring to FIG. 12, when the user generates an input signal for selecting a file search function, the mobile terminal 100 can display a file search view area 1211 related to the file search function on the display unit 141. When the user generates an input signal for activating the Twitter function, the mobile terminal 100 can connect to a given Twitter server and display a Twitter view area 1213 for outputting data provided by the Twitter server on the display unit 141. Hence, as illustrated in screen 1201, the mobile terminal 100 can display the file search view area 1211 and the Twitter view area 1213 on the corresponding divided screen areas of the display unit 141.
+    [0106]
+    When the user generates an input signal for selecting, for example, a folder “Images”, the mobile terminal 100 can display on the display unit 141 a listing view area 1215 containing subordinate items of the folder “Images” including any of “Father.jpg”, “kathy.jpg”, “Sea.jpg”, “Red flower.jpg” and “cute.jpg”, as illustrated in screen 1203. When the user generates an input signal for selecting, for example, an item “Father.jpg” and moving the item “Father.jpg” to an upload field 1216 of the Twitter view area 1213, the mobile terminal 100 can enter the item “Father.jpg” in the upload field 1216 of the Twitter view area 1213 as illustrated in screen 1205. Here, the mobile terminal 100 notifies the user of the upload file by outputting information on the uploaded file (i.e., “Father.jpg”).
+    [0107]
+    Thereafter, in response to a sending request, the mobile terminal 100 can transmit the upload file to the Twitter server.
+    [0108]
+    FIG. 13 illustrates a screen representation for a seventh exemplary embodiment of user interaction according to the present invention for a Twitter function with divided screen areas.
+    [0109]
+    Referring to FIG. 13, when the user generates an input signal for activating the “Twitter” function, the mobile terminal 100 can connect to a Twitter server using a preset Twitter address and display a Twitter view area 301 for outputting data provided by the Twitter server on the display unit 141. The Twitter view area 301 can contain a list of messages registered with the Twitter server. Here, the mobile terminal 100 can provide a menu containing one of an icon and a key for generating an input signal for activating the Twitter function to permit the user to utilize the Twitter function.
+    [0110]
+    As illustrated in screen 1301, the mobile terminal 100 can display a “Splitter” icon for divided screen area formation at a corner of the screen. When the user generates an input signal for selecting the “Splitter” icon (through a tap), the mobile terminal 100 can divide the screen into divided screen areas and display a first Twitter view area 302 and a second Twitter view area 303 in the corresponding divided screen areas as illustrated in screen 1303. Here, the first Twitter view area 302 can be a resized version of the Twitter view area 301 illustrated in screen 1301, and the second Twitter view area 303 can be a viewing view area related to a message selected by one of a preset default and the user in the first Twitter view area 302. Thus, when the user generates an input signal for selecting another message in the first Twitter view area 302, the mobile terminal 100 can output the contents of the newly selected message to the second Twitter view area 303 as illustrated in screen 1305.
+    [0111]
+    As illustrated in screen 1305, when the user generates an input signal for deleting the selected message by selecting a “Delete” icon in the first Twitter view area 302, the mobile terminal 100 can delete the selected message and update the first Twitter view area 302 by deleting the selected message.
+    [0112]
+    As illustrated in screen 307, the mobile terminal 100 can display a “Merge” icon at a corner of the display unit 141 for returning to a full screen format. When the user generates an input signal for selecting the “Merge” icon, the mobile terminal 100 can end divided screen area formation and enlarge the first Twitter view area 302 into the Twitter view area 301 as illustrated in screen 1309. With enlargement, existing images and text in the first Twitter view area 302 can be expanded and new images and text can be added to the Twitter view area 301.
+    [0113]
+    Hereinabove, a description is given of the method of supporting divided screen areas. When user functions are activated in response to user input signals, the screen is divided into divided screen areas on the basis of the properties of the user functions, temporal relations between the user functions, and explicit requests for divided screen area formation, and functional view areas including view areaa first and second functional view area are displayed on the corresponding divided screen areas.
+    [0114]
+    In the above description, several exemplary forms of user interaction according to the present invention are illustrated and described. However, the present invention is not limited to these. For an effective user interface, additional forms of user interaction including automatic transition between the divided screen areas and the full screen can also be supported according to one of the design and user settings.
+    [0115]
+    Although not shown, if necessary, the mobile terminal 100 can further include at least one of a short-range communication module for short-range communication, a camera module for capturing still and moving images of a target object, a data communication interface based on wired and wireless communication, an Internet communication module for Internet access, and a digital broadcast receiving module. With the digital convergence trend, it should be apparent to those skilled in the art that the mobile terminal 100 of the present invention can further include a unit comparable to the above-described units, and one unit of the mobile terminal 100 can be one of removed and replaced with another unit.
+    [0116]
+    The mobile terminal of the present invention can be a touch-enabled device, and can be any information and communication appliance and multimedia appliance, including any of a mobile communication terminal, a portable multimedia player (PMP), a personal digital assistant (PDA), a music player like an MP3 player, a portable game console, a smart phone, a notebook computer, or a handheld computer.
+    [0117]
+    The above-described methods according to the present invention can be realized in hardware or as software or computer code that can be stored in a recording medium such as a CD ROM, a RAM, a floppy disk, a hard disk, or a magneto-optical disk or downloaded over a network, so that the methods described herein can be executed by such software using a general purpose computer, or a special processor or in programmable or dedicated hardware, such as an ASIC or FPGA. As would be understood in the art, the computer, the processor or the programmable hardware include memory components, e.g., RAM, ROM, Flash, etc. that may store or receive software or computer code that when accessed and executed by the computer, processor or hardware implement the processing methods described herein.
+    [0118]
+    Although exemplary embodiments of the present invention have been described in detail hereinabove, it should be understood that many variations and modifications of the basic inventive concept herein described, which can occur to those skilled in the art, will still fall within the spirit and scope of the present invention as defined in the appended claims.
+
+Claims (20)
+1. A screen area dividing method for a mobile terminal, comprising:
+generating a plurality of input signals for any of sequentially and simultaneously activating a plurality of user functions;
+activating the plurality of user functions according to at least one of the plurality of generated input signals;
+dividing the screen into a plurality of divided screen areas each corresponding to at least one of the plurality of user functions; and
+outputting a functional view area associated with each of the plurality of activated user functions to the corresponding divided screen area of the plurality of divided screen areas.
+2. The screen area dividing method of claim 1, wherein dividing the screen into a plurality of divided screen areas is invoked by at least one of:
+when a dual menu item that is created for at least one of divided screen area formation and for outputting functional view areas associated with menus is activated, performing—
+first, activating user functions in sequence, and
+generating an input signal for requesting to make a divided screen area;
+formation after activating user functions in sequence;
+after a first user function is activated, performing—
+generating an input signal for activating a subordinate function of the first user function, and
+activating an event generation function on the basis of one of an internal and external system event; and
+generating an input signal for activating a user function and a subordinate function of the user function.
+3. The screen area dividing method of claim 1, wherein outputting a functional view area comprises one of:
+displaying, according to activation of independent user functions, a functional view area associated with the independent user functions on the corresponding divided screen area;
+displaying, according to repeated activation of a user function, a functional view area associated with each instance of the user function on the corresponding divided screen area;
+displaying a functional view area associated with a first user function and a functional view area associated with a second user function related to the first user function on the corresponding divided screen area; and
+displaying a functional view area associated with a user function and a functional view area associated with a subordinate user function of the user function on the corresponding divided screen area.
+4. The screen area dividing method of claim 1, further comprising transitioning between functional view areas on the divided screen areas according to an input signal.
+5. The screen area dividing method of claim 4, wherein transitioning between functional view areas comprises one of:
+when a search view area is output in response to an input signal after divided screen area formation and a new user function is selected from the search view area, replacing one of the functional view areas being output on the divided screen areas with a functional view area associated with the newly selected user function; and
+when a menu view area is output in response to an input signal after divided screen area formation and a new menu item is selected from the menu view area, replacing one of the functional view areas being output on the divided screen areas with a functional view area associated with the newly selected menu item.
+6. The screen area dividing method of claim 5, wherein outputting the menu view area comprises:
+resizing each functional view area being output on the divided screen areas; and
+displaying the menu view area among the resized functional view areas.
+7. The screen area dividing method of claim 5, wherein, when the new menu item selected from the menu view area is a dual menu item, the functional view areas being output on the corresponding divided screen areas are replaced with functional view areas associated with the selected dual menu item.
+8. The screen area dividing method of claim 1, further comprising performing function interworking by carrying out at least one of insertion, search, copy, transfer, and invoking of information between the functional view areas on the divided screen areas.
+9. The screen area dividing method of claim 8, wherein performing function interworking between a first and a second functional view area, comprises at least one of:
+copying an information item displayed in the first functional view area to the second functional view area;
+utilizing an information item displayed in the first functional view area, carrying out a search in the second functional view area;
+finding at least one file listed in the first functional view area and attaching the found file in the second functional view area;
+utilizing an information item displayed in the first functional view area to one of make a call and view a map in the second functional view area;
+moving and saving an information item displayed in the first functional view area to the second functional view area;
+using an information item displayed in the first functional view area, connecting to a server from the second functional view area; and
+moving a list item displayed in the first functional view area to a selected folder in the second functional view area.
+10. The screen area dividing method of claim 1, further comprising outputting a dual menu item that combines two items together, wherein the dual menu item is capable of activating a plurality of user functions.
+11. A mobile terminal capable of supporting divided screen areas, comprising:
+a storage unit for storage of a plurality of application programs realizing user functions;
+an input unit for generation of input signals for one of sequentially and simultaneously activating user functions;
+a control unit for activation of user functions according to input signals, and output of functional view areas associated with the user functions on the divided screen areas; and
+a display unit for display of the functional view areas.
+12. The mobile terminal of claim 11, wherein the input unit performs at least one of:
+generation of an input signal for—
+selection of a dual menu item that is created for divided screen area formation,
+output of functional view areas associated with menus, and
+request of divided screen area formation after activation of user functions in sequence;
+after a first user function is activated, generation of an input signal to activate a subordinate function of the first user function; and
+generation of an input signal for activation of a user function and a subordinate function of the activated user function.
+13. The mobile terminal of claim 11, wherein the display unit provides at least one of:
+display of functional view areas associated with the independent user functions on the corresponding divided screen areas according to activation of independent user functions;
+display of functional view areas associated with instances of the user function on the corresponding divided screen areas according to repeated activation of a user function;
+display of a functional view area associated with a first user function and a functional view area associated with a second user function related to the first user function on the corresponding divided screen area;
+display of a functional view area associated with a user function and a functional view area associated with a subordinate user function of the displayed user function on the corresponding divided screen area; and
+display of a functional view area associated with an activated first user function and a functional view area associated with an event generation function corresponding to one of an internal and external system event on the corresponding divided screen area.
+14. The mobile terminal of claim 11, wherein the display unit outputs a search view area containing at least one icon for display of a functional view area after divided screen area formation, and outputs a menu view area containing at least one menu for display of a functional view area after divided screen area formation.
+15. The mobile terminal of claim 14, wherein the control unit controls, in response to an input signal for output of the menu view area, the display unit to resize each of the functional view areas being output on the divided screen areas and to display the menu view area among the resized functional view areas, and controls, when a dual menu item is selected from the menu view area, the display unit to replace the functional view areas being output on the divided screen areas with functional view areas associated with the selected dual menu item.
+16. The mobile terminal of claim 11, wherein the control unit controls an operation through the display unit for output of a first functional view area and a second functional view area to:
+copy an information item displayed in the first functional view area to the second functional view area;
+carry out, utilizing an information item displayed in the first functional view area, a search in the second functional view area;
+find at least one file listed in the first functional view area and attach the found file in the second functional view area;
+utilize an information item displayed in the first functional view area to one of make a call and view a map in the second functional view area;
+move an information item displayed in the first functional view area to the second functional view area and store the moved information item;
+connect to, using an information item displayed in the first functional view area, a server from the second functional view area; and
+move a list item displayed in the first functional view area to a selected folder in the second functional view area.
+17. The mobile terminal of claim 11, wherein the display unit outputs an icon for generation of an input signal to request divided screen area formation.
+18. The mobile terminal of claim 17, wherein the display unit outputs an icon for generation of an input signal to return from divided screen area formation to a full screen format.
+19. The mobile terminal of claim 11, wherein the display unit adjusts the size of the functional view areas displayed in the divided screen areas in accordance with an input signal.
+20. The mobile terminal of claim 11, wherein the display unit outputs a dual menu item that combines two items together that is capable of activation of a plurality of user functions.
+Patent Citations (34)
+Publication number Priority date Publication date Assignee Title
+US5390295A * 1991-12-20 1995-02-14 International Business Machines Corporation Method and apparatus for proportionally displaying windows on a computer display screen
+US5712995A * 1995-09-20 1998-01-27 Galileo Frames, Inc. Non-overlapping tiling apparatus and method for multiple window displays
+US5847706A * 1995-11-30 1998-12-08 Hewlett Packard Company Sizeable window for tabular and graphical representation of data
+US6310631B1 * 1996-04-26 2001-10-30 International Business Machines Corporation User interface control for creating split panes in a single window
+US5920315A * 1996-07-17 1999-07-06 International Business Machines Corporation Multi-pane window with recoiling workspaces
+US6008809A * 1997-09-22 1999-12-28 International Business Machines Corporation Apparatus and method for viewing multiple windows within a dynamic window
+US20050235220A1 * 1998-07-28 2005-10-20 Microsoft Corporation Web page display system
+US6686852B1 * 2000-09-15 2004-02-03 Motorola, Inc. Keypad layout for alphabetic character input
+US20030076362A1 * 2001-09-28 2003-04-24 Masahiro Terada Display control method and display control processing system for concealed window on desktop
+US20040056903A1 * 2002-07-15 2004-03-25 Hiroaki Sakai Directory management program, object display program, directory management method, and directory management apparatus
+US20040139435A1 * 2002-12-31 2004-07-15 Yong Cui Associating appointments and tasks on a computer device
+US7802206B1 * 2003-05-01 2010-09-21 Palm, Inc. Dynamic sizing user interface method and system for data display
+US20050022135A1 * 2003-07-23 2005-01-27 De Waal Abraham B. Systems and methods for window alignment grids
+US20070265031A1 * 2003-10-22 2007-11-15 Sandy Electric Co., Ltd. Mobile Phone, Display Method, and Computer Program
+US20050108655A1 * 2003-11-18 2005-05-19 Peter Andrea User interface for displaying multiple applications
+US20070120832A1 * 2005-05-23 2007-05-31 Kalle Saarinen Portable electronic apparatus and associated method
+US20070050724A1 * 2005-08-30 2007-03-01 Si-Hyoung Lee User interface method, system, and device in multitasking environment
+US20070046628A1 * 2005-08-30 2007-03-01 Si-Hyoung Lee Apparatus and method for controlling user interface using jog dial and navigation key
+US7437678B2 * 2005-10-27 2008-10-14 International Business Machines Corporation Maximizing window display area using window flowing
+US20090288036A1 * 2005-12-22 2009-11-19 Kazuya Osawa Multi-window display apparatus, multi-window display method, and integrated circuit
+US20080320396A1 * 2005-12-29 2008-12-25 Joseph Mizrachi Method and System for Displaying Data on a Mobile Terminal
+US20070157160A1 * 2005-12-30 2007-07-05 Udo Arend Auto-zoomable snippets in multiple snippet windows
+US20070192726A1 * 2006-02-14 2007-08-16 Samsung Electronics Co., Ltd. Apparatus and method for managing layout of a window
+US20070266135A1 * 2006-05-15 2007-11-15 Liam Friedland Multiple active session management interface
+US20080024666A1 * 2006-07-25 2008-01-31 Sharp Kabushiki Kaisha Picture display device, picture display method, picture display program, and storage medium
+US20080066008A1 * 2006-09-13 2008-03-13 Jen-Her Jeng Visual Control Interface for Controlling Multi-Window Display System
+US20080115081A1 * 2006-11-09 2008-05-15 Microsoft Corporation Enhanced windows management feature
+US20080172609A1 * 2007-01-11 2008-07-17 Nokia Corporation Multiple application handling
+US20100088634A1 * 2007-01-25 2010-04-08 Akira Tsuruta Multi-window management apparatus and program, storage medium and information processing apparatus
+US20080214239A1 * 2007-02-23 2008-09-04 Fujitsu Limited Computer-readable medium storing display control program and mobile terminal
+US20100214278A1 * 2007-07-30 2010-08-26 Kyocera Corporation Electronic device
+US20090077192A1 * 2007-08-31 2009-03-19 Kabushiki Kaisha Toshiba Server apparatus, terminal apparatus, and communication control method
+US20100146431A1 * 2008-12-09 2010-06-10 Microsoft Corporation Object picker with window splitter
+US20100293501A1 * 2009-05-18 2010-11-18 Microsoft Corporation Grid Windows
+* Cited by examiner, † Cited by third party
+Cited By (198)
+Search Within Citing Patents
+Publication number Priority date Publication date Assignee Title
+US20080076501A1 * 2006-08-31 2008-03-27 Waterleaf Limited Method And System For Providing Adaptable Options For Electronic Gaming
+US20110197162A1 * 2010-02-10 2011-08-11 TikiLabs Method and system for organizing information with sharable user interface
+US20110196752A1 * 2010-02-10 2011-08-11 TikiLabs Method and system for organizing information with sharable user interface
+US20110252373A1 * 2010-04-07 2011-10-13 Imran Chaudhri Device, Method, and Graphical User Interface for Managing Folders
+US8881061B2 2010-04-07 2014-11-04 Apple Inc. Device, method, and graphical user interface for managing folders
+US9170708B2 2010-04-07 2015-10-27 Apple Inc. Device, method, and graphical user interface for managing folders
+US8423911B2 * 2010-04-07 2013-04-16 Apple Inc. Device, method, and graphical user interface for managing folders
+US8881060B2 2010-04-07 2014-11-04 Apple Inc. Device, method, and graphical user interface for managing folders
+US20130038636A1 * 2010-04-27 2013-02-14 Nec Corporation Information processing terminal and control method thereof
+US9495061B2 * 2010-04-27 2016-11-15 Nec Corporation Information processing terminal and control method thereof
+US20120023454A1 * 2010-07-20 2012-01-26 Sap Ag Schedule management using linked events
+US8799815B2 2010-07-30 2014-08-05 Apple Inc. Device, method, and graphical user interface for activating an item in a folder
+US8826164B2 2010-08-03 2014-09-02 Apple Inc. Device, method, and graphical user interface for creating a new folder
+US20120046075A1 * 2010-08-20 2012-02-23 Research In Motion Limited Method and apparatus for controlling output devices
+US20120072856A1 * 2010-09-20 2012-03-22 Samsung Electronics Co., Ltd. Method and apparatus for transmitting and receiving an integrated message using portable device
+US8949714B2 * 2010-09-20 2015-02-03 Samsung Electronics Co., Ltd. Method and apparatus for transmitting and receiving an integrated message using portable device
+US8984440B2 2010-10-01 2015-03-17 Z124 Managing expose views in dual display communication devices
+WO2012044841A2 * 2010-10-01 2012-04-05 Imerj LLC Smartpad split screen with keyboard
+US20120084725A1 * 2010-10-01 2012-04-05 Imerj LLC Managing hierarchically related windows in a single display
+US9092190B2 * 2010-10-01 2015-07-28 Z124 Smartpad split screen
+WO2012044841A3 * 2010-10-01 2012-05-18 Imerj LLC Smartpad split screen with keyboard
+CN103270505A * 2010-10-01 2013-08-28 Z124 Smartpad split screen
+WO2012044842A3 * 2010-10-01 2012-06-07 Imerj LLC Smartpad split screen
+US20120081314A1 * 2010-10-01 2012-04-05 Imerj LLC Smartpad split screen desktop
+US9128582B2 * 2010-10-01 2015-09-08 Z124 Visible card stack
+US9134756B2 2010-10-01 2015-09-15 Z124 Dual screen application visual indicator
+US20120081311A1 * 2010-10-01 2012-04-05 Imerj LLC Smartpad orientation
+US20120084737A1 * 2010-10-01 2012-04-05 Flextronics Id, Llc Gesture controls for multi-screen hierarchical applications
+US9195330B2 * 2010-10-01 2015-11-24 Z124 Smartpad split screen
+US20120081403A1 * 2010-10-01 2012-04-05 Imerj LLC Smartpad split screen
+US9213431B2 2010-10-01 2015-12-15 Z124 Opening child windows in dual display communication devices
+US8872731B2 2010-10-01 2014-10-28 Z124 Multi-screen display control
+US9218021B2 2010-10-01 2015-12-22 Z124 Smartpad split screen with keyboard
+US20120081854A1 * 2010-10-01 2012-04-05 Imerj LLC Smartpad split screen desktop
+US20120081398A1 * 2010-10-01 2012-04-05 Imerj LLC Smartpad split screen
+US8866748B2 * 2010-10-01 2014-10-21 Z124 Desktop reveal
+US8773378B2 2010-10-01 2014-07-08 Z124 Smartpad split screen
+US9146585B2 * 2010-10-01 2015-09-29 Z124 Dual-screen view in response to rotation
+US20120081400A1 * 2010-10-01 2012-04-05 Imerj LLC Dual-screen view in response to rotation
+US9477394B2 2010-10-01 2016-10-25 Z124 Desktop reveal
+US8963840B2 * 2010-10-01 2015-02-24 Z124 Smartpad split screen desktop
+US20120081399A1 * 2010-10-01 2012-04-05 Imerj LLC Visible card stack
+US8907904B2 * 2010-10-01 2014-12-09 Z124 Smartpad split screen desktop
+US20120081313A1 * 2010-10-01 2012-04-05 Imerj LLC Smartpad split screen desktop
+US9372618B2 2010-10-01 2016-06-21 Z124 Gesture based application management
+US20120081292A1 * 2010-10-01 2012-04-05 Imerj LLC Desktop reveal
+US8963853B2 * 2010-10-01 2015-02-24 Z124 Smartpad split screen desktop
+US8659565B2 * 2010-10-01 2014-02-25 Z124 Smartpad orientation
+US9047047B2 2010-10-01 2015-06-02 Z124 Allowing multiple orientations in dual screen view
+US20140149889A1 * 2010-10-15 2014-05-29 Promethean Limited Input associations for touch sensitive surface
+US20120110547A1 * 2010-10-29 2012-05-03 Sap Ag System and method for a generic object access layer
+US9298473B2 * 2010-10-29 2016-03-29 Sap Se System and method for a generic object access layer
+US9189773B2 2010-11-17 2015-11-17 Z124 Email client display transitions between portrait and landscape in a smartpad device
+US9235828B2 2010-11-17 2016-01-12 Z124 Email client display transition
+US9208477B2 2010-11-17 2015-12-08 Z124 Email client mode transitions in a smartpad device
+US20120290946A1 * 2010-11-17 2012-11-15 Imerj LLC Multi-screen email client
+US20120144331A1 * 2010-12-03 2012-06-07 Ari Tolonen Method for Arranging Application Windows on a Display
+US20120159340A1 * 2010-12-16 2012-06-21 Bae Jisoo Mobile terminal and displaying method thereof
+US8990733B2 2010-12-20 2015-03-24 Microsoft Technology Licensing, Llc Application-launching interface for multiple modes
+US9213468B2 2010-12-23 2015-12-15 Microsoft Technology Licensing, Llc Application reporting in an application-selectable user interface
+US9229918B2 2010-12-23 2016-01-05 Microsoft Technology Licensing, Llc Presenting an application change through a tile
+US9015606B2 2010-12-23 2015-04-21 Microsoft Technology Licensing, Llc Presenting an application change through a tile
+CN102591572A * 2010-12-23 2012-07-18 微软公司 Creating an immersive environment
+US20130275912A1 * 2010-12-31 2013-10-17 Beijing Lenovo Software Ltd. Electronic apparatus and object processing method thereof
+US9423951B2 2010-12-31 2016-08-23 Microsoft Technology Licensing, Llc Content-based snap point
+US9383917B2 2011-03-28 2016-07-05 Microsoft Technology Licensing, Llc Predictive tiling
+US8713473B2 * 2011-04-26 2014-04-29 Google Inc. Mobile browser context switching
+US20120278756A1 * 2011-04-26 2012-11-01 Google Inc. Mobile browser context switching
+US8819582B2 * 2011-04-26 2014-08-26 Google Inc. Mobile browser context switching
+US8812996B1 2011-04-26 2014-08-19 Google Inc. Methods and apparatus for processing application windows
+US20120278757A1 * 2011-04-26 2012-11-01 Google Inc. Mobile Browser Context Switching
+US9015618B2 2011-04-26 2015-04-21 Google Inc. Methods and apparatus for processing application windows
+US20120290966A1 * 2011-05-11 2012-11-15 KT Corporation, KT TECH INC. Multiple screen mode in mobile terminal
+EP2523090A2 * 2011-05-11 2012-11-14 Samsung Electronics Co., Ltd. Mobile terminal and method for controlling screen thereof
+EP2523090A3 * 2011-05-11 2012-12-19 Samsung Electronics Co., Ltd. Mobile terminal and method for controlling screen thereof
+US20120289290A1 * 2011-05-12 2012-11-15 KT Corporation, KT TECH INC. Transferring objects between application windows displayed on mobile terminal
+US8878879B2 * 2011-05-18 2014-11-04 Korea Institute Of Science & Technology Apparatus, method and computer readable recording medium for displaying content
+US20120293553A1 * 2011-05-18 2012-11-22 Korea Institute Of Science And Technology Apparatus, method and computer readable recording medium for displaying content
+US9329774B2 2011-05-27 2016-05-03 Microsoft Technology Licensing, Llc Switching back to a previously-interacted-with application
+US9158445B2 * 2011-05-27 2015-10-13 Microsoft Technology Licensing, Llc Managing an immersive interface in a multi-application immersive environment
+US9383959B2 2011-05-27 2016-07-05 Kyocera Corporation Rotatable mobile electronic device and soft key input method
+US8893033B2 2011-05-27 2014-11-18 Microsoft Corporation Application notifications
+US9104307B2 2011-05-27 2015-08-11 Microsoft Technology Licensing, Llc Multi-application environment
+US20120304114A1 * 2011-05-27 2012-11-29 Tsz Yan Wong Managing an immersive interface in a multi-application immersive environment
+US20120299953A1 * 2011-05-27 2012-11-29 Kyocera Corporation Mobile electronic device and character input method
+US9052820B2 2011-05-27 2015-06-09 Microsoft Technology Licensing, Llc Multi-application environment
+US9104440B2 2011-05-27 2015-08-11 Microsoft Technology Licensing, Llc Multi-application environment
+US9535597B2 2011-05-27 2017-01-03 Microsoft Technology Licensing, Llc Managing an immersive interface in a multi-application immersive environment
+US8525808B1 2011-06-20 2013-09-03 Alexander Buening Method and system to launch and manage an application on a computer system having a touch panel input device
+US20130332878A1 * 2011-08-08 2013-12-12 Samsung Electronics Co., Ltd. Apparatus and method for performing capture in portable terminal
+CN103106010A * 2011-08-12 2013-05-15 索尼电脑娱乐公司 Electronic device
+US20130038637A1 * 2011-08-12 2013-02-14 Sony Computer Entertainment Inc. Electronic device
+US8935631B2 2011-09-01 2015-01-13 Microsoft Corporation Arranging tiles
+CN102991422A * 2011-09-09 2013-03-27 现代摩比斯株式会社 Display method for AVM system information and AVN system information
+US9557909B2 2011-09-09 2017-01-31 Microsoft Technology Licensing, Llc Semantic zoom linguistic helpers
+US8922575B2 2011-09-09 2014-12-30 Microsoft Corporation Tile cache
+US8933952B2 2011-09-10 2015-01-13 Microsoft Corporation Pre-rendering new content for an application-selectable user interface
+US9244802B2 2011-09-10 2016-01-26 Microsoft Technology Licensing, Llc Resource user interface
+US8830270B2 2011-09-10 2014-09-09 Microsoft Corporation Progressively indicating new content in an application-selectable user interface
+US9146670B2 2011-09-10 2015-09-29 Microsoft Technology Licensing, Llc Progressively indicating new content in an application-selectable user interface
+US20140225828A1 * 2011-09-26 2014-08-14 Nec Casio Mobile Communications, Ltd. Display Device
+US9395814B2 * 2011-09-26 2016-07-19 Nec Corporation Display device
+US20140210762A1 * 2011-09-26 2014-07-31 Nec Casio Mobile Communications, Ltd. Display apparatus
+US9235374B2 * 2011-09-27 2016-01-12 Z124 Smartpad dual screen keyboard with contextual layout
+US9524027B2 2011-09-27 2016-12-20 Z124 Messaging application views
+US20130076638A1 * 2011-09-27 2013-03-28 Z124 Smartpad dual screen keyboard with contextual layout
+US20130076632A1 * 2011-09-27 2013-03-28 Z124 Smartpad dual screen keyboard
+US8994671B2 2011-09-27 2015-03-31 Z124 Display notifications on a dual screen device
+US8856679B2 2011-09-27 2014-10-07 Z124 Smartpad-stacking
+US20130187831A1 * 2011-09-27 2013-07-25 Z124 Smartpad window management
+US9104365B2 2011-09-27 2015-08-11 Z124 Smartpad—multiapp
+US8884841B2 2011-09-27 2014-11-11 Z124 Smartpad screen management
+US8890768B2 2011-09-27 2014-11-18 Z124 Smartpad screen modes
+US9218154B2 2011-09-27 2015-12-22 Z124 Displaying categories of notifications on a dual screen device
+US9213517B2 * 2011-09-27 2015-12-15 Z124 Smartpad dual screen keyboard
+US9092183B2 2011-09-27 2015-07-28 Z124 Display status of notifications on a dual screen device
+US9351237B2 2011-09-27 2016-05-24 Z124 Displaying of charging status on dual screen device
+US20130076680A1 * 2011-09-27 2013-03-28 Z124 Multiscreen phone emulation
+US9395945B2 2011-09-27 2016-07-19 Z124 Smartpad—suspended app management
+US20130080937A1 * 2011-09-27 2013-03-28 Imerj, Llc Browser full screen view
+US9280312B2 2011-09-27 2016-03-08 Z124 Smartpad—power management
+US9047038B2 2011-09-27 2015-06-02 Z124 Smartpad smartdock—docking rules
+JP2013084232A * 2011-10-05 2013-05-09 Hyundai Motor Co Ltd Content control method for optimizing screen output of mobile terminal and system therefor
+US20130091447A1 * 2011-10-05 2013-04-11 Kia Motors Corporation Content control method and system for optimizing information on display screen of mobile device
+US20130090164A1 * 2011-10-07 2013-04-11 Waterleaf Limited Gaming with Dual Game Play
+US20130101140A1 * 2011-10-25 2013-04-25 Lg Electronics Inc. Electronic device and method of operating the same
+CN103106027A * 2011-11-11 2013-05-15 三星电子株式会社 Method and apparatus for designating entire area using partial area touch in a portable equipment
+EP2595042A3 * 2011-11-16 2014-07-02 Samsung Electronics Co., Ltd Mobile device for executing multiple applications and method for same
+CN103116438A * 2011-11-16 2013-05-22 三星电子株式会社 Mobile device for executing multiple applications and method for same
+US20130125045A1 * 2011-11-16 2013-05-16 Samsung Electronics Co. Ltd. Apparatus including a touch screen under a multiapplication environment and controlling method thereof
+EP2595043A3 * 2011-11-16 2014-07-16 Samsung Electronics Co., Ltd Mobile device for executing multiple applications and method thereof
+CN103116437A * 2011-11-16 2013-05-22 三星电子株式会社 Apparatus including a touch screen under a multi-application environment and controlling method thereof
+WO2013073908A1 * 2011-11-16 2013-05-23 Samsung Electronics Co., Ltd. Apparatus with touch screen for preloading multiple applications and method of controlling the same
+WO2013073906A1 * 2011-11-16 2013-05-23 Samsung Electronics Co., Ltd. Mobile communication terminal for displaying event-handling view on split screen and method for controlling the same
+US20130120447A1 * 2011-11-16 2013-05-16 Samsung Electronics Co. Ltd. Mobile device for executing multiple applications and method thereof
+US20130120295A1 * 2011-11-16 2013-05-16 Samsung Electronics Co., Ltd. Mobile device for executing multiple applications and method for same
+CN103135888A * 2011-11-28 2013-06-05 三星电子株式会社 Method and mobile device for displaying supplementary window
+US9338624B2 * 2011-12-05 2016-05-10 Valérie Waterhouse Cellular telephone and computer program comprising means for generating and sending an alarm message
+US20140349603A1 * 2011-12-05 2014-11-27 Valérie Waterhouse Cellular telephone and computer program comprising means for generating and sending an alarm message
+US20130155117A1 * 2011-12-16 2013-06-20 Samsung Electronics Co., Ltd. Display apparatus and method and computer-readable storage medium
+US20130167078A1 * 2011-12-26 2013-06-27 Inadev Corporation Screen management system
+WO2013100990A1 * 2011-12-28 2013-07-04 Intel Corporation Hybrid mobile interactions for native apps and web apps
+US20130179836A1 * 2012-01-06 2013-07-11 Samsung Electronics Co., Ltd. Searching method for a plurality of items and terminal supporting the same
+CN104040475A * 2012-01-06 2014-09-10 三星电子株式会社 Searching method for a plurality of items and terminal supporting the same
+US20130187861A1 * 2012-01-19 2013-07-25 Research In Motion Limited Simultaneous display of multiple maximized applications on touch screen electronic devices
+US20150169099A1 * 2012-01-19 2015-06-18 Blackberry Limited Simultaneous display of multiple maximized applications on touch screen electronic devices
+US9032292B2 * 2012-01-19 2015-05-12 Blackberry Limited Simultaneous display of multiple maximized applications on touch screen electronic devices
+US20130231157A1 * 2012-03-02 2013-09-05 Jeffrey Chung Cellular phone with camera at front edge area
+US9013513B2 * 2012-04-12 2015-04-21 Blackberry Limited Methods and apparatus to navigate electronic documents
+US20130271498A1 * 2012-04-12 2013-10-17 Stefano Poalini Methods and apparatus to navigate electronic documents
+US9477370B2 2012-04-26 2016-10-25 Samsung Electronics Co., Ltd. Method and terminal for displaying a plurality of pages, method and terminal for displaying a plurality of applications being executed on terminal, and method of executing a plurality of applications
+US9380433B2 * 2012-05-22 2016-06-28 Lg Electronics Inc. Mobile terminal and control method thereof
+US20130316695A1 * 2012-05-22 2013-11-28 Lg Electronics Inc. Mobile terminal and control method thereof
+CN102819584A * 2012-07-26 2012-12-12 北京奇虎科技有限公司 Interface file display method and system
+USD742396S1 * 2012-08-28 2015-11-03 General Electric Company Display screen with graphical user interface
+US20140075394A1 * 2012-09-07 2014-03-13 Samsung Electronics Co., Ltd. Method and apparatus to facilitate interoperability of applications in a device
+EP2706739A3 * 2012-09-10 2016-03-02 LG Electronics, Inc. Mobile terminal and control method thereof
+US20140075355A1 * 2012-09-10 2014-03-13 Lg Electronics Inc. Mobile terminal and control method thereof
+US20140075332A1 * 2012-09-13 2014-03-13 Lg Electronics Inc. Mobile terminal and control method thereof
+US20140089833A1 * 2012-09-24 2014-03-27 Samsung Electronics Co. Ltd. Method and apparatus for providing multi-window in touch device
+US20140089832A1 * 2012-09-25 2014-03-27 Samsung Electronics Co., Ltd. Apparatus and method for switching split view in portable terminal
+US20140089831A1 * 2012-09-25 2014-03-27 Samsung Electronics Co., Ltd. Apparatus and method for controlling split view in portable device
+US9298341B2 * 2012-09-25 2016-03-29 Samsung Electronics Co., Ltd. Apparatus and method for switching split view in portable terminal
+JP2014096146A * 2012-11-09 2014-05-22 Sap Ag File position shortcut and window arrangement
+US20140164957A1 * 2012-12-06 2014-06-12 Samsung Electronics Co., Ltd. Display device for executing a plurality of applications and method for controlling the same
+US20140164989A1 * 2012-12-10 2014-06-12 Stefan KUHNE Displaying windows on a touchscreen device
+US20140168125A1 * 2012-12-17 2014-06-19 Crucialsoft Company Application executing method using fingerprint recognition, device therefor, and computer readable recording medium therefor
+US9207850B2 * 2012-12-17 2015-12-08 Crucialtec Co., Ltd. Application executing method using fingerprint recognition, device therefor, and computer readable recording medium therefor
+US20140176434A1 * 2012-12-26 2014-06-26 Hon Hai Precision Industry Co., Ltd. Remote control system and method
+US20140181738A1 * 2012-12-26 2014-06-26 Hon Hai Precision Industry Co., Ltd. Remote control system and method
+US20150358448A1 * 2013-01-08 2015-12-10 Han Uk JEONG Mobile communication terminal for receiving call while running application and method for same
+US9405455B2 * 2013-01-31 2016-08-02 Lg Electronics Inc. Mobile terminal and controlling method thereof
+US20140213318A1 * 2013-01-31 2014-07-31 Lg Electronics Inc. Mobile terminal and controlling method thereof
+EP2767896A1 * 2013-02-14 2014-08-20 LG Electronics, Inc. Mobile terminal and method of controlling the mobile terminal
+EP2775388A3 * 2013-03-04 2014-12-17 Samsung Electronics Co., Ltd. Method and apparatus for manipulating data on electronic device display
+US20140250406A1 * 2013-03-04 2014-09-04 Samsung Electronics Co., Ltd. Method and apparatus for manipulating data on electronic device display
+EP2775388A2 * 2013-03-04 2014-09-10 Samsung Electronics Co., Ltd. Method and apparatus for manipulating data on electronic device display
+US20140258886A1 * 2013-03-07 2014-09-11 Smugmug, Inc. Method for transferring a file from a device
+US20140282222A1 * 2013-03-14 2014-09-18 Lg Electronics Inc. Mobile terminal and method of controlling the mobile terminal
+US9436352B2 * 2013-03-14 2016-09-06 Lg Electronics Inc. Mobile terminal and corresponding method for controlling divided items in list
+US20140310642A1 * 2013-04-15 2014-10-16 Microsoft Corporation Deferred placement prompt
+US20140317543A1 * 2013-04-18 2014-10-23 Pantech Co., Ltd. Apparatus and method for controlling display of a terminal icon
+US9535571B2 * 2013-04-18 2017-01-03 Pantech Inc. Apparatus and method for controlling display of a terminal icon
+EP2799972A3 * 2013-04-29 2015-04-22 LG Electronics, Inc. Mobile terminal capable of dividing a screen and a method of controlling the mobile terminal
+EP3017366A4 * 2013-07-03 2016-12-28 Samsung Electronics Co Ltd Method and apparatus for interworking applications in user device
+WO2015012451A1 * 2013-07-26 2015-01-29 Lg Electronics Inc. Electronic device
+WO2015016628A1 * 2013-07-31 2015-02-05 Samsung Electronics Co., Ltd. Method and apparatus for displaying application
+JP2015041271A * 2013-08-22 2015-03-02 ソニー株式会社 Information processor, storage medium and control method
+US20150067588A1 * 2013-08-30 2015-03-05 Samsung Electronics Co., Ltd. Method and apparatus for changing screen in electronic device
+EP3093754A4 * 2014-02-18 2017-01-04 Zte Corp Split-screen processing method and device, and computer storage medium
+US20150261392A1 * 2014-03-12 2015-09-17 Joon SON Adaptive interface providing apparatus and method
+US9451822B2 2014-04-10 2016-09-27 Microsoft Technology Licensing, Llc Collapsible shell cover for computing device
+EP2993566A4 * 2014-06-20 2016-08-03 Huawei Tech Co Ltd Application interface presentation method and apparatus, and electronic device
+WO2015199695A1 * 2014-06-26 2015-12-30 Hewlett-Packard Development Company, L.P. Multi-application viewing
+CN104267871A * 2014-09-10 2015-01-07 百度在线网络技术（北京）有限公司 Method for rendering pages and device thereof
+EP3046018A1 * 2015-01-16 2016-07-20 Samsung Electronics Co., Ltd. Method of controlling screen and electronic device for processing the same
+WO2016167620A1 * 2015-04-16 2016-10-20 Samsung Electronics Co., Ltd. Apparatus and method for providing information via portion of display
+EP3089020A1 * 2015-04-29 2016-11-02 Samsung Electronics Co., Ltd Electronic device for providing short-cut user interface and method therefor
+* Cited by examiner, † Cited by third party
+Also Published As
+Publication number Publication date Type
+US20130332881A1 2013-12-12 Application
+CN102365617A 2012-02-29 Application
+CN104090736A 2014-10-08 Application
+JP5671000B2 2015-02-18 Grant
+WO2010110613A1 2010-09-30 Application
+EP2411904A1 2012-02-01 Application
+CN102365617B 2014-08-20 Grant
+JP5974068B2 2016-08-23 Grant
+JP2012521595A 2012-09-13 Application
+EP2411904A4 2013-05-08 Application
+JP2015092376A 2015-05-14 Application
+KR101640460B1 2016-07-18 Grant
+KR20100107377A 2010-10-05 Application
+Similar Documents
+Publication Publication Date Title
+US7966578B2 2011-06-21 Portable multifunction device, method, and graphical user interface for translating displayed content
+US8201109B2 2012-06-12 Methods and graphical user interfaces for editing on a portable multifunction device
+US8171432B2 2012-05-01 Touch screen device, method, and graphical user interface for displaying and selecting application options
+US8099332B2 2012-01-17 User interface for application management for a mobile device
+US20080168396A1 2008-07-10 Portable Multifunction Device, Method, and Graphical User Interface for Providing Maps and Directions
+US20060020904A1 2006-01-26 Stripe user interface
+US7864163B2 2011-01-04 Portable electronic device, method, and graphical user interface for displaying structured electronic documents
+US20100299597A1 2010-11-25 Display management method and system of mobile terminal
+US8091045B2 2012-01-03 System and method for managing lists
+US20080165153A1 2008-07-10 Portable Multifunction Device, Method, and Graphical User Interface Supporting User Navigations of Graphical Objects on a Touch Screen Display
+US20100231612A1 2010-09-16 Smart Keyboard Management for a Multifunction Device with a Touch Screen Display
+US20080320419A1 2008-12-25 Touch Screen Device, Method, and Graphical User Interface for Providing Maps, Directions, and Location-Based Information
+US20090327976A1 2009-12-31 Portable Device, Method, and Graphical User Interface for Displaying a Portion of an Electronic Document on a Touch Screen Display
+US20070079383A1 2007-04-05 System and Method for Providing Digital Content on Mobile Devices
+US20080055273A1 2008-03-06 Web-Clip Widgets on a Portable Multifunction Device
+US20090228825A1 2009-09-10 Methods and Graphical User Interfaces for Conducting Searches on a Portable Multifunction Device
+US20110179372A1 2011-07-21 Automatic Keyboard Layout Determination
+US20100306705A1 2010-12-02 Lockscreen display
+US20100169836A1 2010-07-01 Interface cube for mobile device
+US20110164058A1 2011-07-07 Device, Method, and Graphical User Interface with Interactive Popup Views
+US20080165148A1 2008-07-10 Portable Electronic Device, Method, and Graphical User Interface for Displaying Inline Multimedia Content
+US20130191911A1 2013-07-25 Device, Method, and Graphical User Interface for Accessing an Application in a Locked Device
+US8266550B1 2012-09-11 Parallax panning of mobile device desktop
+US20090083665A1 2009-03-26 Multi-state unified pie user interface
+US20120311444A1 2012-12-06 Portable multifunction device, method, and graphical user interface for controlling media playback using gestures
+Legal Events
+Date Code Title Description
+2010-03-25 AS Assignment
+
+Owner name: SAMSUNG ELECTRONICS CO., LTD., KOREA, REPUBLIC OF
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNORS:YOOK, HYUNG MIN;YOO, SUNG SIK;LEE, KANG WON;AND OTHERS;SIGNING DATES FROM 20100310 TO 20100311;REEL/FRAME:024141/0850
+Data provided by IFI CLAIMS Patent Services
+About Send Feedback Terms Privacy Policy
+screen
+

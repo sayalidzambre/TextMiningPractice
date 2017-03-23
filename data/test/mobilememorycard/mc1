@@ -1,0 +1,172 @@
+Device and method for controlling usage of a memory card
+Abstract
+A memory card includes a memory for storing data and a controller that is operative to control access to storage of at least a portion of storage conditional upon an authorization of a corresponding identity card of a service provider. A storage system includes an identity card of a service provider and a memory card, wherein the identity card corresponds to the memory card, and wherein access to storage of at least a portion of the memory card is controlled conditional upon an authorization from only this corresponding identity card. A method of doing business includes equipping a mobile phone with an identity card that corresponds to a memory card, configuring the memory card to operate conditional on an authorization from this corresponding secured card, and then offering the mobile phone and the memory card for sale at a discount.
+Images (6)
+
+Description
+
+    CROSS-REFERENCE TO RELATED APPLICATIONS
+    [0001]
+    This patent application claims the benefit of U.S. Provisional Patent Application No. 60/783,593, filed Mar. 20, 2006.
+    FIELD OF THE INVENTION
+    [0002]
+    The present invention relates to the field of memory cards. More particularly, the present invention relates to a method for controlling usage of a memory card.
+    BACKGROUND OF THE INVENTION
+    [0003]
+    As the use of cellular phones by mobile subscribers is getting more and more profitable to Mobile Network Operators (MNO), there is a growing motivation to limit the use of cellular phone subscribers to a single MNO network.
+    [0004]
+    Existing techniques for limiting the use of mobile subscribers to a single MNO network include configuring a cellular phone with a phone locking mechanism to enable the use of the cell phone only if a compatible SIM (Subscriber Identity Module) card is installed in the cell phone. A SIM card is a smart-card-type device securely storing a private key for identifying a mobile subscriber. The SIM card also includes storage space for storing text messages and telephone numbers.
+    [0005]
+    Many cellular phones used today feature a memory card slot for interfacing with a memory card. A memory card plugged into this slot is a non-volatile memory, typically a flash-based removable memory storage card, which provides the phone with additional storage capacity, typically 16 Mbyte to 1 Gbyte. The additional memory can be used for storing preloaded data and applications, such as pictures, music and games, all of which are supported by the cellular phone's different functionalities.
+    [0006]
+    The memory card is typically sold as an optional accessory and can be purchased from any compatible memory card manufacturer.
+    [0007]
+    A Mobile Network Operator (MNO) may provide a mobile phone to its subscribers at no cost or at a very low cost. The MNO typically limits the use of such a mobile phone by restricting its use to a single MNO network or to the specific subscriber.
+    [0008]
+    Existing techniques for limiting the use of such a mobile phone are typically achieved by implementing a SIM lock mechanism that enables usage of a mobile phone only when the mobile phone is installed with a compatible SIM card that is provided by the MNO together with the mobile phone.
+    [0009]
+    However in situations where service providers may cover the cost of the memory card and also provide the card with preloaded data and applications in order to motivate usage of cellular phone subscribers to their own MNO network, it is highly desirable to limit usage of memory cards to a single MNO network.
+    SUMMARY OF THE INVENTION
+    [0010]
+    Accordingly, it is a principal object of the present invention to provide a memory card that is configured to operate conditional on authorization from a corresponding compatible secured card for the purpose of limiting the usage of the memory card.
+    [0011]
+    The memory card of the present invention can be used by service providers selling mobile phones in a manner such that the memory card is fully operational only when used in their mobile phones. A service provider may cover the cost of the memory card and also provide the memory card with preloaded data and applications. By offering mobile phones and the memory card of the present invention for sale at a substantially low price (i.e. either at a very low cost or at no charge at all), service providers push users to use their memory cards and as a result increase their sales.
+    [0012]
+    A service provider can limit usage to the memory card by locking access to storage of the memory card as a whole or by locking access to only a partition of the storage. Locking accesses to storage of the memory card results in disabling read, write or both read and write functionalities of the memory card.
+    [0013]
+    Another aspect of the present invention is the capability of a service provider, such as an MNO, to unlock a protected memory card using any network device, such as a mobile network or the Internet. In this case, an MNO subscriber can use his/her protected memory card even if the memory card is not installed in the network device.
+    [0014]
+    It should be emphasized that the novelty of the present invention, in comparison to prior art secured memory cards, is the ability to control the use of storage of at least a portion of the memory card by a user in case the memory card is not authorized from a specific identity card, such as a SIM card, of a particular service provider.
+    [0015]
+    In accordance with the present invention, there is provided a memory card that includes: (a) a memory for storing data; and (b) a controller that is operative to control access to storage of at least a portion of the memory, conditional upon an authorization from a corresponding identity card of a service provider.
+    [0016]
+    Preferably, the identity card is a SIM card. Alternatively, the identity card is a RUIM card.
+    [0017]
+    Preferably, the service provider is a Mobile Network Operator.
+    [0018]
+    Preferably, the controller is operative to control access to the memory according to a user profile that is defined by the service provider. More preferably, the memory card is configured for updating of the user profile by the service provider via wireless communication. Alternatively, the memory card is configured for updating of the user profile by the service provider via wired communication.
+    [0019]
+    Preferably, the storage includes at least one partition, such that control of access is limited to this at least one partition.
+    [0020]
+    Preferably, in one embodiment the control of access includes granting only read access. Alternatively, the control of access includes controlling write operations.
+    [0021]
+    Optionally, the control of access includes granting both read access and write access.
+    [0022]
+    Preferably, the authorization is effected in response to connecting the memory card and the corresponding identity card to a common host. More preferably, the host is a mobile phone. Alternatively, the authorization is effected in response to connecting the memory card to a network device. More preferably, the network device is a mobile phone.
+    [0023]
+    In accordance with the present invention, there is further provided a method of controlling operation of a memory card that includes the steps of: (a) providing an identity card, of a service provider, that corresponds to the memory card; and (b) controlling access to storage of at least a portion of the memory card conditional on an authorization from this corresponding identity card of the service provider. Note that access to storage of the memory card is conditional upon authorization from a specific identity card that corresponds to and is compatible with this memory card.
+    [0024]
+    Preferably, the method also includes assigning the memory card a user profile, by the service provider, such that controlling access is effected according to the user profile. More preferably, the method also includes updating the user profile, by the service provider. The updating can be effected either via wireless communication or via wired communication.
+    [0025]
+    Preferably, the storage includes at least one partition, such that controlling of access is limited to this at least one partition.
+    [0026]
+    Preferably, the controlling of access includes the step of authenticating the memory card to the corresponding identity card.
+    [0027]
+    Preferably, the controlling of access includes granting only read access.
+    [0028]
+    Alternatively, the controlling of access includes controlling write operations. Optionally, the controlling of access includes granting both read access and write access.
+    [0029]
+    Preferably, the authorization is effected in response to connecting the memory card and the corresponding identity card to a common host. Alternatively, the authorization is effected in response to connecting the memory card to a network device.
+    [0030]
+    In accordance with the present invention, there is also provided a storage system that includes: (a) an identity card of a service provider; and (b) a memory card, wherein the identity card corresponds to the memory card, the memory card includes: (i) a memory for storing data; and (ii) a controller that is operative to control access to storage of at least a portion of the memory, conditional upon an authorization from this corresponding identity card of the service provider. Note that access to storage of the memory is conditional upon authorization from a specific identity card that is configured in correspondence with the memory.
+    [0031]
+    Preferably, the storage system also includes at least one network device, wherein the authorization is effected in response to connecting each of the memory card and the identity card to such a network device. More preferably, the network device includes a mobile phone.
+    [0032]
+    In accordance with the present invention, there is also provided a method of doing business that includes the steps of: (a) equipping a mobile phone with an identity card that corresponds to a memory card; (b) configuring the memory card to operate conditional on an authorization from this corresponding identity card; and (c) offering the mobile phone and the memory card for sale at a discount.
+    [0033]
+    Additional features and advantages of the invention will become apparent from the following drawings and description.
+    BRIEF DESCRIPTION OF THE DRAWINGS
+    [0034]
+    For a better understanding of the invention with regard to the embodiments thereof, reference is made to the accompanying drawings, in which like numerals designate corresponding sections or elements throughout, and in which:
+    [0035]
+    FIG. 1 is a block diagram of a memory card of the present invention;
+    [0036]
+    FIG. 2 shows an attribute word that is assigned to each partition of storage unit of the memory card of FIG. 1;
+    [0037]
+    FIG. 3 is a flow chart of a method of the present invention applied by a service provider for initializing the memory card of FIG. 1 with a compatible SIM card;
+    [0038]
+    FIG. 4 is a flow chart of a method of the present invention for operating the memory card of the present invention within a mobile phone that is assigned by the MNO to a user;
+    [0039]
+    FIG. 5A is a schematic illustration of a manner of operating the memory card of the present invention when inserted to a mobile phone, according to a first mode of operation; and
+    [0040]
+    FIG. 5B is a schematic illustration of a manner of operating the memory card of the present invention when installed within an Internet-enabled host (such as a PC), according to a second mode of operation.
+    DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS
+    [0041]
+    The present invention is a memory card that is configured to operate conditional on authorization from a specific secured card for the purpose of limiting the usage of the memory card.
+    [0042]
+    In accordance with one embodiment, the memory card of the present invention is configured to be operational only when installed in a network device, such as a cell phone, that is equipped with a SIM card (of a service provider, such as an MNO) that corresponds to the memory card.
+    [0043]
+    Another aspect of the present invention is the capability of a service provider, such as an MNO, to unlock a protected memory card using any network device, such as a mobile network or the Internet. In this case, an MNO subscriber can use his/her protected memory card even if the memory card is not installed in the network device.
+    [0044]
+    Note that the service provider can define a plurality of secured card to correspond to the memory card of the present invention.
+    [0045]
+    A controller of the memory card is operative to control access to storage of at least a portion of the memory of the memory card conditional upon a confirmation received from the compatible SIM card.
+    [0046]
+    A controller of the memory device is operative to control access to storage in the memory card according to a user profile defined by the service provider. The user profile of the memory card is initially set (for example, by assigning each partition an attribute word) by the service provider to limit access to storage (or to a partition thereof) within the memory card.
+    [0047]
+    The storage within the memory card is defined herein either as an ‘un-partitioned storage’ having a single partition, or as a ‘partitioned storage’ having a plurality of partitions. The user profile of the memory card is set on an unlocked/locked state as a whole, thereby enabling/disabling access to all storage within the memory card.
+    [0048]
+    Alternatively, only a partition of the storage of the memory card is set on an unlocked/locked state, thereby enabling/disabling access to only part of the storage.
+    [0049]
+    Setting the memory card, or only a partition thereof, on a locked state results in limiting the memory card functionalities, such as disabling read, write or both read and write functionalities of the memory card.
+    [0050]
+    Note that the user profile can be, at any point of time, updated by the service provider (e.g. MNO) via a wireless communication or via a wired communication.
+    [0051]
+    Referring now to FIG. 1, there is shown is a block diagram of a memory card 10 of the present invention. A Memory card Interface 12 is implemented for communicating with a Host. The Host can be any type of data processing system or subsystem that includes a memory card interface, such as a Cell Phone, a PDA (Personal Digital Assistant), a PC (Personal Computer), etc.
+    [0052]
+    An authentication unit 15 is provided to allow only the owner (or the provider) of the memory card to manage storage unit 16 (e.g. access/format the storage within locked partitions, define new partitions, etc.). The authentication feature is implemented via two encryption keys, as described herein below in FIG. 3. A Controller 14, operative in response to authentication unit 15, is a processing system used for controlling access to storage of memory card 10.
+    [0053]
+    A Locking mechanism 18, typically embedded within controller 14, is provided as an enhanced logic mechanism for controlling the use of the memory card and limiting access to a storage unit 16 in response to an authentication from a specific secured card.
+    [0054]
+    Controlling operation of the memory card 10 can result, for example, in disabling write operations (i.e. providing read only access to storage stored in Storage unit 16), or in disabling both read and write operations to all the storage or to a partition thereof. The Locking mechanism 18 is preferably implemented by assigning each partition S1, S2 and S3 of Storage unit 16 a respective attribute word. A typical attribute word includes a read attribute 32 and a write attribute 34 (see FIG. 2).
+    [0055]
+    Storage unit 16 is typically implemented as a flash memory device. Storage unit 16 of this example includes three partitions S1, S2 and S3. Each partition is typically viewed by the Host as an independent logical device. Controller 14 limits access to storage within each partition according to the content that is pre-programmed by the MNO in the attribute word of this partition. The number of partitions and the size of each partition are also defined by the MNO.
+    [0056]
+    Referring to FIG. 2, there is shown an attribute word 30 that is assigned to each partition of the storage unit 16 of FIG. 1. The collection of attribute words 30, defining the usage profile of the memory card, is implemented either in the memory card (e.g. by reserving storage in each partition of storage unit 16 for that partition's attribute word 30) or in a compatible identification card (e.g. SIM card).
+    [0057]
+    As an example, attribute word 30 includes a read attribute flag 32 and a write attribute flag 34 that are assigned to each partition S1, S2 and S3 (see FIG. 1) to enable/disable read, or read and write operations.
+    [0058]
+    Setting read attribute flag 32 of a corresponding partition on an unlocked state (e.g. “0”) allows the user to read storage of this partition, whereas setting read attribute flag 32 on a locked state (e.g. “1”) prevents the user from reading storage of this partition. Setting write attribute flag 34 of a corresponding partition on an unlocked state (e.g. “0”) allows the user to write data to this partition, whereas setting write attribute flag 34 on a locked state (e.g. “1”) programs this partition as read-only to and prevents the user to write to this partition. Note that the attribute words, defining the usage profile of the memory card, can be updated by the service provider (e.g. MNO) at any point of time via a wireless communication or via a wired communication.
+    [0059]
+    Referring now to FIG. 3, there is shown a flow chart 40 of a method of the present invention applied by a service provider (such as an MNO) for initializing the memory card 10 with a compatible SIM card. The initialization is performed by the MNO while memory card 10 and the corresponding SIM card are connected to a processing system (e.g. a PC) installed with an application that initializes the memory card to be compatible with this corresponding SIM card and operate according a predefined profile.
+    [0060]
+    At the first step 42, the MNO sends a password to the memory card to begin the initialization process. At step 44, the received password is verified by the memory card with a password that is preloaded to the memory card. In case the verification fails, step 46, an error command is sent and the initialization is aborted. However, in case the verification succeeds, step 48, the MNO defines the manner in which the storage within the respective memory card is partitioned (e.g. number of partitions, size of each partition) and the method proceeds to step 50.
+    [0061]
+    At step 50, each partition is assigned with a corresponding read and/or write attribute.
+    [0062]
+    At the next step 52, the memory card and corresponding SIM card are both provided with the same two encryption keys (defined herein as Key #1 and Key #2).
+    [0063]
+    These two encryption keys are provided for a later use (see FIG. 4) when the memory card is installed in a hosting device. These encryption keys also are stored, with respect to this memory card, in the MNO's database.
+    [0064]
+    Referring to FIG. 4 there is shown a flow chart 60 of a method of the present invention for operating the memory card of the present invention within a mobile phone that is assigned by the MNO to a user.
+    [0065]
+    At the initial step 62, an unlock request is issued to the memory card. This request can be issued automatically, for example, upon power up or upon the insertion of the memory card to a slot in a host (e.g. a cell phone) that is equipped with a compatible SIM card.
+    [0066]
+    At the next step 64, it is verified by the SIM card whether this memory card is a memory card initialized with this specific SIM card, according to the method of the present invention. In the negative case, step 66, the request made by the user is not recognized by the memory card, the operation is aborted, and the user may not use the memory card (unless only a partition is locked then the user may use the storage of other partitions of the memory card), in accordance with the implementation of the cell phone.
+    However in the affirmative case, step 68, a random unlock code is generated by the memory card and then encrypted with a first encryption key that is provided by the MNO (defined herein as Key#1).
+    [0067]
+    At step 70, the encrypted code is sent to the compatible SIM card.
+    [0068]
+    At step 72, the encrypted code is decrypted by the SIM card using Key #1 that is provided to the SIM card by the MNO (step 52 of FIG. 3) and then re-encrypted by the SIM card using a second encryption key that is provided by the MNO (defined herein as Key#2).
+    [0069]
+    At the next step 74, the re-encrypted code is sent to the memory card.
+    [0070]
+    At step 76, the re-encrypted code is re-decrypted by the memory card using Key#2 that is stored in the memory card.
+    [0071]
+    At step 78, it is verified whether the re-decrypted data applied by the memory card using Key#2 matches the random code that was previously generated by the memory card at step 64. In the negative case, step 80, the memory card remains on a locked state and an error command is sent to the host. However in the affirmative case, step 82, the memory card (or a respective partition) is set on an unlocked state and is enabled for the subscriber to use.
+    [0072]
+    Note that only a SIM card configured with the same two encryption keys (Key#1 and Key#2) that are stored in the memory card is compatible to instruct a host to set the memory card on an unlocked state in step 82.
+    [0073]
+    It should be noted that the method described herein above in FIG. 4 is brought here as an example only. Other methods for operating the memory card of the present invention in addition to the usage of the memory card within a mobile phone, such as installing the memory card within an Internet-enabled host (see FIG. 5B), are equally applicable.
+    [0074]
+    Referring to FIG. 5A, there is shown a schematic illustration 80 of the manner in which the memory card of the present invention is operated when resided in a mobile phone 82, according to a first mode of operation. A host (e.g. a mobile phone 82) hosts the memory card 10 and a compatible SIM card 86. In this case, mobile phone 82 is employed as a mediator, such that the memory card 10 is authorized by the SIM card 86 using the software and hardware of the mobile phone. The SIM card 86 communicates with a server of a service provider 84, such as an MNO, via the cellular network. For example, service provider 84 can update the user profile of memory card 10 via the cellular connection.
+    [0075]
+    Referring to FIG. 5B, there is shown a schematic illustration 90 of the manner in which the memory card of the present invention is operated when installed within an Internet-enabled host (such a PC 92), according to a second mode of operation. According to the second mode of operation, only the memory card 10 is plugged into PC 92. The compatible SIM card 86 resides in a mobile phone 94 and communicates with a server of service provider 84 via a cellular connection (independently from memory card 10). In this case, the memory card 10 is authorized by the server of service provider 84 using an Internet connection. For example, service provider 84 can update the user profile of memory card 10 via the Internet connection. Using the memory card as such spares the need of connecting the memory card 10 to SIM card 86 (for example, when the memory card 10 is ported from the mobile phone 94 to the PC 92).
+    [0076]
+    In accordance with another embodiment, there is provided a method of a service provider for doing business by equipping a mobile phone with a secured card, configuring a memory card to operate conditional on an authentication from only this secured card and offering the mobile phone and the memory card for sale at a discount (i.e. either at a very low cost or at no charge at all). A service provider may cover the cost of the memory card (and also provide the memory card with preloaded data and applications) and by offering the mobile phones and the memory card for sale at a discount, for example, increase its sales by binding any usage of the memory card on payment to its MNO network.
+    [0077]
+    It should be noted that the present invention relates to a memory card that is configured to be compatible with a corresponding SIM card. However, it can be understood that other implementations are possible within the scope of the invention, thus relating to any secure device, such as a RUIM (Removable User Identity Module), that is applicable to control operation of storage within the memory card in response to commands received from a server of a third party service provider.
+    [0078]
+    Having described the invention with regard to a certain specific embodiment thereof, it is to be understood that the description is not meant as a limitation, since further modifications will now suggest themselves to those skilled in the art, and it is intended to cover such modifications as fall within the scope of the appended claims.
+
+

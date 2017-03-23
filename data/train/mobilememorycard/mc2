@@ -1,0 +1,652 @@
+
+ Patents
+19 of 3,52,626
+Search Terms
+Search Fields
+Before priority
+After filing
+Universal memory card interface apparatus
+Abstract
+A removable memory card interface apparatus enables a removable memory card to communicate with a number of peripheral devices directly without the need for the memory card's host or a host computer. The interface apparatus includes a micro-controller operating with an internal bus to control, process and route signals between the removable memory and a peripheral device via a series of memory and device interfaces. A control panel and/or remote control allows a user to interact with the interface apparatus. In one embodiment, the interface apparatus also allows a host computer to communicate with the memory card via one of the peripheral device ports. In other embodiments, the interface apparatus serves as a memory card printer controller or as a memory card player and/or recorder when interfaced with consumer electronics.
+Images (4)
+Classifications
+G06F13/385 Information transfer, e.g. on bus using universal interface adapter for adaptation of a particular data processing system to different peripheral devices
+US5928347A
+
+US Grant
+Download PDF
+Find Prior Art
+
+Legal status
+    Active - Reinstated 
+Application number
+    US08972751
+
+Inventor
+    Alan E. J. Jones 
+Current Assignee
+    RPX Corp 
+Original Assignee
+    SMC Microsystems Group Ltd 
+
+Priority date
+    1997-11-18 
+Filing date
+    1997-11-18 
+Publication date
+    1999-07-27
+Grant date
+    1999-07-27
+
+Info
+    Patent citations (9)
+    Cited by (314)
+    Also published as (7)
+    Legal events
+    Similar documents
+External links
+    USPTO
+    USPTO Assignment
+    Espacenet
+    Global Dossier
+    Discuss
+
+Description
+FIELD OF THE INVENTION
+
+The present invention relates to a computer interface apparatus and in particular to such apparatus that interfaces a memory card directly with a variety of peripherals without the need for a host system or to such apparatus that interfaces a memory card with a host system via a standard port of the host system not native to the memory card.
+BACKGROUND OF THE INVENTION
+
+Solid-state memory in the form of flash memory has recently become the storage of choice in a variety of mobile & handheld devices, notably information equipment and consumer electronics products. Unlike RAM (random access memory) which is also solid-state memory, flash memory is non-volatile which retains its stored data even after power is turned off. In spite of the higher cost, flash memory is increasingly being used in mass storage applications where information is stored semi-permanently in file format. Conventional mass storage, based on rotating magnetic media such as hard drives and floppy disks, is unsuitable for the mobile and handheld environment. This is because disk drives tend to be bulky, are prone to mechanical failure and have high power requirements. These undesirable attributes make disk-based storage impractical in most mobile and portable applications. On the other hand, flash memory is ideally suited in the mobile and handheld environment because of its small size, low power consumption, high speed and high reliability features.
+
+While some of the early products have been using built-in flash memory chips, current products using flash memory are mostly in the form of a removable memory card. The removability feature has the added advantage of memory-capacity flexibility, reduced cost for the product itself, and portability and ease of information transfer from one host system to another.
+
+One common usage of removable memory card is therefore in mobile computing such as laptop and palmtop computers, PDAs (personal digital assistants). In addition to providing application programs and data storage on these mobile hosts, the removable memory card provides a convenient way to exchange data and files between different hosts. For example, by moving the memory card from a mobile host to a desktop host, data in the field can be easily synchronized with that on the desktop. In the case of a limited-featured mobile host, the transferred data can be better manipulated on a full-featured desktop computer.
+
+A common interface has been established for memory cards. It is known as the PC card standard or PCMCIA interface as specified by the Personal Computer Memory Card Interface Association. The standard establishes both the mechanical and electrical characteristics of the memory card interface. It is designed specifically for solid-state memory application although the interface has, since its inception a few years ago, been adapted to become a general purpose interface for card-based devices such as modems, network adapters and even hard drives. It has a size about that of a credit card and comes in Type I, II and III with increasing thickness from a couple of millimeters to several millimeters. There is a 68-pin socket on one card edge for mating with a connector located on a PC card slot of a host device. While PC card slots have become standard equipment on laptop and notebook computers, they have hardly been deployed on desktop personal computers (PCS). Thus, for a desktop computer to communicate directly with a PC card, a PC card slot must first be installed.
+
+Currently, there are two main flash memory architectures that conform to the PC card standard, namely ATA flash and Linear flash.
+
+ATA flash, with its 512 bytes flash sector architecture, mimics the DOS file structure of an ATA (Advanced Technology Attachment, i.e., one that communicates with a standard PC ISA bus) hard drive. In addition, the memory operation is under the control of a dedicated intelligent memory controller which also handles defect management and memory optimization. To a PC running DOS and MS Windows(R) operating system, a card with an ATA controller appears like another disk drive. This means that, under the standard Card and Socket Service drivers included with Windows 95(R), no additional software is needed to use ATA flash.
+
+Linear flash on the other hand does not require to work with a dedicated memory controller. Typically, it relies on the intelligence and processing power of the host computer to handle the memory operations. It stores and communicates data in large blocks each having a size much larger than the DOS disk sector of 512 bytes. Its address space can be compatible with that of the system memory and could be seen as an extension of system RAM or ROM. Thus, it is possible to execute application programs directly from it rather than having to first load the application program into the system memory. When used as mass storage, Linear flash requires a software layer to translate data in blocks form to the file format of the operating system and vice versa. This software layer is called Flash File System (FFS). An alternative software layer is called Flash Translation Layer (FTL).
+
+Thus, when plugged into a host PC system, some PC memory cards are immediately recognized as another disk drive while others require addition software and/or hardware to operate.
+
+Removable memory card is also being incorporated into a new class of "smart" consumer electronics products. With products like smart cellular phones and pagers, the memory card is used to store data such as address book and personal information, or to record voice, e-mail, faxes, and pager messages, or to cache stock quotes and news feed. Again, the removable memory cards allow data to be portable between similar host devices and for the field data to be exchanged with that of the desktop computers.
+
+With smaller handheld devices, the need arises for even smaller removable memory cards. A number of smaller form factor card standards have emerged. Three competing standards, namely CompactFlash, Miniature Card and SSFDC are being supported respectively by the CompactFlash Association (CFA), the Solid State Floppy Disk Card Group (SSFDC) and the Miniature Card Implementers Forum (MCIF). More recently, yet another card standard known as MultiMedia card (MMC) is being announced. All these cards are about postage stamp size with different electrical interfaces and slight difference in dimensions. Unlike one main PC card standard, there are then several smaller form factor card standards each specifying somewhat difference mechanical and electrical interfaces. A device or product will need a particular type of card slot for a particular type of smaller form factor card. However, most of the smaller form factor cards are provided with an adapter to conform to the PC card standard. Typically, the adapter is in the form of a Type II PC card for embedding the smaller form factor card into. In this way, they may be used in an existing PC card (PCMCIA) slot, possibly with addition software and hardware as required.
+
+Removable memory card is rapidly entering the consumer marketplace because of widespread adoption by consumer electronics products such as digital cameras and digital audio recorders. The memory card replaces conventional photographic film or magnetic tape and provides virtually an unlimited amount of renewable recording media. For example, the memory card records image frames captured by a digital camera in the form of a compressed image file. A 4 MB flash memory card may hold approximately 40 frames (VGA resolution 640 by 480 pixels) at the rate of 100 KB per compressed file. When a card is filled up, a new or erased one could quickly replace it. The added advantage over conventional film is that the memory card could be erased and reused again and again when the existing data on it is no longer needed or has been archived to another storage.
+
+Once the image files have been stored on the memory card, they can typically be called up frame by frame and displayed on a built-in small LCD screen provided on the camera. When hard copies of the recorded images are to be made, the camera sends its output to a specialized photo printer dedicated for this purpose. More common solutions have been to move the memory card into a desktop or a laptop host computer equipped with a slot for receiving such memory card. The image files can then be displayed on the computer with or without further manipulation before being printed on an attached standard printer.
+
+Currently, a smaller form factor memory card may have a capacity as high as 40 MB and this capacity will be likely doubled with every new generation of flash memory devices. With this amount of capacity, it is a viable storage for multimedia information. Consumer products such as digital voice recorders and digital audio recorders will be able to record voice and audio information onto a removable memory card. Similar to the digital camera case, the recorded audio information on a memory card can be played back on its original host or on a desktop or laptop host.
+
+Thus in most cases, the memory card is intended to be used in conjunction with its original host device or with a PC host that is equipped with a compatible card slot for receiving the card. However, because many of the applications have wide consumer appeal, it will be desirable to process, render and playback the information recorded on a memory card in a consumer environment instead of the original host or a PC host. Also, it will be desirable to record audio, video, and images from consumer electronics machines or from settop boxes for Internet access or from "thin" "network computers" (NC).
+OBJECTS AND SUMMARY OF THE INVENTION
+
+It is therefore a general object of the invention to provide an apparatus that interfaces a removable memory card directly with a variety of rendering devices without the need for the memory card's native host device nor a host personal computer.
+
+It is another general object of the invention to provide an apparatus that interfaces a removable memory card with a standard port of a host computer not native to the removable memory card.
+
+It is an object of the invention to provide a lowcost, easy-to-use memory card player that plays directly into existing consumer electronics such as television and audio equipment.
+
+It is another object of the invention to provide a lowcost, easy-to-use memory card recorder that records audio and video information directly from existing consumer electronics such as television and audio equipment.
+
+It is another object of the invention to provide a lowcost, easy-to-use memory card recorder that records multimedia information directly from settop boxes for Internet access and stripped-down "network computers."
+
+It is another object of the invention to provide an apparatus that interfaces a removable memory card directly with a standard printer.
+
+These and other objects of the invention are accomplished briefly by having an interface apparatus that is adapted to communicate with a removable memory on one hand and a plurality of peripheral devices on the other hand. The interface apparatus includes a micro-controller operating with an internal bus and includes one or more memory interface modules for translating a memory card's signals into that compatible with an internal bus. The interface apparatus also includes one or more device-specific interface modules for translating the device signals into corresponding internal bus compatible signals. In this way, the micro-controller is able to control and route any sets of signals on the internal bus between the memory card and a device in spite of the fact they employ different information formats and protocols.
+
+According to one aspect of the invention, the interface apparatus includes a control panel and display for user interaction. In one embodiment, a remote control through an infrared port is provided as a remote extension of the control panel. Thus, the interface is easy to operate, much like that of the familiar consumer electronics.
+
+According to another aspect of the invention, the interface apparatus supports a host mode operation in which one of the peripheral ports, such as the parallel port, is connectable to a host computer. In this way communication can be established between a memory card and the host computer even though the two do not have an interface in common.
+
+The invention provides a flexible framework for implementing a removable memory card interface that is able to communicate with a variety of peripheral devices and even host computer. In its simplest embodiment, it can be a very low cost, dedicated player of digital images or audio files on consumer audio/video electronics. Alternatively, it can be a very low cost memory card interface for printing digital images directly to a standard printer. In a multi-feature embodiment, it can be a general purpose, multi-system memory card interface.
+BRIEF DESCRIPTION OF THE DRAWINGS
+
+The invention will now be described by way of example with reference to the drawings in which:
+
+FIGS. 1A-1C illustrates the typical environment in which a removable memory card is used;
+
+FIG. 2 is a schematic block diagram of the interface apparatus according to a general embodiment of the invention;
+
+FIG. 3 is a schematic block diagram of the interface apparatus when operating in "Host Mode," in which a memory card is interfaced with a host computer through a parallel port thereof, according to a preferred embodiment of the invention; and
+
+FIG. 4 is a flow diagram illustrating the operation of the interface apparatus shown in FIGS. 2 and 3, according to a preferred embodiment of the invention.
+DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENT
+
+FIGS. 1A-1C illustrates the typical applications and operating environment in which a removable memory card is used. In particular, FIG. 1A illustrates a removable memory card being used with a digital still camera. The connection is by means of either a PCMCIA slot or one of the smaller form-factor card interfaces. FIG. 1B illustrates a removable memory card being used with a digital audio recorder. The audio recorder can be a voice recorder such as a dictation machine, or it can assume a form suitable for recording high-fidelity music. FIG. 1C illustrates a removable memory card being used with a laptop computer or a desktop personal computer by connection through a PC card (PCMCIA) interface installed thereon.
+
+FIG. 2 is a schematic block diagram of the interface apparatus according to a general embodiment of the invention. Essentially, an interface apparatus 10 comprises a housing and mounted thereon is a set of memory card connectors for connection to one or more removable memory cards, and also a set of peripheral connectors for connection to one or more peripheral devices. An overall architecture is to convert the data format and protocol (signals) of each type of memories supported by the interface apparatus into a set of uniform signals on a backplane by means of an appropriate memory interface. Similarly, the signals of each peripheral device supported by the interface apparatus are converted by an appropriate peripheral interface into the same common set of uniform signals on the backplane. In this way, a micro-controller 30 can control, process and route any sets of signals on an internal bus 20 (or the backplane) even though the source and destination devices "speak" different signals. Thus, a memory card and a peripheral device are coupled together via a series of device interfaces communicating with each other through an internal bus 20.
+
+The micro-controller 30 comprises a microprocessor 32, ROM 34 and RAM 36 all of which are in communication with the internal bus 20. In typical applications and configurations, a low cost microprocessor will suffice to handle data routing type of functionality. A more powerful microprocessor may be employed if the application calls for a substantial amount of data or signal processing, such as compression or decompression or rendering complex display or printer files. The micro-controller operates under a microcode or BIOS stored in ROM 34. The microcode can be updated via one of the memory ports or peripheral ports. Data transferred between a memory device and a peripheral device is buffered and cached in RAM 36.
+
+A user interface is provided by a control panel/display 40 on the housing of the interface apparatus 10. The control panel/display is in communication with the internal bus 20 via an I/O interface (not shown). In the preferred embodiment, the control panel/display comprises buttons and LEDS and display similar to that found in consumer electronics. For example, some of the buttons may be similar to that of a VCR or a CD player which are useful for a user to navigate with when viewing images or listening to audio on a TV/Audio system. In one embodiment, depending on the command button pressed, the micro-controller transfers data/commands to or from a memory card. The display may have LEDS to display the status of the operation such as "Command Completed Successfully" or "Error Read the memory card" or "Peripheral Device Not Ready" or "Media full," etc. Alternatively, a LCD display may provide even more flexibility.
+
+In one embodiment, the set of memory card connectors includes a connector 50 that conforms to the PCMCIA interface for receiving a Non-ATA flash PC card 52. A memory/ATA interface 54 is employed to convert the signals to be ATA compatible. As described in an earlier section, this is accomplished either by an additional software layer or by operating the memory in conjunction with a memory controller provided by the memory manufacturer as an embedded chipset. If the implementation is with an additional software layer, the software drivers can either reside in a memory of the Memory/ATA interface 54 or in ROM 34 or loaded into RAM 36. Once the signals are ATA compatible, they are coupled to the internal bus 20 via an IDE interface 70.
+
+For those memory cards whose address space is an extension of the system memory space of the interface apparatus, they can be used to augment the ROM 34 or RAM 36. In some applications, an application program or applet may be supplied with or without the data on one of these removable memory cards and executed-in-place.
+
+In one embodiment, the set of memory card connectors includes at least two memory connectors. One is connected to a first memory card with recorded data, and the other is connected to a second memory card with an application program. In this way, the application program on the second memory card can be executed-in-place to process the data from the first card.
+
+In another embodiment, the set of memory card connectors includes a connector 60 that conforms to the PCMCIA interface for receiving an ATA flash PC card 62. In this case, since the flash memory is already ATA compatible, no additional processing need be done before coupling the signals to the internal bus 20 via an IDE interface 70.
+
+In the case of smaller form factor flash memory cards, they can be connected to the appropriate PCMCIA connectors 50, 60 via an adapter as mentioned before.
+
+In another embodiment, the same PCMCIA interface is provided to accept both ATA and non-ATA flash memory. Since media identification is incorporated into flash memory cards, internal logic (not explicitly shown) responsive to the sensed media type will process the signals accordingly by routing or not routing through the Memory/ATA interface 54.
+
+On the peripheral end of the interface apparatus 10, the set of peripheral connectors depends on the specific need and application.
+
+In one embodiment, the set of peripheral connectors includes a connector 110 that conforms to the video and audio input and output of a television and audio system 112. Typically, the graphics data on the memory card is in the form of standard compressed image files, such as JPEG files. Similarly in audio applications, the audio data is stored as well-defined compressed sound files. A multimedia processor 80 in communication with the internal bus 20 is employed to compress or decompress the various multimedia files. In the case of playing back a recorded multimedia file from a memory card, the compressed multimedia file is decompressed by the multimedia processor 80 before being converted by a TV/Audio interface 114 to standard TV and audio signals. The images from the memory card can then be displayed on the TV screen frame-by-frame by means of a user operating the control panel 40 or a remote control to be described later.
+
+In the case of recording multimedia information from the TV/Audio system, the signals from the TV/Audio system are compressed by the multimedia processor 80 before being written to a memory card. The multimedia processor 80 as well as the TV/Audio interface 114 are readily implemented by commercially available sound, graphics, digital signal processing (DSP), audio and video ASIC chips.
+
+Alternatively, the compression or decompression of the multimedia data may be accomplished by software in RAM 36 and executed by the microprocessor 32.
+
+In another embodiment, the set of peripheral connectors includes a connector 120 that conforms to an infrared port which is connectable to an infrared transceiver 122. An infrared interface 124 converts the internal bus signals into that of the infrared transceiver. The infrared port may be used to communicate through the infrared transceiver 52 with other infrared enabled peripherals, such as printers and even host computers.
+
+In a preferred embodiment, the infrared port or a similar additional one is used to implement a remote control with is an extension of the control panel 40.
+
+In another embodiment, the set of peripheral connectors includes a connector 130 that conforms to an IDE (Integrated Device Electronics) port which is connectable to similar type of mass storage 132 such as a hard disk or a CD-ROM or a tape drive. An interface 134 serves as an IDE interface that translates signals between the internal bus 20 and the mass storage 132. Alternatively, the connector 60 may conform to a SCSI (Small Computer System Interface) port connectable to SCSI peripheral devices, in which case the interface 134 is a SCSI interface. The mass storage is useful in backing up the data from the memory card.
+
+In another embodiment, the set of peripheral connectors includes a connector 140 that conforms to a USB (Universal Serial Bus) port which is connectable to a USB peripheral device 142. A USB interface 144 translates signals between the internal bus 20 and the USB peripheral device 142.
+
+In another embodiment, the set of peripheral connectors includes a connector 150 that conforms to a PC parallel port which is connectable to a parallel peripheral 152 such as a printer or a mass storage using a parallel interface. A parallel interface 144 translates signals between the internal bus 20 and the parallel peripheral device 142.
+
+In one application, the parallel peripheral device is a printer. Image files stored on a memory card are rendered by the multimedia processor 80 before being printed by the printer.
+HOST MODE
+
+While the interface apparatus is advantageously used to connect a memory card to a variety of peripheral device, it is also possible to connect a memory card to a host computer through the parallel connector 150. This allows a memory card to communicate with a host computer even when a PC card slot is absent.
+
+FIG. 3 is a schematic block diagram of the interface apparatus 10 when operating in "Host Mode". In a preferred embodiment, the interface apparatus 10 includes a host mode, ATA/Parallel Controller 90. The dedicated controller essentially translates signals between ATA format and the parallel format. In this implementation, the memory card signals are translated into ATA compatible signals which in turn are translated to parallel signals at the connector 150 to which a host computer 156 is connected. A host mode select logic 92 in communication with the internal bus 20 is used to enable or disable the ATA/Parallel Controller 90. During operation, a user selects the host mode through the control panel 40. In response, the micro-controller 30 activates the select logic 92 which in term activates the ATA/Parallel Controller 90.
+
+In the preferred embodiment, the set of peripheral connectors includes a connector 160 that conforms to another parallel port. This parallel connector 160 is to be used as a pass-through parallel port for connection to a pass-through parallel peripheral device 162. Typically, such a pass-through port is used to connect to a peripheral 162 that is normally connected to the host computer 156. However, since the host parallel port is already used up in connecting to the interface apparatus, the pass-through port provides a substitute parallel connection to the peripheral 162.
+
+The ATA/Parallel Controller 90 with pass-through port support may be implemented by commercially available ASIC chips such as those available from Shuttle Technology Inc., Fremont, Calif., U.S.A.
+
+FIG. 4 is a flow diagram illustrating the operation of the interface apparatus shown in FIGS. 2 and 3, according to a preferred embodiment of the invention. Essentially, based on the user input settings, the sensed media and connection, and predefined logic, the interface apparatus sets up the appropriate interface modules, hardware and/or software to effect the interfacing operation.
+
+The operations may be grouped into an initialization of the overall system, an initialization of the memory card port(s), and an initialization of the device ports, according to the following steps.
+
+Step 200: system initialization begins.
+
+Step 202: a self test is performed and the system BIOS and/or operating system takes control of the Micro-controller.
+
+Step 204: the user-input settings are constantly monitored and responded to. Control proceeds to Step 210.
+
+Step 210: memory card port(s) initialization begins.
+
+Step 212: the memory card ports are sensed to detect the presence of a card.
+
+Step 214: if no memory card is found, a status message, "No Memory Card Installed" is output. The system then goes into a recovery mode or abort mode depending if the error is rectified.
+
+Step 216: if a memory card is found, its type is determined and its system information is read.
+
+Step 218: the micro-controller sets up the memory interface module appropriate to the memory type.
+
+Step 219: the memory card interface portion of the interface apparatus is now ready. Control proceeds to Step 220.
+
+Step 220: device ports initialization begins Step 222: the Host mode choice is read from the user-input settings.
+
+Step 224: if Host mode is not selected, then Device mode is, and control proceeds to Step 240. If Host mode is selected, control proceeds to Step 230.
+
+Step 230: host mode initialization begins.
+
+Step 232: the designated parallel port is checked for a host computer connection.
+
+Step 234: if not host computer connection is found, a status message, "Host not connected" is output. The system then goes into a recovery mode or abort mode depending if the error is rectified.
+
+Step 236: if a host computer is found in proper condition, the parallel interface module is activated.
+
+Step 238: the parallel port is now ready for Host mode transfer. Control proceeds to Step 250 Step 240: Device mode initialization begins.
+
+Step 242: the user-designated device port is sensed for the presence of a device connection.
+
+Step 244: if no device connection is found, a status message, "No Device Connected" is output. The system then goes into a recovery mode or abort mode depending on whether the error is rectified.
+
+Step 246: if a device connection is present, its characteristics are sensed.
+
+Step 248: the device interface module associated with the port is activated.
+
+Step 249: the device is now ready for communication. Control proceeds to Step 250.
+
+Step 250: the interface apparatus is now ready for operation.
+
+It will be appreciated from the above, therefore, a low cost, standalone memory card reader/recorder that is simple to use and flexible has been described. No host device, such as the memory card's native host, nor a general purpose personal computer, is required. Thus, the invention provides a particularly simple and effective solution to the problems stated in the introduction.
+
+While the embodiments of the various aspects of the present invention that have been described are the preferred implementation, those skilled in the art will understand that variations thereof may also be possible. For example, while the host mode has been described in the preferred embodiment to employ a parallel port, other device ports such as the infrared port or the USB port are equally feasible. Similarly, while the memory ports have been described with respect to a PCMCIA interface, it is apparent that other established smaller form factor card interfaces are also possible. Therefore, the invention is entitled to protection within the full scope of the appended claims.
+Claims (10)
+It is claimed:
+1. A memory card interface apparatus comprising:
+an internal bus;
+an external memory connector for removably coupling to a memory card;
+a memory port connected to said external memory connector and coupled to said internal bus;
+a plurality of external device connectors, each for coupling to a device that operates with said memory card;
+a device port connected to each external memory connector and coupled to said internal bus;
+a control panel coupled to said internal bus for specifying an operation mode of the interface apparatus;
+a interface controller coupled to said internal bus and responsive to said control panel for enabling communication between said memory card and one or more devices coupled to said plurality of external device connectors.
+2. A memory card interface apparatus as in 1, further comprising a parallel port coupled to said internal bus and to one of said plurality of external connectors, thereby supporting communication through a parallel port connection between said memory card and a peripheral device.
+3. A memory card interface apparatus as in 1, further comprising a Universal Serial Bus interface coupled to said internal bus and to one of said plurality of external connectors, thereby supporting communication through an Universal Serial Bus connection between said memory card and a peripheral device.
+4. A memory card interface apparatus as in 1, further comprising a mass storage to parallel interface coupled to said internal bus and to one of said plurality of external connectors, thereby supporting communication through a mass storage to parallel connection between said memory card and a mass storage device.
+5. A memory card interface apparatus as in 4, wherein said mass storage to parallel interface includes an ATAPI interface.
+6. A memory card interface apparatus as in 4, wherein said mass storage to parallel interface includes a SCSI interface.
+7. A memory card interface apparatus as in 1, further comprising a television signal converter coupled to said internal bus and to one of said plurality of external connectors, thereby supporting communication through a parallel port connection between said memory card and a television.
+8. A memory card interface apparatus as in 1, further comprising a sound signal converter coupled to said internal bus and to one of said plurality of external connectors, thereby supporting communication through a parallel port connection between said memory card and an audio device.
+9. A memory card interface apparatus as in 1, further comprising a memory to ATAPI converter coupled to said internal bus, thereby supporting communication between said memory card and said interface controller through a ATAPI interface.
+10. A memory card interface apparatus as in 1, wherein said device coupled to one of said plurality of external connectors includes a host computer, and said one of said plurality of external connectors includes a parallel interface.
+Patent Citations (9)
+Publication number Priority date Publication date Assignee Title
+WO1993009501A1 * 1991-11-01 1993-05-13 Yeh Keming W Portable device having data storage capability for transferring data between a portable computer and a desktop computer
+US5802325A * 1992-07-09 1998-09-01 Gemplus Card International Mass memory card with input/output function
+US5696993A * 1993-12-03 1997-12-09 Intel Corporation Apparatus for decoding and providing the decoded addresses to industry standard PCMCIA card through the data lines of the parallel port
+US5715410A * 1994-12-12 1998-02-03 Samsung Electronics Co., Ltd. Interface circuit for supporting PCMCIA cards in an X-terminal
+US5630174A * 1995-02-03 1997-05-13 Cirrus Logic, Inc. Adapter for detecting whether a peripheral is standard or multimedia type format and selectively switching the peripheral to couple or bypass the system bus
+US5628028A * 1995-03-02 1997-05-06 Data Translation, Inc. Reprogrammable PCMCIA card and method and apparatus employing same
+US5778195A * 1995-06-26 1998-07-07 Mitsubishi Denki Kabushiki Kaisha PC card
+JPH0946470A * 1995-07-28 1997-02-14 Ricoh Co Ltd Digital color image forming device
+JPH0993376A * 1995-09-26 1997-04-04 Matsushita Electric Ind Co Ltd Digital copying machine
+* Cited by examiner, † Cited by third party
+Cited By (314)
+Search Within Citing Patents
+Publication number Priority date Publication date Assignee Title
+US6374315B1 * 1993-02-05 2002-04-16 Canon Kabushiki Kaisha Interface with connection unit for loading host computer with external storage device format control information in response to connection of host computer to connection unit
+USRE41009E1 1996-01-24 2009-11-24 Sony Corporation Audio transmission, recording and reproducing system
+US6038640A * 1996-04-25 2000-03-14 Aerospatiale Societe Nationale Industrielle Computer module having removable remotely programmable non-volatile memory
+US20110131353A1 * 1997-03-04 2011-06-02 Papst Licensing Gmbh & Co. Kg Analog data generating and processing device for use with a personal computer
+US20070005823A1 * 1997-03-04 2007-01-04 Papst Licensing Gmbh & Co. Kg Analog Data Generating And Processing Device For Use With A Personal Computer
+US9189437B2 1997-03-04 2015-11-17 Papst Licensing Gmbh & Co. Kg Analog data generating and processing device having a multi-use automatic processor
+US20080209088A1 * 1997-03-04 2008-08-28 Papst Licensing Gmbh & Co. Kg Analog data generating and processing device for use with a personal computer
+US8966144B2 1997-03-04 2015-02-24 Papst Licensing Gmbh & Co. Kg Analog data generating and processing device having a multi-use automatic processor
+US8504746B2 1997-03-04 2013-08-06 Papst Licensing Gmbh & Co. Kg Analog data generating and processing device for use with a personal computer
+US6088755A * 1997-06-04 2000-07-11 Sony Corporation External storage apparatus which can be connected to a plurality of electronic devices having different types of built-in interface without using a conversion adapter
+US6266671B1 * 1997-10-02 2001-07-24 Oki Electric Industry Co., Ltd. Data storage apparatus, method, and medium with variable data storage structure
+US6145046A * 1997-11-18 2000-11-07 Shuttle Technology Group Ltd. Universal memory card interface apparatus
+US6757366B1 * 1998-02-24 2004-06-29 Agere Systems Inc. Voice messaging system having removable digital voice message memory
+US8291128B2 1998-03-02 2012-10-16 Micron Technology, Inc. Systems configured to identify an operating mode
+US7721017B2 1998-03-02 2010-05-18 Lexar Media, Inc. Methods and apparatus for identifying operating modes for peripheral devices
+US20040039854A1 * 1998-03-02 2004-02-26 Lexar Media, Inc. Flash memory card with enhanced operating mode detection and user-friendly interfacing system
+US7421523B2 1998-03-02 2008-09-02 Lexar Media, Inc. Flash memory card with enhanced operating mode detection and user-friendly interfacing system
+US20060085578A1 * 1998-03-02 2006-04-20 Petro Hatakhri Flash memory card with enhanced operating mode detection and user-friendly interfacing system
+US20020112101A1 * 1998-03-02 2002-08-15 Petro Estakhri Flash memory card with enhanced operating mode detection and user-friendly interfacing system
+US20020040412A1 * 1998-03-02 2002-04-04 Petro Estakhri Flash memory card with enhanced operating mode detection and user-friendly interfacing system
+US7174445B2 * 1998-03-02 2007-02-06 Lexar Media, Inc. Flash memory card with enhanced operating mode detection and user-friendly interfacing system
+US7111085B2 * 1998-03-02 2006-09-19 Lexar Media, Inc. Flash memory card with enhanced operating mode detection and user-friendly interfacing system
+US20100228890A1 * 1998-03-02 2010-09-09 Lexar Media, Inc. Memory devices configured to identify an operating mode
+US20080320175A1 * 1998-03-02 2008-12-25 Lexar Media, Inc. Methods and apparatus for identifying operating modes for peripheral devices
+US8073986B2 1998-03-02 2011-12-06 Micron Technology, Inc. Memory devices configured to identify an operating mode
+US6205206B1 * 1998-03-24 2001-03-20 Inter-Tel, Inc. Integrating a voice messaging function card over a public branch exchange (PBX) backplane
+US6628813B2 1998-04-28 2003-09-30 Cross Match Technologies, Inc. Individualized fingerprint scanner
+US20050100196A1 * 1998-04-28 2005-05-12 Cross Match Technologies Inc. Methods for capturing fingerprint images using a moving platen
+US7779171B2 1998-07-08 2010-08-17 Microsoft Corporation Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US8296474B2 1998-07-08 2012-10-23 Microsoft Corporation Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US20100257286A1 * 1998-07-08 2010-10-07 Microsoft Corporation Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US7096435B2 1998-07-08 2006-08-22 Microsoft Corporation Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US6442734B1 * 1998-07-08 2002-08-27 Microsoft Corporation Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US20060282556A1 * 1998-07-08 2006-12-14 Microsoft Corporation Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US7975078B2 1998-07-08 2011-07-05 Microsoft Corporation Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US8112556B2 1998-07-08 2012-02-07 Microsoft Corporation Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US20050076171A1 * 1998-07-08 2005-04-07 Hanson Mark T. Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US6795949B2 1998-07-08 2004-09-21 Microsoft Corporation Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US20110231585A1 * 1998-07-08 2011-09-22 Microsoft Corporation Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US6460094B1 * 1998-07-08 2002-10-01 Microsoft Corporation Peripheral device configured to detect the type of interface to which it is connected and configuring itself accordingly
+US7277966B2 1998-07-08 2007-10-02 Microsoft Corporation Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US6625790B1 1998-07-08 2003-09-23 Microsoft Corporation Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US20080177908A1 * 1998-07-08 2008-07-24 Microsoft Corporation Method and apparatus for detecting the type of interface to which a peripheral device is connected
+US9002173B2 1998-07-30 2015-04-07 Tivo Inc. Digital security surveillance system
+US8824865B2 1998-07-30 2014-09-02 Tivo Inc. Digital video recorder system with an integrated DVD recording device
+US8380041B2 * 1998-07-30 2013-02-19 Tivo Inc. Transportable digital video recorder system
+US20100226627A1 * 1998-07-30 2010-09-09 Barton James M Multimedia Stream Processing System
+US8577205B2 1998-07-30 2013-11-05 Tivo Inc. Digital video recording system
+US8457476B2 1998-07-30 2013-06-04 Tivo Inc. Multimedia signal processing system
+US8965173B2 1998-07-30 2015-02-24 Tivo Inc. Multimedia stream processing system
+US8526781B2 1998-07-30 2013-09-03 Tivo Inc. Multiple output digital video recording system
+US8538241B2 1998-07-30 2013-09-17 Tivo Inc. Multimedia signal processing system
+US20100142920A1 * 1998-07-30 2010-06-10 Tivo Inc. Multimedia Signal Processing System
+US6611888B2 * 1998-09-01 2003-08-26 Siemens Vdo Automotive Ag Integrated connector having a memory unit for a receiver
+US20060171683A1 * 1998-09-09 2006-08-03 Smartdisk Corporation Enhanced digital data collector for removable memory modules
+US20090100217A1 * 1998-09-09 2009-04-16 Smdk Corp. Portable Data Transfer and Mass Storage Device for Removable Memory Modules
+US7983522B2 1998-09-09 2011-07-19 Smdk Corp. Enhanced digital data collector for removable memory modules
+US6684324B2 * 1998-10-09 2004-01-27 Nokia Mobile Phones Ltd. Method for installing two or more operating systems/user interfaces into an electronic device and an electronic device
+US6330622B1 * 1998-10-23 2001-12-11 Intel Corporation Direct processor access via an external multi-purpose interface
+US6233639B1 * 1999-01-04 2001-05-15 International Business Machines Corporation Memory card utilizing two wire bus
+US6385685B1 * 1999-01-04 2002-05-07 International Business Machines Corporation Memory card utilizing two wire bus
+USRE42397E1 1999-04-05 2011-05-24 Sandisk Il Ltd. Architecture for a universal serial bus-based PC flash disk
+USRE42443E1 1999-04-05 2011-06-07 Sandisk Il Ltd. Architecture for a universal serial bus-based PC flash disk
+USRE44641E1 1999-04-05 2013-12-10 Sandisk Il, Ltd USB flash memory device with integrated USB controller
+USRE44653E1 1999-04-05 2013-12-17 Sandisk Il, Ltd USB flash memory device with integral memory technology driver
+US6863557B2 1999-05-11 2005-03-08 Socket Communications, Inc. High-density removable expansion module having I/O and second-level-removable expansion memory
+US6691196B2 1999-05-11 2004-02-10 Socket Communications, Inc. First-level removable module having bar code I/O and second-level removable memory
+US20060164891A1 * 1999-05-11 2006-07-27 Socket Communications, Inc. Removable modules with external I/O flexibility via an integral second-level removable slot
+US6976111B1 1999-05-11 2005-12-13 Socket Communications, Inc. High-density removable expansion module having I/O and second-level removable expansion memory
+US6599147B1 1999-05-11 2003-07-29 Socket Communications, Inc. High-density removable expansion module having I/O and second-level-removable expansion memory
+US20040039860A1 * 1999-05-11 2004-02-26 Socket Communications, Inc. Nested removable-removable modules with game and media-player applications
+WO2000068770A1 * 1999-05-11 2000-11-16 Socket Communications, Inc. High-density removable expansion module having i/o and second-level removable expansion memory
+US6353870B1 * 1999-05-11 2002-03-05 Socket Communications Inc. Closed case removable expansion card having interconnect and adapter circuitry for both I/O and removable memory
+US7454541B2 1999-05-11 2008-11-18 Socket Mobile, Inc. Removable wireless expansion card having a removable subscriber information module
+GB2365182A * 1999-05-11 2002-02-13 Socket Communications Inc High-density removable expansion module having I/O and second-level removable expansion memory
+US20090287870A1 * 1999-05-11 2009-11-19 Mills Kevin J Removable wireless expansion card having a removable subscriber information module
+GB2365182B * 1999-05-11 2004-02-11 Socket Communications Inc High-density removable expansion module having I/O and second-level removable expansion memory
+US20040048503A1 * 1999-05-11 2004-03-11 Mills Kevin J. High-density removable expansion module having I/O and second-level-removable expansion memory
+US6920517B2 1999-05-11 2005-07-19 Socket Communications, Inc. Nested removable-removable modules with game and media-player applications
+US7194565B2 1999-05-11 2007-03-20 Socket Communications, Inc. Nested removable-removable expansion modules
+US7343439B2 * 1999-05-11 2008-03-11 Socket Communications, Inc. Removable modules with external I/O flexibility via an integral second-level removable slot
+US20050235086A1 * 1999-05-11 2005-10-20 Mills Kevin J Portable GPS methods and devices
+US6405278B1 * 1999-05-20 2002-06-11 Hewlett-Packard Company Method for enabling flash memory storage products for wireless communication
+US6272562B1 * 1999-05-28 2001-08-07 Cross Match Technologies, Inc. Access control unit interface
+US6886104B1 1999-06-25 2005-04-26 Cross Match Technologies Rechargeable mobile hand-held fingerprint scanner with a data and power communication interface
+US6744910B1 1999-06-25 2004-06-01 Cross Match Technologies, Inc. Hand-held fingerprint scanner with on-board image normalization data storage
+US6751692B1 * 1999-07-28 2004-06-15 Matsushita Electric Industrial Co., Ltd. Adapter for memory device and connecting method using the same
+US7068822B2 1999-08-09 2006-06-27 Cross Match Technologies, Inc. System and method for sending a packet with position address and line scan data over an interface cable
+US20030123716A1 * 1999-08-09 2003-07-03 Cross Match Technologies, Inc. System and method for sending a packet with position address and line scan data over an interface cable
+US20030128240A1 * 1999-08-09 2003-07-10 Martinez Chris J. Method, system, and computer program product for a GUI to fingerprint scanner interface
+US7010148B2 1999-08-09 2006-03-07 Cross Match Technologies, Inc. Calibration and correction in a fingerprint scanner
+US20060239518A1 * 1999-08-09 2006-10-26 Cross Match Technologies, Inc. System and method for sending a packet with position address and line scan data over an interface cable
+US7162060B1 1999-08-09 2007-01-09 Cross Match Technologies Method, system, and computer program product for control of platen movement during a live scan
+US20040156555A1 * 1999-08-09 2004-08-12 Cross Match Technologies, Inc. Calibration and correction in a fingerprint scanner
+US6658164B1 1999-08-09 2003-12-02 Cross Match Technologies, Inc. Calibration and correction in a fingerprint scanner
+US7095880B2 1999-08-19 2006-08-22 Cross Match Technologies, Inc. Method and apparatus for rolled fingerprint capture
+US20030091219A1 * 1999-08-19 2003-05-15 Martinez Chris J. Method and apparatus for rolled fingerprint capture
+US6483932B1 1999-08-19 2002-11-19 Cross Match Technologies, Inc. Method and apparatus for rolled fingerprint capture
+US20090215474A1 * 1999-08-31 2009-08-27 Hellebust Kent A Filtered in-box for voice mail, e-mail, pages, web-based information, and faxes
+US8562402B2 1999-10-04 2013-10-22 Nintendo Co., Ltd. Game system and game information storage medium used for same
+US9205331B2 * 1999-10-04 2015-12-08 Nintendo Co., Ltd. Mobile wireless handset and system including mobile wireless handset
+US20070178974A1 * 1999-10-04 2007-08-02 Nintendo Co., Ltd. Game system and game information storage medium used for same
+US20060230202A1 * 1999-10-11 2006-10-12 Ju-Heon Lee Portable integrated circuit memory device for use with universal serial bus
+US6687391B1 1999-10-22 2004-02-03 Cross Match Technologies, Inc. Adjustable, rotatable finger guide in a tenprint scanner with movable prism platen
+US20050036396A1 * 1999-11-14 2005-02-17 Guoshun Deng Electronic flash memory external storage method and device
+US7788447B2 1999-11-14 2010-08-31 Netac Technology Co., Ltd. Electronic flash memory external storage method and device
+US6829672B1 * 1999-11-14 2004-12-07 Guoshun Deng Electronic flash memory external storage method and device
+US20020019891A1 * 1999-12-30 2002-02-14 James Morrow Generic device controller unit and method
+US20060230203A1 * 2000-02-21 2006-10-12 Trek Technology (Singapore) Pte, Ltd. A portable data storage device having a secure mode of operation
+US8209462B2 2000-02-21 2012-06-26 Trek 2000 International Ltd. Portable data storage device
+US20060200628A1 * 2000-02-21 2006-09-07 Cheng Chong S Portable data storage device
+CN100495420C 2000-02-21 2009-06-03 特科2000国际有限公司 Portable date storing device
+US20080052453A1 * 2000-02-21 2008-02-28 Trek 2000 International Ltd. Portable data storage device
+EP1234305A1 2000-02-21 2002-08-28 Trek Technology (Singapore) Pte Ltd A portable data storage device
+US20020174287A1 * 2000-02-21 2002-11-21 Cheng Chong Seng Portable data storage device capable of being directly connected via USB plug to a computer
+US20080059660A1 * 2000-02-21 2008-03-06 Trek 2000 International Ltd. Portable data storage device
+US6658516B2 * 2000-04-11 2003-12-02 Li-Ho Yao Multi-interface memory card and adapter module for the same
+US6633445B1 2000-06-09 2003-10-14 Iomega Corporation Method and apparatus for electrically coupling components in a removable cartridge
+US6628474B1 2000-06-09 2003-09-30 Iomega Corporation Method and apparatus for electrostatic discharge protection in a removable cartridge
+US6717762B1 2000-06-09 2004-04-06 Iomega Corporation Method and apparatus for making a drive compatible with a removable cartridge
+US6624979B1 2000-06-09 2003-09-23 Iomega Corporation Method and apparatus for parking and releasing a magnetic head
+US20030041203A1 * 2000-07-06 2003-02-27 Onspec Electronic, Inc. Flashtoaster for reading several types of flash-memory cards with or without a PC
+US20050273648A1 * 2000-07-06 2005-12-08 Sreenath Mambakkam Field-operable, stand-alone apparatus for media recovery and regeneration
+US7597268B2 2000-07-06 2009-10-06 Mcm Portfolio Llc Memory module which includes a form factor connector
+US20080009196A1 * 2000-07-06 2008-01-10 Onspec Electronic, Inc. Smartconnect universal flash media card adapters
+US20080299809A1 * 2000-07-06 2008-12-04 Mcm Portfolio Llc Smartconnect flash card adapter
+US20080250174A1 * 2000-07-06 2008-10-09 Mcm Portfolio Llc. Flashtoaster for Reading Several Types of Flash-Memory Cards, With or Without a PC
+US7620844B2 2000-07-06 2009-11-17 Mcm Portfolio Llc Field-operable, stand-alone apparatus for media recovery and regeneration
+US8011964B2 2000-07-06 2011-09-06 Mcm Portfolio Llc Smartconnect flash card adapter
+US20070283069A1 * 2000-07-06 2007-12-06 Technology Properties Limited Flashtoaster for Reading Several Types of Flash-Memory Cards, With or Without a PC
+US7252240B1 * 2000-07-06 2007-08-07 Onspec Electronics, Inc. Memory module which includes a form factor connector
+US6832281B2 * 2000-07-06 2004-12-14 Onspec Electronic Inc. Flashtoaster for reading several types of flash memory cards with or without a PC
+US20030084221A1 * 2000-07-06 2003-05-01 Jones Larry Lawson Flashtoaster for reading several types of flash memory cards with or without a PC
+US20070288677A1 * 2000-07-06 2007-12-13 Onspec Electronic, Inc. Field-Operable, Stand-Alone Apparatus for Media Recovery and Regeneration
+US20100195290A1 * 2000-07-06 2010-08-05 Mcm Portfolio Llc Smartconnect Flash Card Adapter
+US8337252B2 2000-07-06 2012-12-25 Mcm Portfolio Llc Smartconnect flash card adapter
+US7719847B2 2000-07-06 2010-05-18 Mcm Portfolio Llc Smartconnect flash card adapter
+US7278051B2 2000-07-06 2007-10-02 Onspec Electronic, Inc. Field-operable, stand-alone apparatus for media recovery and regeneration
+US7493437B1 * 2000-07-06 2009-02-17 Mcm Portfolio Llc Flashtoaster for reading several types of flash memory cards with or without a PC
+US7295443B2 2000-07-06 2007-11-13 Onspec Electronic, Inc. Smartconnect universal flash media card adapters
+US20060253636A1 * 2000-07-06 2006-11-09 Onspec Electronic, Inc. Flash toaster for reading several types of flash memory cards with or without a PC
+US7412552B2 2000-07-06 2008-08-12 Mcm Portfolio Llc Flashtoaster for reading several types of flash-memory cards, with or without a PC
+US7522424B2 2000-07-06 2009-04-21 Mcm Portfolio Llc SmartConnect universal flash media card adapters
+US20090100207A1 * 2000-07-06 2009-04-16 Mcm Portfolio Llc Memory Card Reader to Provide Access to Multiple Memory Card Types
+US20060264110A1 * 2000-07-06 2006-11-23 Onspec Electronic, Inc. Smartconnect universal flash media card adapters
+US7222205B2 * 2000-07-06 2007-05-22 Onspec Electronic, Inc. Flashtoaster for reading several types of flash-memory cards with or without a PC
+US6824063B1 2000-08-04 2004-11-30 Sandisk Corporation Use of small electronic circuit cards with different interfaces in an electronic system
+US7350714B2 2000-08-04 2008-04-01 Sandisk Corporation Use of small electronic circuit cards with different interfaces in an electronic system
+US20040256459A1 * 2000-08-04 2004-12-23 Wallace Robert F. Use of small electronic circuit cards with different interfaces in an electronic system
+US7090124B2 2000-08-04 2006-08-15 Sandisk Corporation Use of small electronic circuit cards with different interfaces in an electronic system
+US20060110016A1 * 2000-08-18 2006-05-25 Cross Match Technologies, Inc. Fingerprint scanner auto-capture system and method
+US7657067B2 2000-08-18 2010-02-02 Cross Match Technologies, Inc. Fingerprint scanner auto-capture system and method
+US8161229B2 2000-08-25 2012-04-17 Micron Technology, Inc. Flash memory architecture with separate storage of overhead and user data
+US7155559B1 2000-08-25 2006-12-26 Lexar Media, Inc. Flash memory architecture with separate storage of overhead and user data
+US20090259807A1 * 2000-08-25 2009-10-15 Micron Technology, Inc. Flash memory architecture with separate storage of overhead and user data
+US9384127B2 2000-08-25 2016-07-05 Micron Technology, Inc. Flash memory architecture with separate storage of overhead and user data
+US6845421B2 * 2000-08-25 2005-01-18 Samsung Electronics Co., Ltd. Multimedia modular card, device for operating the same, and integrated multimedia system
+US20020049876A1 * 2000-08-25 2002-04-25 Samsung Electronics Co., Ltd. Multimedia modular card, device for operating the same, and integrated multimedia system
+US8595421B2 2000-08-25 2013-11-26 Petro Estakhri Flash memory architecture with separate storage of overhead and user data
+US20060264109A1 * 2000-09-01 2006-11-23 Brewer Wesley G Cooperative Interconnection and Operation of a Non-Volatile Memory Card and an Input-Output Card
+US7107378B1 2000-09-01 2006-09-12 Sandisk Corporation Cooperative interconnection and operation of a non-volatile memory card and an input-output card
+US7680974B2 2000-09-01 2010-03-16 Sandisk Corporation Cooperative interconnection and operation of a non-volatile memory card and an input-output card
+US20020091880A1 * 2000-10-27 2002-07-11 International Business Machines Corporation System and method for accessing readers and other I/O devices by programs
+US7003596B2 * 2000-10-27 2006-02-21 International Business Machines Corporation System and method for accessing readers and other I/O devices by programs
+US7339610B2 * 2000-12-04 2008-03-04 Nikon Corporation Image-capturing device
+US20020093575A1 * 2000-12-04 2002-07-18 Nikon Corporation Image-capturing device
+US6671764B2 * 2000-12-20 2003-12-30 Intel Corporation PC adapter card with an interchangeable connector set
+US6781782B2 2000-12-21 2004-08-24 Iomega Corporation Method and apparatus for saving calibration parameters for a removable cartridge
+US9235955B2 2000-12-22 2016-01-12 Bally Gaming, Inc. Universal game monitoring unit and system
+US20060139778A1 * 2001-04-26 2006-06-29 Cross Match Technologies, Inc. Silicone rubber surfaces for biometric print TIR prisms
+US6779067B2 2001-05-14 2004-08-17 Iomega Corporation Method and apparatus for providing extended functionality for a bus
+US20030037269A1 * 2001-05-25 2003-02-20 Baker William P. Method and apparatus for managing power consumption on a bus
+USRE41495E1 2001-05-25 2010-08-10 Baker William P Method and apparatus for managing power consumption on a bus
+US20050231576A1 * 2001-06-22 2005-10-20 Lee David L Color reproduction process
+US7549161B2 2001-06-28 2009-06-16 Trek 2000 International Ltd. Portable device having biometrics-based authentication capabilities
+US20030005336A1 * 2001-06-28 2003-01-02 Poo Teng Pin Portable device having biometrics-based authentication capabilities
+US20030005337A1 * 2001-06-28 2003-01-02 Poo Teng Pin Portable device having biometrics-based authentication capabilities
+US7650470B2 2001-06-28 2010-01-19 Trek 2000 International, Ltd. Method and devices for data transfer
+US20040225762A1 * 2001-06-28 2004-11-11 Poo Teng Pin Method and devices for data transfer
+US20040201684A1 * 2001-10-16 2004-10-14 Eastman Kodak Company Camera and camera data exchange system with dual data bus
+US7162549B2 2001-10-29 2007-01-09 Onspec Electronics, Inc. Multimode controller for intelligent and “dumb” flash cards
+US20030093606A1 * 2001-10-29 2003-05-15 Sreenath Mambakkam Multimode controller for intelligent and "dumb" flash cards
+US8073209B2 2002-01-17 2011-12-06 Cross Match Technologies, Inc Biometric imaging system and method
+US20060170906A1 * 2002-01-17 2006-08-03 Cross Match Technologies, Inc. Systems and methods for illuminating a platen in a print scanner
+US20050057742A1 * 2002-01-17 2005-03-17 Cross Match Technologies, Inc. Light wedge for illuminating a platen in a print scanner
+US7277011B2 2002-02-22 2007-10-02 Micron Technology, Inc. Removable memory media with integral indicator light
+US20080143542A1 * 2002-02-22 2008-06-19 Lexar Media, Inc. Removable memory media with integral indicator light
+US20030161199A1 * 2002-02-22 2003-08-28 Petro Estakhri Removable memory media with integral indicator light
+US7535370B2 2002-02-22 2009-05-19 Lexar Media, Inc. Removable memory media with integral indicator light
+US7987007B2 2002-03-18 2011-07-26 Creative Technology Ltd Memory module with audio playback mode
+US20030176935A1 * 2002-03-18 2003-09-18 Lian Yam Fei Memory module with audio playback mode
+US6967588B2 * 2002-03-25 2005-11-22 Sony Corporation System and method for controlling a home entertainment system
+US20030179100A1 * 2002-03-25 2003-09-25 Sony Corporation System and method for controlling a home entertainment system
+US20050033848A1 * 2002-04-08 2005-02-10 Martin Croome Wireless enabled memory module
+US7440774B2 2002-04-08 2008-10-21 Socket Mobile, Inc. Wireless enabled memory module
+US8023998B2 2002-04-08 2011-09-20 Socket Mobile, Inc. Wireless enabled memory module
+US20030197593A1 * 2002-04-19 2003-10-23 Cross Match Technologies, Inc. Systems and methods utilizing biometric data
+US20040016811A1 * 2002-04-19 2004-01-29 Cross Match Technologies, Inc. Mobile handheld code reader and print scanner system and method
+US20050264398A1 * 2002-04-19 2005-12-01 Cross Match Technologies, Inc. Systems and methods utilizing biometric data
+US7082483B2 2002-05-13 2006-07-25 Trek Technology (Singapore) Pte. Ltd. System and apparatus for compressing and decompressing data stored to a portable data storage device
+US7631121B2 2002-05-13 2009-12-08 Trek 2000 International Ltd. System and apparatus for compressing and decompressing data stored to a portable data storage device
+US20060259652A1 * 2002-05-13 2006-11-16 Trek 2000 International Ltd. System and apparatus for compressing and decompressing data stored to a portable data storage device
+US20040073727A1 * 2002-07-29 2004-04-15 M-Systems Flash Disk Pioneers, Ltd. Portable storage media as file servers
+US7426584B2 * 2002-07-29 2008-09-16 Sandisk Il Ltd Portable storage media as file servers
+US8429416B2 2002-07-31 2013-04-23 Trek 2000 International Ltd. Method and apparatus of storage anti-piracy key encryption (SAKE) device to control data access for networks
+US20090319798A1 * 2002-07-31 2009-12-24 Trek 2000 International Ltd. Method and apparatus of storage anti-piracy key encryption (sake) device to control data access for networks
+US7353399B2 2002-07-31 2008-04-01 Trek 2000 International Ltd. Method and apparatus of storage anti-piracy key encryption (SAKE) device to control data access for networks
+US20040025031A1 * 2002-07-31 2004-02-05 Ooi Chin Shyan Raymond Method and apparatus of storage anti-piracy key encryption (SAKE) device to control data access for networks
+US20060133656A1 * 2002-08-02 2006-06-22 Cross Match Technologies, Inc. System and method for counting ridges in a captured print image
+US7114659B2 2002-11-13 2006-10-03 Sandisk Corporation Universal non-volatile memory card used with various different standard cards containing a memory controller
+US20050198424A1 * 2002-11-13 2005-09-08 Eliyahou Harari Universal non-volatile memory card used with various different standard cards containing a memory controller
+US7367503B2 2002-11-13 2008-05-06 Sandisk Corporation Universal non-volatile memory card used with various different standard cards containing a memory controller
+US20040089717A1 * 2002-11-13 2004-05-13 Sandisk Corporation Universal non-volatile memory card used with various different standard cards containing a memory controller
+US8752765B2 2002-11-13 2014-06-17 Sandisk Technologies Inc. Universal non-volatile memory card used with various different standard cards containing a memory controller
+US8745299B2 2002-11-21 2014-06-03 Sandisk Technologies Inc. Combination non-volatile memory and input-output card with direct memory access
+US8037229B2 2002-11-21 2011-10-11 Sandisk Technologies Inc. Combination non-volatile memory and input-output card with direct memory access
+US20050055479A1 * 2002-11-21 2005-03-10 Aviad Zer Multi-module circuit card with inter-module direct memory access
+US20040103234A1 * 2002-11-21 2004-05-27 Aviad Zer Combination non-volatile memory and input-output card with direct memory access
+US20040109015A1 * 2002-12-09 2004-06-10 Tom Peng Multimedia broadcasting apparatus
+US20040170303A1 * 2003-02-28 2004-09-02 Cross Match Technology, Inc. Dynamic image adaption method for adjusting the quality of digital prints
+US7305535B2 2003-04-17 2007-12-04 Sandisk Corporation Memory cards including a standard security function
+US8019942B2 2003-04-17 2011-09-13 SanDisk Technologies, Inc. Memory cards including a standard security function
+US20040210715A1 * 2003-04-17 2004-10-21 Eliyahou Harari Memory cards including a standard security function
+US8539183B2 2003-04-17 2013-09-17 Sandisk Technologies Inc. Memory cards including a standard security function
+US20080067255A1 * 2003-04-17 2008-03-20 Eliyahou Harari Memory Cards Including a Standard Security Function
+CN100458844C 2003-04-18 2009-02-04 深圳市朗科科技股份有限公司 Digital image processing device and method
+US20050047631A1 * 2003-08-26 2005-03-03 Cross Match Technologies, Inc. Method and apparatus for rolled fingerprint image capture with variable blending
+US8913281B2 2003-09-30 2014-12-16 Toshiba Corporation Selective performance of document processing functions on electronic documents stored in a portable data storage device
+US7489417B2 2003-09-30 2009-02-10 Toshiba Corporation USB print
+US20050068579A1 * 2003-09-30 2005-03-31 Tran Peter Hn USB print
+US8223383B2 2003-09-30 2012-07-17 Kabushiki Kaisha Toshiba USB print
+US9019547B2 2003-09-30 2015-04-28 Kabushiki Kaisha Toshiba Printing using a portable data storage device
+US7352601B1 2003-11-24 2008-04-01 Michael Paul Minneman USB flash memory device
+US20060095627A1 * 2003-12-09 2006-05-04 Yosi Pinto Efficient connection between modules of removable electronic circuit cards
+US7467249B2 2003-12-09 2008-12-16 Sandisk Corporation Efficient connection between modules of removable electronic circuit cards
+US20050125584A1 * 2003-12-09 2005-06-09 Yosi Pinto Efficient connection between modules of removable electronic circuit cards
+US7209995B2 2003-12-09 2007-04-24 Sandisk Corporation Efficient connection between modules of removable electronic circuit cards
+US20050157600A1 * 2004-01-15 2005-07-21 M-Systems Flash Disk Pioneers Ltd Removable medium with bookmark
+US9236080B2 * 2004-01-15 2016-01-12 Sandisk Il Ltd. Removable medium with bookmark
+US7406572B1 * 2004-03-26 2008-07-29 Cypress Semiconductor Corp. Universal memory circuit architecture supporting multiple memory interface options
+US20050223129A1 * 2004-04-02 2005-10-06 Arm Limited Arbitration of data transfer requests
+US20060022895A1 * 2004-07-28 2006-02-02 Williams David A Remote control unit with memory interface
+US20060101199A1 * 2004-11-10 2006-05-11 Nokia Corporation Method and system for controlling a hard disk drive using a multimediacard physical interface
+US7899986B2 * 2004-11-10 2011-03-01 Nokia Corporation Method and system for controlling a hard disk drive using a multimediacard physical interface
+US9104315B2 2005-02-04 2015-08-11 Sandisk Technologies Inc. Systems and methods for a mass data storage system having a file-based interface to a host and a non-file-based interface to secondary storage
+US7984233B2 2005-02-16 2011-07-19 Sandisk Corporation Direct data file storage implementation techniques in flash memories
+US20060184723A1 * 2005-02-16 2006-08-17 Sinclair Alan W Direct file data programming and deletion in flash memories
+US20100223423A1 * 2005-02-16 2010-09-02 Sinclair Alan W Direct File Data Programming and Deletion in Flash Memories
+US20100217926A1 * 2005-02-16 2010-08-26 Sinclair Alan W Direct Data File Storage Implementation Techniques in Flash Memories
+US7877539B2 2005-02-16 2011-01-25 Sandisk Corporation Direct data file storage in flash memories
+US20060184722A1 * 2005-02-16 2006-08-17 Sinclair Alan W Direct data file storage implementation techniques in flash memories
+US20060184720A1 * 2005-02-16 2006-08-17 Sinclair Alan W Direct data file storage in flash memories
+US8214583B2 2005-02-16 2012-07-03 Sandisk Technologies Inc. Direct file data programming and deletion in flash memories
+US20060184718A1 * 2005-02-16 2006-08-17 Sinclair Alan W Direct file data programming and deletion in flash memories
+US20060184719A1 * 2005-02-16 2006-08-17 Sinclair Alan W Direct data file storage implementation techniques in flash memories
+US20060230178A1 * 2005-03-24 2006-10-12 Trauring Philip W Method and apparatus for data transfer device
+US20070019577A1 * 2005-07-23 2007-01-25 Lg Electronics Inc. Mobile terminal and data providing method thereof
+US20070033327A1 * 2005-08-03 2007-02-08 Sinclair Alan W Enhanced host interface
+US20070033374A1 * 2005-08-03 2007-02-08 Sinclair Alan W Reprogrammable Non-Volatile Memory Systems With Indexing of Directly Stored Data Files
+US20070033375A1 * 2005-08-03 2007-02-08 Sinclair Alan W Indexing of File Data in Reprogrammable Non-Volatile Memories That Directly Store Data Files
+US20070033376A1 * 2005-08-03 2007-02-08 Sinclair Alan W Data Consolidation and Garbage Collection in Direct Data File Storage Memories
+US20070033377A1 * 2005-08-03 2007-02-08 Sinclair Alan W Data Operations in Flash Memories Utilizing Direct Data File Storage
+US20070033378A1 * 2005-08-03 2007-02-08 Sinclair Alan W Flash Memory Systems Utilizing Direct Data File Storage
+US20070033330A1 * 2005-08-03 2007-02-08 Sinclair Alan W Reclaiming Data Storage Capacity in Flash Memory Systems
+US20070033328A1 * 2005-08-03 2007-02-08 Sinclair Alan W Management of Memory Blocks That Directly Store Data Files
+US20070033326A1 * 2005-08-03 2007-02-08 Sinclair Alan W Enhanced host interfacing methods
+US8055832B2 2005-08-03 2011-11-08 SanDisk Technologies, Inc. Management of memory blocks that directly store data files
+US7949845B2 2005-08-03 2011-05-24 Sandisk Corporation Indexing of file data in reprogrammable non-volatile memories that directly store data files
+US20070033323A1 * 2005-08-03 2007-02-08 Gorobets Sergey A Interfacing systems operating through a logical address space and on a direct data file basis
+US20070030734A1 * 2005-08-03 2007-02-08 Sinclair Alan W Reclaiming Data Storage Capacity in Flash Memories
+US20070186032A1 * 2005-08-03 2007-08-09 Sinclair Alan W Flash Memory Systems With Direct Data File Storage Utilizing Data Consolidation and Garbage Collection
+US7627733B2 2005-08-03 2009-12-01 Sandisk Corporation Method and system for dual mode access for storage devices
+US7450420B2 2005-08-03 2008-11-11 Sandisk Corporation Reclaiming data storage capacity in flash memories
+US7480766B2 2005-08-03 2009-01-20 Sandisk Corporation Interfacing systems operating through a logical address space and on a direct data file basis
+US7552271B2 2005-08-03 2009-06-23 Sandisk Corporation Nonvolatile memory with block management
+US7558905B2 2005-08-03 2009-07-07 Sandisk Corporation Reclaiming data storage capacity in flash memory systems
+US7558906B2 2005-08-03 2009-07-07 Sandisk Corporation Methods of managing blocks in nonvolatile memory
+US7581057B2 2005-08-03 2009-08-25 Sandisk Corporation Memory system with management of memory blocks that directly store data files
+US7590795B2 2005-08-03 2009-09-15 Sandisk Corporation Flash memory systems utilizing direct data file storage
+US8291151B2 2005-08-03 2012-10-16 Sandisk Technologies Inc. Enhanced host interface
+US7669003B2 2005-08-03 2010-02-23 Sandisk Corporation Reprogrammable non-volatile memory systems with indexing of directly stored data files
+US7590794B2 2005-08-03 2009-09-15 Sandisk Corporation Data operations in flash memories utilizing direct data file storage
+US7610437B2 2005-08-03 2009-10-27 Sandisk Corporation Data consolidation and garbage collection in direct data file storage memories
+US7562181B2 2005-08-03 2009-07-14 Sandisk Corporation Flash memory systems with direct data file storage utilizing data consolidation and garbage collection
+US20070033329A1 * 2005-08-03 2007-02-08 Sinclair Alan W Memory System With Management of Memory Blocks That Directly Store Data Files
+US20070086260A1 * 2005-10-13 2007-04-19 Sinclair Alan W Method of storing transformed units of data in a memory system having fixed sized storage blocks
+US7529905B2 2005-10-13 2009-05-05 Sandisk Corporation Method of storing transformed units of data in a memory system having fixed sized storage blocks
+US7814262B2 2005-10-13 2010-10-12 Sandisk Corporation Memory system storing transformed units of data in fixed sized storage blocks
+US20070088904A1 * 2005-10-13 2007-04-19 Sinclair Alan W Memory system storing transformed units of data in fixed sized storage blocks
+US20070088913A1 * 2005-10-14 2007-04-19 Ezpnp Technologies Corp. Portable data transfer device
+US7877540B2 2005-12-13 2011-01-25 Sandisk Corporation Logically-addressed file storage methods
+US20070136555A1 * 2005-12-13 2007-06-14 Sinclair Alan W Logically-addressed file storage methods
+US20070143570A1 * 2005-12-21 2007-06-21 Gorobets Sergey A Method and system for accessing non-volatile storage devices
+US7747837B2 2005-12-21 2010-06-29 Sandisk Corporation Method and system for accessing non-volatile storage devices
+US8209516B2 2005-12-21 2012-06-26 Sandisk Technologies Inc. Method and system for dual mode access for storage devices
+US7793068B2 2005-12-21 2010-09-07 Sandisk Corporation Dual mode access for non-volatile storage devices
+US7769978B2 2005-12-21 2010-08-03 Sandisk Corporation Method and system for accessing non-volatile storage devices
+US7294021B1 * 2006-04-11 2007-11-13 Asustek Computer Inc. Television card
+US20070238355A1 * 2006-04-11 2007-10-11 Asustek Computer Inc. Television card
+US7865831B2 * 2006-04-14 2011-01-04 Clever Innovations, Inc. Method of updating content for an automated display device
+US20080077422A1 * 2006-04-14 2008-03-27 Christopher Dooley Motion Sensor Arrangement for Point of Purchase Device
+US20070266323A1 * 2006-04-14 2007-11-15 Christopher Dooley Method of updating content for an automated display device
+US8352695B2 * 2006-05-30 2013-01-08 Lantiq Deutschland Gmbh Selectable access rates in a memory and memory communication system
+US20070283077A1 * 2006-05-30 2007-12-06 Christian Klein Memory and Memory Communication System
+US20080016266A1 * 2006-07-14 2008-01-17 Yi-Chun Liu Method And Apparatus For Smart Storage Devices
+US20080222365A1 * 2007-03-08 2008-09-11 Staktek Group L.P. Managed Memory System
+US20100153591A1 * 2008-12-12 2010-06-17 Samsung Electronics Co., Ltd. Interface unit and electronic system including the same
+US20110040918A1 * 2009-08-14 2011-02-17 Yosi Pinto Host for Use with Dual Interface Card with Backward and Forward Compatibility
+US20110189866A1 * 2009-08-14 2011-08-04 Yosi Pinto Dual Interface Card with Backward and Forward Compatibility
+US8291144B2 2009-08-14 2012-10-16 Sandisk Il Ltd. Dual interface card with backward and forward compatibility
+US8296491B2 2009-08-14 2012-10-23 Sandisk Il Ltd. Host for use with dual interface card with backward and forward compatibility
+US8301822B2 * 2009-09-23 2012-10-30 Sandisk Il Ltd. Multi-protocol storage device bridge
+US20110072185A1 * 2009-09-23 2011-03-24 Sandisk Il Ltd. Multi-protocol storage device bridge
+US9558135B2 * 2012-04-19 2017-01-31 Larry Lawson Jones Flashcard reader and converter for reading serial and parallel flashcards
+* Cited by examiner, † Cited by third party
+Also Published As
+Publication number Publication date Type
+EP1139224A2 2001-10-04 Application
+EP0917064B1 2001-11-14 Grant
+EP1139224A3 2003-05-02 Application
+US6145046A 2000-11-07 Grant
+JPH11184985A 1999-07-09 Application
+EP0917064A1 1999-05-19 Application
+DE69708299D1 2001-12-20 Grant
+Similar Documents
+Publication Publication Date Title
+US5497464A 1996-03-05 Address mapping logic for transferring data between a peripheral device of a base function expander unit and a palmtop computer as if the peripheral was a peripheral of the computer
+US6525932B1 2003-02-25 Expansion unit and electronic apparatus
+US5887145A 1999-03-23 Removable mother/daughter peripheral card
+US6871009B1 2005-03-22 Image storage system, image storage method and storage medium
+US20070028009A1 2007-02-01 Hot unpluggable media storage device
+US7137011B1 2006-11-14 Removable mother/daughter peripheral card
+US5540597A 1996-07-30 All flex PCMCIA-format cable
+US7222205B2 2007-05-22 Flashtoaster for reading several types of flash-memory cards with or without a PC
+US5839108A 1998-11-17 Flash memory file system in a handheld record and playback device
+US6658202B1 2003-12-02 Portable data transfer and mass storage device for removable memory modules
+US20040088456A1 2004-05-06 Smart hard-disk drive
+US6182159B1 2001-01-30 System for detachably connecting memory cards which provide memory specified by predetermined range of addresses registered in list and updating list independent of the I/O operation
+US20030074529A1 2003-04-17 Bulk storage method and system and autonomous portable bulk storage unit used in such a system
+US20050135790A1 2005-06-23 Digital media player with resolution adjustment capabilities
+US6686958B1 2004-02-03 Electronic apparatus for obtaining pickup data
+US6987927B1 2006-01-17 Enhanced digital data collector for removable memory modules
+US20050050371A1 2005-03-03 Image sensing apparatus and power managing method
+US20030038971A1 2003-02-27 Printing device with reader for removable media storage container
+US6601056B1 2003-07-29 Method and apparatus for automatic format conversion on removable digital media
+US20020184459A1 2002-12-05 Digital camera memory system
+US20050129385A1 2005-06-16 Intelligent portable memory device with display
+US20040068601A1 2004-04-08 Information input device with multiple memory card reader
+US20060218324A1 2006-09-28 Systems and methods for flexible data transfers in SDIO and/or MMC
+US6832281B2 2004-12-14 Flashtoaster for reading several types of flash memory cards with or without a PC
+US7162549B2 2007-01-09 Multimode controller for intelligent and “dumb” flash cards
+Legal Events
+Date Code Title Description
+1998-04-20 AS Assignment
+
+Owner name: SHUTTLE TECHNOLOGY GROUP LTD., ENGLAND
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:JONES, ALAN E. J.;REEL/FRAME:009134/0396
+
+Effective date: 19980330
+2003-02-12 REMI Maintenance fee reminder mailed
+2003-02-28 SULP Surcharge for late payment
+2003-02-28 FPAY Fee payment
+
+Year of fee payment: 4
+2007-02-14 REMI Maintenance fee reminder mailed
+2007-07-27 REIN Reinstatement after maintenance fee payment confirmed
+2007-09-18 FP Expired due to failure to pay maintenance fee
+
+Effective date: 20070727
+2007-11-14 SULP Surcharge for late payment
+2007-11-14 FPAY Fee payment
+
+Year of fee payment: 8
+2008-03-31 PRDP Patent reinstated due to the acceptance of a late maintenance fee
+
+Effective date: 20080331
+2009-01-16 AS Assignment
+
+Owner name: SCM MICROSYSTEMS (U.S.), INC., CALIFORNIA
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:SHUTTLE TECHNOLOGY GROUP LTD.;REEL/FRAME:022127/0527
+
+Effective date: 20090114
+2009-04-08 AS Assignment
+
+Owner name: RPX CORPORATION, CALIFORNIA
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:SCM MICROSYSTEMS INC.;REEL/FRAME:022519/0464
+
+Effective date: 20090331
+2011-01-27 FPAY Fee payment
+
+Year of fee payment: 12
+Data provided by IFI CLAIMS Patent Services
+About Send Feedback Terms Privacy Policy
+memorycard
+

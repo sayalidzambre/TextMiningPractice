@@ -1,0 +1,39 @@
+Projection television with LCD panel adaptation to reduce moire fringes
+Abstract
+A diagonally oriented LCD panel is used in a rear screen LCD projection television to reduce moire fringes on the display.
+
+Description
+BACKGROUND OF THE INVENTION Field of the Invention
+
+The present invention relates to the field of rear screen LCD projection television.
+Related Art
+
+The conventional rear screen LCD projection television is illustrated in FIG. 1. In this system a lamp 101 radiates onto an LCD panel 102. The LCD panel 102 is controlled to selectively block light from the lamp in patterns which create a television picture. Light passing through the LCD panel 102 then passes through a lens 103 to be focused on a lenticular screen 104. The lenticular screen 104 is made up of vertical lenticulars separated by vertical black stripes. The stripes are added to increase contrast.
+
+This conventional system gives rise to moire fringes on the lenticular screen due to beating between vertical light patterns caused by the vertical interpixel regions on the LCD panel and the vertical stripes on the lenticular screen. As shown in FIG. 2, this effectively multiplies the apparent width of the vertical stripes as shown at 203. Where a Fresnel lens is used to brighten the display, vertical patterns on the Fresnel lens can worsen the moire effect on the lenticular screen.
+
+Numerous kinds of LCD panels have been used in conventional LCD televisions and in certain kinds of projection systems. For instance, in Japanese Kokai 1-79728 and in co-pending application Ser. No. 07/650,147 filed Feb. 4, 1991, a system with diamond shaped LCD elements is proposed for use in a non-projection LCD television. In German patent document DE 3420549 C1, diagonal LCD elements are used in a projection oscilloscope to create a display in which diagonal portions of letters and oscilloscope traces are approximated by the diagonal LCD elements.
+SUMMARY OF THE INVENTION
+
+The object of the invention is to reduce moire interference in a rear screen LCD projection television.
+
+The object of the invention is achieved by using an LCD panel having a plurality of addressable pixels which are addressed according to a plurality of scan lines. The LCD panel is connected to the lenticular screen by an optical path, and the panel is oriented so that none of the interpixel regions produces a light pattern which, when incident on the lenticular screen, is parallel to lenticulars of a lenticular screen.
+BRIEF DESCRIPTION OF THE DRAWING
+
+The invention will now be described by way of non-limitative example with reference to the following drawings.
+
+FIG. 1 shows a conventional LCD projection television.
+
+FIG. 2 shows how the moire fringes arise in this conventional television.
+
+FIG. 3 shows how a diagonally oriented LCD matrix reduces moire fringes.
+
+FIG. 4 shows a rear screen LCD projection TV system which has three LCD panels.
+DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS
+
+As shown in FIG. 3, in the television according to the invention, a diagonally oriented LCD panel 301 is used in place of the vertically oriented LCD panel 102. The screen 301 may be according to Kokai 1-79728. The diagonally oriented panel 301 has LCD pixels which are diamond-shaped, i.e. squares which are rotated 45° from the vertical, and interpixel regions which are diagonal. In this embodiment diagonal is 45° from the vertical. 45° gives minimum moire interference. Other angles may be used, but moire will increase as the angle gets farther from 45°. As will be apparent to those of ordinary skill in the art, the LCD pixels may have other shapes so long as the light patterns due to the interpixel regions, when incident on the lenticular screen, are not parallel to the lenticulars.
+
+FIG. 4 shows an alternate embodiment of a television according to the invention. In this embodiment, light from the lamp 401 is split in the splitter 402 into three separate beams, one for each of the three colors red, green and blue. The three beams are incident on three LCD panels 404, 406, and 407, each of the three LCD panels being controlled according to the component of the respective color in the picture to be displayed. Light from the LCD panels 403 and 407 is routed using mirrors 404, 405, 408, and 409 to beam combining element 410. Light from LCD panel 406 is naturally incident on beam combining element 410. The three beams are then combined in the beam combining element 410. The resultant beam is focused by lens 411 onto lenticular screen 412 for display.
+
+In this embodiment, each LCD panel's pixels are oriented diagonally, so that none of the LCD's interpixel regions introduce moire interference at the lenticular screen 412. While those of ordinary skill in the art might devise any number of light paths for use in such a television, the moire patterns will be reduced so long as the light patterns resulting from the interpixel regions, when incident on the lenticular screen, are not parallel to the lenticulars.
+

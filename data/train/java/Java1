@@ -1,0 +1,1427 @@
+Core JAVA
+n Fundamental
+Concepts
+n Bootstrapping
+n Basic Language Syntax
+n Common Caveats
+n Coding Conventions
+Core JAVA
+n Fundamental
+Concepts
+n Bootstrapping
+n Basic Language Syntax
+n Common Caveats
+n Coding Conventions
+1General Purpose Computers
+n
+Most computers that we encounter are
+application specific...
+n
+n
+Light switches, microwave oven controller,
+VCR timer, DirecTV receiver
+GPCs are different...
+GPCs are built as generic problem solving
+machines
+n Programming is the bridge from the generic
+tool to a useful “machine”
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+GPC (Computer) Organization
+n
+CPU – Central Processing Unit
+n
+n
+I/O – Input and Output Subsystem
+n
+n
+Devices and communication bus for user
+interaction, import/export of data and
+permanent storage
+RAM – Random Access Memory
+n
+Copyright 1999-2002
+Primary location for computations
+High speed, volatile, “scratchpad”
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+2Classic Computer Organization
+CPU
+RAM
+Copyright 1999-2002
+Simon Lok
+I/O
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Programming a GPC
+n
+The hardware can be controlled using
+“machine language”
+• 01001011001010010010010010101
+n
+Assembly language is an attempt to make
+this more “friendly”
+•
+•
+•
+•
+Copyright 1999-2002
+Simon Lok
+MOV AX, BX
+ADD R3, #32, R9
+PUSH EAX
+JZ R25, [R12]
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+3High Level Languages
+n
+Machine and Assembly Language are
+very hard to use...
+• Try computing a 3 rd order integral in assembly...
+• How about writing a GUI?
+n
+Copyright 1999-2002
+So we create high level languages and
+compilers for translating high level
+programs into assembly
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Multiuser/Multitasking
+n
+GPCs are shared...
+• ... between multiple programs
+• ... between multiple users
+n
+The operating system (OS) governs the
+computer’s hardware resources
+• It allocates time for each program to run
+• It provides a unified interface for all of the
+hardware devices
+• It might also provide session support for multiple
+users
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+4Typical Topology
+Most applications
+talk to APIs
+implemented by the
+OS kernel.
+n Most reasonable OS
+kernels talk to
+hardware through an
+HAL
+n
+Copyright 1999-2002
+Simon Lok
+Application
+(Your code)
+Application Programming
+Interfaces (APIs)
+Operating System
+(OS) (m)Kernel
+Hardware Abstraction
+Layer (HAL)
+HARDWARE
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Why so many layers?
+HAL makes all
+hardware look the
+“same” to mkernel
+n The same mkernel
+code that runs on an
+Intel x86 PC can run
+on a DEC 21x64
+workstation
+n
+Copyright 1999-2002
+Simon Lok
+Application
+(Your code)
+Application Programming
+Interfaces (APIs)
+Operating System
+(OS) (m)Kernel
+Hardware Abstraction
+Layer (HAL)
+HARDWARE
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+5The same for your code!
+Assume that all OS’s
+agree on a common
+API
+n You can write a single
+piece of code that can
+be recompiled onto
+many platforms
+n
+Application
+(Your code)
+Application Programming
+Interfaces (APIs)
+Operating System
+(OS) (m)Kernel
+Hardware Abstraction
+Layer (HAL)
+HARDWARE
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+“Recompiled?”
+n
+Platforms will differ in many ways...
+• Static sizes for OS and device interfaces
+• Availability/coding of machine instructions
+n
+Recompilation requires the source...
+• Your competitors will have access to code which
+took you a very long time to develop
+• Your users may not have a compiler... if they do,
+they may not know how to use it
+• Source code verification is critical!
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+6The JAVA Way
+Run a JAVA Virtual
+Machine as a regular
+application on the OS
+n The JVM simulates a
+standard platform (GPC)
+that all JAVA programs
+can execute on
+n Write once, run
+anywhere!
+n
+Copyright 1999-2002
+Simon Lok
+User Application
+JAVA APIs
+JVM
+OS APIs
+OS mKernel
+HAL
+HARDWARE
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Caveats of the JAVA Way
+n
+Performance
+• Clearly, JAVA will always be slower than a
+natively coded application
+• JIT JVM technology brings most applications
+within 30% of native code
+• Latest HotSpot JVMs are within 5% of C++
+n
+Touching the hardware
+• Not all local devices will have an interface
+through the JVM... your favorite USB scanner
+may simply not work (at least, for now...)
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+7Core JAVA
+n Fundamental
+Concepts
+n Bootstrapping
+n Basic Language Syntax
+n Common Caveats
+n Coding Conventions
+You need to “install JAVA”
+JAVA environment is like any other
+program (you need to install it)
+n At home, download and install the proper
+JDK (J2SE SDK) for your platform
+n
+• http://java.sun.com/j2se
+n
+Also get the J2SE documentation
+• http://java.sun.com/docs
+n
+Copyright 1999-2002
+This will have already been done for you
+in the computer lab
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+8Add JAVA to your PATH
+Under both Windows and UNIX, the JAVA
+executables reside in the “bin”
+subdirectory of the installation site
+n Add that directory to your PATH
+n
+• Win95/98 – edit your AUTOEXEC.BAT
+• WinNT/2K/ME/XP – edit environment variables
+found under advanced system properties
+• Most UNIX – edit your .profile or .cshrc
+• MacOS 9 – upgrade to OS X
+• MacOS X – do nothing, it’s preinstalled!
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Add JAVA to your PATH
+n
+For example, under Win95/98, add the
+following statement to the end of your
+AUTOEXEC.BAT file:
+• SET PATH=C:\JDK1.4.0_01\BIN;%PATH%
+n
+Under UNIX, edit your .profile and add the
+following statement:
+• EXPORT PATH=$PATH:/opt/jdk1.3/bin
+• Substitute your install path for /opt
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+9WinNT/2K/ME/XP Path Addition
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+WinNT/2K/ME/XP Path Addition
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+10Hello World - Our First Program
+public class HelloWorld {
+public static void main(String [] args) {
+System.out.println("Hello, world");
+}
+}
+All JAVA modules begin with a class
+definition ... classes are “objects”
+n The POI (point-of-entry) of a class is the
+main method
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+HelloWorld under Windows
+Start :: Accessories :: Notepad
+n Type in HelloWorld as given
+n Save as type “All Files” with name
+“HelloWorld.java”
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+11HelloWorld under Windows
+n
+Start a command prompt
+• Win98: Start :: Run :: DOSPRMPT
+• WinNT/2K: Start :: Run :: CMD
+Change to the proper directory
+n Compile and Execute
+n
+• JAVAC HelloWorld.Java
+• JAVA HelloWorld
+n
+Copyright 1999-2002
+Watch the case!
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+HelloWorld under Windows
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+12HelloWorld under UNIX
+n
+Start your favorite text editor
+• EMACS, PICO, VI or just use CAT
+Type in HelloWorld as given
+n Save and exit the editor
+n
+• Use filename “HelloWorld.java”
+n
+Compile and Execute
+• JAVAC HelloWorld.Java
+• JAVA HelloWorld
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+HelloWorld under UNIX
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+13The “Real World”
+Text editors with command line
+compilation are “stone age” tools for
+program development
+n Contemporary software engineering is
+accomplished using RAD (rapid
+application development) tools and IDEs
+(integrated development environments)
+with inline debuggers
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+JAVA RAD Tools and IDEs
+n
+Many are available...
+•
+•
+•
+•
+n
+Recommendation: Sun Forte / NetBeans
+•
+•
+•
+•
+Copyright 1999-2002
+Symantec Visual Cafe
+Borland J-Builder
+Microsoft Visual J++ (EOL), J#
+Sun Forte / NetBeans
+Simon Lok
+It’s free
+It’s the official Sun IDE
+It produces “clean code”
+It’s got modules for RMI and other cool stuff
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+14The NetBeans / Forte IDE
+n
+You must download and install Netbeans /
+Forte as a separate package:
+• http://www.netbeans.org
+• http://www.sun.com/forte/ffj/ce/
+n
+Prerequisites
+• J2SE SDK
+• J2SE Documentation (recommended)
+• Installer automatically detects the location of your JDK
+and documentation during the installation process
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+The Main IDE Screen
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+15Hello World in Forte/NetBeans
+n
+Create a new package
+• Right click on the explorer window...
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Hello World in Forte/NetBeans
+n
+Create a new class
+• Right click on the name of the new project that
+you just created...
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+16Hello World in Forte/NetBeans
+n
+Copyright 1999-2002
+The template does most of the work, just
+add the System.out.println imperative
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Hello World in Forte/NetBeans
+n
+Compile and run
+n
+Copyright 1999-2002
+Right click on the name of the class...
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+17Features of Forte/NetBeans
+n
+RAD (rapid application development)
+“Drag-and-drop” programming of GUIs
+n Clean (pure JAVA) code generation
+n
+n
+Integrated debugger
+Real time variable watches
+n Single click breakpoints
+n
+n
+Powerful templates
+n
+n
+Copyright 1999-2002
+You only need to write the “core” code
+... and much much more.
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Core JAVA
+n Fundamental
+Concepts
+n Bootstrapping
+n Basic Language Syntax
+n Common Caveats
+n Coding Conventions
+18Inline Comments
+public class HelloWorld {
+public static void main(String [] args) {
+// Next line prints out a message to the console
+System.out.println("Hello, world");
+}
+}
+Denoted by // (same as C++)
+n Everything between // and EOL is not
+compiled
+n Write short notes about what this
+particular piece of code is doing
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+JAVADOC Comments
+n
+n
+Copyright 1999-2002
+JAVADOC comments
+are begun by the
+sequence /**, continued
+with a * at the beginning
+of each line and
+terminated by the */
+sequence
+JAVADOC comments
+are “official”
+documentation of your
+code
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+19JAVADOC Comments
+n
+Copyright 1999-2002
+JAVADOC comments can be compiled into
+HTML files via Forte or via the JAVADOC
+command line tool
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Primitive Variables
+n
+A variable is an item of data named by an
+identifier
+• Variable declaration is manipulation of the
+computer’s scratchpad (RAM)
+• We are reserving a space in the scratchpad and
+giving that space an easy-to-use name
+n
+Examples:
+• int x = 0;
+• float f = 3.14159265;
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+20Fixed Point Data Types
+n
+Byte - byte b = 16;
+• 8-bits, -127 to 127
+n
+Short - short s = -1543;
+• 16-bits, -32767 to 32767
+n
+Int - int i = 100340;
+• 32-bits, -2 billion to 2 billion
+n
+Long - long l = -123456789123;
+• 64-bits, absurdly large numbers
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Fixed Point Data Types
+Used when representing integral
+numeric data (like 4 or 5)
+n Common misconception:
+n
+• Fixed point types can/is not used to represent
+fractional values
+n
+Used to represent data where the
+decimal point position stays constant
+• Example: money ... $18.45
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+21Floating Point Data Types
+Used when data may take on wildly
+different values or when scientific
+precision must be preserved
+n Float
+n
+• float f = 3.14159265;
+• 32-bits (max value ~10^38)
+n
+Double
+• double d = 5.6243*Math.pow(10,250);
+• 64-bits (max value ~10^308)
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Why use fixed point?
+n
+Why bother with implicit decimal points?
+• You might forget about the point...
+• Somebody else might modify your code...
+n
+First guess: it’s the size
+• 8 bits versus 32 or 64 bits...
+• No... because of alignment issues
+n
+Copyright 1999-2002
+The real reason... SPEED!
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+22Fixed vs. Floating Point
+n
+On a MIPS R4000 class processor
+(found in 1990 SGI Indy’s and Y2000 PDAs like the
+Casio Cassiopeia)...
+• Floating point division takes ~ 70 cycles
+• Fixed point division takes ~ 13 cycles
+n
+This is even more apparent with SIMD
+instruction sets...
+• MMX/SSE/3DNow, etc. can improve fixed
+point performance by 4 to 16 times!
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Other Data Types
+n
+Boolean
+• 1-bit fixed point type
+• Use the words “true” and “false” to assign and
+compare values
+n
+Char
+• Holds a single unicode character
+• 16-bits (unlike the “usual” 8-bit ASCII)
+n
+Reference
+• Called pointer in C/C++... this holds an
+address in memory
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+23Literal Data
+How can you tell if 12 is a byte, short, int
+or long?
+n By default, literals w/o a decimal point are
+int and with a decimal point are double
+n
+• You can use 12345L to make a long
+• 12.3456F can be used for float
+• Byte/Short don’t have equivalents
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Something to Try...
+public class Test {
+public static void main(String args[]) {
+float f = 3.14159265; // this is okay.
+int x = 3.14159265; // is this valid?
+byte b = 32; // this is also okay.
+byte b2 = 130; // ... how about this?
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+24Another Thing to Try...
+public class Test {
+public static void main(String args[]) {
+boolean firstGuy = true; // works.
+boolean secondGuy = 1;
+// this?
+boolean thirdGuy = -1;
+// this?
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Aggregate Types - Arrays
+n
+Easily access groups of variables
+• All variables share the same prefix
+• Variables must be of the same type
+n
+Syntax:
+int[] myArray = new int[64];
+myArray[15] = 9226;
+System.out.println(myArray[15]);
+n
+Copyright 1999-2002
+Arrays start counting from ZERO!
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+25Something to Try:
+public class ArrayTest {
+public static void main(String [] args) {
+int [] myArray = new int[5];
+for (int j = 0; j <= 5; j++) { // ???
+myArray[j] = j*100;
+System.out.println(myArray[j]);
+}
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Type Casting
+If you want to “force” one type into
+another, you have to “cast” it
+n This code will not compile:
+n
+int x = 123;
+byte b = x;
+n
+This is the correct code:
+int x = 123;
+byte b = (byte)x;
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+26Something to Try:
+public class Test {
+public static void main(String [] args) {
+int x = 5000;
+byte smallFry = 64;
+long bigGuy = 1234567890;
+x = smallFry;
+// will this work?
+x = bigGuy;
+// how about this?
+x = (int)bigGuy; // or this?
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Scope
+n
+Variables live within the nearest set of
+curly braces...
+public class myStuff {
+int x = 327; // this is visible classwide
+public static void main(String[] args) {
+int y = -33; // visible inside main
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+27Something to Try:
+public class Test {
+public static void main(String [] args) {
+int x = 32;
+System.out.println(x);
+{
+int x = 64; // this won’t work
+int y = 74;
+System.out.println(x);
+System.out.println(y);
+}
+System.out.println(x);
+System.out.println(y); // won’t work
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Constants
+n
+If you want to reserve a space in memory
+as being “immutable”, use the “final”
+keyword:
+final int x = 327;
+final double PI = 3.14159265;
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+28Something to Try:
+public class Test {
+public static void main(String [] args) {
+final int x = 32;
+int y = 64;
+System.out.println(x);
+System.out.println(y);
+x = 24; // this won’t work
+y = 32;
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Infix Arithmetic
+n The + - / * operators work as you think
+that they would:
+int z = y + x;
+double fz = fx * fy + fw;
+n In addition there is the % operator which
+is called modulo, it divides and takes the
+remainder
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+29Something to Try:
+public class Test {
+public static void main(String [] args) {
+int ix = 9;
+double fx = 9.0;
+int iy = 5;
+double fy = 5.0;
+System.out.println(ix/iy);
+System.out.println(fx/fy);
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Prefix/Postfix Arithmetic
+n The – operator negates a value:
+int y = -z;
+n The + operator promotes:
+byte x = 32;
+int y = +x;
+n The ++ and -- operators increment and
+decrement by 1
+int z = x++;
+int y = ++x;
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+30++X versus X++?
+n Consider
+the following piece of code:
+int x = 1;
+System.out.println(x);
+System.out.println(x++);
+System.out.println(x);
+System.out.println(++x);
+System.out.println(x);
+n What’s
+Copyright 1999-2002
+Simon Lok
+1
+1
+2
+3
+3
+the output?
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Relational Operators
+Unlike arithmetic, these process numeric
+data into a boolean result
+n The common ones are:
+n
+• >, >=, <, <=, == and !=
+n
+They work as you would expect
+int y = 8; int x = 3;
+boolean myGuy = (y < x);
+System.out.println(myGuy);
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+31Combining Relational Ops
+n
+Conditional Combinations
+• &&, ||, ^ - implement the logical AND, OR and
+XOR functions
+• boolean result = ((x > y) && (x < y));
+n
+Negation
+• The ! operator can prefix any boolean variable or
+expression
+• It inverts the logical value of the variable or
+expression that it prefixes
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Something To Try:
+public class Test {
+int x = 32, y = 32, z = 64;
+boolean a = (x > y);
+System.out.println(a);
+//
+boolean b = (x == y);
+System.out.println(b);
+//
+boolean c = ((y == x) && (z >
+System.out.println(c);
+//
+}
+Copyright 1999-2002
+Simon Lok
+output?
+output?
+y));
+output?
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+32Bitwise Operations
+n
+Bitwise Conditional Operations
+• &,| and ^ perform bitwise AND/OR/XOR on
+numeric data...
+• int x = 6 & 3;
+int y = 6 | 3;
+System.out.println(x + “, “ +y);
+n
+Remember that 6 is 0110 and 3 is
+0011 in binary...
+0110
+& 0011
+0010
+Copyright 1999-2002
+Simon Lok
+0110
+| 0011
+0111
+0110
+^ 0011
+0101
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Bit Shifting
+n
+The >>, >>> and << operators move the
+bits around...
+• int x = 16 >> 2;
+System.out.println(x);
+Shifting can be used for quickly
+multiplying and dividing by two
+n >>> differs from >> in that >>> is
+unsigned... >> simply pads zero
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+33Why bitwise ops?
+n
+Hardware interaction...
+• Most hardware provides a stream of data in
+the form of bytes that need to be sliced,
+shifted and otherwise massaged into usable
+form
+n
+Flags...
+• Rather than having many boolean variables,
+you can have a fixed point “flag” variable with
+up to 64 flags
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Assignment Operations
+n
+You can assign with the = operator, but
+you can also combine most other
+operations...
+• int x = 0;
+x += 5; // same as x = x + 5;
++=, -=, *=, /=, &=, >>=, etc. are all valid
+assignment operations
+n y += 6 bis faster than y = y + 6;
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+34String Manipulation
+n
+The + infix operator does something
+slightly different with Strings...
+String firsGuy = “Hello“;
+String secGuy = “World”;
+String sum = firstGuy + “ “ + secGuy;
+System.out.println(sum);
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+String Comparison
+n
+n
+You cannot use == to compare Strings directly!
+Call “compareTo”
+n
+n
+n
+Returns the lexographic difference
+Zero means they’re the same
+Syntax:
+if (myString.compareTo(“hello”) == 0) {
+// executes if myString == “hello”
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+35Conditional Execution
+n
+Execute a statement block if a certain
+condition is met...
+if (x > 0) {
+System.out.println(“x is good!”);
+} else if (x < 0) {
+System.out.println(“problem!”);
+} else {
+System.out.println(“borderline!”);
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Something to Try:
+public class Test {
+public static void main(String [] args) {
+double x = 32;
+if(x < 0) {
+System.out.println(“x less than zero”);
+} else if (x > 0) {
+System.out.println(“x greater than zero”);
+boolean positiveNumberFlag = true;
+} else {
+System.out.println(“x is zero”);
+}
+System.out.println(positiveNumberFlag); // ???
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+36Conditional Execution
+n
+Another alternative:
+switch(x) {
+case 0: System.out.println(“border!”);
+break;
+case 1: System.out.println(“good”);
+break;
+default: System.out.println(“BAD!”);
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Something to Try:
+public class test {
+public static void main(String [] args) {
+int x = 2;
+switch(x) {
+case 1: System.out.println(“one”);
+break;
+case 2: System.out.println(“two”);
+// whoops, forgot the break!
+case 3: System.out.println(“three”);
+break;
+default: System.out.println(“unknown”);
+}
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+37Iteration
+n
+To repeat a task a specified number of
+times, use the “for” construct:
+for(int i = 0; i < 10; i++) {
+System.out.println(i);
+}
+n
+To repeat until a condition is met:
+while(i < 10) {
+System.out.println(i);
+i++;
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+More Iteration
+n
+Another variation on the while loop:
+int i = 0;
+do {
+System.out.println(i);
+i++;
+} (while (i < 10));
+The do/while loop will always run the loop
+at least once
+n This is often used for user input
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+38Something to Try:
+public class Test {
+public static void main(String [] args) {
+int j = 0;
+// print out all even numbers up to 100
+while (j != 99) {
+System.out.println(j);
+j += 2;
+}
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Changing the flow
+n
+n
+Copyright 1999-2002
+Break and continue can be used to stop/jump
+iteration blocks
+OUT: for (int j = 0; j < 100; j++)
+{
+for (k = 0; k < 100; k++) {
+if ((j % k)==0) continue OUT;
+System.out.println(j);
+}
+}
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+39Something to Try:
+public class Test {
+public static void main(String [] args) {
+for (int w = 0; w < 4; w++) {
+MID: for (int y = 0; y < 5; y+= 2) {
+for (int k = 3; k > 0; k++) {
+if ((w + y + k) == 4) break;
+if ((w * y) > 6) continue MID;
+}
+}
+}
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Basic I/O using a CLI
+Soon, we will be building all of our
+applications with GUIs, but for now, we
+can take user input from the command
+line interface
+n There are two basic ways to get user
+input from the CLI
+n
+• The command line arguments
+• Reading from the console
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+40Command Line Arguments
+n
+When you run a program, you often
+supply it with arguments
+• dir myfile* /a
+• ls –la myfile*
+n
+You can supply a JAVA program
+command line arguments as well
+• java myProgram myFirstArg anotherArg
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Retrieving Arguments
+n Recall
+the declaration of main:
+public static void main(String [] args)
+n The
+array “args” can be used to
+access the parameters
+n The scope of the “args” array is
+inside main
+n args.length gives us how many
+parameters were passed
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+41Something to Try:
+public class EchoArgs {
+public static void main(String [] args) {
+for (int j = 0; j < args.length; j++) {
+System.out.println(args[j]);
+}
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Arguments are Strings!
+Be careful... the command line
+arguments in the args array is of type
+String
+n You must convert it to a numeric type if
+you plan on doing arithmetic
+n
+• int myArg =
+Integer.parseInt(args[2]);
+• float gimme =
+Float.parseFloat(args[1]);
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+42Something to Try:
+public class Test {
+public static void main(String [] args) {
+if (args.length < 2) {
+System.out.println(“Must have two args”);
+System.exit(-1);
+}
+double a0 = Double.parseDouble(args[0]);
+double a1 = Double.parseDouble(args[1]);
+System.out.println(args[0] + args[1]);
+System.out.println(a0 + a1);
+}
+}
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Reading from the Console
+Unfortunately, this is pretty complicated...
+the reason is because Sun wants JAVA to
+be very “clean”
+n Refer to the NumberInput.java sample
+program...
+n
+• Basically you have to open System.in
+• Then you have to readLine and parse
+• You also have to make sure the user types in
+something that’s valid using a loop
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+43One more thing...
+n
+You must import java.io.*;
+n
+n
+This loads a package, we’ll revisit this later
+The try-catch construct is required when doing
+any kind of I/O
+• try {
+String input = console.readLine();
+} catch(Exception e) {
+System.out.println(“An error occurred.”);
+}
+n
+Copyright 1999-2002
+This is called an exception handler, we will revisit this
+later
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Something to Try:
+import java.io.*;
+public class Test {
+public static void main(String [] args) {
+InputStreamReader in = new InputStreamReader(System.in);
+BufferedReader con = new BufferedReader(in);
+boolean isGood = false;
+while(isGood != true) {
+try {
+System.out.print(“Enter a number: “);
+double input = Double.parseDouble(con.readLine());
+isGood = true;
+} catch (Exception e) {
+System.out.println(“That was not a number!”);
+}
+}
+if (input > 0) { System.out.println(“positive”); }
+else { System.out.println(“not positive”);
+}
+}
+Copyright 1999-2002 Simon Lok Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+44Core JAVA
+n Fundamental
+Concepts
+n Bootstrapping
+n Basic Language Syntax
+n Common Caveats
+n Coding Conventions
+javac: Command not found
+n
+You have not put the jdk/bin directory into
+your executable path...
+• Under Win9X/ME, edit autoexec.bat
+• Under WinNT/2K, modify system properties
+• Under UNIX variants, edit .profile/.cshrc
+n
+Copyright 1999-2002
+Better yet, use Forte (or some other IDE)
+that has a built in compiler
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+45Blah.java:14: ‘;’ expected
+You forgot to end the line with the
+semicolon character
+n You forgot to match your curly braces...
+for every { you need a }
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Can't find class MyStuff.class
+n
+You attempted to run a JAVA program
+incorrectly:
+• java MyStuff.class
+n
+You should run JAVA programs w/o the
+trailing .class:
+• java MyStuff
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+46It’s a Jungle Out There
+Keep your variables to the absolute
+minimum scope that they need
+n This helps prevent namespace
+collisions...
+n
+• Namespace collisions are usually quite painful to
+debug, especially if it’s some obscure control flow
+variable
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Infinite Loops
+n
+Loops terminate upon a condition...
+n
+If you make a blunder on the condition, the
+loop may never terminate.
+The while loop is prone to this particular
+problem
+n If you know how many times you are
+going to run a loop at compile time, use a
+for loop
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+47Comments, who needs those?
+Properly documenting a software
+engineering project is 100000 times more
+important than creating the project itself...
+n In JAVA, this means proper JAVADOC
+and inline comments
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Test as you write code!
+Design your approach on “paper” first...
+make a flowchart, etc.
+n Write small test programs with code
+fragments to test your ideas
+n Test integrated code as you go along...
+don’t wait for the last step and hope
+things will just work
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+48Core JAVA
+n Fundamental
+Concepts
+n Bootstrapping
+n Basic Language Syntax
+n Common Caveats
+n Coding Conventions
+Adapted with permission from JAVA CODE CONVENTIONS.
+Copyright 1995-1999 Sun Microsystems, Inc. All rights
+reserved
+Why bother? It’s arbitrary!
+n
+n
+n
+n
+Copyright 1999-2002
+80% of the lifetime cost of a piece of software
+goes to maintenance.
+Hardly any software is maintained for its whole
+life by the original author.
+Code conventions improve the readability of the
+software, allowing engineers to understand new
+code easily.
+If you publish your source code, you need to
+make sure it is as well packaged and clean as
+any other product you create.
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+49Comments
+We have already talked about this
+n JAVADOC comments at the beginning of
+every class, method and field
+n Inline comments every other line to
+describe what the following line of code
+does
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Line Length
+No line of code should be > 80 characters
+in length
+n Line breaks should make sense...
+n
+longName1 = longName2 * (longName3 + longName4 - longName5)
++ 4 * longname6; // PREFER
+longName1 = longName2 * (longName3 + longName4
+- longName5) + 4 * longname6; // AVOID
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+50Variables
+Initialize all variables all of the time
+n Only declare one variable per line
+n For local variables, use an inline
+comment immediately after the variable
+declaration to describe what the variable
+is for
+n For fields, use a JAVADOC comment
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Indentation
+All open curly braces imply that the next
+line should be indented
+n Indentation should be uniform across all
+files
+n Large indentations are a bad idea
+because you run out of room to nest
+blocks of code
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+51Parentheses
+Be explicit everywhere
+n Order of operations applies, but you
+should be explicit to make sure that
+anyone reading your code can easily
+understand what is going on
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+Identifiers
+Class names should start with a capital
+letter and have an additional capital letter
+for each word in the noun phrase
+(MyClassName)
+n Methods and Variables names do not
+have a leading capital letter (myVar)
+n Constants all all caps with _ breaking the
+words (MY_CONSTANT)
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+52Clean code is good code
+n
+The vast majority of software defects can
+be avoided through a combination of:
+Thorough paper designs
+n Writing clean, standardized code
+n Proper unit testing while coding
+n Meticulous documentation
+n
+Copyright 1999-2002
+Simon Lok
+Reproduction and/or redistribution in whole or part without written authorization is expressively prohibited
+53

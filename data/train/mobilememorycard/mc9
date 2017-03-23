@@ -1,0 +1,220 @@
+
+ Patents
+12 of 3,53,082
+Search Terms
+Search Fields
+Before priority
+After filing
+Mobile phone device with video output
+Abstract
+A mobile phone device with video output function is provided. Digital images captured by a digital camera module within the mobile phone device or digital images stored within a memory card are converted to analogue video signals through a video digital/analogue converter. The analogue video signals are subsequently transmitted to a screen projector or a television set for display.
+Images (3)
+Classifications
+H04M1/72522 With means for supporting locally a plurality of applications to increase the functionality
+View 5 more classifications
+US20050101343A1
+
+US Application
+Download PDF
+Find Prior Art
+
+Legal status
+    Pending 
+Application number
+    US10712245
+
+Inventor
+    Shih-Shien Hsiao 
+Current Assignee
+    Kinpo Electronics Inc 
+Original Assignee
+    Shih-Shien Hsiao 
+
+Priority date
+    2003-11-12 
+Filing date
+    2003-11-12 
+Publication date
+    2005-05-12
+
+Info
+    Patent citations (5)
+    Cited by (45)
+    Legal events
+    Similar documents
+External links
+    USPTO
+    USPTO Assignment
+    Espacenet
+    Global Dossier
+    Discuss
+
+Description
+
+    BACKGROUND OF THE INVENTION
+    [0001]
+    1. Field of the Invention
+    [0002]
+    The present invention relates to a mobile phone device. More particularly, the present invention relates to a mobile phone device with a video output function.
+    [0003]
+    2. Description of the Related Art
+    [0004]
+    As our communication network advances, the amount of communication between people using various types of equipment increases tremendously. In recent years, the rapid pace in which electronic devices are developed has created various mobile communication systems such as the GSM, the CDMA and the 3G so that an unprecedented number of users are tapped into the communication network through mobile phone devices.
+    [0005]
+    To enhance the features of a portability mobile phone devices, additional functions are frequently incorporated such as the merger with a digital camera. However, the images captured by the digital camera are either stored within a memory card or transmitted to other devices through a wireless transmission. Without a video output terminal for displaying the images, usefulness of the digital camera function on the mobile phone device is limited.
+    SUMMARY OF THE INVENTION
+    [0006]
+    Accordingly, one objective of the present invention is to provide a mobile phone device with a video output function so that digital images captured by the phone or stored within a memory card can be displayed by transmitting to a screen projector or a television set.
+    [0007]
+    To achieve these and other advantages and in accordance with the purpose of the invention, as embodied and broadly described herein, the invention provides a mobile phone device with video output function. The mobile phone device comprises a mobile phone circuit and a video digital/analogue converter. The mobile phone circuit incorporates a digital camera capable of capturing a plurality of images. The video digital/analogue converter is coupled to the mobile phone circuit for converting the captured or stored digital images into analogue video output signals.
+    [0008]
+    In one embodiment, the mobile phone circuit further comprises a radio frequency unit, a digital camera module, a memory card, a display unit and a base frequency processor. The radio frequency unit transmits and receives a radio frequency signal. The digital camera module executes all the functions necessary for capturing digital images. The memory card is a device for holding the captured images. The display unit displays the digital images. The base frequency processor is coupled to the radio frequency unit, the digital camera module, the memory card, the display unit and the video digital/analogue converter. The base frequency processor controls the transmission and reception of radio frequency signals, the storage of digital images, the display of images on the display unit and the output of analogue video signals from the video digital/analogue converter.
+    [0009]
+    The display unit can be a liquid crystal display screen and the memory card can be a SD memory card, a MMC memory card, an XD memory card, a MS memory card or a mini-SD memory card. The analogue video signals from the video digital/analogue converter can be collected and displayed through a screen projector or a television set with a video input terminal.
+    [0010]
+    In brief, this invention provides a mobile phone device with video output terminal that facilitates the transmission of digital images captured by the mobile phone device or digital images stored within a memory card to a screen projector or a television set.
+    [0011]
+    It is to be understood that both the foregoing general description and the following detailed description are exemplary, and are intended to provide further explanation of the invention as claimed.
+    BRIEF DESCRIPTION OF THE DRAWINGS
+    [0012]
+    The accompanying drawings are included to provide a further understanding of the invention, and are incorporated in and constitute a part of this specification. The drawings illustrate embodiments of the invention and, together with the description, serve to explain the principles of the invention.
+    [0013]
+    FIG. 1 is a block diagram of a mobile phone device with video output function according to one preferred embodiment of this invention.
+    [0014]
+    FIG. 2 is a diagram showing an application of the mobile phone device with video output function according to this invention.
+    [0015]
+    FIG. 3 is a diagram showing another application of the mobile phone device with video output function according to this invention.
+    DESCRIPTION OF THE PREFERRED EMBODIMENTS
+    [0016]
+    Reference will now be made in detail to the present preferred embodiments of the invention, examples of which are illustrated in the accompanying drawings. Wherever possible, the same reference numbers are used in the drawings and the description to refer to the same or like parts.
+    [0017]
+    FIG. 1 is a block diagram of a mobile phone device with video output function according to one preferred embodiment of this invention. As shown in FIG. 1, the mobile phone device 100 comprises a mobile phone circuit 110 and a video digital/analogue converter 120. The mobile phone circuit 110 further includes a radio frequency unit 111, a digital camera module 112, a memory card 113, a display unit 114 and a base frequency processor 115. The base frequency processor 115 is coupled to the radio frequency unit 111, the digital camera module 112, the memory card 113, the display unit 114 and the video digital/analogue converter 120.
+    [0018]
+    The base frequency processor 115, the radio frequency unit 111 and the display unit 114 such as a liquid crystal display screens together execute all the functions necessary to operate the mobile phone device. In other words, the base frequency processor 115 controls the transmission and reception of radio frequency signals to and from the radio frequency unit 111 and shows related messages on the display unit 114.
+    [0019]
+    Because a digital camera is also incorporated into the mobile phone device 100, the base frequency processor 115, the digital camera module 112, the memory card 113 and the display unit 114 together execute all necessary functions for operating the digital camera. In other words, the base frequency processor 115 and the digital camera module 112 can be utilized to take pictures and produce digital images. The captured digital images are stored inside the memory card 113 or displayed on the display unit 114. Alternatively, the stored digital images are passed to the video digital/analogue converter and converted into analogue video signals. The analogue video signals are transmitted to a screen projector or a television set via a video output terminal in the mobile phone device so that the images are displayed on a screen projector or a television set.
+    [0020]
+    The memory card 113 can be a SD memory card, a MMC memory card, an XD memory card, a MS memory card, a mini-SD memory card, for example.
+    [0021]
+    FIG. 2 is a diagram showing an application of the mobile phone device with video output function according to this invention. As shown in FIG. 2, a video output terminal 201 on a mobile phone device 200 and a video input terminal 251 on a screen projector 250 are connected together via a cable. Thus, the screen projector 250 can be used to display any stored digital images within the memory card (not shown) of the mobile phone device 200. For example, a company staff wishing to submit a short report with photos to a customer may organize the data and pictures using the PowerPoint software and subsequently converting the data into JPEG files for storage inside the memory card. Thereafter, the memory card is inserted into the mobile phone device 200 with video output function so that report data can be displayed on the screen projector 250. Since a mobile phone device is much easier to carry than a notebook computer, a brief business talk is more convenient to organize.
+    [0022]
+    FIG. 3 is a diagram showing another application of the mobile phone device with video output function according to this invention. As shown in FIG. 3, a video output terminal 301 on a mobile phone device 300 and a video input terminal 351 on a television set 350 are connected together via a cable. Thus, the television set 350 can be used to display any stored digital images within the memory card (not shown) of the mobile phone device 300. For example, the mobile phone device 300 can be used to display captured digital images on television set 350 to friends or the family at home.
+    [0023]
+    It will be apparent to those skilled in the art that various modifications and variations can be made to the structure of the present invention without departing from the scope or spirit of the invention. In view of the foregoing, it is intended that the present invention cover modifications and variations of this invention provided they fall within the scope of the following claims and their equivalents.
+
+Claims (11)
+1. A mobile phone device with video output function, comprising:
+a mobile phone circuit with digital camera function, for capturing a digital image; and
+a video digital/analogue converter, coupled to the mobile phone circuit for converting the digital image into an analogue video output signal.
+2. The mobile phone device of claim 1, wherein the mobile phone circuit comprises:
+a radio frequency unit, for transmitting and receiving a radio frequency signal;
+a digital camera module, for executing all the functions necessary for capturing the digital image;
+a memory card, for holding digital images;
+a display unit, for displaying the digital images; and
+a base frequency processor, coupled to the radio frequency unit, the digital cameral module, the memory card, the display unit and the video digital/analogue converter for controlling the transmission and reception of radio frequency signals, the storage of digital images, the display of digital images and the output of analogue video signals from the video digital/analogue converter.
+3. The mobile phone device of claim 2, wherein the display unit comprises a liquid crystal display screen.
+4. The mobile phone device of claim 2, wherein the memory card comprises a SD memory card.
+5. The mobile phone device of claim 2, wherein the memory card comprises a MMC memory card.
+6. The mobile phone device of claim 2, wherein the memory card comprises a XD memory card.
+7. The mobile phone device of claim 2, wherein the memory card comprises an MS memory card.
+8. The mobile phone device of claim 2, wherein the memory card comprises a mini-SD memory card.
+9. The mobile phone device of claim 1, wherein the analogue video signals can be display through a display device with a video input terminal.
+10. The mobile phone device of claim 9, wherein the display device comprises a screen projector.
+11. The mobile phone device of claim 9, wherein the display device comprises a television set.
+Patent Citations (5)
+Publication number Priority date Publication date Assignee Title
+US5612732A * 1993-03-31 1997-03-18 Casio Computer Co., Ltd. Portable compact imaging and displaying apparatus with rotatable camera
+US6795715B1 * 1999-03-25 2004-09-21 Sony Corporation Portable communication device with camera interface for image transmission and reception
+US20040087350A1 * 2002-10-30 2004-05-06 Nec Corporation Mobile phone with power saving function
+US20040230789A1 * 2003-05-16 2004-11-18 Pu-Yun Lee Multi memory card accessing system and implementation method thereof
+US20050037647A1 * 2003-08-20 2005-02-17 Imation Corp. Memory card compatible with multiple connector standards
+* Cited by examiner, † Cited by third party
+Cited By (45)
+Search Within Citing Patents
+Publication number Priority date Publication date Assignee Title
+US20050233773A1 * 2004-04-20 2005-10-20 Lg Electronics Inc. Display interface of mobile telecommunication terminal
+US7711394B2 * 2004-04-20 2010-05-04 Lg Electronics Inc. Display interface of mobile telecommunication terminal
+US9118794B2 2004-07-16 2015-08-25 Virginia Innovation Sciences, Inc. Methods, systems and apparatus for displaying the multimedia information from wireless communication networks
+US9286853B2 2004-07-16 2016-03-15 Virginia Innovation Sciences, Inc. Methods, systems and apparatus for displaying the multimedia information from wireless communication networks
+US9355611B1 2004-07-16 2016-05-31 Virginia Innovation Sciences, Inc Methods, systems and apparatus for displaying the multimedia information from wireless communication networks
+US8903451B2 2004-07-16 2014-12-02 Virginia Innovation Sciences, Inc. Methods, systems and apparatus for displaying the multimedia information from wireless communication networks
+US8948814B1 2004-07-16 2015-02-03 Virginia Innovation Sciences Inc. Methods, systems and apparatus for displaying the multimedia information from wireless communication networks
+US20060061561A1 * 2004-09-20 2006-03-23 Alpha Imaging Technology Corp. Image processing device
+EP1901545A1 * 2005-07-01 2008-03-19 Matsushita Electric Industrial Co., Ltd. Communication terminal
+EP1901545A4 * 2005-07-01 2010-02-24 Panasonic Corp Communication terminal
+US20090233643A1 * 2005-07-01 2009-09-17 Matsushita Electric Industrial Co., Ltd. Communication terminal
+US8204950B2 2005-09-15 2012-06-19 Qwest Communications International Inc. Webpage search
+US20070061410A1 * 2005-09-15 2007-03-15 Qwest Communications International Inc. Webpage search
+WO2007040322A1 * 2005-10-03 2007-04-12 Gyungyun Kim Portable electronic apparatus with beam projector function
+US20070088850A1 * 2005-10-19 2007-04-19 Qwest Communications International Inc. Cross-platform support for a variety of media types
+US8799512B2 2005-10-19 2014-08-05 Qwest Communications International Inc. Cross-platform support for a variety of media types
+US20070093275A1 * 2005-10-25 2007-04-26 Sony Ericsson Mobile Communications Ab Displaying mobile television signals on a secondary display device
+WO2007050138A1 * 2005-10-25 2007-05-03 Sony Ericsson Mobile Communications Ab Displaying mobile television signals on a secondary display device
+CN101297554B 2005-10-25 2011-09-21 索尼爱立信移动通讯股份有限公司 Displaying mobile television signals on a secondary display device
+US20070097669A1 * 2005-11-01 2007-05-03 Hui Man P Adaptor for capturing screen images from handheld video game devices and handheld video player devices and transmitting said images to a television or computer monitor
+US8170189B2 2005-11-02 2012-05-01 Qwest Communications International Inc. Cross-platform message notification
+US20070239805A1 * 2006-04-05 2007-10-11 Qwest Communications International Inc. Network repository auto sync wireless handset
+US20070239559A1 * 2006-04-05 2007-10-11 Qwest Communications International Inc. Cross-platform calendar notifications
+US9323821B2 2006-04-05 2016-04-26 Qwest Communications International Inc. Network repository auto sync wireless handset
+US8078476B2 2006-04-05 2011-12-13 Qwest Communications International Inc. Cross-platform calendar notifications
+US20070239895A1 * 2006-04-05 2007-10-11 Qwest Communications International Inc. Cross-platform push of various media types
+US8320535B2 2006-04-06 2012-11-27 Qwest Communications International Inc. Selectable greeting messages
+US20070240065A1 * 2006-04-06 2007-10-11 Qwest Communications International Inc. Multiple use of common perspectives
+US20070263791A1 * 2006-04-06 2007-11-15 Qwest Communications International Inc. Selectable greeting messages
+US8214469B2 2006-04-06 2012-07-03 Qwest Communications International Inc. Multiple use of common perspectives
+GB2437124A * 2006-04-11 2007-10-17 Magical Control Technology Cor Mobile audiovisual device
+US8644883B2 * 2006-04-17 2014-02-04 Samsung Electronics Co., Ltd. Display control apparatus and method in a mobile terminal capable of outputting video data to an external display device
+US20070243907A1 * 2006-04-17 2007-10-18 Samsung Electronics Co., Ltd. Display control apparatus and method in a mobile terminal capable of outputting video data to an external display device
+US20070271586A1 * 2006-05-16 2007-11-22 Qwest Communications International Inc. Socially Networked Television Experience
+US8819751B2 2006-05-16 2014-08-26 Qwest Communications International Inc. Socially networked television experience
+US20080186150A1 * 2007-02-05 2008-08-07 D-Link Corporation Plug-and-play network digital image display apparatus and image monitoring system
+EP1983756A1 * 2007-04-18 2008-10-22 St Microelectronics S.A. Portable device with video output
+US20080259221A1 * 2007-04-18 2008-10-23 Stmicroelectronics S.A. Portable device with video output
+US20090251607A1 * 2008-04-03 2009-10-08 Slideshow Technologies, Inc. Displaying presentations
+US20100146496A1 * 2008-12-02 2010-06-10 Slideshow Technologies, Llc Displaying Presentations
+US8732583B2 * 2010-01-05 2014-05-20 Blackberry Limited Method of remotely controlling a presentation in loop mode using a portable electronic device
+US8581931B2 2010-01-05 2013-11-12 Blackberry Limited Method of remotely controlling a presentation to freeze an image using a portable electronic device
+EP2341700A1 * 2010-01-05 2011-07-06 Research In Motion Limited Method of remotely controlling a presentation to freeze an image using a portable electronic device
+US20110164043A1 * 2010-01-05 2011-07-07 Research In Motion Limited Method of remotely controlling a presentation to freeze an image using a portable electronic device
+US20110167351A1 * 2010-01-05 2011-07-07 Research In Motion Limited Method of remotely controlling a presentation in loop mode using a portable electronic device
+* Cited by examiner, † Cited by third party
+Similar Documents
+Publication Publication Date Title
+US6714238B2 2004-03-30 Video/audio communication system with confirmation capability
+US5584070A 1996-12-10 Wireless pager with separable receiver unit and transmitter unit
+US20020171737A1 2002-11-21 Wireless hand-held digital camera
+US20020154221A1 2002-10-24 Digital camera, digital photographic system, and image transmission method using the digital photographic system
+US6219560B1 2001-04-17 Modular mobile communication system
+US20010041056A1 2001-11-15 Image information obtaining method, image information transmitting apparatus and image information transmitting system
+US7526323B2 2009-04-28 Portable composite communication terminal for transmitting/receiving voice and images, and operation method and communication system thereof
+US6901240B2 2005-05-31 Communication system
+US20020116465A1 2002-08-22 System and method for providing multimedia electronic mail service in a portable terminal
+US20060146140A1 2006-07-06 Apparatus for wireless operation and control of a camera
+US6906818B1 2005-06-14 Data communication system
+US20020037711A1 2002-03-28 Communication apparatus for communication with communication network, image pickup apparatus for inter-apparatus communication, and communication apparatus for communication with the same image pickup apparatus
+US20020024538A1 2002-02-28 Digital media frame
+US7062230B1 2006-06-13 Communication device, image-pickup device, storage medium and communication method
+US5943603A 1999-08-24 Electronic camera system with programmable transmission capability
+US6122526A 2000-09-19 Cellular telephone and electronic camera system with programmable transmission capability
+US6657654B2 2003-12-02 Camera for use with personal digital assistants with high speed communication link
+US6412689B1 2002-07-02 Communication equipment and method for business card information interchange
+US20020036698A1 2002-03-28 Image sensing device
+US20080003985A1 2008-01-03 Screen display method and apparatus for mobile device
+EP1580964A1 2005-09-28 Folding mobile telephone apparatus
+US20030222833A1 2003-12-04 Information processing apparatus and object display method employed in the same apparatus
+US6915119B1 2005-07-05 Telephone and data transmitting method for telephone
+EP1307062A1 2003-05-02 User interface for transmitting video data from a mobile device to an external display
+US7463216B2 2008-12-09 Captured image outputting system, display control apparatus, liquid crystal projector and digital camera that transmit images via wireless network
+Legal Events
+Date Code Title Description
+2003-11-12 AS Assignment
+
+Owner name: KINPO ELECTRONICS, INC., TAIWAN
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:HSIAO, SHIH-SHIEN;REEL/FRAME:014705/0395
+
+Effective date: 20031016
+Data provided by IFI CLAIMS Patent Services
+About Send Feedback Terms Privacy Policy
+memorycard
+

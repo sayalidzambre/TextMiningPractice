@@ -1,0 +1,189 @@
+
+ Patents
+4 of 3,52,967
+Search Terms
+Search Fields
+Before priority
+After filing
+Mobile memory card reader and a fixing base thereof
+Abstract
+A fixing base for a card reader is built in a read and write apparatus frame in a personal computer to be in company with a mobile memory card reader. The mobile memory card is further associated with a USB to perform a function of detachable hot insertion and multiple node series so as to design an application of circuit connection and a composite structure.
+Images (7)
+Classifications
+G06K7/0013 Methods or arrangements for sensing record carriers,e.g. for reading patterns by galvanic contacts, e.g. card connectors for ISO-7816 compliant smart cards or memory cards, e.g. SD card readers
+US20030178486A1
+
+US Application
+Download PDF
+Find Prior Art
+
+Legal status
+    Pending 
+Application number
+    US10117125
+
+Inventor
+    Wei Teng 
+    Che-Wen Lin 
+Current Assignee
+    Power Quotient International Co Ltd 
+Original Assignee
+    Power Quotient International Co Ltd 
+
+Priority date
+    2002-03-20 
+Filing date
+    2002-04-08 
+Publication date
+    2003-09-25
+
+Info
+    Cited by (27)
+    Also published as (1)
+    Legal events
+    Similar documents
+External links
+    USPTO
+    USPTO Assignment
+    Espacenet
+    Global Dossier
+    Discuss
+
+Description
+
+    BACKGROUND OF THE INVENTION
+    [0001]
+    1. Field of the Invention
+    [0002]
+    The present invention relates to a mobile memory card reader and a fixing base thereof.
+    [0003]
+    2. Description of Related Art
+    [0004]
+    Due to the technology of personal computer changes rapidly, it makes the current personal computer not only provides a much more powerful operation function but also is capable of connecting much more peripheries such as the key board, the scanner, the printer, and the memory card reader, etc. Of course, it is necessary for these peripheries to connect with the personal computer by way of certain data transmission interfaces while in use. Many peripheries sold in the market have adopted the USB as the data transmission interface and, for instance, the memory card reader is a typical example using the USB.
+    [0005]
+    Usually, the USB socket is arranged at the rear side of the computer case or attached to the main board in the case so that it is necessary for the peripheries to connect with the main unit of the personal computer by way of an extension line with a length of several times of ten centimeters. It is inconvenient for a user to carry a small sized memory card reader and the extension line with him after data from the digital still camera (DSC) or the personal digital assistant (PDA) being saved in a memory card. Hence, to develop a portable card reader to benefit the user is quite essential for a supplier.
+    [0006]
+    Accordingly, how to utilize the feature of the product adequately in company with considering the operation habit of the user so as to enhance the added value for the product is a subject matter worth to be cared by the manufacture.
+    SUMMARY OF THE INVENTION
+    [0007]
+    The crux of the present invention resides in that a fixing base for a card reader is built in a read and write apparatus frame in a personal computer to be in company with a mobile memory card reader. The mobile memory card is further associated with a USB to perform a function of detachable hot insertion and multiple node series so as to design an application of circuit connection and a composite structure.
+    BRIEF DESCRIPTION OF THE DRAWINGS
+    [0008]
+    The present invention can be more fully understood by reference to the following detailed description and accompanying drawings, in which:
+    [0009]
+    FIGS. 1 is a perspective view of a fixing base for a memory card reader according to the present invention;
+    [0010]
+    [0010]FIG. 2 is a perspective view illustrating the fixing base shown in FIG. 1 being installed in a personal computer;
+    [0011]
+    [0011]FIG. 3 is a perspective view illustrating the mobile memory card reader of the present invention being mounted in the fixing base shown in FIG. 1;
+    [0012]
+    [0012]FIGS. 4A and 4B are perspective views of the mobile memory card reader being projected onto the front side and the lateral side thereof respectively;
+    [0013]
+    [0013]FIG. 5 is a perspective view illustrating the interior of the fixing base for the mobile memory card reader of the present invention; and
+    [0014]
+    [0014]FIG. 6 is a block diagram illustrating electrical connection lines applied in the present invention.
+    DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENTS
+    [0015]
+    In order to explain the key concept of the present invention, please refer to FIG. 1 first. A fixing base for a memory card reader of the present invention, which is built in a personal computer, is shown with a shape of rectangular box. The fixing base is designated as a containing box 1 hereinafter. The containing box 1 has a front panel, which includes a reader receiving groove 11, a USB wire collector 12 and at least an indicator light 13. The present inventor has designed the containing box 1 to be installed in one of reserved spaces of the read and write device frame at the front side of the personal computer. Therefore, the containing box 1 can be installed in the space.
+    [0016]
+    Referring to FIG. 2, an example for the containing box in practice is illustrated. It can be seen that the containing box 21 has been inset to the read and write apparatus frame together with a compact disk driver 22, a floppy disk driver 23 and a hard disk 24. Then, a mobile memory card reader can be inserted into the receiving groove 11. Referring to FIG. 3, a combined structure of a mobile memory card reader 31 and a containing box 31 is illustrated. It can be seen that the detachable memory card reader 31 is fixed to the personal computer at the front panel thereof so that the user is capable of easily inserting a memory card into the card reader through a slot socket facing to him directly and it is not necessary to provide an extension line any more. Therefore, the present invention can enhance the portability of the memory card reader greatly.
+    [0017]
+    Referring to FIGS. 4A and 4B, the mobile memory card reader at the facial side thereof provides a plurality of inserted slots for different types of memory cards such as the compact flash card (CF), the smart media card (SMC), the multimedia card (MMC), the secure digital card (SD), the memory stick (MS), the micro drive and the smart card. These different types of memory cards may be inserted into the inserted slots one at a time and the arrangement of the inserted slots being located at the facial side of the memory card reader 31 is helpful for the stability of memory card during being inserted and taken out.
+    [0018]
+    The mobile memory card reader 4 at the interior thereof has printed circuit board and related electronic parts and at the rear side thereof has a bus socket 41. The bus socket 41 is corresponding to a bus plug 51 on the fixing base 5 shown in FIG. 5 so that the bus plug 51 can engage with the bus socket 41 at the time of the card reader 4 being received in the fixing base 5 to constitute an electrical connection. Further, a USB socket 52 shown in FIG. 5 can be connected to a USB socket in the personal computer by way of an extension line such that the function of multiple node connections in series for the USB can be performed advantageously.
+    [0019]
+    Finally, referring to FIG. 6, a control chip 61 of the card reader, a control chip 62 of the wire collector in the USB and a control circuit 63 of the indicator light can form a circuit as soon as the mobile memory card reader is placed in the fixing base. Hence, once the control chip 61 of the card reader processes to read data from or write data into the memory card, the control circuit 63 of the indicator light can control the indicator light 631 to assist the user in understanding that the status of the mobile memory card reader is in a state of reading or writing. The control chip 62 of the wire collector in the USB further has a wire collector socket 621 to be connected to other periphery directly by the user conveniently in addition to data transmission between the mobile memory card reader and the personal computer such that it is not necessary to use an extension line being connected to the rear side of the personal computer.
+    [0020]
+    It is appreciated that the mobile memory card reader with a fixing base thereof according to the present invention has involved in multiple distinctive designs substantially improved the disadvantage of conventional flash memory disk module greatly.
+    [0021]
+    While the invention has been described with reference to a preferred embodiment thereof, it is to be understood that modifications or variations may be easily made without departing from the spirit of this invention, which is defined by the appended claims.
+
+Claims (6)
+What is claimed is:
+1. A mobile memory card reader, comprising:
+a casing, at an interior thereof being arranged with a printed circuit board and a plurality of electronic parts;
+a USB plug, being located at a rear side of the casing to connect with a USB socket in a personal computer;
+a bus socket, being disposed at the rear side of the casing to connect with a reader fixing base built in the personal computer; and
+at least a slot socket, being arranged at a front side of the casing for being inserted with a memory card.
+2. The mobile memory card reader according to claim 1, wherein the slot socket is used for being inserted with a CF card, a SMC card, a MMC card, a SD card, a MS card, a micro-drive or a smart card.
+3. A fixing base for a card reader being built in a personal computer, comprising a containing box with a panel, being fixedly attached to a read and write apparatus frame of a personal computer;
+a card reader receiving groove, being received at the panel and providing a space for being inserted with a mobile memory card reader;
+a bus plug, being disposed in the containing box to connect with the mobile memory card reader; and
+a USB socket, being disposed at a rear side of the containing box to connect with a USB socket in a personal computer by way of an extension line so that signal connection can be formed.
+4. The fixing base for a card reader according to claim 3, wherein the bus plug in said containing box corresponding to and being connected to the bus socket at the rear side of the casing.
+5. The fixing base for a card reader according to claim 3, wherein a USB wire collector socket is provided at the panel of the containing box.
+6. The fixing base for a card reader according to claim 3, wherein the panel at least includes an indicator light.
+Cited By (27)
+Search Within Citing Patents
+Publication number Priority date Publication date Assignee Title
+US20070035918A1 * 2000-05-22 2007-02-15 Cheryl Henry Data storage device reader and method of using same
+US8337252B2 2000-07-06 2012-12-25 Mcm Portfolio Llc Smartconnect flash card adapter
+US7124215B2 * 2002-06-19 2006-10-17 Hewlett-Packard Development Company, L.P. Internal USB circuit connection
+US20040033734A1 * 2002-06-19 2004-02-19 Hewlett-Packard Development Company, L.P. Internal USB circuit connection
+US20040027879A1 * 2002-08-12 2004-02-12 Chang Cheng Chun Flash card reader
+US20060097050A1 * 2002-10-11 2006-05-11 Cedric Perben Portable reader
+US7374088B2 * 2002-10-11 2008-05-20 Axalto S.A. Portable reader
+US20040076048A1 * 2002-10-22 2004-04-22 Spotware Technologies, Inc. Universal serial bus flash bay
+US6976623B1 * 2002-11-18 2005-12-20 Onspec Electronic, Inc. Flash juke box
+US20040135241A1 * 2002-11-18 2004-07-15 Storcard, Inc. Secure transaction card with a large storage volume
+US20080052549A1 * 2002-11-22 2008-02-28 Toru Ichien Semiconductor data processing device and data processing system
+US20040103328A1 * 2002-11-22 2004-05-27 Renesas Technology Corp. Semiconductor data processing device and data processing system
+US7447932B2 2002-11-22 2008-11-04 Renesas Technology Corp. Semiconductor data processing device and data processing system
+US7257720B2 * 2002-11-22 2007-08-14 Renesas Technology Corp. Semiconductor processing device for connecting a non-volatile storage device to a general purpose bus of a host system
+US20040181623A1 * 2003-03-13 2004-09-16 First International Computer, Inc. Computer for receiving a removable data storage device
+US7076581B2 * 2003-03-13 2006-07-11 First International Computer, Inc. Computer for receiving a removable data storage device
+US20040257919A1 * 2003-06-18 2004-12-23 Carry Computer Eng. Co., Ltd. Integrated device for reading
+US20060011723A1 * 2004-07-14 2006-01-19 Ming-Hsiang Yeh Modularized card reader
+US20060027654A1 * 2004-08-04 2006-02-09 Chi-Tung Chang Card reader and data transmission method therefor
+US7048181B2 * 2004-10-01 2006-05-23 Datastor Technology Co., Ltd. Portable device with a storage box containing a data access device
+US20060071073A1 * 2004-10-01 2006-04-06 Chia-Jen Wang Portable device with a storage box containing a data access device
+US20060081707A1 * 2004-10-18 2006-04-20 Tatung Co., Ltd. Monitor having a card reader
+WO2006102787A1 * 2005-03-28 2006-10-05 Northstar Systems Corp. A pedestal for a card reader of usb connector terminal specification memroy card having a card withdrawing structure
+US20070181699A1 * 2006-02-04 2007-08-09 Yi Doo-Jin Memory card pack
+US7909251B2 * 2006-02-04 2011-03-22 Samsung Electronics Co., Ltd. Memory card pack
+US20100325330A1 * 2007-10-26 2010-12-23 Hsien-Rong Liang Multimedia multifunctional photo kiosk combination device
+US9558135B2 2012-04-19 2017-01-31 Larry Lawson Jones Flashcard reader and converter for reading serial and parallel flashcards
+* Cited by examiner, † Cited by third party
+Also Published As
+Publication number Publication date Type
+CN2529320Y 2003-01-01 Grant
+Similar Documents
+Publication Publication Date Title
+US5877975A 1999-03-02 Insertable/removable digital memory apparatus and methods of operation thereof
+US5815426A 1998-09-29 Adapter for interfacing an insertable/removable digital memory apparatus to a host data part
+US6646885B1 2003-11-11 Enhanced electronic card structure
+US6353870B1 2002-03-05 Closed case removable expansion card having interconnect and adapter circuitry for both I/O and removable memory
+US6408352B1 2002-06-18 Card connector adaptor with indicator
+US20030094490A1 2003-05-22 Flash memory card reader with low thickness
+US7104809B1 2006-09-12 Memory card shaped card reader
+US20020185533A1 2002-12-12 Externally connection type USB2.0 interface flash card reader
+EP1146428A1 2001-10-17 Multi-interface memory card and adapter module for the same
+US20050033992A1 2005-02-10 Input device
+US6385677B1 2002-05-07 Dual interface memory card and adapter module for the same
+US6733329B2 2004-05-11 USB flash drive
+US20060047982A1 2006-03-02 Mult-interface auto-switch circuit and memory device with dual interface auto-switch circuit
+US20050037647A1 2005-02-17 Memory card compatible with multiple connector standards
+US6736678B2 2004-05-18 Memory card interface adapter
+US6402558B1 2002-06-11 Memory card adapter
+US20030227451A1 2003-12-11 Portable storage device with a storage capacity display
+US20050182858A1 2005-08-18 Portable memory device with multiple I/O interfaces
+US6751694B2 2004-06-15 Silicon disk drive with few slots for plural disks
+US7575481B1 2009-08-18 USB plug with a built-in-card-reading slot
+US20050258243A1 2005-11-24 Express card interface adapter for small storage media
+US6813668B2 2004-11-02 Multi-functional electronic card capable of detecting removable cards
+US6976111B1 2005-12-13 High-density removable expansion module having I/O and second-level removable expansion memory
+US7296098B2 2007-11-13 Portable data converting and processing storage device with standard interface wherein the body unity does not include any built-in flash memory
+US5619396A 1997-04-08 Modular PCMCIA card
+Legal Events
+Date Code Title Description
+2002-04-08 AS Assignment
+
+Owner name: POWER QUOTIENT INTERNATIONAL CO., LTD., TAIWAN
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNORS:TENG, WEI KUANG;LIN, CHE-WEN;REEL/FRAME:012774/0398
+
+Effective date: 20020227
+Data provided by IFI CLAIMS Patent Services
+About Send Feedback Terms Privacy Policy
+memorycard
+

@@ -1,0 +1,85 @@
+Method and apparatus for distributing drugs and the like
+Abstract
+Command means located at a central pharmacy, including a touchtone or rotary dial phone or some other signal transmitting device, operatively connected to a plurality of remotely positioned dispensing stations, such as cabinets located at patients'' bedsides or at centrally located nursing stations, the remote dispensing stations each containing a plurality of drugs or the like and including dispensing means and signal accepting means, such as commercially available decoders, for accepting and identifying signals from the command means to dispense the correct drug at the correct station upon the receipt of a signal therefor.
+Images (3)
+
+
+
+United States Patent lnventor Robert L. Williams 4354 Meadowwood, Rapid City, S. Dak. 57701 Appl. No. 776,200
+
+Filed Nov. 15, 1968 Patented Aug. 10, 1971 METHOD AND APPARATUS FOR DISTRIBUTING DRUGS AND THE LIKE 3 Claims, 4 Drawing Figs.
+
+[1.8. CI. 340/147 R, 340/ 147 MD Int. Cl. [103k 13/00, l-l04q 9/00 Fleldolsearch 340/147 MD, 147, 153, 152; 179/2 DP References Cited UNITED STATES PATENTS 3/1942 Farmer 340/147 MD 2,374,537 4/1945 Goldsmith 340/147 MD 3,365,700 1/1968 Cortner, Jr. et al. 340/153 3,436,736 4/1969 Platt et al 340/1725 3.501.744 3/1970 Simsian A 340/152 3,359,369 12/1967 Diio'rid et a1... 179/2 DP 3,221,934 12/1965 Klaffky i 179/2 R 1 11X) Primary Examiner- Donald J. Yusko Attorney-Merchant & Gould ABSTRACT: Command means located at a central pharmacy. including a touch-tone or rotary dial phone or some other signal transmitting device, operatively connected to a plurality of remotely positioned dispensing stations, such as cabinets located at patients bedsides or at centrally located nursing stations, the remote dispensing stations each containing a plurality of drugs or the like and including dispensing means and signal accepting means, such as commercially available decoders, for accepting and identifying signals from the command means to dispense the correct drug at the correct station upon the receipt of a signal therefor.
+
+PATENTEUAUBIOIBYI 3.599.152
+
+kutuanrs ATTORNEYS PATE-NWEB Mn; n a 1911' sum 3 0F 3 I N VEN TOR. Aa er? 4. 67/7/6202:
+
+AT ORNEYS METHOD AND APPARATUSFCR DISTRIBUTING DRUGS AND THE LIKE BACKGROUND or THE INVENTION Field of the Invention Because of the peculiar effects and dangers inherent in many drugs and medicines it is the, present practice to allow only registered pharmacists to dispense drugs upon receipt of a written or verbal message directly from an authorized physi cian. This requirement greatly hampersthe effectiveness of nurses. etc., operating in hospitals, clinics, and the like, since they must in each instance travel toa central area having a registered pharmacist, to obtain drugs and the like to-administer to their patients. While the chances that the drugs or other medicines will fall into the wrong handsnaresubstantially eliminated, isolated cases haveoccurred and the efficiencyof the nurses is greatly hampered.
+
+SUMMARY OF THE INVENTION The present invention pertains to a method and apparatus for remotely-distributing drugs and the like including command means operable by a pharmacist upon receipt of a prescription froman authorized'physician which supplies a first signal specifying and preparing a particular one of a plurality of distributing stations for a second signal supplied by the command means upon actuation by the pharmacist which second signal energizes dispensing meansto dispense an individual dose of a selected drug or medicine from a supply thereof into a locked drawer or the like so that it is convenient for a nurse to administer.
+
+It is an object ofthe present invention to provide a method and apparatus for remotely distributing drugs and the like from a central station.
+
+.It is a further object of the present invention to provide a method and apparatus for remotely distributing drugs and the like at a plurality of remote stations located at bedside or central nursing stations, from; a central distributing station.
+
+These and other objects of this invention will become apparent to those skilled in the art upon consideration of the accompanying specification, claims, and drawings.
+
+I BRIEF DESCRIPTION OF THEDRAWINGS Referring to the drawings, wherein like characters indicate EESGRIPTION OF THE PREFERRED EMBODIMENT In FIG. I the numeral 10 designates command means which is located at a central station or pharmacy. The command means may be any electronic or electrical unit capable ofsupplying signals that are variable in at least one characteristic, such as frequency, pulse repetition rate. etc., and may be for example a touch-tone or rotary dial phone. The command means I further tuay include any of a variety of locking means. combination or key type. to prevent the indiscriminate use thcreofby other than the registered pharmacist.
+
+Operatively attached to the command means I0. by wires, electromagnetic waves, or the like are a plurality of remotely positioned dispensing stations generally designated 15, 16 and 17. The number of remote stations operatively attached to any one command means is limited only by the number of combinations available in the command means 10 for varying the particular characteristic which is transmitted to the dispensing stations 15, l6, 17, etc. The various dispensing stations, 15,
+
+16, 17 may each be located at bedside in a hospital with the command means 10 located at a central nursing station for that portion of the hospital or for the entire hospital. Also, the remote dispensing stations 15, 16, 17 may each be located at a central drug or medicine dispensing station in separate hospitals or clinics with the command means 10 positioned at a centrally located pharmacy or the like. It is anticipated that the commandmeans 10can be connected to the dispensing stations l5, l6, 17 through the present telephone system or through a completely separate system if desired.
+
+Each of'the remotely positioned dispensing stations 15, 16, 17 are the same in'this disclosure, although it is not necessary that each contain all of the components of the other stations, and, therefore, only the dispensing station 15 will be described in detail. The dispensing station 15 includes a signal receiving unit 20;'which may be a telephone or other unit equipped to receive the electrical or electromagnetic signals from the command means 10. The signal receiving unit 20 controls a relay 2] and upon the receipt ofa predetermined signal in the signal receiving unit 20 the relay 2] is closed so that a signal may pass from the signal receiving unit 20 to a decoder 22. The signal receivingunit 20, relay 21 and decoder 22 constitute signal accepting means, in this embodiment, which operate only upon receiving a first signal specifying the dispensing station 15.
+
+Unit 20 and decoder 22 may, for example, be formed by standard digital techniques, such as described in pages 547 to 552 of the book Digital Computer and Control Engineering, by Robert Steven Ledley, McGraw-Hill 1960. FIG. 4 illustrates this typical circuitry inserted in'the block diagram of FIG. 1. Signals specifying other dispensing stations (16, 17, etc.) will have no effect on the signal receiving unit 20. I
+
+Once the command means 10 has been actuated to transmit a desired signal specifying one of the dispensing stations, for example 15, and the signal has actuated the relay 21 through the signal receiving unit 20, the command means I0 is actuated to transmit a signal specifying a particular one of a plurality ol'drugs and/or medicines or the like. The second signal transmitted by the command means 10 passes throughthe signal receiving unit 20 and the relay 21 to the decoder 22. The decoder 22 is constructed to receive the second signal and actuate a specific one ofa plurality of dispensing devices 25, 26, and 27. It should be understood that the number of dispensing devices associated with anyparticular decoder, such as decoder 22, is limited only by the number of combinations available in the particular code utilized and in general will be equal to the number ofdifferent drugs or medicines it is desired to dispense at any particular station, such as station 15 In the present embodiment three dispensing devices 25, 26, and 27 are illustrated having three drug dispensers 28, 29 and 30 associated-therewith, respectively.
+
+The drug dispensers 28, 29 and 30 in this embodiment are simply racks constructed so that small containers, each having an individual dose of the desired drug or medicine therein, can be stacked in overlying relationship therein. The dispensing devices 25, 26 and 27 associated therewith are solenoids having the armature situated so that the lower container in the stack of containers positioned in each of the drug dispensers 28, 29 and 30 is pushed from the stack.
+
+Referring to FIGS. 2 and 3 a typical bedside station generally designated 35 is illustrated. The bedside station 35 consists of a housing 36 having a trough 37 located in the lower forward portion thereof, which trough 37 empties into a drawer 38. The drawer 38 may be locked so that only the nurse authorized to administer drugs at the particular station can gain access to the contents thereof. Mounted above the trough 37 are a plurality of parallel walls with stacks of containers each having an individual dose of drug or medicine therein stacked therebetwcen. A plurality of solenoids or other dispensing devices 39 (see FIG. 3) are mounted behind the stacks of containers and adjacent the lowermost container so that energization of a solenoid 39 causes one of the containers to be pushed into the trough 37.'Below the solenoids 39 is a compartment 40 containing the signal receiving unit, relay and decoder, previously described. It should be understood that a relatively simple bedside station 35 is described herein to simplify the disclosure but many modifica tions and variations may be devised by those skilled in the art.
+
+While FIGS. 2 and 3 illustrate a simple bedside station it should be understood that the present invention might be utilized to dispense drugs at various nursing stations, each serving as a central station for a complete floor or department of a hospital. In this application the dispensing station might have hundreds or even thousands of various drugs and medicines therein and each would be dispensed in a manner similar to that described above. It should also be understood that various types of dispensing stations such as central nursing stations and the bedside stations might all be controlled from a single command means,
+
+The decoder 22 contains a timing means which is energized when the decoder 22 applies power to one of the dispensing devices 25, 26. 27. The timing means is set to provide sufficient time for the dispensing device 25, 26, 27 to eject the drug or medicine from the drug dispensers 28, 29, 30 whereupon the particular dispensing device 25, 26, 27 that was energized is returned to its normal position, the decoder 22 is deactivated, and the signal receiving unit and relay 21 are returned to the normal position. The timing device utilized in the decoder 22 can be a slow-release or'time-delay relay (not shown) for each of the dispensing devices 25, 26, 27, which relays are energized by the decoder 22 and supply power through the contacts thereof to the dispensing devices 25. 26, 27. Other types of timing devices might be utilized but, in general, itshould be understood that sufficient time must be allowedafter the signal receiving unit 20 closes the relay 21 for the pharmacist to supply a second signal therethrough to the decoder 22 specifying the particular drug or medicine desired.
+
+A counter 45 is attached to the command means 10 to maintain an accurate count of the number of units dispensed in the various stations by the command means 10. The counter 45 may be actuated by means in the command means 10 which operate when the second signal or drug specifying signal is completed, or the counter 45 may be operated by a signal returned from the dispensing stations upon completing the operation of dispensing a drug or medicine. In general, it is preferred that the counter be actuated upon the completion of a dispensing operation since the counter 45 will then act as an indicator that the dispensing operation is complete. No particular apparatus or circuitry is illustrated for energizing the counter 45 since there are a variety of such means presently available on the market.
+
+ln the operation of the present apparatus the authorized physician transmits a prescription to a registered pharmacist. either by written or verbal message so that the pharmacist is aware of the physician s identity. The pharmacist then determines the code l'or the correct dispensing station and activates the command means It) to transmit a specifying signal to the various dispensing stations. Upon receipt of the first signal at the dispensing stations the desired signal accepting means at that station activates the decoder and places the dispensing station in condition for receiving a second signal specifying the desired drug or medicine. After completing the transmission of the first signal the pharmacist determines the correct code for the desired drug or medicine and actuates the command means 10 to transmit a second signal specifying the desired drug or medicine. The second signal affects only the dispensing station previously activated by the first signal.
+
+Upon receipt of the second signal the decoder actuates the and administer the drug or medicine to the patient.
+
+Thus, a method and apparatus for distributing drugs and the like is disclosed which is under the control of a registered pharmacist at all times so that drugs and the like can be dispensed only with the authorization thereof and only to the people who are authorized to receive the drugs or medicines. Further, the drugs and medicines contained within the apparatus are unohtainable by all persons until the pharmacist dispenses the desired drug or medicine. While the present embodiment has been illustrated in general terms, because the components therein are standard commercial items, it should be understood that many innovations and modifications may be designed and/or incorporated by those skilled in the art.
+
+What I claim is:
+
+l. A method of distributing drugs and the like comprising the steps of:
+
+a. an authorized pharmacist receiving a prescription from an authorized physician;
+
+b. said pharmacist actuating signal producing means to transmit a coded signal to a plurality of remotely located distributing stations, said coded signal placing a desired one of said remote stations in a ready mode for receiving a second coded signal;
+
+c. said pharmacist actuating said signal producing means to transmit a second coded signal to said desired one of said remote stations to dispense the prescribed medicine from a storage container associated therewith; and
+
+d. a nurse removing the medicine from the remote station and administering it to a patient.
+
+2. A method of distributing drugs and the like as set forth in claim 1 including in addition the step of identifying the authorized physician after receiving the prescription and before actuating the signal producing means.
+
+3. A method whereby a pharmacist or the like can remotely distribute drugs and the like comprising the steps of:
+
+a. a pharmacist receiving a prescription and information as to which drug dispensing unit of a plurality of remotely located drug dispensing units, each having a storage container and a locked material receiving closure in communication with the storage container, is the desired unit;
+
+b. providing a code designating each of the plurality of dispensing units and a variety of materials in each of the dispensing units;
+
+c. selecting the code for the desired unit;
+
+d. actuating a command station, operatively connected to the plurality of remotely located drug dispensing units. to transmit a coded signal in accordance'with the determined codc placing the desired one of said remote units in a ready mode for receiving a second coded signal;
+
+. selecting the code for the prescribed material;
+
+I. actuating the command station to transmit a second coded signal in accordance with the determined code to the desired one of said remote units to dispense the prescribed material from the storage container associated therewith into the associated locked closure; and
+
+g. unlocking the associated closure and removing the dispensed material.
+

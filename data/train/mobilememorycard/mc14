@@ -1,0 +1,919 @@
+
+ Patents
+Search Terms
+Search Fields
+Before priority
+After filing
+Mobile Entertainment and Communication Device
+Abstract
+Abstract of the Disclosure
+A mobile entertainment and communication device in a palm-held size housing has a cellular or satellite telephone capable of wireless communication with the Internet and one or more replaceable memory card sockets for receiving a blank memory card for recording data directly from the Internet and, in particular, musical performances that then can be selectively reproduced by the device for the enjoyment of the user, including both audio and visual recordings and reproductions. The device also includes a camera and microphone for recording images and sound within the range of the device that can be wirelessly transmitted, either selectively or automatically to a remote telephone. Further, the device includes sensors for sensing unusual conditions that may also be transmitted to a remote telephone, together with the location of the device as determined by a GPS section of the device.
+Images (3)
+Classifications
+H04N7/183 Closed circuit television systems, i.e. systems in which the signal is not broadcast for receiving images from a single remote source
+View 21 more classifications
+US20060229114A2
+
+US Application
+Download PDF
+Find Prior Art
+
+Legal status
+    Granted 
+Application number
+    US10719363
+Other versions
+    US20040110545A1 (Application) 
+    US7321783B2 (Grant) 
+
+Inventor
+    Ki Kim 
+Current Assignee
+    K-TECHNOLOGY USA Inc 
+Original Assignee
+    Kim Ki I 
+
+Priority date
+    1997-04-25 
+Filing date
+    2003-11-20 
+Publication date
+    2006-10-12
+
+Info
+    Patent citations (99)
+    Cited by (150)
+    Also published as (5)
+    Legal events
+    Similar documents
+External links
+    USPTO
+    USPTO Assignment
+    Espacenet
+    Global Dossier
+    Discuss
+
+Description
+
+    Detailed Description of the Invention
+    [0001]
+    This is a Continuation of Application Serial No. 09/531,356, filed March 20, 2000 which was a Continuation-In-Part of application Serial No. 08/846,108, filed April 25, 1997, now U.S. Patent No. 6,278,884, which is incorporated in this application in full by this reference.
+    [0002]
+    This invention relates to a mobile entertainment and communication device that is readily carried by a person and provides numerous conveniences and features including, but not limited to, a cellular or satellite telephone with access to the Internet.
+    [0003]
+    A principle object of this invention is to provide a personal entertainment and communication device that is portable and includes a cellular or satellite accessible telephone with the ability to access the internet, replaceable memory cards for downloading data from the internet, and means for reproducing such data on the device from the cards. Specifically, the device of this invention is particularly adapted to download music, images or other data in a wireless manner from the Internet and selectively reproduce such music, images or other data from replaceable memory cards for one’s personal enjoyment or other use.
+    [0004]
+    Still another object of the present invention is to provide a mobile entertainment and communication device that wirelessly records data from the Internet and selectively reproduces that data, such as music and/or images, and also provides a portable security device capable of automatically communicating with a remote telephone and transmitting emergency data including sounds, pictures, location and similar information when selectively activated by the owner or when automatically activated by conditions sensed by integral sensors, including conditions such as sudden movement, sounds, light, heat, smoke or the like.
+    [0005]
+    Other and more detailed objects and advantages of the present invention will readily appear to those skilled in the art from the detailed description and accompanying drawings of the preferred embodiments, wherein:
+    [0006]
+    Fig. 1 is a perspective view of the front of the entertainment and communication device of the present invention;
+    [0007]
+    Fig. 2 is a perspective view of a replaceable memory card for use with the device illustrated in Fig. 1;
+    [0008]
+    Fig. 3 is a perspective view of the back of the entertainment and communication device of the present invention showing an optional card latching device;
+    [0009]
+    Fig. 4 is a sectional view of the device taken on the line 4-4 in Fig. 3; and
+    [0010]
+    Fig. 5 is a schematic drawing of the components of the entertainment and communication device shown in Figs. 1 and 2.
+    [0011]
+    Referring more particularly to the figures, the entertainment and communication device, generally designated 100, includes a cellular telephone or satellite accessible telephone or the like, hereinafter referred to collectively as a “cellphone”, having a dialing pad 101 with push buttons for operating the cell phone in a substantially conventional manner and also for controlling the operation of other components of the device 100. The cellphone includes a microphone 103 and a speaker 125 for using the cellphone as a telephone for verbal communications. A display panel 104 is provided on the front of the device 100 for displaying images and data, including but not limited to the conventional data displayed for the use of the cellphone. The cellphone also includes a dialing memory 113, a dialing section 114, a transmitting/receiving section 115, an antenna 119 and a ring signal capturing section 122. The microphone 103 and speaker 125 are connected through an audio signal processing section 108 to the microprocessor 112 of the device 100. The dialing memory 113, dialing section 114, transmitting/receiving section 115, ring signal capturing section 122 and dialing pad 101 are also connected to the microprocessor 112 for operating the cellphone in a conventional manner, through the microprocessor 112.
+    [0012]
+    The cellphone of the entertainment and communication device 100 is of the type that is capable of making a wireless connection to the Internet for receiving data therefrom and transmitting data thereto, such as the Samsung® Model No. 3500, Qualcom® No. 1960, Sprint® PCS, or the like, without a hardwire connection through a personal computer or telephone line.
+    [0013]
+    The entertainment and communication device 100 of the present invention is provided with a socket 120 for receiving a replaceable memory card 200. The opening for the socket 120 may be provided on the side of the device 100, as shown at 120A, or at one end of the device 100, as shown at 120B, or both. The memory card 200 is provided with electrical contacts 201 (see Fig. 2) which are adapted to engage corresponding electrical contacts (not shown) in the socket 120, which contacts in turn are connected to the microprocessor 112 for communication between the replaceable memory card 200 and the microprocessor 112. The memory card 200 may be a prerecorded card or a flash (blank) card suitable for recording data from the microprocessor 112. By appropriately operating the cellphone to connect to or access the Internet and then operating the memory card control buttons 202, data from the Internet may be recorded on the replaceable memory card 200, such as musical performances, images (still or moving), written text or the like (hereinafter referred to as “data”). In addition to the audio data, the musical performance data from the Internet may include images of the performers or the like, and/or the words of the musical performance. Other audio and visual data also may be downloaded from the Internet to memory card 200. Subsequent to the recordation of the musical performance or other data on the replaceable memory card 200 or upon the positioning of a prerecorded memory card 200 in a socket 120, the memory card control buttons 202 may be manipulated to reproduce the musical performance or other data with the sound being broadcast by the speaker 125 or to earphones (not shown) connected to the earphone jack 121 or transmitted to wireless earphones (not shown). The device 100 also includes controls, such as on dialing pad 101 or separately, for controlling the music volume, balance, selection (skip), equalization and the like. The images and/or words included in the recording on a memory card 200 will be displayed on the display panel 104.
+    [0014]
+    The memory card 200 is preferably of a high memory capacity and a size to fit substantially inside the housing of the device 100 so as not to protrude therefrom and yet be of substantially the full width of the device 100 to maximize the memory capacity of the card 200 substantially beyond the memory capacity of conventional prerecorded memory cards, such as for MP3 players. Of course, the width of the device 100 is limited from a practical standpoint to a width that is comfortable in the palm of an adult person’s hand for use as a telephone. Thus, as a practical matter, the width of the memory card is limited to about 1 ½” to 2”. Similarly, the overall size of the device 100 must be sufficiently small to be comfortably carried in a pocket or purse to be most practical. Further, while the thickness of the card 200 may be increased somewhat for increasing the memory capacity there is also a practical limit to that increased thickness so that the thickness of the device 100 does not become excessive, but it is contemplated that memory cards 200 of about twice the thickness may be provided and interchangeably installed in the socket 120 for at least doubling the memory capacity or separate sockets, such as sockets 120A and 120B, may be provided for accommodating memory cards 200 of different thicknesses. Still further, the length of the device 100 is limited to a practical length and, therefore, the vertical length of the card is similarly limited. The card 200 and socket 120 may be provided with matching non-symmetrical shapes, grooves, ridges or the like for requiring the card 200 to be inserted into the socket in the correct orientation, such as the cutoff corner of card 200 shown in Fig. 1 (lower left) and Fig. 2 (lower right). The device 100 may also be provided with an integral image and audio storage memory 116 connected to the microprocessor for temporary or permanent storage of data, in addition to data storage on cards 200, and the data stored on memory 116 may be reproduced in the same manner as from replaceable memory cards 200.
+    [0015]
+    Referring more particularly to Figs. 3 and 4, a latching device, generally designated 150, is shown for retaining the replaceable memory card 200 in the socket 120A and for facilitating the removal of the memory card 200 from the socket 120A. The latching device 150 includes a lever 152 pivotally connected at 154 to the back of the housing of the device 100, with a tab 156 extending along the side of the device and over a portion of the socket 120A in the closed position. A pin 158 extends inwardly from the lever 152 and engages a hole 204 in the memory card 200. When the latching device 150 is pivoted to the open position shown in dashed lines in Fig 4, the memory card 200 may be readily removed from socket 120A by placing a finger on the portion of the card 200 exposed by opening the latching device 150 or by engaging the hole 204 with a finger nail or a pointed implement, such as a pencil or pen. Further, the pin 158 and hole can be sized and relatively positioned such that the pin 158 urges the card 200 outwardly upon opening the latching device. Still further, the socket 120A may be provided with a spring for urging the card 200 outwardly as soon as the card is unlatched. Of course either the tab 156 or pin 158 may be omitted since the other (pin or tab, respectively) will retain the card 200 in the socket 120A. The latching device 150 may be of a width to only cover a portion of the socket 120A, as shown, or of a width to cover the entire socket (not shown).
+    [0016]
+    Since the device 100 can be wirelessly connected to the internet, it is also possible to use the device 100 for any other Internet functions, such as sending and receiving e-mail, conducting ebusiness, etc. Further, in view of the recording capability of the device 100, the telephone conversations on the cellphone may be selectively recorded (one or both sides) and the device can be used for any sound recording, such as for dictation or face-to-face conversations or conferences. Still further, the microprocessor 112 includes means for automatically interrupting the playing of any musical performance being reproduced on the device 100 when a telephone call is placed or received on the cellphone until the call is completed.
+    [0017]
+    All of the aforedescribed functions and those described hereinafter are powered by a battery means (not shown) in the device 100 which preferably is a single rechargeable battery.
+    [0018]
+    The entertainment and communication device 100 is also provided with a computer jack 124 connected to the microprocessor for selectively connecting the device 100 directly to a computer, radio, television or CD, DVD, VCR, tape or phonograph record player (not shown) by a hard wire (not shown) for downloading and uploading (where appropriate) to and from the replaceable memory card 200 or fixed memory 116 in the device 100.
+    [0019]
+    The entertainment and communication device 100 is also provided with various other features for the personal entertainment, communication, security, safety and the like of the person at all times that the person has the device 100 with him or her. A video camera 102 is connected through an image signal processing section 107 to the microprocessor 112 and the camera operation is controlled by button 105, whereby images may be displayed on the panel 104, recorded on either the integral memory 116 or the replaceable memory card 200, or transmitted by the cellphone to a remote telephone which may be located at a police station, security office, one’s own personal computer or the like. The video camera 102 is preferably a digital camera for electronically capturing images, either still or moving, for minimizing the size and battery power requirements, but also may be an analog type camera. Similarly, an infrared night vision camera 106 may be provided and connected to the microprocessor 112 through an infrared image processing section 109 to record or transmit images in the same manner as video camera 102, and a light sensor 118 is connected to the microprocessor 112 for automatically selecting the operation of the night vision 106 when the ambient light is at a very low level. Cameras 102 and 106 will be referred to generically as a “camera”. The microphone 103 may also be activated manually or automatically by the microprocessor 112 when either of the cameras 102 or 106 are activated for recording and/or transmitting sounds within the range of the device 100 synchronously with the recording or transmission of images by one of the cameras.
+    [0020]
+    The entertainment and communication device also includes various emergency features for use by the person carrying the device. An alarm button 123 is provided and may be activated to produce an audible alarm from the speaker 125 for dissuading an attacker or intruder or activating a silent alarm whereby the cellphone is automatically operated to communicate the emergency condition to a remote telephone, such as by dialing “911” or a private security telephone number or the like. Similarly, one or more sensors 110, such as motion, infrared, ultrasonic, acceleration sound, light, heat, smoke, carbon monoxide, poisonous gas or the like sensors, are provided with the device 100 and selectively activated for providing either an audible or silent alarm, similar to the functions of the panic alarm button 123 but without requiring operator activation, and the sensors 110 are connected through the sensor reading section 111 to the microprocessor 112 for using any of the functions of the device 100. For example, with the acceleration sensor of sensors 110 activated while a person has the device 100 in an automobile, the sudden deceleration of the automobile in an accident condition would be sensed by the acceleration sensor to cause the microprocessor 112 to dial an appropriate telephone number stored in the dialing memory 113, such as a “911” or a vehicle rescue number, and transmit the emergency as well as the location of the device 100 as determined by a global positioning satellite (GPS) reading section 117 provided with the device, which GPS reading section 117 may also be activated by the panic alarm 123. Further, if the motion sensor or similar sensors 110 are activated and the device 100 is appropriately positioned, for example in a hotel room, the motion and/or presence of an intruder will be sensed and communicated through the sensor reading section 111 to the microprocessor 112 to activate any desired function, such as an audible alarm from the speaker 125, an automatic dialing of a “911” number, operation of electronic camera 102 or infrared camera 106, operation of the microphone 103, operation of the GPS reading section 117 or the like. Similar functions can be performed by the device 100 when any of the other sensors are activated to sense a particular condition, such as heat, smoke, carbon monoxide, poisonous gas or the like.
+    [0021]
+    Thus, by this invention a palm-sized device provides wireless communication with the Internet for downloading musical and visual entertainment onto a high capacity memory card that is replaceable with other prerecorded or downloaded memory cards, and numerous other communication, security, safety and similar functions are selectively available to the user.
+
+Claims (131)
+1. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing, said cellphone adapted for selectively and wirelessly connecting to the Internet or remotely located telephones and adapted for controlling selection of at least one of (1) downloading data or uploading data from or to the Internet or (2) downloading data to a computer or other electronic device and said cellphone having at least one of (1) voice controlled dialing, (2) a wireless earphone or (3) a wire connection jack earphone with a microphone, for operation of the mobile entertainment and communication device;
+a memory operatively connected to said cellphone;
+a microprocessor operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from the Internet or a remotely located telephone; and
+a display panel operatively connected to said microprocessor, said display panel adapted for reproducing images or other data from at least one of said memory or the Internet, said data including at least one of moving images, combined sounds and moving images, or music with or without images.
+2. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing, said cellphone adapted for selectively and wirelessly accessing to the Internet or remotely located telephones and adapted for controlling selection of at least one of (1) downloading data or uploading data from or to the Internet or (2) downloading data to a computer or other electronic device and said cellphone having at least one of (1) voice controlled dialing, (2) a wireless earphone or (3) a wire connection jack earphone with a microphone, for operation of the mobile entertainment and communication device;
+a memory operatively connected to said cellphone;
+a microprocessor operatively connected to said memory;
+said microprocessor adapted for causing data stored in said memory or received by said cellphone to be transmitted by said cellphone to the Internet or a remotely located telephone, respectively; and
+a display panel operatively connected to said microprocessor, said display panel adapted for reproducing images or other data from at least one of said memory or the Internet, said data including at least one of moving images, combined sounds and moving images, or music with or without images.
+3. The device of claim 1 or 2 further comprising
+a speaker operatively coupled to the microprocessor for reproducing sounds from said memory or the internet.
+4. The device of claim 1 or 2, wherein said memory includes an audio recorder in said housing for recording sounds within a range of said housing.
+5. The device of claim 1 or 2, further including
+a camera provided in said housing and connected to said microprocessor for capturing images in view of said housing.
+6. The device of claim 5, wherein said camera is a night vision camera.
+7. The device of claim 1 or 2, further including a wireless remote earphone for the cellphone.
+8. The device of claim 1 or 2, wherein said device is for downloading or transmitting, including wired or wireless transmission, to at least one separate device.
+9. The device of claim 1 or 2, wherein said cellphone is a satellite phone.
+10. The device of claim 1 or 2, wherein said data comprises sounds, images, words and emails.
+11. The device of claim 1 or 2, wherein said housing includes a socket, and said memory includes a replaceable memory card receivable in said socket in said housing.
+12. The device of claim 11, wherein said socket is adapted for accepting replaceable memory cards of different memory capacities.
+13. The device of claim 1 or 2, further including an earphone jack connected to said microprocessor for receiving a wire plug from an earphone set comprising a speaker and a microphone.
+14. The device of claim 1 or 2, wherein said cellphone includes a volume adjustment for adjusting the volume of a speaker of said cellphone.
+15. The device of claim 1 or 2, further comprising
+a jack provided in said housing and connected to said microprocessor for selective hardwire connection of said microprocessor to a computer or other device for downloading and uploading the data between said computer or other device and said cellphone memory.
+16. The mobile entertainment and communication device of claim 1 or 2, further including
+a global positioning system provided in said housing and operatively connected to said cellphone, said cellphone having at least one of (1) a voice controlled dialing of a specific remotely located telephone number or (2) an emergency call button for dialing said specific remotely located telephone number and thereby also activating said global positioning system for transmitting images or the position of said cellphone to said specific remotely located telephone.
+17. The mobile entertainment and communication device of claim 16, wherein said specific remotely located telephone number is “911”.
+18. The mobile entertainment and communication device of claim 16, wherein said cellphone is adapted for voice controlled dialing of said cellphone to a plurality of remotely located telephones.
+19. The mobile entertainment and communication device of claim 16, further including a wireless remote microphone and earpiece speaker for operably communicating with said cellphone.
+20. The mobile entertainment and communication device of claim 16, further comprising:
+a camera in said housing operable for capturing continuing images within a range of said housing; and
+said camera operatively connected to said cellphone and said memory for selectively storing said continuing images captured by said camera.
+21. The mobile entertainment and communication device of claim 16, further comprising a replaceable memory card socket provided in said cellphone housing for selectively receiving a replaceable memory card; and
+said memory card socket operatively connected to said cellphone, and said memory.
+22. A mobile entertainment and communication device for communicating with remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person and adapted for placing and receiving person-to-person telephone calls to and from remotely located telephones;
+said cellphone having a microphone, a speaker, and a memory; and
+a jack connection on said housing for a wired connection between the cellphone and a separate device for at least one of downloading or uploading data therebetween including at least one of moving images or combined sounds and moving images.
+23. The mobile entertainment and communication device of claim 22, wherein said separate device is at least one of a computer or a television.
+24. The mobile entertainment and communication device of claim 22 or 23, further comprising a second jack connection on said housing for a wired connection between the cellphone and a microphone/speaker combination for hands-free speaking and listening on the cellphone.
+25. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person and adapted for placing and receiving person-to-person telephone calls to and from remotely located telephones, said cellphone having a microphone and a speaker;
+an audible alarm including at least one of said speaker or a separate audible sound generator;
+an emergency button on said housing and operatively connected to said audible alarm for selectively operating said audible alarm in an emergency;
+a camera in said housing operable for capturing images within a range of said housing; and
+said camera operatively connected to said emergency button for recording images captured by said camera upon actuating of said emergency button.
+26. The mobile entertainment and communication device of claim 25, further comprising an automatic dialer for automatically dialing at least one of “911” or other emergency telephone numbers.
+27. The mobile entertainment and communication device of claim 26, wherein said automatic dialer includes said emergency button.
+28. The mobile entertainment and communication device of claim 26, wherein said automatic dialer for automatically dialing a telephone number is separately operable from said emergency button.
+29. The mobile entertainment and communication device of claim 26, further including a global positioning system provided in said housing and operatively connected to said cellphone, said emergency button also activating said global positioning system for transmitting the position of said cellphone to at least one of the emergency telephone numbers.
+30. A mobile entertainment and communication device for communicating with remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person and adapted for placing and receiving person-to-person telephone calls to and from remotely located telephones and accessing the Internet, said cellphone having a microphone, a display and a speaker;
+a camera in said housing operable for capturing still images and continuing images within a range of said housing;
+a memory in said housing operatively connected to said microphone for storing sounds within a range of said microphone and for storing said images captured by said camera;
+separate switches for separately operating said microphone for capturing sounds and said camera for capturing said still or continuing images; and
+said cellphone adapted for reproducing and uploading to the Internet at least one of continuing images or combined sounds and continuing images.
+31. A mobile entertainment and communication device for communicating with remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person and adapted for placing and receiving person-to-person telephone calls to and from remotely located telephones, said cellphone having a microphone, a display and a speaker;
+a camera in said housing operable for capturing still images and continuing images within a range of said housing;
+a memory in said housing operatively connected to said microphone for storing sounds within a range of said microphone and for storing said images captured by said camera;
+separate switches for separately operating said microphone for capturing sounds and said camera for capturing said still or continuing images; and
+said cellphone adapted for reproducing at least one of continuing images or combined sounds and continuing images, wherein said separate switches are adapted for simultaneously operating said camera for capturing continuing images and operating said microphone for capturing sounds with the continuing images.
+32. The mobile entertainment and communication device of claim 30 or 31, wherein said captured images and sounds are stored on said memory.
+33. The mobile entertainment and communication device of claim 30 or 31, wherein said captured images and sounds are transmitted simultaneously by said cellphone to a remotely located telephone while being captured.
+34. The mobile entertainment and communication device of claim 30 or 31, wherein said memory includes a replaceable memory card receivable in a socket in said housing.
+35. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person and adapted for wirelessly accessing the Internet or placing and receiving person-to-person telephone calls to and from remotely located telephones, said cellphone having a microprocessor, a microphone, a speaker and a display;
+a camera in said housing and operable to capture still images and real time continuing images within a range of said housing;
+the microphone operable for capturing sounds within a range of said housing;
+a memory operatively connected to said cellphone, said camera and said microprocessor for storing at least one of the images captured by said camera, the sounds captured by said microphone, images or sounds received from the remotely located telephone, or data received from the Internet;
+said cellphone adapted for wirelessly communicating with a remotely located telephone or the Internet either (1) causing at least one of the currently captured images or sounds, the stored images or sounds or the stored Internet data to be transmitted by said cellphone to the remotely located telephone or the Internet or (2) causing said cellphone to receive and to at least one of record in the memory or supply to the speaker or display the sounds or images from the remotely located telephone or data from the Internet;
+at least one separate switch for activating said recording, transmitting or receiving;
+said Internet data including at least one of still images, moving images, sounds, words, text or audio-visual performances, including the combined sounds and images of such performances;
+the speaker and the display adapted for playing the stored sounds or displaying the stored images from said memory;
+a global positioning system provided in said housing and connected to said cellphone for transmitting in real time the position of said cellphone to a remotely located telephone or the Internet;
+said cellphone activating said camera or said microphone upon activation of said global positioning system for also transmitting at least one of images and sounds with or without said real time position to the remotely located telephone or the Internet; and
+a jack on said housing for a wired connection between said cellphone and at least one of a computer, a radio, a television or CD, DVD, VCR, tape or phonograph record player for at least one of downloading or uploading sounds or images therebetween.
+36. The mobile entertainment and communication device of claim 35, further including a motion detector in said housing operable to detect movement and then cause said cellphone to dial a pre-selected telephone number.
+37. The mobile entertainment and communication device of claim 36, wherein said motion detector detects movement of said housing.
+38. The mobile entertainment and communication device of claim 35, further including a sound detector in said housing operable to detect a sound and then cause said cellphone to dial a pre-selected telephone number.
+39. The mobile entertainment and communication device of claim 35, further including an acceleration sensor in said housing operable to detect acceleration and deceleration for causing said cellphone to dial a pre-selected telephone number.
+40. The mobile entertainment and communication device of claim 35, further including a light sensor in said housing operable to detect a change in light for causing said cellphone to dial a pre-selected telephone number.
+41. The mobile entertainment and communication device of claim 35, further comprising a replaceable memory card socket provided in said cellphone housing for selectively receiving a replaceable memory card; and
+said memory card socket operatively connected to said cellphone, and said memory.
+42. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing, said cellphone adapted for selectively and wirelessly connecting to the Internet or remotely located telephones and adapted for controlling selection of at least one of (1) downloading data or uploading data from or to the Internet or (2) downloading data to a computer or other electronic device and said cellphone having at least one of (1) voice controlled dialing, (2) a wireless earphone or (3) a wire connection jack earphone with a microphone, for hands-free operation of the cellphone;
+a memory operatively connected to said cellphone;
+a microprocessor operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from the Internet or a remotely located telephone; and
+a display panel operatively connected to said microprocessor, said display panel adapted for reproducing images or other data from at least one of said memory or the Internet, said data including at least one of moving images or combined sounds and moving images;
+said cellphone having a microphone, a speaker, and a camera, the data stored to the memory including sounds and images; and
+a sensor in said housing for activating at least one of said microphone or said camera upon sensing an activating characteristic and then causing said memory to record at least one of the sounds received by said microphone or images captured by said camera.
+43. The mobile entertainment and communication device of claim 42, wherein said sensor detects at least one of motion, sound, light, infrared, images, acceleration, deceleration, heat, smoke, carbon monoxide or poisonous gas as the activating characteristic.
+44. The mobile entertainment and communication device of claim 42 or 43, further comprising a replaceable memory card socket provided in said cellphone housing for selectively receiving a replaceable memory card; and
+said memory card socket operatively connected to said cellphone, said microphone, said speaker, said camera and said memory.
+45. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing, said cellphone adapted for selectively and wirelessly connecting to the Internet or remotely located telephones and adapted for controlling selection of at least one of (1) downloading data or uploading data from or to the Internet or (2) downloading data to a computer or other electronic device and said cellphone having at least one of (1) voice controlled dialing, (2) a wireless earphone or (3) a wire connection jack earphone with a microphone, for hands-free operation of the cellphone;
+a memory operatively connected to said cellphone;
+a microprocessor operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from the Internet or a remotely located telephone; and
+a display panel operatively connected to said microprocessor, said display panel adapted for reproducing images or other data from at least one of said memory or the Internet, said data including at least one of moving images or combined sounds and moving images;
+said cellphone having a microphone, a speaker, and a camera, the data stored to the memory including sounds and images; and
+a sensor in said housing for activating at least one of said microphone or said camera upon sensing an activating characteristic and then causing said cellphone to dial a pre-selected telephone number of a remotely located telephone and transmitting the sounds received by said microphone or images captured by said camera to that remotely located telephone, wherein said sensor detects at least one of motion, sound, light, infrared, images, acceleration, deceleration, sound, heat, smoke, carbon monoxide or poisonous gas as the activating characteristic.
+46. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing, said cellphone adapted for selectively and wirelessly connecting to the Internet or remotely located telephones and adapted for controlling selection of at least one of (1) downloading data or uploading data from or to the Internet or (2) downloading data to a computer or other electronic device and said cellphone having at least one of (1) voice controlled dialing, (2) a wireless earphone or (3) a wire connection jack earphone with a microphone, for hands-free operation of the cellphone;
+a memory operatively connected to said cellphone;
+a microprocessor operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from the Internet or a remotely located telephone; and
+a display panel operatively connected to said microprocessor, said display panel adapted for reproducing images or other data from at least one of said memory or the Internet, said data including at least one of moving images or combined sounds and moving images;
+said cellphone having a microphone, a speaker, and a camera, the data stored to the memory including sounds and images, said microphone, speaker, camera and memory operatively connected to said microprocessor; and
+a light sensor in said housing for detecting low ambient light levels, said light sensor operatively connected to said microprocessor.
+47. The mobile entertainment and communication device of claim 46, wherein said camera includes a video camera and a night vision camera, said microprocessor causing operation of said night vision camera when said light sensor senses a very low ambient light level and said camera is operated.
+48. The mobile entertainment and communication device of claim 46 or 47, further comprising a replaceable memory card socket provided in said cellphone housing for selectively receiving a replaceable memory card; and
+said memory card socket operatively connected to said cellphone, said microphone, said speaker, said camera and said memory.
+49. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing, said cellphone adapted for selectively and wirelessly connecting to the Internet or remotely located telephones and adapted for controlling selection of at least one of (1) downloading data or uploading data from or to the Internet or (2) downloading data to a computer or other electronic device and said cellphone having at least one of (1) voice controlled dialing, (2) a wireless earphone or (3) a wire connection jack earphone with a microphone, for hands-free operation of the cellphone;
+a memory operatively connected to said cellphone;
+a microprocessor operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from the Internet or a remotely located telephone; and
+a display panel operatively connected to said microprocessor, said display panel adapted for reproducing images or other data from at least one of said memory or the Internet, said data including at least one of moving images or combined sounds and moving images;
+said cellphone having a microphone and a speaker;
+a camera in said housing operable for capturing images within a range of said housing, the memory in said housing operatively connected to said microphone for storing sounds within a range of said microphone and for storing images from said camera;
+a light sensor in said housing for detecting low ambient light levels;
+at least one separate switch provided in said housing for separately operating said microphone for capturing sounds or said camera for capturing still images or moving images; and
+the microprocessor being in said housing and operably connected to said microphone, said speaker, said camera, said memory, said light sensor and said at least one separate switch, wherein said at least one separate switch is adapted for simultaneously operating said camera for capturing continuing images and operating said microphone for capturing sounds with the continuing images.
+50. The mobile entertainment and communication device of claim 49, wherein said camera includes a video camera and a night vision camera, said microprocessor causing operation of said night vision camera when said light sensor senses a very low ambient light level.
+51. The mobile entertainment and communication device of claim 49 or 50, wherein said captured images and sounds are transmitted simultaneously by said cellphone to a remotely located telephone while being captured.
+52. The mobile entertainment and communication device of claim 49, wherein said memory includes a replaceable memory card receivable in a socket in said housing.
+53. A mobile entertainment and communication device for communicating with remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person and adapted for placing and receiving person-to-person telephone calls to and from remotely located telephones;
+said cellphone having a microphone, a speaker, a camera and a memory for storing sounds and images;
+a light sensor in said housing for detecting low ambient light levels for camera operation;
+a global positioning system provided in said housing for transmitting the real time position of said cellphone to a remotely located telephone, said global positioning system being activated by at least one of (1) voice controlled dialing of an emergency service number, (2) dialing an emergency service number, or (3) an emergency button that dials an emergency service number;
+said cellphone activating said camera or said microphone upon activation of said global positioning system for also transmitting at least one of sounds, still images or moving images with said real time position to the remotely located telephone;
+a microprocessor in said cellphone and operably connected to said light sensor and global positioning system;
+at least one of (1) a jack connection on said housing for a wired connection between said cellphone and an earpiece speaker and a microphone or (2) a wireless earpiece, for hands-free use of said cellphone;
+said microprocessor selectively operating at least one of said camera for capturing continuing images or said microphone for capturing sounds, said captured images or sounds being stored on said memory or transmitted to a remotely located telephone; and
+said microprocessor displaying images or emitting sounds stored on said memory or received from a remotely located telephone;
+a sound detector in said housing operable to detect a sound and then cause said cellphone to dial a pre-selected telephone number.
+54. A mobile entertainment and communicating device for communicating with the Internet and remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person and adapted for wirelessly accessing the Internet or placing and receiving person-to-person telephone calls to and from remotely located telephones, said cellphone having a microphone, a speaker, a memory card socket and a display;
+a camera in said housing and operable to capture still and real time continuing images within a range of said housing;
+said microphone in said housing operable for capturing sounds within a range of said housing;
+a memory including a replaceable memory card receivable in the socket in said housing and operatively connected to said cellphone, said camera and said microphone for selectively storing at least one of images captured by said camera, sounds captured by said microphone, images or sounds received from the remotely located telephone, or data received from the Internet;
+a global positioning system provided in said housing and connected to said cellphone for transmitting the position of said cellphone to a remotely located telephone;
+a control switch for activating said cellphone for wirelessly communicating with a remotely located telephone or the Internet and either (1) causing at least one of the currently captured images or sounds, the stored images or sounds or the stored Internet data to be transmitted by said cellphone to the remotely located telephone or the Internet or (2) causing said cellphone to receive and to at least one of record in the memory or supply to the speaker and display the sounds or images from the remotely located telephone or data from the Internet;
+said Internet data including at least one of still images, moving images, sounds, words, text or audio-visual performances, including the combined sounds and images of such performances;
+the speaker and the display adapted for playing the stored sounds or displaying the stored images from said memory.
+55. The mobile entertainment and communication device of claim 53 or 54, further including a motion detector in said housing operable to detect movement and then cause said cellphone to dial a pre-selected telephone number.
+56. The mobile entertainment and communication device of claim 54, further including a sound detector in said housing operable to detect a sound and then cause said cellphone to dial a pre-selected telephone number.
+57. The mobile entertainment and communication device of claim 53 or 54, further including an acceleration sensor in said housing operable to detect acceleration and deceleration for causing said cellphone to dial a pre-selected telephone number.
+58. A mobile entertainment and communication device for communicating with remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to the remotely located telephones, said cellphone having a microphone, a speaker, a memory, a microprocessor, a display, a wired or wireless earphone, said cellphone further adapted for reproducing data;
+a jack provided in said housing and operatively connected to said microprocessor for uploading data or downloading data between said cellphone and a computer and other devices;
+said data including at least one of still images, moving images, sounds, words, text or audio-visual performances, including the combined sounds and images of such performances; and
+the microprocessor provided in said housing for starting the playing of and causing at least one of skipping portions of sounds, equalizing sounds or balancing sounds of said reproduced data.
+59. A mobile entertainment and communication device for communicating with remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person and adapted for placing and receiving person-to-person telephone calls to and from remotely located telephones, said cellphone having a microphone and a speaker;
+a camera in said housing operable for capturing still images and continuing images within a range of said housing;
+a memory in said housing operatively connected to said microphone for storing sounds within a range of said microphone and for storing said images captured by said camera;
+separate switches for separately operating said microphone for capturing sounds and said camera for capturing said still or continuing images; and
+said cellphone adapted for reproducing at least one of continuing images or combined sounds and continuing images, wherein said separate switches are adapted for simultaneously operating said camera for capturing continuing images and operating said microphone for capturing sounds with the continuing images;
+the housing including a memory card socket;
+said cellphone having a microprocessor provided in said housing, said memory including a replaceable memory card receivable in the socket;
+a jack provided in said housing and operatively connected to said microprocessor for uploading data or downloading data between said cellphone and a computer or other devices; and
+at least one of (1) an earphone and microphone with a wire for connecting to a jack in the housing of said cellphone, (2) a wireless earphone separate from said housing for receiving sounds from said cellphone, or (3) voice controlled dialing, each for hands-free cellphone operation.
+60. The device of claim 1, 2, 22, 25, 30, 35, 42, 45, 46, 49, 53, 54 or 59, wherein said cellphone is adapted for reproducing data, said data including at least one of still images, moving images, sounds, words, text or audio-visual performances, including the combined sounds and images of such performances; and for starting the playing of and causing at least one of skipping portions, equalizing sounds or balancing sounds of said reproduced data.
+61. 67. (Currently Amended) The device of claim 22, 25, 30, 35, 42, 45, 46, 49, 53, 54 or 58, further including a wireless remote earphone for the cellphone that is separate from the cellphone.
+62. The device of claim 58, wherein the housing includes a memory card socket, and said memory includes a replaceable memory card receivable in said socket in said housing.
+63. The device of claim 59 or 62, wherein said socket is adapted for accepting replaceable memory cards of different memory capacities.
+64. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person and adapted for wirelessly accessing the Internet or placing and receiving person-to-person telephone calls to and from remotely located telephones, said cellphone having a microphone, a speaker, a camera and a memory for storing sounds captured by the microphone and still and moving images captured by the camera;
+said memory including a replaceable memory card receivable in a socket in said housing and with either prerecorded data or no data on said replaceable memory card;
+a microprocessor for controlling said cellphone for wirelessly communicating with at least one of the Internet or the remotely located telephone and (1) causing at least one of the sounds captured by the microphone or the moving images captured by the camera to be transmitted to at least one of the remotely located telephone or the Internet or (2) causing at least one of sounds or images to be received by said cellphone from at least one of the remotely located telephone or the Internet;
+said cellphone having a display for displaying at least one of (1) said moving images captured by the camera, (2) moving images stored in the memory, including the replaceable memory card, or (3) moving images received from the remotely located telephone or the Internet and being capable of playing music with or without moving images;
+at least one of (1) an earphone and microphone with a wire for connecting to a jack on said cellphone or (2) a wireless earphone separate from said cellphone housing for receiving sounds from said cellphone, each said earphone usable for receiving sounds from the remotely located telephone and at least one of the Internet, a music player, a radio or the memory, including the replaceable memory card.
+65. The mobile entertainment and communication device of claim 64, wherein said microprocessor controlling each of (1) at least one of the sounds captured by the microphone or the moving images captured by the camera to be transmitted to at least one of the remotely located telephone or the Internet and (2) at least one of sounds or images to be received by said cellphone from at least one of the remotely located telephone or the Internet.
+66. The mobile entertainment and communication device of claim 64 or 65, wherein said cellphone display is operable for displaying each of (1) said images captured by the camera, (2) images stored in the memory, including the replaceable memory card, and (3) images received from the remotely located telephone or the Internet.
+67. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to the Internet or remotely located telephones;
+a memory operatively connected to said cellphone;
+a microprocessor provided in said cellphone and operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from at least one of the Internet or a remotely located telephone;
+a display and a speaker provided with said housing and operatively connected to said microprocessor for reproducing data from at least one of said cellphone, memory or the Internet; and
+said microprocessor adapted for automatically interrupting said reproducing of data during a telephone call from a one of the remotely located telephones;
+said cellphone having a microphone, the speaker and the memory for storing sounds including a memory card socket in the portable housing;
+said memory including a replaceable memory card directly receivable in said socket in said housing and with either prerecorded data or no data on said replaceable memory card, the memory card having a shape exhibiting asymmetry for causing proper orientation of said memory card in the socket and an engagement feature for use in securing the memory card in the socket;
+a control switch and the microprocessor for activating said cellphone for wirelessly communicating with at least one of the Internet or the remotely located telephone and causing at least one of (1) transmitting the sounds captured by the microphone to at least one of the remotely located telephone or the Internet or (2) receiving the sounds by said cellphone from at least one of the remotely located telephone or the Internet and being capable of playing music;
+at least one of (1) an earphone and microphone with a wire for connecting to a jack on said cellphone or (2) a wireless earphone separate from said cellphone housing for receiving sounds from said cellphone, each said earphone usable for receiving sounds from the remotely located telephone and at least one of the Internet or the memory, including the replaceable memory card.
+68. The mobile entertainment and communication device of claim 67, wherein said control switch and microprocessor are operable for causing each of (1) transmitting the sounds captured by the microphone to at least one of the remotely located telephone or the Internet or (2) receiving the sounds by said cellphone from at least one of the remotely located telephone or the Internet.
+69. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person and adapted for wirelessly accessing the Internet or placing and receiving person-to-person telephone calls to and from remotely located telephones, said cellphone having a microphone, a memory for storing data and an audio recorder provided in the cellphone for recording sounds without a phone call, the recorded sounds being downloadable to at least one of a computer, television or other electronic device, said housing including a memory card socket;
+said memory including a replaceable memory card receivable in said socket in said housing and with either prerecorded data or no data on said replaceable memory card;
+a microprocessor controlling at least one of (1) wirelessly transmitting and receiving data to and from a remotely located telephone, (2) uploading or downloading data to and from the Internet, (3) reproducing data from said memory, including said replaceable memory card, or (4) reproducing data currently being received by said cellphone;
+said reproducing data including at least one of moving images or combined sounds and moving images; and
+at least one of (1) an earphone and microphone with a wire for connecting to a jack on said cellphone or (2) a wireless earphone separate from said cellphone housing for receiving sounds from said cellphone, each said earphone usable for receiving sounds from the remotely located telephone and at least one of a radio, a music player, the Internet or the memory, including the replaceable memory card.
+70. The mobile entertainment and communications device of claim 69, wherein said cellphone includes a microprocessor operable for causing at least two of the four functions of (1) wirelessly transmitting and receiving data to and from a remotely located telephone, (2) uploading or downloading data to and from the Internet, (3) reproducing data from said memory, including said replaceable memory card, or (4) reproducing data currently being received by said cellphone.
+71. The mobile entertainment and communications device of claim 70, wherein said cellphone includes a microprocessor operable for causing at least three of the four functions of (1) wirelessly transmitting and receiving data to and from a remotely located telephone, (2) uploading or downloading data to and from the Internet, (3) reproducing data from said memory, including said replaceable memory card, or (4) reproducing data currently being received by said cellphone.
+72. The mobile entertainment and communications device of claim 69, wherein, said cellphone includes a microprocessor operable for causing each of the four functions of (1) wirelessly transmitting and receiving data to and from a remotely located telephone, (2) uploading or downloading data to and from the Internet, (3) reproducing data from said memory, including said replaceable memory card, and (4) reproducing data currently being received by said cellphone.
+73. A mobile entertainment and communication device for communicating with the Internet and a remotely located telephone, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person for wirelessly placing and receiving person-to-person telephone calls to and from remotely located telephones, said cellphone having a microphone, a speaker, a microprocessor, a memory for storing sounds and an audio recorder provided in the cellphone for recording sounds without a phone call, the recorded sounds being downloadable to at least one of a computer, television or other electronic device;
+said microprocessor controlling the playing of sound and at least one of controlling sound volume, skipping portions of sounds, equalizing sounds or balancing sounds; and
+at least one of (1) an earphone and microphone with a wire for connecting to a jack on said cellphone or (2) a wireless earphone from said cellphone housing for receiving sounds from said cellphone, each said earphone usable for receiving sounds from the remotely located telephone and at least one of the Internet, a music player, a radio or the memory.
+74. The mobile entertainment and communication device of claim 73, wherein said housing includes a memory card socket, said memory includes a replaceable memory card receivable in said socket in said housing, and said replaceable memory card has prerecorded music playable by said cellphone.
+75. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size including a memory card socket;
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to the Internet or remotely located telephones, a display and a speaker;
+a memory operatively connected to said cellphone and including a replaceable memory card directly receivable in said socket in said housing, said replaceable memory card having either prerecorded data or no data;
+a microprocessor provided in said cellphone and operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from at least one of the Internet or a remotely located;
+said display and said speaker operatively connected to said microprocessor for reproducing data from at least one of said cellphone, memory or the Internet, said data including at least one of still images, moving images, sounds, words, text or audio-visual performances, including the combined sounds and images of such performances, wherein said combined sound and moving images reproduced at said housing includes visual entertainment;
+a global positioning system provided in said housing and operatively connected to said microprocessor;
+said cellphone having a dialer for dialing a remotely located telephone or the Internet and a control for activating said global positioning system for transmitting the position of said cellphone to the remotely located telephone or the Internet;
+at least one of (1) a jack connection on said housing for a wired connection between said cellphone and said speaker as an earpiece speaker and a separate microphone, (2) said speaker as a speaker phone, or (3) voice controlled dialing, each for hands-free cellphone operations;
+said microprocessor controlling at least one of sound play, controlling sound volume, skipping portions of sounds, equalizing sounds or balancing sounds provided by said at least one of a music player or a radio.
+76. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size including a memory card socket;
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to the Internet or remotely located telephones;
+a memory operatively connected to said cellphone and including a replaceable memory card receivable in said socket, said replaceable memory card having either prerecorded data or no data;
+a microprocessor provided in said cellphone and operatively connected to said memory;
+said microprocessor controlling storing data to said memory that is received from at least one of the Internet or a remotely located telephone when said cellphone is wirelessly connected to the Internet or a remotely located telephone;
+a control switch provided with said housing and operatively connected to said microprocessor for reproducing data from at least one of said cellphone, memory or the Internet, said data including at least one of moving images or combined sound and moving images, wherein said combined sound and moving images reproduced at said housing includes visual entertainment;
+a global positioning system provided in said housing and operatively connected to said microprocessor;
+said cellphone adapted for dialing a remotely located telephone or the Internet and activating said global positioning system for transmitting the position of said cellphone to the remotely located telephone or the Internet;
+said microprocessor controlling the playing of sound and at least one of controlling sound volume, skipping portions of sounds, equalizing sounds or balancing sounds provided by at least one of a music player and a radio.
+77. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person and adapted for connecting to the Internet and for placing and receiving person-to-person telephone calls to and from remotely located telephones, said cellphone having a microphone, a speaker, a memory card socket in said housing and a memory, said memory including a replaceable memory card receivable in said socket in said housing;
+at least one of (1) an earphone and microphone with a wire for connecting to a jack on said cellphone or (2) a wireless earphone separate from said cellphone housing for receiving sounds from said cellphone, each said earphone usable for receiving sounds from the remotely located telephone and at least one of the Internet, a music player, a radio or the memory, including the replaceable memory card;
+at least one control switch causing the playing of sound and at least one of controlling sound volume, skipping portions of sounds, equalizing sounds or balancing sounds provided to at least one of said cellphone speaker or said earphone; and
+a display and a speaker provided in said housing for reproducing at least one of moving images or combined sounds and moving images from at least one of the Internet or the memory, including the replaceable memory card.
+78. The mobile entertainment and communication device of claim 77, further including a jack connection on said housing for a wired connection between said cellphone and a separate device for downloading or uploading data therebetween, said separate device is at least one of a computer or a television.
+79. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to the Internet or remotely located telephones;
+a memory operatively connected to said cellphone;
+a microprocessor provided in said cellphone and operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from at least one of the Internet or a remotely located telephone;
+a display and a speaker provided with said housing and operatively connected to said microprocessor for reproducing data from at least one of said cellphone, memory or the Internet; and
+said microprocessor adapted for automatically interrupting said reproducing of data during a telephone call from a one of the remotely located telephones.
+80. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones:
+a camera and a cellular telephone electrically connected and mounted in a portable housing of a size and weight for being handheld by a person, said cellular telephone having a microprocessor, a microphone, a speaker, a display panel, a dial pad and at least one of a wired or wireless earpiece for use by the person for wireless accessing the Internet and for placing and receiving person-to-person telephone calls to and from remotely located telephones;
+said microprocessor adapted for activating said camera and microphone for capturing images and sounds within a range of said housing;
+a memory in said housing operatively connected to said camera and said cellular telephone for storing said images captured by said camera and said sounds captured by said microphone;
+said cellphone adapted for causing at least one of said stored images and or said stored sounds to be transmitted by said cellular telephone to at least one of a remotely located telephone or the Internet;
+said memory including an audio recorder mounted in said housing and having means for recording audible transmissions during the person-to-person telephone calls to and from said cellular telephone and for recording sounds within a range of said housing without a telephone call;
+a display and a speaker provided with said portable housing for reproducing sounds and images from said memory and the Internet;
+at least one switch provided with the cellphone for downloading data from or uploading data to the Internet or downloading data to a computer or other devices; and
+a switch for separately operating at least one of (a) said microprocessor adapted for activating said camera, (b) said microphone, (c) said cellular telephone, (d) said memory, (e) said cellphone for causing said stored images and sounds to be transmitted, (f) said audio recorder, or (g) said display and speaker.
+81. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to the Internet or remotely located telephones;
+a memory operatively connected to said cellphone;
+a microprocessor provided in said cellphone and operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from at least one of the Internet or a remotely located telephone;
+a display and a speaker provided with said housing and operatively connected to said microprocessor for reproducing data from at least one of said cellphone, memory or the Internet; and
+said microprocessor adapted for automatically interrupting said reproducing of data during a telephone call from a one of the remotely located telephones;
+said cellphone having a microphone, the speaker, the display, a camera, the microprocessor and the memory for storing or reproducing data; and
+at least one separate switch provided with the cellphone (1) for capturing real time moving images and sounds by said camera and microphone, (2) for reproducing real time moving images and sounds by said display and speaker, or (3) for downloading or uploading data between the cellphone and a computer and other devices.
+82. The mobile entertainment and communication device of claim 22, 30, 42, 45, 46, 49, 58, 59, 64, 67, 69, 73, 77, 79, or 80 or 81, further including a global positioning system provided in said housing and operatively connected to said cellphone, said global positioning system being activated by at least one of (1) a voice controlled dialing of a specific number of a remotely located telephone or the Internet, (2) dialing said specific number of a remotely located telephone or the Internet, or (3) an emergency call button for dialing said specific number of a remotely located telephone or the Internet for transmitting the position of said cellphone to said remotely located telephone or the Internet.
+83. The mobile entertainment and communication device of claim 1, 2, 22, 30, 35, 42, 45, 49, 53, 54, 58, 64, 69, 75, 76, 77 or 80, wherein the sounds, images or data being received, transmitted or reproduced comprises combined sound and image data received, transmitted or reproduced simultaneously.
+84. The mobile entertainment and communication device of claim 22, 45, 53, 54, 77, 79, or 80 or 81, wherein said memory includes a replaceable memory card receivable in a socket in said housing, said replaceable memory card having one of prerecorded data and no data.
+85. The mobile entertainment and communication device of claim 1, 2, 22, 25, 30, 46, 49, 58, 59, 64, 67, 69, 73, 75, 76, 77, 79, or 80 or 81, further including at least one sensor for detecting at least one of motion, sound, light, infrared, images, acceleration, deceleration, heat, smoke, carbon monoxide or poisonous gas and, when such is detected, activating said cellphone to at least one of dialing an emergency service number or recording sound or images.
+86. The mobile entertainment and communication device of claim 1 or 2, wherein said microprocessor is adapted for interrupting said reproducing of data during a telephone call from a one of the remote telephones.
+87. The mobile entertainment and communication device of claim 53 wherein said microprocessor is adapted for interrupting said displaying of images or emitting of sounds during a telephone call to or from said cellphone.
+88. The mobile entertainment and communication device of claim 35 or 54, wherein said cellphone is further adapted for interrupting said playing of the stored sounds or displaying of the stored images during a telephone call to or from said cellphone.
+89. The mobile entertainment and communication device of claim 64, 67, 69 and 77, wherein said cellphone is further adapted for interrupting said receiving of sounds by each said earphone during a telephone call to or from said cellphone.
+90. The mobile entertainment and communication device of claim 1, 2, 53, 54, 76, or 77 or 81, further including a jack connection on said housing for a wired connection between said cellphone and a computer or other devices for downloading or uploading data from or to said cellphone.
+91. The mobile entertainment and communication device of claim 53 or 54, further including separate switches provided with the housing (1) for capturing real time moving images and sounds by said camera and microphone, (2) for reproducing real time moving images and sounds by said display and speaker, and (3) for downloading or uploading data between the cellphone and a computer and other devices.
+92. The mobile entertainment and communication device of claim 1, 2, 22, 30, 42, 45, 46, 49, 53, 58, 59, 64, 67, 69, 73, 75, 76, 77, 79, or 80 or 81, including a connector between said cellphone and at least one of a computer or other devices for downloading data from said cellphone to the computer or other devices.
+93. A mobile entertainment and communication device for communicating with remotely located telephones, comprising:
+a portable housing of a palm-held size;
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to remotely located telephones or the Internet;
+a memory provided in said housing and operatively connected to said cellphone;
+a memory card socket provided in said housing for receiving a replaceable memory card with substantially the entire card positioned within said housing, said replaceable memory card being of a substantially rectangular shape having four corners with at least one corner of an irregular shape different than the other corners; and
+said memory card socket having at least one corner of an irregular shape that will receive said irregularly shaped corner of said replaceable memory card but not the other corners of said replaceable memory card upon inserting said replaceable memory card into said replaceable memory card socket for properly orienting said card in said socket.
+94. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing, said cellphone adapted for selectively and wirelessly connecting to the Internet or remotely located telephones and adapted for controlling selection of at least one of (1) downloading data or uploading data from or to the Internet or (2) downloading data to a computer or other electronic device and said cellphone having at least one of (1) voice controlled dialing, (2) a wireless earphone or (3) a wire connection jack earphone with a microphone, for hands-free operation of the cellphone;
+a memory operatively connected to said cellphone;
+a microprocessor operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from the Internet or a remotely located telephone; and
+a display panel operatively connected to said microprocessor, said display panel adapted for reproducing images or other data from at least one of said memory or the Internet, said data including at least one of moving images or combined sounds and moving images;
+the memory including a replaceable memory card;
+a memory card socket provided in said housing for receiving the replaceable memory card with substantially the entire card positioned within said housing; and
+said replaceable memory card having at least one hole for use in securing said card in said memory card socket.
+95. The mobile entertainment and communication device of claim 64, 67, 75, 76, 77 or 94; wherein said replaceable memory card is of a substantially rectangular shape having four corners with at least one corner of an irregular shape different than the other corners;
+said socket has at least one corner of an irregular shape that will receive said irregular shaped corner of said replaceable memory card but not the other corners of said replaceable memory card upon inserting said replaceable memory card into said socket for properly orienting said card in said socket; and
+said replaceable memory card socket is capable of receiving replaceable memory cards having different memory capacities.
+96. A mobile entertainment and communication device for communicating with remotely located telephones, comprising:
+a portable housing of a palm-held size including an engagement element;
+a cellphone provided in said housing and adapted for selectively and wirelessly accessing the Internet or remotely located telephones;
+a memory provided in said housing and operatively connected to said cellphone, said memory including a replaceable memory card having a shape exhibiting asymmetry for causing proper orientation of said memory card in said housing, at least one engagement feature for receiving said engagement element and prerecorded data comprised of either combined sounds and text or combined sounds and moving images or no data;
+a memory card socket in said housing for directly receiving said replaceable memory card with substantially the entire card positioned within said housing
+and secured in the replaceable memory card socket and said replaceable memory card socket being provided with a spring bearing directly against the memory card when in place in the memory card socket for urging the replaceable memory card out of the socket.
+97. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being hand-held by a person and adapted for wirelessly accessing the Internet or placing and receiving person-to-person telephone calls to and from remotely located telephones, said cellphone having a microphone, a speaker, a camera and a memory for storing sounds captured by the microphone and still and moving images captured by the camera;
+said memory including a replaceable memory card receivable in a replaceable memory card socket in said housing with substantially the entire memory card positioned within said housing and with either prerecorded data or no data on said replaceable memory card, said data including sounds and at least one of moving images or combined sounds and moving images;
+said replaceable memory card having an irregularly shaped portion for mating with a similarly irregularly shaped portion of said replaceable memory card socket for properly orienting said memory card in said memory card socket;
+said memory card socket adapted for accepting replaceable memory cards of different memory capacities;
+said cellphone adapted for wirelessly communicating with at least one of the Internet or the remotely located telephone and (1) causing at least one of the sounds captured by the microphone or the moving images captured by the camera to be transmitted to at least one of the remotely located telephone or the Internet or (2) causing at least one of sounds or images to be received by said cellphone from at least one of the remotely located telephone or the Internet;
+at least one separate switch provided for controlling downloading or uploading data from and to the Internet or downloading data to a computer or other devices;
+said cellphone having a display for displaying at least one of (1) said images captured by the camera, (2) images stored in the memory, including the replaceable memory card, or (3) images received from the remotely located telephone or the Internet;
+at least one of (1) an earphone and microphone with a wire for connecting to a jack on said cellphone or (2) a wireless earphone separate from said cellphone housing for receiving sounds from said cellphone, each said earphone usable for receiving sounds from at least one of the remotely located telephone, the Internet, a music player, a radio or the memory, including the replaceable memory card; and
+a control switch for causing at least one of playing sounds, controlling sound volume, skipping portions of sounds or data, equalizing sounds, or balancing sounds provided to at least one of said cellphone speaker or each said earphone.
+98. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being hand-held by a person and adapted for wirelessly accessing the Internet or placing and receiving person-to-person telephone calls to and from remotely located telephones, said cellphone having a microphone, a speaker and a memory for storing sounds captured by the microphone, the housing having a memory card socket;
+said memory including a replaceable memory card receivable in said socket and with either prerecorded data or no data on said replaceable memory card, said data including sounds and at least one of moving images or combined sounds and moving images;
+said replaceable memory card having at least one corner of an irregular shape different than other corners of said memory card;
+said replaceable memory card socket having at least one corner of an irregular shape that receives said irregularly shaped corner of said replaceable memory card;
+said cellphone adapted for wirelessly communicating with at least one of the Internet or the remotely located telephone and causing at least one of (1) transmitting the sounds captured by the microphone to at least one of the remotely located telephone or the Internet or (2) receiving the sounds by said cellphone from at least one of the remotely located telephone or the Internet;
+at least one separate switch provided with said cellphone for controlling downloading or uploading data from and to the Internet or downloading data to a computer or other devices;
+at least one of (1) an earphone and microphone with a wire for connecting to a jack on said cellphone or (2) a wireless earphone separate from said cellphone housing for receiving sounds from said cellphone, each said earphone usable for receiving sounds from at least one of the remotely located telephone, the Internet or the memory, including the replaceable memory card; and
+a control switch provided in said housing for causing at least one of playing sounds, controlling sound volume, skipping portion of sounds or data, equalizing sounds or balancing sounds provided to at least one of said cellphone speaker or each said earphone.
+99. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person and adapted for wirelessly accessing the Internet or placing and receiving person-to-person telephone calls to and from remotely located telephones, said cellphone having a microphone, a speaker, a memory for storing data, said housing having a memory card socket;
+said memory including a replaceable memory card directly receivable in a said memory card socket in said housing and with either prerecorded data or no data on said replaceable memory card, with substantially the entire replaceable memory card directly positioned within the cell phone and including a memory card engagement device and a spring in direct contact with the replaceable memory card for urging the replaceable memory card out of the socket upon release of the memory card engagement device;
+said replaceable memory card socket adapted for accepting replaceable memory cards of different memory capacities;
+at least one separate switch provided with said cellphone for controlling uploading or downloading data to or from the Internet or downloading data to a computer or other devices;
+said cellphone operable for causing at least one of (1) wirelessly transmitting and receiving data to and from a remotely located telephone, (2) uploading or downloading data to and from the Internet, (3) reproducing data from said memory, including said replaceable memory card, or (4) reproducing data currently being received by said cellphone;
+said data including at least one of still images, moving images, sounds, words, text or audio-visual performances, including the combined sounds and images of such performances; and
+at least one of (1) an earphone and microphone with a wire for connecting to a jack on said cellphone or (2) a wireless earphone separate from said cellphone housing for receiving sounds from said cellphone, each said earphone usable for receiving sounds from at least one of the remotely located telephone, the Internet or the memory, including the replaceable memory card; and
+a control switch provided in said housing for causing at least one of playing sounds, controlling sound volume, skipping portions of sounds or other data, equalizing sounds or balancing sounds provided to at least one of said cellphone speaker or each earphone.
+100. A mobile entertainment and communication device for communicating with the Internet and a remotely located telephone, comprising:
+a housing of palm-held size;
+a cellphone provided in said housing and adapted for wirelessly connecting to the Internet or remotely located telephones, said cellphone having a memory;
+said cellphone memory including a replaceable memory card;
+a replaceable memory card socket provided in said housing for directly receiving said replaceable memory card with substantially the entire card positioned within said housing and secured in the replaceable memory card socket;
+a memory card engagement device and a spring in direct contact with the replaceable memory card for urging the replaceable memory card out of the socket upon release of the memory card engagement device;
+a microprocessor provided in said cellphone and operatively connected to said memory and said replaceable memory card;
+said microprocessor adapted for storing data to said memory or replaceable memory card that is received from the Internet or a remotely located telephone;
+a display and a speaker provided with said housing and operatively connected to said microprocessor for reproducing data from at least one of said cellphone, said memory, said replaceable memory card or the Internet, said cellphone further adapted for at least one of playing sounds, controlling sound volume, skipping a portion of sounds or images and data, or equalizing sounds;
+at least one separate switch provided with said cellphone for controlling downloading data or uploading data from and to the Internet or downloading data to a computer or other devices;
+at least one of (1) an earphone and microphone with a wire for connecting to a jack on said cellphone or (2) a wireless earphone separate from said cellphone housing for receiving sounds from said cellphone, each said earphone usable for receiving sounds from at least one of the remotely located telephone, the Internet, a music player, with or without images, a radio, said memory, or said prerecorded replaceable memory card; and
+said data including at least one of still images, moving images, sounds, words, text, or audio-visual performance, including the combined sounds and images of such performances.
+101. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing adapted for selectively and wirelessly connecting to the Internet or remotely located telephones, said housing including a replaceable memory card socket;
+a memory operatively connected to said cellphone and including a replaceable memory card receivable in said memory card socket in said housing, said replaceable memory card having either prerecorded data or no data;
+said replaceable memory card socket having at least one corner of an irregular shape that will receive at least one irregularly shaped corner of said replaceable memory card;
+a microprocessor provided in said cellphone and operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from at least one of the Internet or a remotely located telephone;
+a display provided with said housing and operatively connected to said microprocessor for at least one of (1) simultaneously reproducing data received from the internet as data is received, or (2) reproducing data from at least one of said cellphone or memory;
+at least one separate switch provided with said cellphone for controlling uploading data or downloading data to and from the Internet or downloading data to a computer or other devices;
+at least one of (1) an earphone and microphone with a wire for connecting to a jack in said cellphone or (2) a wireless earphone separate from said cellphone housing for receiving sounds from said cellphone, each said earphone usable for receiving sounds from at least one of the remotely located telephone, the Internet, a music player, a radio or the memory, including the replaceable memory card; and
+a control switch provided in said housing for causing at least one of playing sounds, controlling sound volume, skipping portions of sounds, equalizing sounds or balancing sounds provided to at least one of said cellphone speaker or each said earphone.
+102. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to the Internet or remotely located telephones, the housing including a memory card socket;
+a memory operatively connected to said cellphone and including a replaceable memory card receivable in said memory card socket in said housing, said replaceable memory card having either prerecorded data or no data;
+said memory card socket having at least one corner of an irregular shape that will receive at least one irregularly shaped corner of said replaceable memory card;
+a microprocessor provided in said cellphone and operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from at least one of the Internet or a remotely located telephone when said cellphone is wirelessly connected to the Internet or a remotely located telephone;
+at least one separate switch provided with said cellphone for controlling uploading data or downloading a data to and from the Internet or downloading data to a computer and other devices;
+said microprocessor adapted for reproducing data from at least one of said cellphone, said memory or the Internet, said reproducing of data including at least one of moving images or combined sound and moving images;
+a global positioning system provided in said housing and operatively connected to said microprocessor;
+said cellphone having a dialer for dialing a remotely located telephone or the Internet and activating said global positioning system for transmitting the position of said cellphone to the remotely located telephone or the Internet;
+a control switch provided in said housing for causing at least one of playing sounds, controlling sound volume, skipping portions of sounds or other data, equalizing sounds or balancing sounds provided through said cellphone.
+103. A mobile entertainment and communication device for communicating with remotely located telephones, comprising:
+a cellphone having a portable housing of a size and weight for being handheld by a person and adapted for placing and receiving person-to-person telephone calls to and from remotely located telephones, said cellphone having a microphone and a speaker;
+a camera in said housing operable for capturing still images and continuing images within a range of said housing;
+a memory in said housing operatively connected to said microphone for storing sounds within a range of said microphone and for storing said images captured by said camera;
+separate switches for separately operating said microphone for capturing sounds and said camera for capturing said still or continuing images; and
+said cellphone adapted for reproducing at least one of continuing images or combined sounds and continuing images, wherein said separate switches are adapted for simultaneously operating said camera for capturing continuing images and operating said microphone for capturing sounds with the continuing images;
+said memory including a replaceable memory card;
+at least one of (1) an earphone and microphone with a wire for connecting to a jack on said cellphone or (2) a wireless earphone separate from said cellphone housing for receiving sounds from said cellphone, each said earphone usable for receiving sounds from at least one of the remotely located telephone, the Internet, a music player, a radio or the memory, including the replaceable memory card;
+a control switch provided in said housing for causing at least one of playing sounds, controlling sound volume, skipping portions of sounds or other data, equalizing sounds or balancing sounds provided to at least one of said cellphone speaker or each said earphone;
+a memory card socket provided in said housing for receiving said replaceable memory card with substantially the entire card positioned within said housing and secured in the memory card socket, said memory card socket having at least one corner of an irregular shape that will receive at least one irregularly shaped corner of said replaceable memory card; and
+said replaceable memory card having at least one hole for use in securing said replaceable memory card in said memory card socket.
+104. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing, said cellphone adapted for selectively and wirelessly connecting to the Internet or remotely located telephones and adapted for controlling selection of at least one of (1) downloading data or uploading data from or to the Internet or (2) downloading data to a computer or other electronic device and said cellphone having at least one of (1) voice controlled dialing, (2) a wireless earphone or (3) a wire connection jack earphone with a microphone, for hands-free operation of the cellphone;
+a memory operatively connected to said cellphone;
+a microprocessor operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from the Internet or a remotely located telephone; and
+a display panel operatively connected to said microprocessor, said display panel adapted for reproducing images or other data from at least one of said memory or the Internet, said data including at least one of moving images or combined sounds and moving images;
+a replaceable memory card for replaceably installing directly in the cellphone, said memory card exhibiting asymmetry for causing proper orientation of said memory card in the cellphone, said memory card having at least one engagement feature for use in securing the memory card in the cellphone, wherein said replaceable memory card has prerecorded data comprised of either combined sounds and text or combined sounds and moving images or no data.
+105. The mobile entertainment and communication device of claim 42 or 45 wherein there are at least two said sensors for detecting at least two of motion, sound, light, infrared, images, acceleration, deceleration, heat, smoke, carbon monoxide or poisonous gas as the activating characteristic.
+106. The mobile entertainment and communication device of claim 42 or 45 wherein there are at least three said sensors for detecting at least three of motion, sound, light, infrared, images, acceleration, deceleration, heat, smoke, carbon monoxide or poisonous gas as the activating characteristic.
+107. A mobile entertainment and communication device for communicating with remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing and adapted for selectively and wirelessly accessing the remotely located telephones and the Internet;
+said cellphone having a microphone, a speaker, a camera, a display, a memory and a microprocessor provided in said housing;
+a sensor operatively connected to said microprocessor for detecting at least one activating characteristic of sound, motion, light, infrared or images and, upon such detection, activating said cellphone for capturing at least one of sounds or images, said cellphone then either recording to said memory or transmitting telephonically to a remotely located telephone or the Internet the captured said at least one of sounds and images;
+said cellphone adapted for hands-free operation of said cellphone comprising at least two of (1) an earphone and microphone with a wire for connecting to said cellphone, (2) a wireless earphone separate from said housing adapted for communicating with said cellphone, (3) a voice control operating with said cellphone, or (4) automatic dialing of said cellphone to at least one of a pre-selected number or the Internet upon said sensor detecting the activating characteristic; and
+at least one separate switch provided with said housing for starting the reproduction of data at said housing and controlling that reproduction by at least one of skipping portions of the data, equalizing sounds or controlling the volume of sounds, said data including at least one of still images, moving images, sounds, words, text, visual entertainment, or audio visual data combining sounds and images.
+108. The mobile entertainment and communication device of claim 107 wherein there are at least two said sensors for detecting at least two of motion, sound, light, infrared, images, acceleration, deceleration, heat, smoke, carbon monoxide or poisonous gas as the activating characteristic.
+109. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to the Internet or remotely located telephones;
+a memory operatively connected to said cellphone;
+a microprocessor provided in said cellphone and operatively connected to said memory;
+said microprocessor adapted for storing data to said memory that is received from at least one of the Internet or a remotely located telephone;
+a display and a speaker provided with said housing and operatively connected to said microprocessor for reproducing data from at least one of said cellphone, memory or the Internet; and
+said microprocessor adapted for automatically interrupting said reproducing of data during a telephone call from a one of the remotely located telephones;
+said cellphone having a microphone and a camera;
+said cellphone adapted for causing the recording of at least one of (1) real time moving images or (2) combined real time sounds and moving images simultaneously;
+at least one separate switch provided with said housing and cellphone for causing at least one of (1) recording real time sounds and moving images simultaneously, (2) reproducing at the housing sounds and moving images simultaneously, or (3) downloading at least one of still images, moving images, sounds or combined moving images and sounds to a computer, television or recording device;
+a jack provided on said housing and operatively connected to said microprocessor for receiving a wire having an earphone for reproducing sound;
+said display operatively connected to said microprocessor for reproducing the images; and
+said memory recording the sounds and the images, including combined sounds and moving images, for allowing the reproduction of the sounds and images by the cellphone or by at least one of a computer, a television or a reproducing device.
+110. The mobile entertainment and communication device of claim 109, further comprising, voice controlled dialing of said cellphone of pre-selected telephone numbers, including 911, for automatically transmitting at least sounds from the cellphone.
+111. The mobile entertainment and communication device of claim 109, further comprising, at least one sensor in said housing operatively connected to said microprocessor for activating said microphone and cellphone upon said sensor sensing at least one activating characteristic of sounds, motion, light, infrared or images; and
+upon said cellphone being activated by said sensor sensing an activating characteristic, said cellphone automatically causing at least one of (1) dialing a pre-selected telephone number and transmitting the sounds captured by said microphone to a remotely located telephone or (2) recording on said memory the sounds captured by said microphone.
+112. The mobile entertainment and communication device of claim 109, further comprising, at least one sensor in said housing operatively connected to said microprocessor for activating said microphone, said camera and said cellphone upon said sensor sensing at least one activating characteristic of sounds, motion, light, infrared or images; and
+upon said cellphone being activated by said sensor sensing an activating characteristic, said cellphone automatically causing at least one of (1) dialing a pre-selected telephone and transmitting the sounds captured by said microphone and images captured by said camera to a remotely located telephone or (2) recording on said memory the sounds captured by said microphone and images captured by said camera.
+113. The mobile entertainment and communication device of claim 111 or 112, wherein there are at least two said sensors for detecting at least two of sounds, motion, light, infrared or images as the activating characteristic.
+114. The mobile entertainment and communication device of claim 22, further comprising a separate switch on said housing for causing the downloading or uploading of data.
+115. A mobile entertainment and communication device, comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing and adapted for wirelessly accessing remotely located telephones;
+said cellphone having a memory;
+a jack on said housing operatively connected to said cellphone and memory; and
+a connection wire with a plug on one end for connecting to said jack and a connector on the other end for connecting to at least one of a personal computer, a television or other devices for downloading or reviewing data from at least one of the memory or a replaceable memory card, said data including sounds and at least one of moving images, music with or without images or combined sounds and moving images simultaneously.
+116. A mobile entertainment and communication device comprising:
+a handheld cell phone for telephone calls and entertainment including an audio recorder, a video recorder, voice controlled dialing, a wired earphone with microphone, a microphone, a speaker, a display, a camera, a memory , a microprocessor, an emergency call function, said microprocessor adapted for causing operation of at least one of the camera or the microphone upon activation of the emergency call function for transmitting sound and at least one of still images, moving images, or combined sounds and moving images by telephone call.
+117. A mobile entertainment and communication device comprising:
+a handheld cell phone for telephone calls and entertainment including an audio recorder, a video recorder, voice controlled dialing, a wired earphone with microphone, a microphone, a speaker, a display, a camera, a microprocessor, a memory, an emergency call that dials a pre-selected emergency number activating the emergency call function, said microprocessor adapted for causing operation of at least one of the camera or the microphone upon activation of the emergency call function for transmitting sound and at least one of still images, moving images, or combined sounds and moving images to an emergency telephone.
+118. In the mobile entertainment and communication device for communicating with remotely located telephones by a cellphone of claim 94, 103 or 104, said housing comprising at least one engagement element for receiving at least one engagement feature of said replaceable memory card for use in directly securing and removing said memory card from the socket, said engagement feature comprising at least one hole.
+119. The mobile entertainment and communication device of claim 94, 103 or 104, said memory card having at least one card corner having an irregular shape that is different from other card corners, the irregular shaped corner matching the shape of the socket when the entire card is positioned therein.
+120. A mobile entertainment and communication device for communicating with remotely located telephones, comprising:
+a portable housing of a palm-held size including an engagement element and a card socket;
+a cellphone provided in said housing and adapted for selectively and wirelessly accessing the Internet or remotely located telephones;
+a memory provided in said housing and operatively connected to said cellphone, said memory including a replaceable memory card having a shape exhibiting asymmetry for causing proper orientation of said memory card in said housing, said card socket in said housing for directly receiving said replaceable memory card with substantially the entire card positioned within said housing, said memory card having at least one engagement feature for receiving said engagement element for use in securing and releasing said memory card, the memory card being capable of having different memory capacities without changing card size and card shape and capable of being inserted directly into the card socket without a change of socket dimensions when substantially the entire card is positioned within said housing;
+said card for reproducing and storing data and having either and prerecorded data or no/blank data, said prerecorded data comprised of either combined sounds and text, combined images and text, real time moving images, real time sounds and real time moving images or GPS location information.
+121. A communication system comprising:
+a handheld cell phone for telephone calls and wireless access to the Internet and including a microphone, a speaker, a display, a memory with a replaceable memory card, a microprocessor and a memory card socket for receiving said replaceable memory card, said memory card and memory card socket having complementary shapes exhibiting asymmetry for unique orientation of said memory card in said socket with substantially the entire memory card positioned directly within said socket;
+at least one sensing system provided and operatively connectable to said microprocessor; said sensing system having at least one of (1) a camera for capturing still or moving images, (2) a microphone for capturing sounds capable of being sequenced with said camera or (3) at least one sensor for detecting at least one of sound, images, motion, light, infrared, heat, smoke, carbon monoxide or poisonous gas, said microprocessor providing operation for capturing at least one of moving images or combined sound and moving images, and providing operation for at least one of (1) reproducing moving images and sounds through said display and said speaker or (2) loading data from or to said cell phone to or from one or more of the Internet or an electronic device.
+122. A mobile entertainment and communication device comprising:
+a handheld cell phone for telephone calls and wireless access to the Internet and including a microphone, a speaker, a display, a camera, a memory and a microprocessor, said microprocessor providing operation for selectively (1) capturing moving images, sounds or simultaneous sounds and moving images, (2) reproducing moving images by said display and sounds by said speaker separately or simultaneously, (3) loading data including sounds and moving images to and from the Internet or (4) loading data including sounds and moving images between said cell phone and an electronic device;
+a remote wired or wireless earphone, said microprocessor providing operation for directing sounds to at least one of said earphone or said speaker from the telephone calls, said microprocessor further providing operation for handling data including sounds and moving images from at least one of said microphone, camera, internet or memory, said microprocessor further providing operation for causing at least one of playing sounds, controlling sound volume, skipping portions of the data, equalizing sounds or balancing sounds, said microprocessor further providing operation for automatically interrupting the playing of sound and images upon receiving a telephone call.
+123. The mobile entertainment and communication device of claim 64, 69-72, 73, 74, 75-78, 97, 98, 100, 101, 102, 103 or 122, said cellphone further including a radio receiver in said cellphone housing playable through said speaker or a wired or wireless earphone.
+124. A mobile entertainment and communication device for communicating with the Internet and remotely located telephones, comprising:
+a hand-held cellphone for wirelessly accessing the Internet or placing and receiving phone calls to and from the remotely located telephones;
+said cellphone having a microphone, a speaker, a display, a microprocessor, a wired or wireless earphone and a memory including a replaceable memory card;
+said microprocessor controlling the reproduction of continuing sounds and continuing moving images, separately or simultaneously, by directing said continuing sounds and continuing moving images appropriately to said wired or wireless earphone and said display from at least one of (1) said memory or replaceable memory card, (2) the Internet or the remote telephones or (3) radio broadcasting.
+125. A mobile communication device for communicating with the Internet and remotely located telephones, comprising:
+a hand-held cellphone for wirelessly accessing the Internet or placing and receiving phone calls to and from the remotely located telephones;
+said cellphone having a microphone, a speaker, a display, a camera, a microprocessor and a memory;
+said microprocessor providing operation for capturing, storing or transmitting to a pre-selected address on the Internet or a pre-selected one of the remotely located telephones sounds and at least one of moving images or combined sounds and moving images activated by at least one of (1) voice, (2) sensor detection or (3) single button actuation.
+126. A mobile entertainment and communication device for communicating with remotely located telephones comprising:
+a hand-held cellphone including a microphone, a speaker, a camera, memory, a microprocessor and at least three of (1) a wired remote microphone and earphone, (2) a wireless microphone and earphone, (3) a speaker as a speaker phone or (4) voice control activation, said microprocessor providing operation by voice controlled cellphone activation for selectively causing at least one of (1) capturing combined sounds and moving images by microphone and camera, (2) transmitting stored combined sounds and moving images to a pre-selected one or more of the remote telephones or (3) transmitting currently captured combined sounds and moving images to a pre-selected one or more of the remote telephones.
+127. A mobile entertainment and communication device for communicating with remotely located telephones comprising:
+a housing of a palm-held size;
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to the remotely located telephones, said cellphone having a microphone, a speaker, a memory, a microprocessor, a display, a wired or wireless earphone, voice controlled dialing, and an audio recorder, said cellphone further adapted for reproducing data from at least one of the memory or a replaceable memory card;
+at least one of said wired or wireless earphone for mobile entertainment without phone calls;
+said data including at least one of still images, moving images, sounds, words, text or music with or without images, or combined real time sounds and moving images; and
+the microprocessor provided in said housing and adapted for starting the playing of and causing at least one of skipping a portion of sounds or other data, equalizing sounds, or balancing sounds of reproduced data.
+128. A mobile entertainment and communication device for communicating with Internet or remotely located telephones, comprising;
+a housing of a palm- held size;
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to the Internet and remotely located telephones, and adapted for uploading data or downloading data to or from the Internet;
+said cellphone having a microprocessor, a microphone, a display, a memory, a wired or wireless earphone, voice controlled dialing, and an audio recorder, said cellphone further adapted for reproducing data from at least one of the Internet, the cellphone memory, or a replaceable memory card;
+at least one of said wired or wireless earphone for mobile entertainment without phone calls;
+said data including at least one of still images, moving images, sounds, words, text or music with or without images, or combined real time sounds and moving images; and
+said microprocessor provided in said housing and adapted for starting the playing of and causing at least one of a skipping portion of data, equalizing sounds, or balancing sounds of reproduced data.
+129. A mobile entertainment and communication device for communicating with a remotely located telephone, comprising;
+a housing of a palm held-size;
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to the remotely located telephone;
+said cellphone having a microprocessor, a microphone, a display, a camera  a memory, a wired or wireless earphone, voice controlled dialing, an audio recorder and a video recorder,  and adapted for reproducing data from the memory and storing data to the memory;
+at least one of said wired or wireless earphone for receiving music and/or sounds, for entertainment without phone calls;
+said data including at least one of still images, moving images sounds, text, words, music with or without images, images with text or real time combined sounds and moving images simultaneously;
+said microprocessor provided in said housing and adapted for starting the playing of and causing at least one of skipping a portion of data,  equalizing sounds, or balancing sounds of reproduced data.
+130. A mobile entertainment and communication device for communicating with Internet and remotely located telephones, comprising;
+a  housing of a palm-held size:
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to the remotely located telephones or Internet, said cellphone having a card socket and a replaceable memory card;
+said housing having at least one engagement element, whereinthe memory card has a flat rectangular shape exhibiting asymmetry forcausing proper orientation of the memory card in the housing and hasat least one engagement feature for receiving the engagement element,the engagement feature both for securing the card in the card socket of the  cellphone and for removing the card therefrom, the housing further comprising a spring in the card socket for directly contacting the memory card and for urging the memory card out of the socket upon release of the memory card engagement element;
+said replaceable memory card operatively connected  to atleast one of a microprocessor, a microphone, a speaker, or a wired orwireless earphone, for reproducing prerecorded data from the replaceablememory card or storing data to the replaceable memory card;
+said replaceable memory card for reproducing prerecorded data includingcontrolling at least one of start playing data, balancing sounds,equalizing sounds or skipping data is controllable when reproducingdata;
+said replaceable memory card having either prerecorded data or no/blankdata for at least one of (1) transmitting and/or downloading prerecordeddata to other at least one separate remote device, (2) reproducingpre-recorded data, or (3) recording data, said prerecorded data of saidmemory card including at least one of real time sounds, still or movingimages, music with or without moving images, combined sounds and movingimages, combined sounds and text, or other data, and also capable to ofstoring same data at least one of real time sounds, still or movingimages, music with or without moving images, combined sounds and movingimages, combined sounds and text, or other data to the memory card;
+and wherein the memory card is capable of having different memorycapacities without changing card size and shape, and capable of being inserted directly into the card socket of the cellphone when substantially the entire memory card is positioned in the card socket.
+131. A mobile entertainment and communication device for communicating with Internet or remotely located telephones, comprising;
+a housing of a palm-held size;
+a cellphone provided in said housing and adapted for selectively and wirelessly connecting to the Internet and remotely located telephones, said cellphone having a memory including a replaceable memory card, said replaceable memory card replaceable directly in the cellphone, wherein said cellphone has a card socket for receiving the replaceable memory card;
+said memory card having a flat, rectangular shape exhibiting asymmetryfor causing proper orientation in association with the cellphone, and having at least one card comer having an irregular shape that is different from other card comers, the irregular shaped comer matching the shape of the card socket when the entire cardis positioned therein;
+said replaceable memory card having at lease one of engagement featureon the card for at least one of securing the card in the card socket or removing the card from the card socket;
+said memory card having either prerecorded data or no/blank data forat least one of (1) down loading pre-recorded data to at least oneseparate device, (2) reproducing pre-recorded data, or (3) storing datato the card, said prerecorded data of said memory card including realtime sounds and at least one of (1) real time moving images, (2)simultaneously combined sounds and moving images, (3) simultaneouslycombined sounds and texts, (4) music with or without images, or (5)other data, and also capable of storing at least one of real timesounds, still or moving images, music with or without moving images,combined sounds and moving images, combined sounds and text, or otherdata to the replaceable memory card; and
+wherein the card is capable of having different memory capacitieswithout changing card size and card shape, and capable of insertingdirectly into the card socket of the cellphone without a changeof socket dimensions when substantially the entire card is positioned in the card socket.
+Patent Citations (99)
+Publication number Priority date Publication date Assignee Title
+US4148070A * 1976-01-30 1979-04-03 Micro Consultants Limited Video processing system
+US4302776A * 1979-03-22 1981-11-24 Micro Consultants Limited Digital still picture storage system with size change facility
+US4821121A * 1983-04-08 1989-04-11 Ampex Corporation Electronic still store with high speed sorting and method of operation
+US5003576A * 1987-07-24 1991-03-26 Richard J. Helferich Analog/digital voice storage cellular telephone
+US5487182A * 1990-06-25 1996-01-23 Telefonaktiebolaget Lm Ericsson Hands-free module
+US5257414A * 1990-11-26 1993-10-26 Motorola, Inc. Apparatus for accepting and retaining a memory card
+US5353330A * 1991-02-06 1994-10-04 Nec Corporation Power conserving mobile telephone usable as a portable phone and as an installed phone
+US5420573A * 1991-08-28 1995-05-30 Sony Corporation Audio-visual system with two-way communication between devices
+US5535274A * 1991-10-19 1996-07-09 Cellport Labs, Inc. Universal connection for cellular telephone interface
+US5499286A * 1992-08-13 1996-03-12 Nec Corporation Digital radio telephone
+US5537608A * 1992-11-13 1996-07-16 International Business Machines Corporation Personal communicator apparatus
+US5584052A * 1992-11-16 1996-12-10 Ford Motor Company Integrated microphone/pushbutton housing for voice activated cellular phone
+US5657371A * 1993-02-01 1997-08-12 Nokia Mobile Phones Limited Connector assembly for a radio telephone and a computer
+US5590417A * 1993-06-03 1996-12-31 Ericsson Inc. Radiotelephone apparatus including a wireless headset
+US5418837A * 1993-07-30 1995-05-23 Ericsson-Ge Mobile Communications Inc. Method and apparatus for upgrading cellular mobile telephones
+US5687216A * 1993-08-31 1997-11-11 Ericsson Inc. Apparatus for storing messages in a cellular mobile terminal
+US5615384A * 1993-11-01 1997-03-25 International Business Machines Corporation Personal communicator having improved zoom and pan functions for editing information on touch sensitive display
+US5555286A * 1994-01-31 1996-09-10 Tendler Technologies, Inc. Cellular phone based automatic emergency vessel/vehicle location system
+US5550754A * 1994-05-13 1996-08-27 Videoptic Research Teleconferencing camcorder
+US5787399A * 1994-05-31 1998-07-28 Samsung Electronics Co., Ltd. Portable recording/reproducing device, IC memory card recording format, and recording/reproducing mehtod
+US5613222A * 1994-06-06 1997-03-18 The Creative Solutions Company Cellular telephone headset for hand-free communication
+US5630205A * 1994-06-14 1997-05-13 Ericsson Inc. Mobile phone having voice message capability
+US5699406A * 1994-09-07 1997-12-16 Nokia Mobile Phones Ltd. Arrangement for securing the SIM card in a mobile telephone
+US5504812A * 1994-10-11 1996-04-02 Motorola, Inc. Headset for use with a radiotelephone
+US5640675A * 1995-01-05 1997-06-17 Alcatel Mobile Phones Method and system for reducing the time for connecting a mobile to a cellular base station
+US5717379A * 1995-04-10 1998-02-10 Alcatel N.V. Remote monitoring system
+US5943603A * 1995-04-24 1999-08-24 Eastman Kodak Company Electronic camera system with programmable transmission capability
+US5914941A * 1995-05-25 1999-06-22 Information Highway Media Corporation Portable information storage/playback apparatus having a data interface
+US5870710A * 1996-01-24 1999-02-09 Sony Corporation Audio transmission, recording and reproducing system
+US6243596B1 * 1996-04-10 2001-06-05 Lextron Systems, Inc. Method and apparatus for modifying and integrating a cellular phone with the capability to access and browse the internet
+US5991637A * 1996-04-19 1999-11-23 Mack, Ii; Gawins A. Integrated passive and active communications system
+US6006109A * 1996-05-07 1999-12-21 Samsung Electronics Co., Ltd. Wireless data communication system using a microphone/headphone jack of a portable phone
+US5914675A * 1996-05-23 1999-06-22 Sun Microsystems, Inc. Emergency locator device transmitting location data by wireless telephone communications
+US5737491A * 1996-06-28 1998-04-07 Eastman Kodak Company Electronic imaging system capable of image capture, local wireless transmission and voice recognition
+US6009336A * 1996-07-10 1999-12-28 Motorola, Inc. Hand-held radiotelephone having a detachable display
+US5815426A * 1996-08-13 1998-09-29 Nexcom Technology, Inc. Adapter for interfacing an insertable/removable digital memory apparatus to a host data part
+US5884168A * 1996-08-30 1999-03-16 Ericsson, Inc. Multiple cellular systems with limited sim card information
+US5969750A * 1996-09-04 1999-10-19 Winbcnd Electronics Corporation Moving picture camera with universal serial bus interface
+US5937341A * 1996-09-13 1999-08-10 University Of Washington Simplified high frequency tuner and tuning method
+US6480724B1 * 1996-10-03 2002-11-12 Nokia Mobile Phones Ltd. Modular mobile communication system
+US6366614B1 * 1996-10-11 2002-04-02 Qualcomm Inc. Adaptive rate control for digital video compression
+US6137525A * 1997-02-19 2000-10-24 Lg Electronics Inc. Personal data communication apparatus
+US6081708A * 1997-03-06 2000-06-27 Alcatel Multi-network communication system for organizations having digital cellular radio network terminals
+US6278884B1 * 1997-03-07 2001-08-21 Ki Il Kim Portable information communication device
+US6681120B1 * 1997-03-26 2004-01-20 Minerva Industries, Inc., Mobile entertainment and communication device
+US6002946A * 1997-04-14 1999-12-14 Motorola, Inc. Handheld device having an optical data reader
+US6310609B1 * 1997-04-17 2001-10-30 Nokia Mobile Phones Limited User interface with guide lights
+US6122526A * 1997-04-24 2000-09-19 Eastman Kodak Company Cellular telephone and electronic camera system with programmable transmission capability
+US6101372A * 1997-06-03 2000-08-08 Fujitsu Limited Portable telephone set
+US6295206B1 * 1997-06-04 2001-09-25 Sony Corporation Memory card, and receptacle for same
+US6361369B1 * 1997-06-04 2002-03-26 Sony Corporation Memory card, and receptacle for same
+US6616053B2 * 1997-06-04 2003-09-09 Sony Corporation Memory card, and receptacle for same
+US6783076B2 * 1997-06-04 2004-08-31 Sony Corporation Memory card, and receptacle for same
+US6199756B1 * 1997-06-04 2001-03-13 Sony Corporation Memory card, and receptacle for same
+US6729548B2 * 1997-06-04 2004-05-04 Sony Corporation Memory card, and receptacle for same
+US5957718A * 1997-06-28 1999-09-28 Acer Peripherals Inc. Device for receiving a memory card
+US7006146B1 * 1997-06-30 2006-02-28 Samsung Techwin Co., Ltd. Digital still camera capable of telecommunication and modification of electromagnetic signal into digital electronic signal
+US6919923B1 * 1997-06-30 2005-07-19 Samsung Techwin Co., Ltd. Digital still camera capable of communicating audio and image data to/from a remote site
+US6392697B1 * 1997-06-30 2002-05-21 Samsung Techwin Co., Ltd Digital still camera
+US6109797A * 1997-10-16 2000-08-29 Sharp Kabushiki Kaisha Plug-jack type transfer device and plug-jack type optical/electrical compatible transfer device
+US6144657A * 1997-11-06 2000-11-07 Sun Microsystems, Inc. Remote device connection to a network
+US6498809B1 * 1998-01-20 2002-12-24 Motorola, Inc. Video bitstream error resilient transcoder, method, video-phone, video-communicator and device
+US7123936B1 * 1998-02-18 2006-10-17 Ericsson Inc. Cellular phone with expansion memory for audio and video storage
+US6408351B1 * 1998-03-31 2002-06-18 Compaq Computer Corporation Host modem having a peripheral codec powered by a peripheral bus
+USD452865S1 * 1998-04-01 2002-01-08 Sandisk Corporation Removable memory card for use with portable electronic devices
+USD453934S1 * 1998-04-01 2002-02-26 Sandisk Corporation Removable memory card for use with portable electronic devices
+USD447481S1 * 1998-04-01 2001-09-04 Sandisk Corporation Memory card for use with portable electronic devices
+US6867485B2 * 1998-06-11 2005-03-15 Sandisk Corporation Semiconductor package using terminals formed on a conductive layer of a circuit board
+US6573938B1 * 1998-06-24 2003-06-03 Motorola Inc. Self-contained camera device and method for capturing and communicating images via a modem
+US5933328A * 1998-07-28 1999-08-03 Sandisk Corporation Compact mechanism for removable insertion of multiple integrated circuit cards into portable and other electronic devices
+US6606109B1 * 1998-08-11 2003-08-12 Seiko Instruments Inc. Thermal head and thermal head unit
+US6687515B1 * 1998-10-07 2004-02-03 Denso Corporation Wireless video telephone with ambient light sensor
+US6195531B1 * 1998-11-25 2001-02-27 Telefonaktiebolaget L M Ericsson (Publ) Method and system for automatic configuration of fixed cellular terminals
+US6396931B1 * 1999-03-08 2002-05-28 Cicero H. Malilay Electronic stethoscope with diagnostic capability
+US6211649B1 * 1999-03-25 2001-04-03 Sourcenext Corporation USB cable and method for charging battery of external apparatus by using USB cable
+US6694200B1 * 1999-04-13 2004-02-17 Digital5, Inc. Hard disk based portable device
+US6634561B1 * 1999-06-24 2003-10-21 Sandisk Corporation Memory card electrical contact structure
+USD445111S1 * 1999-08-24 2001-07-17 Kabushiki Kaisha Toshiba IC memory card
+US6922343B2 * 1999-08-24 2005-07-26 Matsushita Electric Industrial Co., Ltd. Memory card
+USD444473S1 * 1999-08-24 2001-07-03 Kabushiki Kaisha Toshiba IC memory card
+US6650913B1 * 1999-09-22 2003-11-18 Nec Corporation Mobile telephone unit and method used in this unit for accessing internet site
+US6323064B1 * 1999-10-11 2001-11-27 Samsung Electronics Co., Ltd Method for fabricating a memory card
+US6611907B1 * 1999-10-21 2003-08-26 Matsushita Electric Industrial Co., Ltd. Semiconductor memory card access apparatus, a computer-readable recording medium, an initialization method, and a semiconductor memory card
+US7065342B1 * 1999-11-23 2006-06-20 Gofigure, L.L.C. System and mobile cellular telephone device for playing recorded music
+US6738423B1 * 2000-01-21 2004-05-18 Nokia Mobile Phones Ltd. Method for encoding and decoding video information, a motion compensated video encoder and a corresponding decoder
+US7048197B2 * 2000-01-25 2006-05-23 Renesas Technology Corp. IC card
+US6486724B2 * 2000-02-23 2002-11-26 Japan Radio Co., Ltd. FET bias circuit
+US6491541B2 * 2000-05-15 2002-12-10 Nec Corp. USB cable fixture for preventing USB connector from being unplugged
+US6678514B2 * 2000-12-13 2004-01-13 Motorola, Inc. Mobile personal security monitoring service
+US6768645B2 * 2001-01-26 2004-07-27 Sony Corporation IC card and IC-card adaptor
+USD459355S1 * 2001-03-16 2002-06-25 Kabushiki Kaisha Toshiba IC memory card
+USD467586S1 * 2001-03-16 2002-12-24 Kabushiki Kaisha Toshiba IC memory card
+US6999802B2 * 2001-06-26 2006-02-14 Samsung Electronics Co., Ltd. Portable communication apparatus with digital camera and personal digital assistant
+US7184092B2 * 2002-06-05 2007-02-27 Samsung Electro-Mechanics Co., Ltd. Camera drive unit and cellular phone equipped with camera drive unit
+US6640109B1 * 2002-06-21 2003-10-28 Motorola, Inc. Method and apparatus for interurban dispatch group calling
+US7068782B2 * 2002-06-27 2006-06-27 Motorola, Inc. Communications devices with receiver earpieces and methods therefor
+US6957073B2 * 2002-09-18 2005-10-18 Motorola, Inc. Mobile location explorer and methods therefor
+US7027840B2 * 2003-09-17 2006-04-11 Motorola, Inc. Method and apparatus of muting an alert
+USD496632S1 * 2003-11-19 2004-09-28 Motorola, Inc. Rugged USB connector
+* Cited by examiner, † Cited by third party
+Cited By (150)
+Search Within Citing Patents
+Publication number Priority date Publication date Assignee Title
+US9275517B2 1998-09-16 2016-03-01 Dialware Inc. Interactive toys
+US8425273B2 1998-09-16 2013-04-23 Dialware Inc. Interactive toys
+US8062090B2 1998-09-16 2011-11-22 Dialware Inc. Interactive toys
+US8078136B2 * 1998-09-16 2011-12-13 Dialware Inc. Physical presence digital authentication system
+US7706838B2 * 1998-09-16 2010-04-27 Beepcard Ltd. Physical presence digital authentication system
+US8843057B2 1998-09-16 2014-09-23 Dialware Inc. Physical presence digital authentication system
+US8509680B2 1998-09-16 2013-08-13 Dialware Inc. Physical presence digital authentication system
+US20080173717A1 * 1998-10-02 2008-07-24 Beepcard Ltd. Card for interaction with a computer
+US9361444B2 1998-10-02 2016-06-07 Dialware Inc. Card for interaction with a computer
+US8544753B2 1998-10-02 2013-10-01 Dialware Inc. Card for interaction with a computer
+US8935367B2 1998-10-02 2015-01-13 Dialware Inc. Electronic device and method of configuring thereof
+US7941480B2 1998-10-02 2011-05-10 Beepcard Inc. Computer communications using acoustic signals
+US20030028850A1 * 1999-06-15 2003-02-06 Microsoft Corporation Located At One Microsoft Way Edit command delegation program for editing electronic files
+US8447615B2 1999-10-04 2013-05-21 Dialware Inc. System and method for identifying and/or authenticating a source of received electronic data by digital signal processing and/or voice authentication
+US8019609B2 1999-10-04 2011-09-13 Dialware Inc. Sonic/ultrasonic authentication method
+US9489949B2 1999-10-04 2016-11-08 Dialware Inc. System and method for identifying and/or authenticating a source of received electronic data by digital signal processing and/or voice authentication
+US20060245741A1 * 2000-03-09 2006-11-02 Cynthia Lakhansingh Digital enterainment recorder
+US9087442B2 * 2001-01-02 2015-07-21 Global Life-Line, Inc. Panic device with local alarm and distal signaling capability
+US9142109B2 * 2001-01-02 2015-09-22 Global Life-Line, Inc. Panic device with local alarm and distal signaling capability
+US8742924B2 2001-01-02 2014-06-03 Global Life-Line, Inc. Panic device with local alarm and distal signaling capability
+US20140285321A1 * 2001-01-02 2014-09-25 Global Life-Line, Inc. Panic Device With Local Alarm And Distal Signaling Capability
+US20090021370A1 * 2001-01-02 2009-01-22 Fish Robert D Panic Device With Local Alarm And Distal Signaling Capability
+US9495850B2 2001-01-02 2016-11-15 Global Life-Line, Inc. Panic device with 2-way communication
+US9219708B2 2001-03-22 2015-12-22 DialwareInc. Method and system for remotely authenticating identification devices
+US8538485B1 2001-10-18 2013-09-17 Iwao Fujisaki Communication device
+US9026182B1 2001-10-18 2015-05-05 Iwao Fujisaki Communication device
+US8805442B1 2001-10-18 2014-08-12 Iwao Fujisaki Communication device
+US8538486B1 2001-10-18 2013-09-17 Iwao Fujisaki Communication device which displays perspective 3D map
+US8064964B1 * 2001-10-18 2011-11-22 Iwao Fujisaki Communication device
+US9154776B1 2001-10-18 2015-10-06 Iwao Fujisaki Communication device
+US9197741B1 2001-10-18 2015-11-24 Iwao Fujisaki Communication device
+US8498672B1 2001-10-18 2013-07-30 Iwao Fujisaki Communication device
+US8750921B1 2001-10-18 2014-06-10 Iwao Fujisaki Communication device
+US8290482B1 2001-10-18 2012-10-16 Iwao Fujisaki Communication device
+US8744515B1 2001-10-18 2014-06-03 Iwao Fujisaki Communication device
+US8165639B1 2001-10-18 2012-04-24 Iwao Fujisaki Communication device
+US9247383B1 2001-10-18 2016-01-26 Iwao Fujisaki Communication device
+US9537988B1 2001-10-18 2017-01-03 Iwao Fujisaki Communication device
+US8200275B1 2001-10-18 2012-06-12 Iwao Fujisaki System for communication device to display perspective 3D map
+USRE44732E1 * 2002-03-22 2014-01-28 Foremost Technologies Llc Video-voicemail solution for wireless communication devices
+US8035508B2 * 2002-06-11 2011-10-11 Intelligent Technologies International, Inc. Monitoring using cellular phones
+US20080088462A1 * 2002-06-11 2008-04-17 Intelligent Technologies International, Inc. Monitoring Using Cellular Phones
+US9211811B2 2002-06-11 2015-12-15 Intelligent Technologies International, Inc. Smartphone-based vehicular interface
+US8229512B1 2003-02-08 2012-07-24 Iwao Fujisaki Communication device
+US8682397B1 2003-02-08 2014-03-25 Iwao Fujisaki Communication device
+US8430754B1 2003-04-03 2013-04-30 Iwao Fujisaki Communication device
+US8425321B1 2003-04-03 2013-04-23 Iwao Fujisaki Video game device
+US20100067666A1 * 2003-05-02 2010-03-18 Urban Blake R Multi-Use Telephone Test Sets and Related Systems and Methods
+US8229077B2 * 2003-05-02 2012-07-24 At&T Intellectual Property I, L.P. Multi-use telephone test sets and related systems and methods
+US8588374B2 2003-05-02 2013-11-19 At&T Intellectual Property I, L.P. Multi-use telephone test sets and related systems
+US8380248B1 2003-09-26 2013-02-19 Iwao Fujisaki Communication device
+US8295880B1 2003-09-26 2012-10-23 Iwao Fujisaki Communication device
+US8694052B1 2003-09-26 2014-04-08 Iwao Fujisaki Communication device
+US8301194B1 2003-09-26 2012-10-30 Iwao Fujisaki Communication device
+US8311578B1 2003-09-26 2012-11-13 Iwao Fujisaki Communication device
+US8320958B1 2003-09-26 2012-11-27 Iwao Fujisaki Communication device
+US8326355B1 2003-09-26 2012-12-04 Iwao Fujisaki Communication device
+US8229504B1 2003-09-26 2012-07-24 Iwao Fujisaki Communication device
+US8331983B1 2003-09-26 2012-12-11 Iwao Fujisaki Communication device
+US8331984B1 2003-09-26 2012-12-11 Iwao Fujisaki Communication device
+US8335538B1 2003-09-26 2012-12-18 Iwao Fujisaki Communication device
+US8340720B1 2003-09-26 2012-12-25 Iwao Fujisaki Communication device
+US8774862B1 2003-09-26 2014-07-08 Iwao Fujisaki Communication device
+US8346303B1 2003-09-26 2013-01-01 Iwao Fujisaki Communication device
+US8346304B1 2003-09-26 2013-01-01 Iwao Fujisaki Communication device
+US8351984B1 2003-09-26 2013-01-08 Iwao Fujisaki Communication device
+US8364202B1 2003-09-26 2013-01-29 Iwao Fujisaki Communication device
+US8364201B1 2003-09-26 2013-01-29 Iwao Fujisaki Communication device
+US8532703B1 2003-09-26 2013-09-10 Iwao Fujisaki Communication device
+US8781526B1 2003-09-26 2014-07-15 Iwao Fujisaki Communication device
+US8391920B1 2003-09-26 2013-03-05 Iwao Fujisaki Communication device
+US8417288B1 2003-09-26 2013-04-09 Iwao Fujisaki Communication device
+US8260352B1 2003-09-26 2012-09-04 Iwao Fujisaki Communication device
+US8781527B1 2003-09-26 2014-07-15 Iwao Fujisaki Communication device
+US8244300B1 2003-09-26 2012-08-14 Iwao Fujisaki Communication device
+US8326357B1 2003-09-26 2012-12-04 Iwao Fujisaki Communication device
+US8442583B1 2003-09-26 2013-05-14 Iwao Fujisaki Communication device
+US8447353B1 2003-09-26 2013-05-21 Iwao Fujisaki Communication device
+US8195228B1 2003-09-26 2012-06-05 Iwao Fujisaki Communication device
+US8447354B1 2003-09-26 2013-05-21 Iwao Fujisaki Communication device
+US9077807B1 2003-09-26 2015-07-07 Iwao Fujisaki Communication device
+US8160642B1 2003-09-26 2012-04-17 Iwao Fujisaki Communication device
+US8150458B1 2003-09-26 2012-04-03 Iwao Fujisaki Communication device
+US8712472B1 2003-09-26 2014-04-29 Iwao Fujisaki Communication device
+US8233938B1 2003-09-26 2012-07-31 Iwao Fujisaki Communication device
+US8224376B1 2003-11-22 2012-07-17 Iwao Fujisaki Communication device
+US8238963B1 2003-11-22 2012-08-07 Iwao Fujisaki Communication device
+US9094531B1 2003-11-22 2015-07-28 Iwao Fujisaki Communication device
+US8295876B1 2003-11-22 2012-10-23 Iwao Fujisaki Communication device
+US9325825B1 2003-11-22 2016-04-26 Iwao Fujisaki Communication device
+US8554269B1 2003-11-22 2013-10-08 Iwao Fujisaki Communication device
+US8565812B1 2003-11-22 2013-10-22 Iwao Fujisaki Communication device
+US8121635B1 2003-11-22 2012-02-21 Iwao Fujisaki Communication device
+US9554232B1 2003-11-22 2017-01-24 Iwao Fujisaki Communication device
+US20050147376A1 * 2004-01-07 2005-07-07 Samsung Electronics Co., Ltd. Video encoding apparatus having audio selection function and method thereof
+US7511743B2 * 2004-01-07 2009-03-31 Samsung Electronics Co., Ltd Video encoding apparatus having audio selection function and method thereof
+US20080090605A1 * 2004-01-14 2008-04-17 Samsung Electronics Co., Ltd. Call control method for dual-mode mobile terminals and a dual-mode mobile terminal using the same
+US7899490B2 * 2004-01-14 2011-03-01 Samsung Electronics Co., Ltd Call control method for dual-mode mobile terminals and a dual-mode mobile terminal using the same
+US8195142B1 2004-03-23 2012-06-05 Iwao Fujisaki Communication device
+US8270964B1 2004-03-23 2012-09-18 Iwao Fujisaki Communication device
+US7526378B2 * 2004-11-22 2009-04-28 Genz Ryan T Mobile information system and device
+US20060125786A1 * 2004-11-22 2006-06-15 Genz Ryan T Mobile information system and device
+US20060244461A1 * 2005-01-19 2006-11-02 Yuh-Shen Song Intelligent portable personal communication device
+US20060204001A1 * 2005-03-09 2006-09-14 Roman Piekarz Telephone hands-free system
+US8208954B1 2005-04-08 2012-06-26 Iwao Fujisaki Communication device
+US9549150B1 2005-04-08 2017-01-17 Iwao Fujisaki Communication device
+US8433364B1 2005-04-08 2013-04-30 Iwao Fujisaki Communication device
+US9143723B1 2005-04-08 2015-09-22 Iwao Fujisaki Communication device
+US8570368B2 * 2005-07-27 2013-10-29 Sony Corporation Wireless audio transmission system, receiver, video camera and audio mixer
+US20070070208A1 * 2005-07-27 2007-03-29 Yoshiyuki Yahagi Wireless audio transmission system, receiver, video camera and audio mixer
+US7778670B2 * 2005-10-05 2010-08-17 Lg Electronics Inc. Mobile telecommunication handset and method for recognizing one or more cards using one socket
+US20080085737A1 * 2005-10-05 2008-04-10 Lg Electronics Inc. Mobile telecommunication handset and method for recognizing one or more cards using one socket
+US20070254640A1 * 2006-04-27 2007-11-01 Bliss Stephen J Remote control and viewfinder for mobile camera phone
+US20080030350A1 * 2006-08-04 2008-02-07 George Brenner Cell phone panic button
+US20080145032A1 * 2006-12-18 2008-06-19 Nokia Corporation Audio routing for audio-video recording
+US8160421B2 * 2006-12-18 2012-04-17 Core Wireless Licensing S.A.R.L. Audio routing for audio-video recording
+US8977102B2 2006-12-18 2015-03-10 Core Wireless Licensing S.A.R.L. Audio routing for audio-video recording
+US8509458B2 * 2007-03-30 2013-08-13 Kabushiki Kaisha Tohsiba Portable electronic apparatus and sound output-controlling program
+US20080240461A1 * 2007-03-30 2008-10-02 Kabushiki Kaisha Toshiba Portable electronic apparatus and sound output-controlling program
+US8825026B1 2007-05-03 2014-09-02 Iwao Fujisaki Communication device
+US9185657B1 2007-05-03 2015-11-10 Iwao Fujisaki Communication device
+US8825090B1 2007-05-03 2014-09-02 Iwao Fujisaki Communication device
+US9396594B1 2007-05-03 2016-07-19 Iwao Fujisaki Communication device
+US9092917B1 2007-05-03 2015-07-28 Iwao Fujisaki Communication device
+US20080303678A1 * 2007-06-08 2008-12-11 Mccredy Douglas D Combination smoke detector, carbon monoxide detector and cellphone
+US8676273B1 2007-08-24 2014-03-18 Iwao Fujisaki Communication device
+US9232369B1 2007-08-24 2016-01-05 Iwao Fujisaki Communication device
+US8934871B2 * 2007-08-31 2015-01-13 Qualcomm Incorporated Accessing subscribed content with a mobile computing device
+US20090061925A1 * 2007-08-31 2009-03-05 Palm, Inc. Accessing subscribed content with a mobile computing device
+US8676705B1 2007-10-26 2014-03-18 Iwao Fujisaki Communication device
+US9082115B1 2007-10-26 2015-07-14 Iwao Fujisaki Communication device
+US8639214B1 2007-10-26 2014-01-28 Iwao Fujisaki Communication device
+US9094775B1 2007-10-29 2015-07-28 Iwao Fujisaki Communication device
+US8472935B1 2007-10-29 2013-06-25 Iwao Fujisaki Communication device
+US8755838B1 2007-10-29 2014-06-17 Iwao Fujisaki Communication device
+US9139089B1 2007-12-27 2015-09-22 Iwao Fujisaki Inter-vehicle middle point maintaining implementer
+US20110034146A1 * 2008-04-08 2011-02-10 Paratus Ag Method for Reporting an Emergency Situation by Mobile Data Communication to a Database
+US8543157B1 2008-05-09 2013-09-24 Iwao Fujisaki Communication device which notifies its pin-point location or geographic area in accordance with user selection
+US9060246B1 2008-06-30 2015-06-16 Iwao Fujisaki Communication device
+US9241060B1 2008-06-30 2016-01-19 Iwao Fujisaki Communication device
+US8340726B1 2008-06-30 2012-12-25 Iwao Fujisaki Communication device
+US9326267B1 2008-07-02 2016-04-26 Iwao Fujisaki Communication device
+US9049556B1 2008-07-02 2015-06-02 Iwao Fujisaki Communication device
+US8452307B1 2008-07-02 2013-05-28 Iwao Fujisaki Communication device
+US20100087161A1 * 2008-10-08 2010-04-08 Sony Ericsson Mobile Communications Ab Personal security feature for a regular camera phone
+US20130029607A1 * 2011-07-26 2013-01-31 Plantronics, Inc. Decreasing RSSI Settling Time in Low-Power Mode Systems
+US9253674B2 * 2011-07-26 2016-02-02 Plantronics, Inc. Decreasing RSSI settling time in low-power mode systems
+US20140022385A1 * 2012-07-18 2014-01-23 Siemens Aktiengesellschaft Mobile communication terminal with a fire alarm application able to be executed thereon and also a fire alarm application able to be downloaded from an online internet store portal
+US9325516B2 2014-03-07 2016-04-26 Ubiquiti Networks, Inc. Power receptacle wireless access point devices for networked living and work spaces
+US20150256355A1 * 2014-03-07 2015-09-10 Robert J. Pera Wall-mounted interactive sensing and audio-visual node devices for networked living and work spaces
+* Cited by examiner, † Cited by third party
+Also Published As
+Publication number Publication date Type
+US20060226242A2 2006-10-12 Application
+US20050263604A1 2005-12-01 Application
+US20040110545A1 2004-06-10 Application
+US20050252980A1 2005-11-17 Application
+US7321783B2 2008-01-22 Grant
+Similar Documents
+Publication Publication Date Title
+US7400917B2 2008-07-15 Protective devices for a mobile terminal
+US6370401B1 2002-04-09 Storage case and method for a wireless headset with a microphone suspended between earpieces of the headset
+US5974333A 1999-10-26 Automobile acoustic unit having integrated cellular phone capabilities
+US6526287B1 2003-02-25 Cellular phone capable of accommodating electronic device
+US5214514A 1993-05-25 Compact video/sound apparatus with foldable screen
+US6377825B1 2002-04-23 Hands-free wireless communication in a vehicle
+US6236969B1 2001-05-22 Wearable telecommunications apparatus with voice/speech control features
+US6939155B2 2005-09-06 Modular electronic systems for vehicles
+US7224962B1 2007-05-29 Remote operational screener
+US20020147035A1 2002-10-10 Multifunctional battery box of a mobile telephone
+US20060252457A1 2006-11-09 Voice controlled multimedia and communications system
+US6285867B1 2001-09-04 Combination emergency phone and personal audio device
+US20060094349A1 2006-05-04 Dockable portable satellite receiver
+US5499465A 1996-03-19 Pressure-sensitive switch for talking picture frame
+US20020137505A1 2002-09-26 Audio detection for hands-free wireless
+US20050181756A1 2005-08-18 Wireless digital music player
+US20010003542A1 2001-06-14 Earphone-type music reproducing device and music reproducing system using the device
+US20050151422A1 2005-07-14 Universal serial bus connector in a vehicle
+US20040095516A1 2004-05-20 Portable recorded television viewer
+US6829365B1 2004-12-07 MP-3 player
+US7039393B1 2006-05-02 Remote operational screener
+US6058184A 2000-05-02 Speaker unit with boom microphone
+US6483428B1 2002-11-19 Removable front panel for an entertainment device
+US6061306A 2000-05-09 Portable digital player compatible with a cassette player
+US6642629B2 2003-11-04 Audio system with removable, active faceplate
+Legal Events
+Date Code Title Description
+2006-07-30 AS Assignment
+
+Owner name: MINERVA INDUSTRIES, INC., CALIFORNIA
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:KIM, KI IL;REEL/FRAME:018022/0137
+
+Effective date: 20030806
+2008-06-10 CC Certificate of correction
+2008-10-14 RR Request for reexamination filed
+
+Effective date: 20080909
+2009-06-30 RR Request for reexamination filed
+
+Effective date: 20090429
+2009-10-27 RR Request for reexamination filed
+
+Effective date: 20090728
+2011-01-25 FPAY Fee payment
+
+Year of fee payment: 4
+2011-12-19 AS Assignment
+
+Owner name: K-TECHNOLOGY USA, INC., CALIFORNIA
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:MINERVA INDUSTRIES, INC.;REEL/FRAME:027412/0811
+
+Effective date: 20111215
+2012-09-18 B1 Reexamination certificate first reexamination
+
+Free format text: CLAIMS 1-5, 7-8, 10-21, 27-36, 39-40, 42-43, 46, 49-51, 53, 55-56, 59-78, 83-86, 88, 90-101 AND 104-125 ARE CANCELLED. CLAIMS 6, 9, 22-26, 37, 38, 41, 44, 45, 47, 48, 52, 54, 57, 58, 79, 80, 81, 82, 87, 89, 102 AND 103 WERE NOT REEXAMINED.
+2015-04-09 FPAY Fee payment
+
+Year of fee payment: 8
+Data provided by IFI CLAIMS Patent Services
+About Send Feedback Terms Privacy Policy
+memorycard
+

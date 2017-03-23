@@ -1,0 +1,355 @@
+
+ Patents
+35 of 21,92,140
+Search Terms
+Search Fields
+Before priority
+After filing
+Flat screen and mobile telephone with flat screen
+Abstract
+A flat display for a mobile radio telephone or another autonomous electrical device, with a display surface on which information can be displayed. The display can be electrically controlled to make the entire display surface, or only a portion thereof, reflecting. Alphanumerical and/or advertising information can be displayed on the remaining, non-reflecting portion of the display surface. The mobile radio telephone can also be used as a practical pocket mirror. Advertisements and important information, for example service provider identifications, can be displayed particularly effectively on a reflecting background.
+Images (3)
+Classifications
+H04M1/0266 Details of the structure or mounting of specific components for a display module assembly
+View 1 more classifications
+US6895259B1
+
+US Grant
+Download PDF
+Find Prior Art
+
+Legal status
+    Expired - Fee Related 
+Application number
+    US09786196
+
+Inventor
+    Judith Blank nee Keller 
+    Rudolf Ritter 
+Current Assignee
+    Swisscom Mobile AG 
+Original Assignee
+    Swisscom Mobile AG 
+
+Priority date
+    1998-09-02 
+Filing date
+    1998-09-02 
+Publication date
+    2005-05-17
+Grant date
+    2005-05-17
+
+Info
+    Patent citations (12)
+    Non-patent citations (3)
+    Cited by (127)
+    Also published as (4)
+    Legal events
+    Similar documents
+External links
+    USPTO
+    USPTO Assignment
+    Espacenet
+    Global Dossier
+    Discuss
+
+Description
+CROSS-REFERENCE TO RELATED APPLICATIONS
+
+The present application is a national stage filing of International Application PCT/CH98/00376, filed on Sep. 2, 1998, the entire contents of which is incorporated herein by reference.
+BACKGROUND OF THE INVENTION
+
+1. Field of the Invention
+
+The present invention relates to a flat display. In particular, the present invention relates to a flat display for an electrically autonomous device, for example a mobile radio telephone.
+
+2. Discussion of the Background
+
+Mobile radio telephones are becoming more and more miniaturized, and therefore can easily be taken along in a pocket or in a handbag. The same also applies for other portable electronic devices, such as, for example, pocket calculators, laptops, palmtops, etc.
+
+Described in the U.S. patent publication U.S. Pat. No. 5,566,224 is a radio-based communications device which is linked to a display on which information can be displayed by the communications device. According to the patent publication U.S. Pat. No. 5,566,224, the display can be brought to show the information in a mirror surface behind a transparent window, or the display can be positioned in such a way that it projects the information on a portion of the mirror surface. Referred to, moreover, in the patent publication U.S. Pat. No. 5,566,224 is the possibility that portions of the mirror surface are controllable from a reflecting into a non-reflecting, transparent state, so that information which is shown on the display, installed behind the mirror surface, are visible on the front side of the mirror surface for the viewer.
+BRIEF SUMMARY OF THE INVENTION
+
+It is therefore the object of this invention to provide a mobile radio telephone with other functions, which are made use of again and again also when en route.
+
+According to this invention, this object is achieved through the features of claim 1.
+
+In particular, this object is achieved through a flat display which can be controlled electrically so that the display surface can be made reflecting.
+
+In this way the display of the device can also be used as a practical pocket mirror.
+
+The display can preferably be controlled electrically in order to become reflecting when no information is being shown, in particular in standby mode. In another preferred variant of the invention, also only one portion of the display surface can be made reflecting; information and/or advertisements can be displayed on the remaining portion of the display surface. In this way, the users can be made aware, in an effective way, of important information and in particular of company names and logos of service providers.
+BRIEF DESCRIPTION OF THE DRAWINGS
+
+The invention will be better understood with the aid of the description illustrated by the attached figures:
+
+FIG. 1 shows a view from above of a mobile radio telephone with a display according to the invention controlled and used as a mirror.
+
+FIG. 2 is a view from above of the same mobile telephone, where, however, one portion of the display is controlled as a mirror while information is being shown on the remaining portion.
+
+FIG. 3 is a view from above of the same mobile radio telephone, where, however, information is being shown on the entire display.
+
+FIG. 4 is a very much enlarged section of a display according to the invention.
+DETAILED DESCRIPTION OF THE INVENTION
+
+FIG. 1 shows a mobile radio telephone 1 in standby mode with a display 10 according to the invention. The display 10 according to the invention is controlled electrically by a display driver (not shown) in such a way that it can be used as a reflecting mirror in which the user is reflected. The reflecting or non-reflecting mode of the display 10 can preferably also be selected by the user with an operating element, for example an operating key 120. Other functions of the mobile radio telephone can also be actuated with other operating elements 12. The mobile radio telephone preferably further comprises an identification card 13, for example a SIM (Subscriber Identity Module) card, in order to identify the user in a mobile radio network. The card 13 preferably contains a processor (not shown), which can also control the display 10. The mobile radio telephone, or respectively the identification card, can preferably receive short messages, for example SMS and/or USSD short messages, which are transmitted in the mobile radio network from another terminal, and with which the state of the display can also be controlled.
+
+FIG. 2 shows the same mobile radio telephone where only one portion of the display 10 is controlled as a mirror, however, while information is being displayed on the remaining portion. The display is controlled in this state, for example, when a message comes in or when the service of an external service provider, for example of a financial institution or of an information vendor, is availed of. Information, for example information about the selected service, in particular an identification of the calling party or respectively of the service provider, for example the call number, the name and/or the logo of this service provider, is shown in this case over the reflecting background.
+
+FIG. 3 shows the same mobile radio telephone in a state where the entire surface of the display 10 is used for display of information.
+
+FIG. 4 shows a section of a display according to the invention. The display 10 comprises a transparent outer layer 100 of non-reflecting glass or synthetic material, a foreground display layer 101 under the upper layer 100 with a first liquid crystal element, a background display layer 102 under the layer 101 with a second liquid crystal element, a reflecting layer 103 under the layer 102 and a substrate 104 under the reflecting layer 103.
+
+The foreground display layer 101 comprises a conventional matrix display, for example a passive or active liquid crystal element. The layer 101 is preferably constructed as a matrix display so that each pixel can be individually controlled. If a first set of voltages is applied by the display driver (not shown) to the electrodes (not shown) which control a pixel, this pixel takes on a first color, preferably black; if a second set of voltages is applied, preferably when zero voltages are applied, this pixel becomes transparent so that the viewer can see the background layers 102 or 103. In a variant, the pixels can take on another color or different levels of gray or shades of color instead of, or in addition to, black.
+
+The background display layer 102 comprises a conventional matrix display, for example a passive or active liquid crystal element, which can be changed electrically from a transparent state into another colored state, for example into a white state. The layer 102 is preferably constructed as a matrix display so that each pixel can be controlled to be transparent or white individually. The layer 102 is preferably transparent when no voltage is being applied to the electrodes. In a variant, the pixels can take on another color or different levels of gray or shades of color instead of, or in addition to, white.
+
+One skilled in the art will understand that the two display layers 101 and 102, depending upon the liquid crystal technology applied, can consist of several different layers, including, for example, several electrode layers, glass layers, liquid crystal layers, possibly polarization layers, etc.
+
+The layer 103 is made up, for example, of an aluminum film or of another reflecting metal, and reflects the light outwardly. The inner layer 104 is a substrate, for example of metal or synthetic material, in order to make the entire display more robust. The layers 103 and 104 can also be made of synthetic material, for example if the display has to be flexible.
+
+Information, for example text and/or pictures, are shown preferably in black with the layer 101 over a white background 102, as illustrated in FIG. 3. When, however, the display layer 102 is transparent, information can be shown in black over a reflecting background, as shown in FIG. 2. When both layers 101 and 102 are transparent, preferably when no voltage is being applied, the viewer sees only the reflecting aluminum layer 103, in which he can be reflected.
+
+One skilled in the art will understand that the display according to the invention does not have to be achieved with liquid crystal displays, but that other types of flat matrix display technologies can also be applied within the framework of this invention. More than two display layers 101 and 102 can also be used in order to make possible colored displays or more complex illustrations, for example. The number of pixels in each layer can be very different, depending upon the application, for example between 30×30 to 1000×1280 pixels. It is also possible within the framework of this invention to use a background display layer 102 which is not controlled as a matrix; in this case the entire layer is either colored (white) or transparent. The size and shape of the various layers can be different for certain applications so that, for example, only one portion of the display can be made reflecting. Depending upon applied technology, each pixel of the background display layer 102 can be changed from a second colored state —for example white—into a reflecting state; in this case, the reflecting layer 103 becomes unnecessary. The display 10, in particular the reflecting layer 103, can also be concave or convex in order to control the reflection angle.
+
+The present invention makes it possible to use mobile devices with a display also as practical pocket mirrors. Moreover the device is given an unusual and exclusive design. Finally, users can be made aware of important or advertising information in a very effective way in that this information is displayed over a reflecting background.
+Claims (12)
+1. A flat display for an electrically autonomous device on which information is displayable and which is electrically controllable to become reflecting, comprising:
+a background display layer assembly configured to be selectively changeable between a reflecting state and a colored, non-reflecting state based on electrical control signals, the background display layer assembly including,
+a background display layer configured to be selectively changeable between a transparent state and a colored state based on the electrical control signals, and
+a reflecting layer; and
+a foreground display layer disposed over the background display layer and configured to be selectively changeable between a transparent state and a non-transparent state based on other electrical control signals, wherein,
+the flat display is configured to receive at least one of the electrical control signals and the other electrical control signals from an identification card, and
+a reflecting state of the flat display is remotely controllable.
+2. The flat display according to claim 1, wherein the flat display is electrically controllable so that only a portion of said display becomes reflecting.
+3. The flat display according to claim 2, wherein at least one of text information and picture information is displayable on a remaining, non-reflecting portion of the display.
+4. The flat display according to claim 1, wherein the reflecting layer is concave or convex.
+5. The flat display according to claim 1, wherein said foreground display layer includes a liquid crystal display.
+6. The flat display according to claim 1, wherein said background display layer includes a liquid crystal display.
+7. The flat display according to claim 1, wherein said reflecting layer includes a film made of aluminum.
+8. A mobile radio telephone comprising:
+a flat display including,
+a background display layer configured to be selectively changeable between a reflecting state and a colored, non-reflecting state based on electrical control signals, the background display layer including,
+a display layer configured to be selectively changeable between a transparent state and a colored state with the electrical control signals, and
+a reflecting layer, and
+a foreground display layer disposed over the background display and configured to be selectively changeable between a transparent state and a non-transparent state based on other electrical control signals; and
+an identification card configured to control a reflecting state of the flat display, wherein the reflecting state of the flat display is remotely controllable.
+9. The mobile radio telephone according to claim 8, wherein the identification card includes an integrated processor configured to control the reflecting state of the flat display.
+10. The mobile radio telephone according to claim 8, wherein the reflecting state of the flat display is remotely controllable by data messages.
+11. The mobile radio telephone according to claim 8, further comprising:
+operating elements configured to control a reflecting state or a non-reflecting state of the display.
+12. The mobile radio telephone according to claim 8, wherein the flat display is configured to be reflecting when the mobile radio telephone is switched off.
+Patent Citations (12)
+Publication number Priority date Publication date Assignee Title
+EP0136783A1 * 1983-08-02 1985-04-10 AMP INCORPORATED (a New Jersey corporation) Connector for printed circuit boards
+JPS6175033A 1984-09-21 1986-04-17 Seiko Epson Corp Liquid crystal dazzling-proof mirror
+US5818558A * 1994-05-20 1998-10-06 Sharp Kabushiki Kaisha Liquid crystal display device
+US5566224A * 1994-08-29 1996-10-15 Motorola, Inc. Radio frequency communication device including a mirrored surface
+US5878353A * 1994-08-29 1999-03-02 Motorola, Inc. Radio frequency communication device including a mirrored surface
+GB2295241A 1994-11-16 1996-05-22 Mino Green Electrochromic display
+JPH1093674A 1996-09-17 1998-04-10 Kokusai Electric Co Ltd Portable telephone having mirror
+JPH10108769A 1996-10-07 1998-04-28 Almex Inc Mirror structure
+US6106121A * 1997-07-10 2000-08-22 Chrysler Corporation Rear view mirror with integrated matrix display
+US5808711A * 1997-08-22 1998-09-15 Motorola, Inc. Transparent or reflective liquid crystal display assembly with electrochromic and cholesteric layer
+US6553123B1 * 1998-08-12 2003-04-22 Prince Corporation Conversation mirror/intercom
+US6311077B1 * 1999-07-08 2001-10-30 M3 Advisory Services, Inc. Combined cosmetics compact and cellular radiotelephone
+* Cited by examiner, † Cited by third party
+Non-Patent Citations (3)
+Title
+Patent Abstracts of Japan, vol. 010, No. 246 (M-510), Aug. 23, 1986 & JP 61 075033 A (Seiko Epson Corp), 17. Apr. 1986, siehe Zusammenfassung.
+Patent Abstracts of Japan, vol. 098, No. 009, 31. Jul. 1998 & JP 10 093674 A (Kokusai Electric Co Ltd), 10. Apr. 1998, siehe Zusammenfassung.
+Patent Abstracts of Japan, vol. 098, No. 009, 31. Jul. 1998 & JP 10 108769 A (Almex Inc), 28. Apr. 1998, siehe Zusamenfassung.
+* Cited by examiner, † Cited by third party
+Cited By (127)
+Search Within Citing Patents
+Publication number Priority date Publication date Assignee Title
+US7904109B1 2001-10-18 2011-03-08 Iwao Fujisaki Communication device
+US9537988B1 2001-10-18 2017-01-03 Iwao Fujisaki Communication device
+US7865216B1 2001-10-18 2011-01-04 Iwao Fujisaki Communication device
+US9247383B1 2001-10-18 2016-01-26 Iwao Fujisaki Communication device
+US7778664B1 2001-10-18 2010-08-17 Iwao Fujisaki Communication device
+US7853295B1 2001-10-18 2010-12-14 Iwao Fujisaki Communication device
+US7853297B1 2001-10-18 2010-12-14 Iwao Fujisaki Communication device
+US8538486B1 2001-10-18 2013-09-17 Iwao Fujisaki Communication device which displays perspective 3D map
+US8538485B1 2001-10-18 2013-09-17 Iwao Fujisaki Communication device
+US9197741B1 2001-10-18 2015-11-24 Iwao Fujisaki Communication device
+US9154776B1 2001-10-18 2015-10-06 Iwao Fujisaki Communication device
+US7945287B1 2001-10-18 2011-05-17 Iwao Fujisaki Communication device
+US7945286B1 2001-10-18 2011-05-17 Iwao Fujisaki Communication device
+US7945256B1 2001-10-18 2011-05-17 Iwao Fujisaki Communication device
+US7945236B1 2001-10-18 2011-05-17 Iwao Fujisaki Communication device
+US7949371B1 2001-10-18 2011-05-24 Iwao Fujisaki Communication device
+US7907963B1 2001-10-18 2011-03-15 Iwao Fujisaki Method to display three-dimensional map on communication device
+US7996037B1 2001-10-18 2011-08-09 Iwao Fujisaki Communication device
+US8200275B1 2001-10-18 2012-06-12 Iwao Fujisaki System for communication device to display perspective 3D map
+US8024009B1 2001-10-18 2011-09-20 Iwao Fujisaki Communication device
+US8805442B1 2001-10-18 2014-08-12 Iwao Fujisaki Communication device
+US9026182B1 2001-10-18 2015-05-05 Iwao Fujisaki Communication device
+US8750921B1 2001-10-18 2014-06-10 Iwao Fujisaki Communication device
+US8290482B1 2001-10-18 2012-10-16 Iwao Fujisaki Communication device
+US8064964B1 2001-10-18 2011-11-22 Iwao Fujisaki Communication device
+US8498672B1 2001-10-18 2013-07-30 Iwao Fujisaki Communication device
+US8744515B1 2001-10-18 2014-06-03 Iwao Fujisaki Communication device
+US8086276B1 2001-10-18 2011-12-27 Iwao Fujisaki Communication device
+US7907942B1 2001-10-18 2011-03-15 Iwao Fujisaki Communication device
+US8068880B1 2001-10-18 2011-11-29 Iwao Fujisaki Communication device
+US7072453B2 * 2002-02-11 2006-07-04 Siemens Aktiengesellschaft Method and system for the flexible definition of graphic information on communication terminals
+US20050220284A1 * 2002-02-11 2005-10-06 Stephan Schaade Method and system for the flexible definition of graphic information on communication terminals
+US8229512B1 2003-02-08 2012-07-24 Iwao Fujisaki Communication device
+US8682397B1 2003-02-08 2014-03-25 Iwao Fujisaki Communication device
+US8241128B1 2003-04-03 2012-08-14 Iwao Fujisaki Communication device
+US8430754B1 2003-04-03 2013-04-30 Iwao Fujisaki Communication device
+US8425321B1 2003-04-03 2013-04-23 Iwao Fujisaki Video game device
+US8781527B1 2003-09-26 2014-07-15 Iwao Fujisaki Communication device
+US8165630B1 2003-09-26 2012-04-24 Iwao Fujisaki Communication device
+US8195228B1 2003-09-26 2012-06-05 Iwao Fujisaki Communication device
+US8160642B1 2003-09-26 2012-04-17 Iwao Fujisaki Communication device
+US8150458B1 2003-09-26 2012-04-03 Iwao Fujisaki Communication device
+US8781526B1 2003-09-26 2014-07-15 Iwao Fujisaki Communication device
+US8774862B1 2003-09-26 2014-07-08 Iwao Fujisaki Communication device
+US8090402B1 2003-09-26 2012-01-03 Iwao Fujisaki Communication device
+US8229504B1 2003-09-26 2012-07-24 Iwao Fujisaki Communication device
+US8233938B1 2003-09-26 2012-07-31 Iwao Fujisaki Communication device
+US9077807B1 2003-09-26 2015-07-07 Iwao Fujisaki Communication device
+US8244300B1 2003-09-26 2012-08-14 Iwao Fujisaki Communication device
+US8064954B1 2003-09-26 2011-11-22 Iwao Fujisaki Communication device
+US8260352B1 2003-09-26 2012-09-04 Iwao Fujisaki Communication device
+US8712472B1 2003-09-26 2014-04-29 Iwao Fujisaki Communication device
+US8055298B1 2003-09-26 2011-11-08 Iwao Fujisaki Communication device
+US8295880B1 2003-09-26 2012-10-23 Iwao Fujisaki Communication device
+US8694052B1 2003-09-26 2014-04-08 Iwao Fujisaki Communication device
+US8301194B1 2003-09-26 2012-10-30 Iwao Fujisaki Communication device
+US8311578B1 2003-09-26 2012-11-13 Iwao Fujisaki Communication device
+US8320958B1 2003-09-26 2012-11-27 Iwao Fujisaki Communication device
+US8326355B1 2003-09-26 2012-12-04 Iwao Fujisaki Communication device
+US8326357B1 2003-09-26 2012-12-04 Iwao Fujisaki Communication device
+US8331983B1 2003-09-26 2012-12-11 Iwao Fujisaki Communication device
+US8331984B1 2003-09-26 2012-12-11 Iwao Fujisaki Communication device
+US8335538B1 2003-09-26 2012-12-18 Iwao Fujisaki Communication device
+US8041371B1 2003-09-26 2011-10-18 Iwao Fujisaki Communication device
+US8095182B1 2003-09-26 2012-01-10 Iwao Fujisaki Communication device
+US8346303B1 2003-09-26 2013-01-01 Iwao Fujisaki Communication device
+US8346304B1 2003-09-26 2013-01-01 Iwao Fujisaki Communication device
+US8351984B1 2003-09-26 2013-01-08 Iwao Fujisaki Communication device
+US8364202B1 2003-09-26 2013-01-29 Iwao Fujisaki Communication device
+US8364201B1 2003-09-26 2013-01-29 Iwao Fujisaki Communication device
+US8380248B1 2003-09-26 2013-02-19 Iwao Fujisaki Communication device
+US8391920B1 2003-09-26 2013-03-05 Iwao Fujisaki Communication device
+US8417288B1 2003-09-26 2013-04-09 Iwao Fujisaki Communication device
+US8010157B1 2003-09-26 2011-08-30 Iwao Fujisaki Communication device
+US7996038B1 2003-09-26 2011-08-09 Iwao Fujisaki Communication device
+US7890136B1 2003-09-26 2011-02-15 Iwao Fujisaki Communication device
+US8442583B1 2003-09-26 2013-05-14 Iwao Fujisaki Communication device
+US8447353B1 2003-09-26 2013-05-21 Iwao Fujisaki Communication device
+US8447354B1 2003-09-26 2013-05-21 Iwao Fujisaki Communication device
+US7856248B1 2003-09-26 2010-12-21 Iwao Fujisaki Communication device
+US8532703B1 2003-09-26 2013-09-10 Iwao Fujisaki Communication device
+US8340720B1 2003-09-26 2012-12-25 Iwao Fujisaki Communication device
+US8238963B1 2003-11-22 2012-08-07 Iwao Fujisaki Communication device
+US9325825B1 2003-11-22 2016-04-26 Iwao Fujisaki Communication device
+US7917167B1 2003-11-22 2011-03-29 Iwao Fujisaki Communication device
+US9094531B1 2003-11-22 2015-07-28 Iwao Fujisaki Communication device
+US8554269B1 2003-11-22 2013-10-08 Iwao Fujisaki Communication device
+US8565812B1 2003-11-22 2013-10-22 Iwao Fujisaki Communication device
+US8295876B1 2003-11-22 2012-10-23 Iwao Fujisaki Communication device
+US8121635B1 2003-11-22 2012-02-21 Iwao Fujisaki Communication device
+US8224376B1 2003-11-22 2012-07-17 Iwao Fujisaki Communication device
+US9554232B1 2003-11-22 2017-01-24 Iwao Fujisaki Communication device
+US8121587B1 2004-03-23 2012-02-21 Iwao Fujisaki Communication device
+US8270964B1 2004-03-23 2012-09-18 Iwao Fujisaki Communication device
+US8041348B1 2004-03-23 2011-10-18 Iwao Fujisaki Communication device
+US8195142B1 2004-03-23 2012-06-05 Iwao Fujisaki Communication device
+US8081962B1 2004-03-23 2011-12-20 Iwao Fujisaki Communication device
+US7330178B2 * 2004-04-30 2008-02-12 Motorola, Inc. Display-input apparatus for a multi-configuration portable device
+US20050243069A1 * 2004-04-30 2005-11-03 Rudy Yorio Display-input apparatus for a multi-configuration portable device
+US8433364B1 2005-04-08 2013-04-30 Iwao Fujisaki Communication device
+US9143723B1 2005-04-08 2015-09-22 Iwao Fujisaki Communication device
+US9549150B1 2005-04-08 2017-01-17 Iwao Fujisaki Communication device
+US8208954B1 2005-04-08 2012-06-26 Iwao Fujisaki Communication device
+US9092917B1 2007-05-03 2015-07-28 Iwao Fujisaki Communication device
+US8825026B1 2007-05-03 2014-09-02 Iwao Fujisaki Communication device
+US7890089B1 2007-05-03 2011-02-15 Iwao Fujisaki Communication device
+US9396594B1 2007-05-03 2016-07-19 Iwao Fujisaki Communication device
+US8825090B1 2007-05-03 2014-09-02 Iwao Fujisaki Communication device
+US9185657B1 2007-05-03 2015-11-10 Iwao Fujisaki Communication device
+US9232369B1 2007-08-24 2016-01-05 Iwao Fujisaki Communication device
+US8676273B1 2007-08-24 2014-03-18 Iwao Fujisaki Communication device
+US8639214B1 2007-10-26 2014-01-28 Iwao Fujisaki Communication device
+US8676705B1 2007-10-26 2014-03-18 Iwao Fujisaki Communication device
+US9082115B1 2007-10-26 2015-07-14 Iwao Fujisaki Communication device
+US8755838B1 2007-10-29 2014-06-17 Iwao Fujisaki Communication device
+US9094775B1 2007-10-29 2015-07-28 Iwao Fujisaki Communication device
+US8472935B1 2007-10-29 2013-06-25 Iwao Fujisaki Communication device
+US9139089B1 2007-12-27 2015-09-22 Iwao Fujisaki Inter-vehicle middle point maintaining implementer
+US8543157B1 2008-05-09 2013-09-24 Iwao Fujisaki Communication device which notifies its pin-point location or geographic area in accordance with user selection
+US9241060B1 2008-06-30 2016-01-19 Iwao Fujisaki Communication device
+US8340726B1 2008-06-30 2012-12-25 Iwao Fujisaki Communication device
+US9060246B1 2008-06-30 2015-06-16 Iwao Fujisaki Communication device
+US9326267B1 2008-07-02 2016-04-26 Iwao Fujisaki Communication device
+US8452307B1 2008-07-02 2013-05-28 Iwao Fujisaki Communication device
+US9049556B1 2008-07-02 2015-06-02 Iwao Fujisaki Communication device
+US9178976B2 2010-11-01 2015-11-03 Mitab Inc. Apparatus and method for using a smartphone
+US8743244B2 2011-03-21 2014-06-03 HJ Laboratories, LLC Providing augmented reality based on third party information
+* Cited by examiner, † Cited by third party
+Also Published As
+Publication number Publication date Type
+EP1110364A1 2001-06-27 Application
+EP1110364B1 2008-04-30 Grant
+DE59814225D1 2008-06-12 Grant
+WO2000014941A1 2000-03-16 Application
+Similar Documents
+Publication Publication Date Title
+US6954184B2 2005-10-11 Electro-optical panel, electro-optical device, and electronic apparatus
+US6819386B2 2004-11-16 Apparatus having a flat display
+US6853412B2 2005-02-08 Transaction card with memory and polymer dispersed cholesteric liquid crystal display
+US20100159995A1 2010-06-24 Interactive locked state mobile communication device
+US20020097194A1 2002-07-25 Electronic apparatus provided with organic electroluminescent device
+US6825829B1 2004-11-30 Adhesive backed displays
+US6297945B1 2001-10-02 Portable electronic terminal apparatus having a plurality of displays
+US6961105B2 2005-11-01 Dual-display module with a tunable mirror sheet
+US20030125079A1 2003-07-03 Mobile communication unit with camera lens opening means in closed folder
+US6583770B1 2003-06-24 Dual display arrangement and a terminal device
+US20040051944A1 2004-03-18 Visual display screen arrangement
+US20040217939A1 2004-11-04 Changing the visual appearance of input devices
+US6512607B1 2003-01-28 Holographic display overlay
+US7092247B2 2006-08-15 Method of designing a size-adjustable multi-mode display unit for portable electronic devices
+EP1271223A2 2003-01-02 Electronic display
+US20030224831A1 2003-12-04 Interchangeable covering additions to a mobile communication device for display and key reorientation
+GB2343324A 2000-05-03 Folder-type mobile phone provided with a double-panel lcd
+US20020022503A1 2002-02-21 Mobile phone of dual display and method for displaying data using the same
+US20060033874A1 2006-02-16 Liquid crystal display mounted with IC tag and method for manufacturing the same
+JP2005352987A 2005-12-22 Key input apparatus
+US20030114200A1 2003-06-19 Portable terminal device having a display unit utilizing a holographic screen
+US20060194619A1 2006-08-31 Displays for portable electronic apparatus
+US6466292B1 2002-10-15 Dual sided liquid crystal display device and mobile telecommunication terminal using the same
+US20050243069A1 2005-11-03 Display-input apparatus for a multi-configuration portable device
+US20030214475A1 2003-11-20 Display medium
+Legal Events
+Date Code Title Description
+2001-03-02 AS Assignment
+
+Owner name: SWISSCOM AG, SWITZERLAND
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNORS:KELLER, JUDITH;RITTER, RUDOLF;REEL/FRAME:011629/0475
+
+Effective date: 20010220
+2003-05-14 AS Assignment
+
+Owner name: SWISSCOM MOBILE AG, SWITZERLAND
+
+Free format text: CORRECTIVE ASSIGNMENT TO CORRECT THE ASSIGNEE S NAME AND ADDRESS PREVIOUSLY RECORDED ON REEL 011629FRAME 0475;ASSIGNORS:KELLER, JUDITH;RITTER, RUDOLF;REEL/FRAME:014068/0270
+
+Effective date: 20010220
+2008-11-17 FPAY Fee payment
+
+Year of fee payment: 4
+2012-12-31 REMI Maintenance fee reminder mailed
+2013-05-17 LAPS Lapse for failure to pay maintenance fees
+2013-07-09 FP Expired due to failure to pay maintenance fee
+
+Effective date: 20130517
+Data provided by IFI CLAIMS Patent Services
+About Send Feedback Terms Privacy Policy
+screen
+

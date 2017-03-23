@@ -1,0 +1,801 @@
+
+ Patents
+3 of 3,53,082
+Search Terms
+Search Fields
+Before priority
+After filing
+Provisioning electronic transaction card in mobile device
+Abstract
+An electronic transaction card communicates with an add-on slot of an intelligent electronic device. The add-on slot may be a memory card slot. The intelligent electronic device may be a mobile phone or other device with or without network connectivity. The electronic transaction card may have magnetic field producing circuitry compatible with magnetic card readers, smartcard circuitry, other point-of-sale interfaces, or any combination thereof.
+Images (17)
+Classifications
+G06K19/06206 Record carriers for use with machines and with at least a part designed to carry digital markings characterised by the kind of the digital marking, e.g. shape, nature, code with magnetically detectable marking the magnetic marking being emulated
+View 15 more classifications
+US7954717B2
+
+US Grant
+Download PDF
+Find Prior Art
+
+Legal status
+    Active 
+Application number
+    US12962953
+Other versions
+    US20110077052A1 (Application) 
+
+Inventor
+    Siva G. Narendra 
+    Prabhakar Tadepalli 
+    Thomas N. Spitzer 
+Current Assignee
+    Tyfone Inc 
+Original Assignee
+    Tyfone Inc 
+
+Priority date
+    2005-02-22 
+Filing date
+    2010-12-08 
+Publication date
+    2011-06-07
+Grant date
+    2011-06-07
+
+Info
+    Patent citations (178)
+    Non-patent citations (14)
+    Cited by (55)
+    Also published as (44)
+    Legal events
+    Similar documents
+External links
+    USPTO
+    USPTO Assignment
+    Espacenet
+    Global Dossier
+    Discuss
+
+Description
+RELATED APPLICATIONS
+
+This application is a Continuation of U.S. Nonprovisional application Ser. No. 12/941,410, by Narendra et al., filed Nov. 8, 2010, which is a Continuation of U.S. Nonprovisional application Ser. No. 12/539,369, by Narendra et al., filed Aug. 11, 2009, now U.S. Pat. No. 7,828,214, which is a Continuation of U.S. Nonprovisional application Ser. No. 11/063,291, by Narendra et al., filed Feb. 22, 2005, now U.S. Pat. No. 7,581,678, all of which are incorporated herein by reference in their entirety for all purposes.
+FIELD
+
+The present invention relates generally to electronic devices, and more specifically to electronic devices that may perform transactions.
+BACKGROUND
+
+Magnetic cards have many purposes. Examples include credit cards, debit cards, stored value cards, identification cards, access entry cards, and the like. Many of these cards have information stored in a magnetic stripe in a static manner. For example, a credit card may have a credit card number, a cardholder's name, and an issuing bank's name statically encoded in a magnetic strip. Likewise, an identification card or access entry card may have statically encoded information that identifies an individual or allows access to a controlled access area. When the card is swiped through a magnetic card reader, the information is transferred to the magnetic card reader to perform a transaction, such as a financial transaction or identification transaction.
+BRIEF DESCRIPTION OF THE DRAWINGS
+
+FIGS. 1, 2A, and 2B show intelligent electronic devices and electronic transaction cards;
+
+FIG. 3 shows a block diagram of an electronic transaction card;
+
+FIG. 4 shows an electronic transaction card in a magnetic card reader;
+
+FIG. 5 shows an intelligent electronic device and card in a card reader;
+
+FIGS. 6-8 show adapters for use with electronic transaction cards;
+
+FIGS. 9 and 10 show an electronic transaction card having a smartcard interface;
+
+FIG. 11 shows an adapter in combination with an electronic transaction card;
+
+FIG. 12 shows an adapter having an aperture to receive an electronic transaction card;
+
+FIG. 13 shows another adapter embodiment;
+
+FIG. 14 shows an electronic transaction card;
+
+FIG. 15 shows an electronic transaction card and adapter combination;
+
+FIG. 16 shows an example swallow-type card reader;
+
+FIG. 17 shows a combination electronic transaction card and adapter being swiped through a magnetic card reader;
+
+FIG. 18 shows a financial transaction card;
+
+FIG. 19 shows a memory card;
+
+FIG. 20 shows a block diagram of a combination memory card and electronic transaction card;
+
+FIG. 21 shows a diagram of how a card may be utilized;
+
+FIG. 22 shows a block diagram of a combination memory card and electronic transaction card; and
+
+FIG. 23 shows a block diagram of a phone and a card.
+DESCRIPTION OF EMBODIMENTS
+
+In the following detailed description, reference is made to the accompanying drawings that show, by way of illustration, various embodiments of an invention. These embodiments are described in sufficient detail to enable those skilled in the art to practice the invention. It is to be understood that the various embodiments of the invention, although different, are not necessarily mutually exclusive. For example, a particular feature, structure, or characteristic described in connection with one embodiment may be implemented within other embodiments without departing from the spirit and scope of the invention. In addition, it is to be understood that the location or arrangement of individual elements within each disclosed embodiment may be modified without departing from the spirit and scope of the invention. The following detailed description is, therefore, not to be taken in a limiting sense, and the scope of the present invention is defined only by the appended claims, appropriately interpreted, along with the full range of equivalents to which the claims are entitled. In the drawings, like numerals refer to the same or similar functionality throughout the several views.
+
+FIG. 1 shows an intelligent electronic device and an electronic transaction card. Intelligent electronic device 102 is shown as a mobile phone in FIG. 1, but this is not a limitation of the present invention. For example, intelligent electronic device 102 may be a personal digital assistant (PDA), a smartphone, a mobile phone, a handheld computer, or any other device capable of operating as described herein.
+
+Intelligent electronic device 102 includes add-on slot 110. Add-on slot 110 is a slot capable of accepting electronic transaction card 104. For example, add-on slot 110 may have physical dimensions compatible with electronic transaction card 104, and may have a communications interface that operates using a protocol compatible with electronic transaction card 104. In some embodiments, electronic transaction card 104 includes an identification number that provides a relationship to intelligent electronic device 102. For example, electronic transaction card 104 may include an ID number that provides a unique pairing relationship or a non-unique pairing relationship between electronic transaction card 104 and intelligent electronic device 102.
+
+In some embodiments of the present invention, add-on slot 110 is a memory card slot designed to accept and communicate with memory cards. As used herein, the term “memory card slot” refers to any add-on slot capable of accepting a card having memory accessible by an intelligent electronic device such as that shown in FIG. 1. For example, a memory card slot may be a proprietary card slot designed to accept memory cards that adhere to a proprietary communications protocol. Also for example, a memory card slot may be compatible with an industry standard communications protocol, or may be compatible with a widely accepted communications protocol that is not necessarily formally documented as an industry standard. Examples include slots that are compatible with the Multimedia Memory Card (MMC) protocol, Memory Stick DUO protocol, secure digital (SD) protocol, and Smart Media protocol. The foregoing list is meant to be exemplary, and not exhaustive. Add-on slot 110 may be compatible with many memory card slot protocols other than those explicitly listed above without departing from the scope of the invention.
+
+Electronic transaction card 104 includes electrical contacts 108 and stripe 106. Electrical contacts 108 are contacts that provide a communications interface to communicate with add-on slot 110. For example, electrical contacts 108 may provide connectivity compliant with a communications protocol for memory cards.
+
+Stripe 106 represents an area on an external face of electronic transaction card 104 at which one ore more time-varying magnetic fields emanate. For example, one or more time-varying magnetic fields may emanate from the location of stripe 106 to communicate with a magnetic card reader. In some embodiments, the time-varying magnetic field may emulate the time-varying magnetic field produced when a typical magnetic card is swiped through a magnetic card reader. For example, a time-varying magnetic field produced at stripe 106 may emulate the swipe of a credit card, a debit card, or any other card having a magnetic stripe compatible with a magnetic card reader.
+
+In some embodiments of the present invention, stripe 106 may be a visible stripe on electronic transaction card 104. When stripe 106 is visible, it may be used to indicate the location at which the time-varying magnetic field will emanate. In other embodiments of the present invention, stripe 106 may not be visible. For example, circuitry may be included within electronic transaction card 106 to produce the time-varying magnetic field and no visible indication may be present on an external face of electronic transaction card 104.
+
+As used herein, the term “stripe” generally refers to a location on an electronic transaction card, whether a visible stripe exists or not. In this description, the term “stripe” may also be used to refer to a visible marking on a face of an electronic transaction card. Further, a “stripe” may include the functionality provided by one or more time-varying magnetic fields that emanate from the card. For example, the term “stripe” may refer to multiple magnetic tracks, or multiple “stripes,” or emulation thereof.
+
+Stripes, as described herein, may be compatible with one or more standards. A stripe may be compatible with a standard by being in compliance with the standard or by being partially in compliance with the standard. For example, stripe 106 may be compatible with an American National Standards Institute (ANSI) magnetic stripe standard, or an International Organization for Standardization (ISO) magnetic stripe standard. In addition, in some embodiments, a stripe may emulate more than one magnetic track, and the emulated tracks may or may not be offset from the location specified in a standard. For example, one or more wires may be utilized to generate time-varying magnetic fields compatible with a standard, and the wires may be located at or near stripe 106 in a location different than the magnetic track offset described in an associated standard.
+
+As used herein, the term “transaction” refers to any beneficial use of an electronic transaction card. For example, any time stripe 106 emits a time-varying magnetic field to be read by a magnetic card reader or a hybrid smartcard reader, a transaction may take place. Transactions may include financial transactions, access control transactions, or any other type of transaction involving any of the electronic transaction card embodiments described herein. Further, as described in more detail below, in some embodiments of the present invention, transactions may utilize smartcard interfaces on electronic transaction cards in addition to, or in lieu of, stripes that emit time-varying magnetic fields.
+
+In operation, intelligent electronic device 102 may program electronic transaction card 104 for use in a transaction involving stripe 106. For example, intelligent electronic device 102 may program electronic transaction card 104 to operate as a credit card, a debit card, or the like. Electronic transaction card 104 may then be used with a magnetic stripe or smartcard based merchant point-of-sale terminal to effect a transaction. Also for example, intelligent electronic device 102 may program electronic transaction card 104 to operate in any other environment where stripe 106 may be beneficially utilized with a magnetic card reader.
+
+FIG. 2A shows intelligent electronic device 202 and electronic transaction card 220. Intelligent electronic device 202 includes add-on slot 210 to receive electronic transaction card 220. Intelligent electronic device 202 is shown having add-on slot on one side, but this is not a limitation of the present invention. For example, add-on slot 210 may be located on top, bottom, or any other surface of intelligent electronic device 202. Also for example, an add-on slot may be created by a clamshell design when the shell is closed. In these embodiments, each side of the clamshell may incorporate a portion of the add-on slot such that the add-on slot is “open” when the clamshell is open.
+
+Electronic transaction card 220 may have any form factor compliant with add-on slot 210. Electronic transaction card 220 is shown having a form factor with an aspect ratio different from that of electronic transaction card 104 (FIG. 1). Electronic transaction card 220 includes stripe 222 and may have electrical contacts to interface with add-on slot 210. The electrical contacts may be on the back side of electronic transaction card 220, recessed on an edge of electronic transaction card 220, or on the front side of electronic transaction card 220. In some embodiments, electronic transaction card 220 includes a “contactless” interface to add-on slot 210. For example, electronic transaction card 220 may include an interface to add-on slot 210 that communicates using electric or magnetic fields, infrared (IR) light, or any other suitable communications mechanism.
+
+Electronic transaction card 220 may have an area for imprinting. For example, as shown in FIG. 2A, electronic transaction card 220 may have space for imprinting a brand (for a bank or otherwise), and a cardholder's name. Further, electronic transaction card 220 may include space for a cardholder's signature. Electronic transaction card 220 may include any other information, coded or unencoded, visible or nonvisible, without departing from the scope of the present invention.
+
+Intelligent electronic device 202 may include a mechanism to allow intelligent electronic device 202 to communicate with a wired or wireless network. For example, intelligent electronic device 202 may include circuitry to communicate with a cellular phone network. Note that in these embodiments, intelligent electronic device 202 may or may not be a phone. For example, intelligent electronic device 202 may be a cellular telephone with an add-on slot for use with an electronic transaction card. Also for example, intelligent electronic device may be a non-telephonic device that has cellular network connectivity. Examples include personal digital assistants, and handheld devices dedicated to the use of electronic transaction cards. Further, intelligent electronic device 202 may be a non-telephonic device having wired or wireless connectivity to a network other than a cellular network, and in some embodiments, intelligent electronic device 202 may be a device without network connectivity. Examples include, but are not limited to: Blackberry devices available from Research in Motion (RIM), music players such as MP3 players, cameras, and the like.
+
+In operation, intelligent electronic device 202 may program electronic transaction card to perform a transaction. In some embodiments, communications over a network may play a role in the transaction. For example, intelligent electronic device 202 may receive authorization for the transaction over a network. Also for example, intelligent electronic device 202 may program electronic transaction card 220 to perform a transaction, and then report the transaction to an entity using the network.
+
+Electronic transaction card 220 may be utilized in financial transactions. For example, electronic transaction card 220 may be programmed to operate as a credit card or a stored value card. In these embodiments, electronic transaction card 220 may be programmed to emit one or more time-varying magnetic fields to emulate the swiping of a credit card or stored value card. In some of these embodiments, electronic transaction card 220 may use one number repeatedly, or may use a different number for each transaction. For example, electronic transaction card 220 may be programmed to have one number, similar to how a credit card uses the same number repeatedly. Also for example, electronic transaction card 220 may be programmed to use a different number for each transaction. These numbers are referred to herein as “single transaction account numbers” or “STANs.”
+
+Single transaction account numbers may be generated by the card issuer or locally by either an intelligent electronic device or an electronic transaction card. Generation of STANs may be accomplished in any of several ways. For example, when an electronic transaction card is issued, the cardholder may receive several pre-assigned single-use transaction numbers. The numbers may also have a pre-specified sequence. In some embodiments, this sequence may be known only to the issuing bank and the cardholder's intelligent electronic device and/or electronic transaction card. A card issuing bank may authorize payments based on the expected sequence of account numbers, and if out-of-sequence account numbers are used, then the issuing bank may consider that transaction as a potentially fraudulent transaction. The issuing bank may also use this feature to track the merchant involved in the potentially fraudulent transaction.
+
+According to another example, a pre-assigned sequence of STANs may be reset to the original starting number on the list depending on user input or other triggers. In addition, the list of numbers may be periodically downloaded via a cellular phone network or other network connectivity.
+
+FIG. 2B shows intelligent electronic device 230 and electronic transaction card 240. Intelligent electronic device 230 is an example of a “wearable” device that is capable of communicating with an electronic transaction card. For example, intelligent electronic device 230 is shown having the form factor of a wristwatch. Some embodiments of the present invention may have other wearable form factors. For example, a wearable intelligent electronic device may be worn in such a manner that it contacts human skin, or it may be worn on clothing. Any wearable intelligent electronic device may be employed without departing from the scope of the present invention. Further, intelligent electronic device 230 may have any of the capabilities described herein.
+
+Intelligent electronic device 230 may include an add-on slot to accept electronic transaction card 230. The add-on slot may be any of the add-on slot embodiments described herein. Electronic transaction card 240 may be any electronic transaction card. For example, electronic transaction card 240 may be any electronic transaction card embodiment described herein.
+
+FIG. 3 shows a block diagram of an electronic transaction card. Electronic transaction card 300 is an electronic transaction card capable of communicating with an intelligent electronic device, and capable of communicating with a magnetic card reader. For example, electronic transaction card 300 may be electronic transaction card 104 (FIG. 1) or electronic transaction card 220 (FIG. 2A).
+
+Electronic transaction card 300 includes electrical contacts 302, intelligent electronic device (IED) interface 304, nonvolatile memory 306, processing device 308, volatile memory 310, magnetic field producing circuits 312, swipe sensor 314, and stripe 320.
+
+Electrical contacts 302 correspond to electrical contacts 108 (FIG. 1). IED interface 304 is coupled to electrical contacts 302 to provide a communications interface between electronic transaction card 300 and an intelligent electronic device. For example, IED interface 304 may be an interface compatible with an add-on slot such as add-on slot 110 (FIG. 1) or add-on slot 210 (FIG. 2A).
+
+Magnetic field producing circuit 312 includes one or more circuits to produce time-varying magnetic fields at or near the location of stripe 320. For example, one or more current carrying conductors may be excited to produce a magnetic field, and the current may be varied in amplitude and reversed in polarity to cause the magnetic field to be time-varying. In some embodiments, the number of magnetic field producing circuits corresponds to the number of tracks being emulated for stripe 320. For example, stripe 320 may emulate two, three, four, or more magnetic tracks on a magnetic card such as a credit card. In these embodiments, electronic transaction card 300 may include two, three, four, or more magnetic field producing circuits 312. Magnetic field producing circuits 312 may also include circuits to allow control of the time-varying magnetic field. For example, magnetic field producing circuits 312 may include voltage drivers, current drivers, registers to hold digital data, sequential circuits to translate the digital data to magnetic fields, and the like.
+
+Swipe sensor 314 senses when electronic transaction card 300 has been swiped in a magnetic card reader, and provides a swipe indication to processing device 308. The swipe sensor may be a mechanical switch, an electronic switch, or any other type of suitable switch. For example, a mechanical switch may get pressed when electronic transaction card 300 is swiped. Also for example, an electrical sensor may include two or more contacts (not shown) that get shorted when swiped past a metal head within a card reader. Further, a Hall effect sensor or light-based sensor may be utilized. The present invention is not limited by the type of swipe sensor utilized. In some embodiments, swipe sensor 314 is omitted.
+
+Processing device 308 represents a processor capable of communicating with the other blocks shown in electronic transaction card 300. For example, processing device 308 may be a microprocessor, a digital signal processor (DSP), a microcontroller, or the like. Further, processing device 308 may be formed from state machines or other sequential logic. In operation, processing device 308 may read instructions from volatile memory 310 and/or nonvolatile memory 306 and perform actions in response thereto. For example, processing device 308 may execute program instructions that influence communications between electronic transaction card 300 and an intelligent electronic device, or between electronic transaction card 300 and a magnetic card reader.
+
+Volatile memory 310 represents memory that may lose its state when power is removed from electronic transaction card 300. For example, volatile memory 310 may be static random access memory (SRAM). Volatile memory 308 may be utilized by processing device 308 when executing programs. For example, a program may be copied into volatile memory 308 prior to execution. Also for example, processing device 308 may use volatile memory 308 to store data during the execution of a program.
+
+Nonvolatile memory 306 represents memory that does not lose its state when power is removed from electronic transaction card 300. Nonvolatile memory 306 may be any suitable type of memory such as Flash memory with floating gate transistor memory cells. Examples include NOR Flash memory, NAND Flash memory, and multibit/cell Flash memory.
+
+Nonvolatile memory 306 may hold program instructions that are executable by processing device 308. For example, prior to being sold, a manufacturer or distributor may program nonvolatile memory 306 with program information to influence the operation of electronic transaction card 300. Also for example, an intelligent electronic device may provide program information to electronic transaction card 300 through IED interface 304.
+
+Nonvolatile memory 306 may also hold program instructions that are executable by a processing device other than processing device 308. For example, a manufacturer, distributor, reseller, or other participant in the chain of commerce may program nonvolatile memory 306 with program information to be transferred to an intelligent electronic device. Information to be transferred may include device drivers, application software, or the like.
+
+Electronic transaction card 300 may include one or more power sources (not shown). For example, electronic transaction card 300 may include a battery or a capacitor such as a supercapacitor. In some embodiments, a rechargeable battery may be included. The rechargeable battery may accept a charge from an add-on slot in an intelligent electronic device. In some embodiments, a capacitor may accept a charge from an intelligent electronic device. The capacitor may provide power to electronic transaction card 300 for enough time to perform a transaction. Further, the capacitor may be sized to ensure that a transaction may only be performed during a limited time period after removing the electronic transaction card from an add-on slot, thereby ensuring that a stolen card may not be used repeatedly without the cardholder's consent. Also in some embodiments, electronic transaction card 300 may be programmed to go dormant if a transaction is not performed within a limited time period after removing the card from an intelligent electronic device.
+
+Electronic transaction card 300 may include one or more integrated circuits. For example, processing device 308 may be on one integrated circuit die, and the memories may be on another integrated circuit die. In some embodiments, all active devices are included on a single integrated circuit die. In some embodiments, various integrated circuit dice are mounted on a common substrate to provide a high level of integration using separate dice. Any amount of circuit integration may be practiced without departing from the scope of the present invention.
+
+Electronic transaction card 300 has dimensions “a” and “b.” In some embodiments of the present invention, stripe 320 has a length that is substantially equal to a, and in some embodiments, stripe 320 has a length less than a. Further, in some embodiments, a is less than the stripe length of a standard credit card (approximately three and three eighths inches), and in some embodiments, a is much less than the stripe length of a standard credit card. For example, in some embodiments, a is less than 75% the length of a standard credit card stripe. Further, in some embodiments, a is less than 50% the length of a standard credit card stripe. In still further embodiments, a is less than 25% the length of a standard credit card stripe.
+
+In some embodiments, dimensions a and b are substantially equal to the dimensions of a memory card. For example, dimensions a and b may conform to the dimensions of an MMC memory card, a Memory Stick PRO DUO memory card, or other memory card. Further, in some embodiments, electronic transaction card 300 has a thickness compatible with a magnetic card reader.
+
+FIG. 4 shows an electronic transaction card and a card reader. Electronic transaction card 410 is a card having a stripe compatible with a magnetic card reader. For example, electronic transaction card 410 may be electronic transaction card 104 (FIG. 1), electronic transaction card 220 (FIG. 2A), electronic transaction card 300 (FIG. 3), or any other electronic transaction card described herein. Magnetic card reader 420 is a card reader compatible with magnetic cards. For example, magnetic card reader 420 may operate as part of a merchant point-of-sale terminal, an access control device, or the like. When a magnetic card is swiped through magnetic card reader 420, one or more time-varying magnetic fields are produced relative to the location of a magnetic read head (not shown) in magnetic card reader 420.
+
+In the operation depicted in FIG. 4, electronic transaction card 410 is swiped through magnetic card reader 420. During the swiping operation, electronic transaction card 420 produces one or more time-varying magnetic fields to emulate the swiping of a magnetic card. For example, a swipe sensor within electronic transaction card 410 may detect the swiping action depicted in FIG. 4, and a magnetic field producing circuit may generate one or more time-varying magnetic fields as electronic transaction card 410 passes by a magnetic read head in magnetic card reader 420.
+
+FIG. 5 shows an intelligent electronic device, an electronic transaction card, and a magnetic card reader. Electronic transaction card 510 is shown being swiped through magnetic card reader 520 while attached to intelligent electronic device 500. The operation depicted in FIG. 5 represents a transaction occurring while electronic transaction card 510 is coupled to an add-on slot of intelligent electronic device 500.
+
+FIG. 6 shows an adapter for use with an electronic transaction card. Adapter 600 includes a body portion having dimensions “w” and “l”, and a receiving portion shown at 610. Adapter 600 is useful to receive an electronic transaction card at receiving portion 610 to provide a larger card having the functionality of an electronic transaction card. For example, in some embodiments of the present invention, dimensions w and l are compatible with swallow-type magnetic card readers, and a combination of adapter 600 an electronic transaction card may be compatible with such readers.
+
+Receiving portion 610 may include an interface compatible with a connector on an electronic transaction card. For example, an electronic transaction card may have an interface that is compatible with both an add-on slot of an electronic transaction device and receiving portion 610 of adapter 600.
+
+FIG. 7 shows adapter 600 having an electronic transaction card 710 coupled thereto. Electronic transaction card 710 includes a stripe capable of emitting one or more time-varying magnetic fields as described above. The combination of electronic transaction card 710 and adapter 600 allow the functionality of electronic transaction card 710 to be useful in the larger form factor of adapter 600.
+
+In some embodiments, adapter 600 includes active or passive circuitry in support of the operation of electronic transaction card 710. For example, adapter 600 may include electrical contacts, a battery, an integrated circuit, or other circuits. Also for example, adapter 600 may include one or more swipe sensors to provide a swiping indication to electronic transaction card 710.
+
+FIG. 8 shows an adapter having a smartcard interface 810. In embodiments represented by FIG. 8, an adapter may be utilized to perform a transaction involving a smartcard reader while utilizing an electronic transaction card. For example, an electronic transaction card may be coupled to adapter 800 at receiving portion 820, and the electronic transaction card may provide data useful for a smartcard transaction.
+
+FIG. 9 shows an electronic transaction card having a smartcard interface. Electronic transaction card 900 includes electrical contacts 908 and 910. Electrical contacts 908 are similar to electrical contacts 108 (FIG. 1). For example, electrical contacts 908 may be compatible with an add-on slot of an intelligent electronic device such as intelligent electronic device 102 (FIG. 1). Electrical contacts 910 are arranged to provide the communications interface to a smartcard reader.
+
+In some embodiments, electronic transaction card 900 includes a smartcard interface as well as a stripe to produce the time-varying magnetic field. For example, as shown in FIG. 10, the backside of electronic transaction card 900 may include stripe 1010. The various electronic transaction cards described herein may include a stripe, a smartcard interface, or a combination thereof.
+
+FIG. 11 shows an adapter in combination with an electronic transaction card. Adapter 1100 is shown having electronic transaction card 900 coupled in a recessed portion on a side having dimension w. In some embodiments, this configuration places electrical contacts 910 at a location expected by smartcard readers.
+
+FIG. 12 shows an adapter having an aperture to receive an electronic transaction card. Adapter 1200 includes aperture 1210 to receive an electronic transaction card. In some embodiments, aperture 1210 passes completely through adapter 1200, and in other embodiments, aperture 1210 is a recessed portion on the face of adapter 1200. Adapter 1200 may receive electronic transaction cards having a stripe, a smartcard interface, or a combination of the two.
+
+FIG. 13 shows and adapter having a body portion 1300, a recessed portion 1310, and stripe 1320. Recessed portion 1310 may receive an electronic transaction card as described above with respect to FIGS. 6-7. Further, stripe 1320 may be utilized to communicate with a magnetic card reader. For example, adapter 1300 may include a magnetic field producing circuit such as magnetic field producing circuit 312 (FIG. 3) to produce a time-varying magnetic field. In operation, an electronic transaction card may be coupled to adapter 1300 at recessed portion 1310, and provide transaction information to be used by stripe 1320 for a transaction with a magnetic card reader. In some embodiments, an electronic transaction card having neither a stripe nor a smartcard interface may be coupled to adapter 1300 at recessed portion 1310 to effect a transaction using stripe 1320.
+
+The various adapters shown in the previous figures may have recessed portions, apertures, or stripes anywhere on the adapter without departing from the scope of the present invention. For example, in some embodiments, a recessed portion may be on the side of the adapter having a smaller dimension, and in other embodiments a recessed portion may be on the side of the adapter having a larger dimension. Also for example, in some embodiments, a stripe may be on the side of the adapter having a smaller dimension, and in other embodiments a stripe may be on the side of the adapter having a larger dimension.
+
+FIG. 14 shows an electronic transaction card. Electronic transaction card 1400 includes stripe 1410 and add-on slot compatible portion 1402. Add-on slot compatible portion 1402 includes electrical contacts 1408 to communicate with an add-on slot in an intelligent electronic device. For example, add-on slot compatible portion 1402 may be physically and electrically compatible with add-on slot 110 (FIG. 1) or add-on slot 210 (FIG. 2A).
+
+Electronic transaction card 1400 may include any of the circuits, features, or functionality described herein. For example, electronic transaction card 1400 may include magnetic field producing circuits, swipe sensors, processing devices, volatile and nonvolatile memory, various interfaces, and electrical contacts.
+
+Electronic transaction card 1400 is shown having stripe 1410 along an edge having dimension “l.” In some embodiments, electronic transaction card 1400 may have stripe 1410 along an edge other than that shown in FIG. 14.
+
+In operation, electronic transaction card 1400 may be left coupled to an electronic transaction device when being swiped through a magnetic card reader, similar to the operation shown in FIG. 5. Further, electronic transaction card 1400 may be removed from an intelligent electronic device prior to being swept through a magnetic card reader, similar to the operation shown in FIG. 4.
+
+FIG. 15 shows an electronic transaction card and an adapter in combination. The combination of electronic transaction card 1400 and adapter 1500 form a card having dimensions “w” and “l” as described above with reference to previous figures. The resulting card may be suitable for swallow-type magnetic card readers.
+
+FIG. 16 shows a combination electronic transaction card and adapter 1610 being inserted into a swallow-type magnetic card reader. As shown in FIG. 16, the swallow-type magnetic card reader is part of an automated teller machine (ATM), but this is not a limitation of the present invention. For example, the swallow-type reader may be part of a point-of-sale device, an access entry device, or any other type of device capable of incorporating a swallow-type magnetic card reader.
+
+FIG. 17 shows a combination electronic transaction card and adapter being swiped through a magnetic card reader. Adapter 1710 and electronic transaction card 1720 are shown being swiped through magnetic card reader 1730. Electronic transaction card 1720 maybe any of the electronic transaction card embodiments described herein. For example, electronic transaction card 1720 may include a stripe, a smartcard interface, or a combination of the two. Although adapter 1710 is shown as an adapter having a recessed portion on one side, the combination adapter/card in FIG. 17 represents any of the adapter/card combinations described herein. For example, adapter 1710 may be any of adapters 600 (FIGS. 6,7), adapter 800 (FIG. 8), adapter 1100 (FIG. 11), adapter 1200 (FIG. 12), adapter 1300 (FIG. 13), or adapter 1500 (FIG. 15).
+
+FIG. 18 shows a financial transaction card. Financial transaction card 1800 includes stripe 1802, financial card circuits 1804, memory card emulation circuitry 1806, and memory card compatible interface 1808. Financial transaction card 1800 is an example of a financial card that might be issued by a bank or other financial institution. For example, financial transaction card 1800 might be a debit card, a credit card, a stored value card, or other card issued for the purposes of financial transactions.
+
+Financial card circuits 1804 interact with stripe 1802 to produce time-varying magnetic fields compatible with a magnetic card reader. For example, financial card circuits 1804 and stripe 1802 may provide financial transaction data to a point-of-sale terminal. Financial transaction card 1800 also includes memory card emulation circuitry 1806 to emulate the operation of a memory card. The combination of memory card emulation circuitry 1806 and memory card compatible interface 1808 allow financial transaction card 1800 to perform as a memory card. For example, memory card compatible interface 1808 may be compatible with a memory card interface in an add-on slot of an intelligent electronic device.
+
+FIG. 19 shows a memory card. Memory card 1900 includes memory card compatible interface 1930, memory card circuits 1920, financial card emulation circuitry 1910, and stripe 1902. Memory card 1900 is an example of a card that may be fabricated and sold by a memory card manufacturer or a manufacturer that is in the business of selling electronic peripheral devices. By including financial card emulation circuitry 1910 and stripe 1902 in memory card 1900, the manufacturer of memory card 1900 may add features desired by consumers. For example, the combination of stripe 1902 and financial card emulation circuitry 1910 may emulate the operation of a financial card such as a credit card, debit card, stored value card, or the like.
+
+FIG. 20 shows a block diagram of a combination memory card and electronic transaction card. Card 2000 includes memory 2010, processing element 2020, magnetic/smartcard circuitry 2030, card reader interface 2040, memory card circuitry 2050, and memory card slot compatible interface 2060. Processing element 2020 may be any processing element suitable to communicate with memory 2010 and the other blocks shown in FIG. 20. Magnetic/smartcard circuitry 2030 may include circuits to produce time-varying magnetic fields or signals compatible with a smart card reader. Card reader interface 2040 may include a stripe as described above, or may include electrical contacts compatible with a smartcard reader. Memory card circuitry 2050 may be any type of memory circuitry accessible by an intelligent electronic device. The intelligent electronic device may access memory card circuitry 2050 through memory card slot compatible interface 2060.
+
+Memory 2010 is shown having card software 2012 and application software 2014. In some embodiments, card 2000 is sold or distributed having both card software 2012 and application software 2014 in memory 2010. For example, memory 2010 may be nonvolatile memory having card software 2012 for execution by processing element 2020. Also for example, memory 2010 may have application software 2014 meant to be installed on a device other than card 2000. Application software 2014 may include drivers, user interface software, single transaction account number (STAN) generation software, or any other software that may be installed on a device other than card 2000.
+
+Application software 2014 may operate in any of multiple languages on multiple operating systems. For example, application software 2014 may provide a user interface in any regional language. Also for example, application software 2014 may run on any operating system (OS).
+
+FIG. 21 shows a block diagram of how card 2000 (FIG. 20) may be utilized. A card issuer 2110 may issue card 2000 to a cardholder 2130. As issued by card issuer 2110, card 2000 may include card software and application software as shown in FIG. 21. Cardholder 2130 may couple card 2000 with intelligent electronic device 2140 and install application software on the intelligent electronic device. For example, intelligent electronic device 2140 may be a mobile phone capable of executing application software, and card 2000 may supply application software to be installed on the mobile phone. Also for example, intelligent electronic device 2140 may be a non-telephonic device such as a personal digital assistant (PDA), or other dedicated hardware, capable of receiving card 2000 in an add-on slot.
+
+FIG. 22 shows a block diagram of a combination memory card and electronic transaction card. Card 2200 includes processing element 2020, magnetic/smartcard circuitry 2030, card reader interface 2040, memory card circuitry 2050, and memory card slot compatible interface 2060, all of which are described above with reference to FIG. 20. Card 2200 also includes nonvolatile memory 2210 and volatile memory 2220. As shown in FIG. 22, nonvolatile memory 2210 includes card software 2212 to be executed by processing element 2020. Also as shown in FIG. 22, card 2200 includes volatile memory 2220 having financial transaction data 2222 held therein. Financial transaction data 2222 may be programmed into volatile memory 2220 by processing alignment 2020 in response to communications from an intelligent electronic device coupled to memory card slot compatible interface 2060. For example, a mobile phone executing single transaction account number generation software may provide a single transaction account number as financial transaction data that gets stored in volatile memory 2220 in preparation for a transaction. In other embodiments, financial transaction data 2222 represents two, three, four, or more time-varying magnetic fields to be generated by the combination of magnetic/smartcard circuitry 2030 and card reader interface 2040.
+
+FIG. 23 shows a block diagram of a phone and a card. Phone 2310 may be a cellular telephone, and card 2350 may be any of the electronic transaction card embodiments described herein. Phone 2310 includes display 2312, processor 2314, single transaction account number (STAN) generation software 2316, and authentication software 2318. Card 2350 includes processor 2352, card software 2354, financial transaction data 2356, and point-of-sale (POS) interface 2358.
+
+Single transaction account number generation software 2316 may be installed on the phone 2310 when card 2350 is inserted in a memory slot. For example, referring now back to FIGS. 20 and 21, STAN generation software 2316 may correspond to application software 2014. Authentication software 2318 may only allow authorized users access to phone 2310 and/or card 2350.
+
+In operation, a user interacting with phone 2310 may gain access to features by satisfying requirements of authentication software 2318. Using STAN generation software 2316, a user may generate financial transaction data 2356 which is held on card 2350 in preparation for a transaction. Card 2350 may then interact with a card reader using point-of-sale interface 2358 to effect a transaction. This transaction may be effected with card 2350 coupled to phone 2310 or decoupled from phone 2310. Further, the transaction using card 2350 may be effected while card 2350 is coupled to any of the adapter embodiments described herein.
+
+The following paragraphs provide further disclosure of various invention embodiments. Each embodiment is fully defined by the recitation of the corresponding paragraph, and no other elements are to be considered essential for that particular embodiment. The embodiments include:
+
+    A. An apparatus comprising:
+
+a stripe to communicate with a magnetic card reader; and
+
+an interface to communicate with an intelligent electronic device;
+
+wherein the apparatus has dimensions smaller than a credit card.
+
+    A1. The apparatus of A wherein the stripe includes circuitry to produce at least one time-varying magnetic field.
+    A2. The apparatus of A wherein the interface is compatible with an add-on slot in the intelligent electronic device.
+    A3. The apparatus of A2 wherein the interface comprises a memory card interface.
+    A4. The apparatus of A further comprising a processing element coupled to the interface and to the stripe.
+    A5. The apparatus of A4 further comprising a memory element to hold programming information for the stripe.
+    A6. The apparatus of A4 further comprising an embedded swipe sensor to sense when the stripe is swiped through a magnetic card reader.
+    A7. The apparatus of A further comprising nonvolatile memory accessible by the intelligent electronic device.
+    B. A financial card comprising:
+
+a point-of-sale compatible electronic transaction stripe;
+
+a memory card compatible interface; and
+
+memory card emulation circuitry coupled to the memory card compatible interface.
+
+    C. A memory card comprising:
+
+a memory card compatible interface;
+
+a point-of-sale compatible electronic transaction stripe; and
+
+financial card emulation circuitry coupled to the point-of-sale compatible electronic transaction stripe.
+
+    D. A financial card apparatus comprising:
+
+a point-of-sale compatible portion having a stripe to communicate with a point-of-sale transaction device; and
+
+a memory card compatible portion having at least one electrical contact to communicate with a memory card slot in an intelligent electronic device.
+
+    E. A memory card comprising:
+
+a memory card interface operable to couple the memory card to an intelligent electronic device;
+
+a nonvolatile memory device accessible through the memory card interface; and
+
+a stripe operable to communicate with a magnetic card reader.
+
+    F. A memory card comprising:
+
+a memory card slot interface; and
+
+circuitry for producing a time-varying magnetic field compatible with a magnetic card reader.
+
+    F1. The memory card of F wherein the circuitry is configured to produce a plurality of time-varying magnetic fields compatible with a point-of-sale transaction device.
+    G. An apparatus comprising:
+
+means for communicating through a memory card slot in an intelligent electronic device;
+
+means for producing at least one time-varying magnetic field to represent financial transaction data; and
+
+means for storing the financial transaction data.
+
+    H. A card comprising:
+
+a memory card compatible interface;
+
+a smartcard compatible interface; and
+
+a stripe to produce at least one time-varying magnetic field compatible with a magnetic card reader.
+
+    I. A memory card compatible with a memory card slot in a mobile phone, the memory card including nonvolatile memory accessible by the mobile phone, a point-of-sale interface to communicate with a point-of-sale terminal, and volatile memory to hold financial transaction data.
+    I1. The memory card of I wherein the point-of-sale interface comprises circuitry to produce at least one time-varying magnetic field.
+    I2. The memory card of I1 further including a processing device coupled to the nonvolatile memory, volatile memory, and point-of-sale interface.
+    J. An electronic financial transaction device having a thickness compatible with a point-of-sale card reader, a width less than a credit card width, a length less than a credit card length, an electronically programmable stripe situated along the length, and at least one electrical contact to provide an interface to an intelligent electronic device.
+    J1. The electronic financial transaction device of J wherein the at least one electrical contact comprises a memory card interface compatible with a memory card slot in the intelligent electronic device.
+    J2. The electronic financial transaction device of J wherein the electronically programmable stripe includes a circuit to emulate a magnetic stripe in a credit card.
+    J3. The electronic financial transaction device of J2 further comprising a swipe sensor to detect when the electronic financial device is swiped through a point-of-sale terminal.
+    K. A card comprising:
+
+means for storing financial transaction data;
+
+means for communicating with a memory card slot in an intelligent electronic device; and
+
+means for creating a time-varying magnetic field that represents the financial transaction data.
+
+    K1. The card of K wherein the means for storing financial transaction data comprises volatile memory.
+    K2. The card of K wherein the financial transaction data comprises a single transaction account number.
+    K3. The card of K further comprising a processing device coupled to read the financial transaction data and influence the operation of the means for creating a time-varying magnetic field.
+    L. An adapter for use with any of A-K, the adapter comprising:
+
+a body portion having exterior dimensions larger than dimensions of A-G; and
+
+a receiving portion to receive any of A-G, wherein the receiving portion is located on the body portion to expose any of A-G for use in magnetic card reader transactions.
+
+    M. An apparatus comprising a body portion with dimensions compatible with a swallow-type magnetic card reader, wherein the body portion includes a memory card compatible area to receive a memory card with magnetic stripe functionality.
+    M1. The apparatus of M further comprising a smartcard interface.
+    M2. The apparatus of M further comprising at least one electrical component coupled to the memory card compatible area portion to interface to the memory card.
+    M3. The apparatus of M wherein the memory card compatible area comprises a recessed portion of at least one side of the apparatus.
+    M4. The apparatus of M wherein memory card compatible area comprises at least one metallic contact on a periphery of an aperture in the apparatus.
+    N. A financial card to be used with a magnetic card reader at a point-of-sale, the financial card including a memory card interface to allow the financial card to be inserted in a memory card slot of a mobile phone, and including a stripe compatible with the magnetic card reader, wherein the stripe is shorter than a magnetic credit card stripe.
+    O. A card compatible with a magnetic card reader and compatible with a memory slot in an intelligent electronic device, the card including software to be installed on the intelligent electronic device.
+    O1. The card of O wherein the software includes a module for single transaction account number generation.
+    O2. The card of O1 wherein the software is configured to run on a mobile phone.
+    O3. The card of O wherein the card comprises:
+
+a memory slot compatible portion; and
+
+a magnetic card reader compatible portion.
+
+    O4. The card of O3 wherein the magnetic card reader compatible portion comprises circuitry to produce at least one time-varying magnetic field for use in a financial transaction.
+    P. A card comprising:
+
+a memory card interface mechanically compatible with a memory card slot in an intelligent electronic device;
+
+a processing device coupled to the memory card interface; and
+
+circuitry to produce a time-varying magnetic field compatible with a point-of-sale device.
+
+    Q. A card comprising:
+
+a memory card interface electrically compatible with a memory card slot in an intelligent electronic device;
+
+a processing device coupled to the memory card interface; and
+
+circuitry to produce a time-varying magnetic field compatible with a point-of-sale device.
+
+    Q1. Any of the cards of P-Q further comprising nonvolatile memory exposed through the memory card interface.
+    Q2. Any of the cards of P-Q further comprising volatile memory to hold financial transaction information.
+    Q3. Any of the cards of P-Q further comprising a software component that when executed by the processing device causes the circuitry to produce at least one time-varying magnetic field representing the financial transaction information.
+    Q4. Any of the cards of P-Q further comprising a visible stripe at which the at least one time-varying magnetic field emanates.
+    Q5. Any of the cards of P-Q further comprising a battery.
+    Q6. Any of the cards of P-Q further comprising a capacitor to provide power to the card.
+    Q7. The card of Q wherein the card has a size substantially equivalent to a credit card.
+    R. A credit card sized adapter to receive any of the cards of P-Q.
+    R1. The adapter of R wherein the credit card sized adapter includes a smartcard interface.
+    R2. The adapter of R wherein the adapter includes a first edge having a width and a second edge having a length, wherein the second edge includes a recessed portion to accept the card.
+    R3. The adapter of R wherein the credit card sized adapter includes a first edge having a width and a second edge having a length, wherein the first edge includes a recessed portion to accept the card.
+    S. A combination financial card and memory card apparatus comprising:
+
+electrical contacts to provide an interface to a mobile phone;
+
+a transaction stripe to produce at least one time-varying magnetic field representing transaction information;
+
+a processing device; and
+
+a software component to receive the transaction information from the mobile phone;
+
+wherein the electrical contacts are provided on a physical portion of the combination financial card and memory card apparatus having dimensions compatible with a memory card slot.
+
+    S1. The combination financial card and memory card apparatus of S further comprises an application software component to be installed on the mobile phone.
+    T. In combination:
+
+a memory card having a transaction stripe compatible with a magnetic card reader; and
+
+a credit card sized adapter to receive the memory card and to expose the transaction stripe for use in magnetic card reader transactions.
+
+    U. In combination:
+
+a memory card having an interface compatible with a memory card slot in a mobile phone and a smartcard interface; and
+
+a credit card sized adapter to receive the memory card and to expose the smartcard interface for use in smartcard transactions.
+
+    V. A financial transaction system comprising:
+
+a mobile phone having a memory card slot;
+
+a memory card compatible with the memory card slot, wherein the memory card includes circuitry to transmit financial transaction data to a point-of-sale device; and
+
+a software component to produce single transaction account numbers for use as financial transaction data.
+
+    W. A system comprising:
+
+a wearable intelligent electronic device having a card slot; and
+
+a card comprising a card slot interface and circuitry for producing a time-varying magnetic field compatible with a magnetic card reader.
+
+Although the present invention has been described in conjunction with certain embodiments, it is to be understood that modifications and variations may be resorted to without departing from the spirit and scope of the invention as those skilled in the art readily understand. Such modifications and variations are considered to be within the scope of the invention and the appended claims.
+Claims (21)
+1. A method comprising:
+receiving, at a mobile device, a communication over a network; and
+programming an electronic transaction card with smartcard circuitry in an add-on slot of the mobile device in response to the communication.
+2. The method of claim 1 wherein receiving a communication over a network comprises receiving a communication over a wired network.
+3. The method of claim 1 wherein receiving a communication over a network comprises receiving a communication over a wireless network.
+4. The method of claim 1 wherein receiving a communication over a network comprises receiving a communication over a cellular telephone network.
+5. The method of claim 1 wherein programming an electronic transaction card comprises programming an electronic transaction card to operate as a credit card.
+6. The method of claim 1 wherein programming an electronic transaction card comprises programming an electronic transaction card to operate as a debit card.
+7. The method of claim 1 wherein programming an electronic transaction card comprises programming an electronic transaction card to operate as a stored value card.
+8. A method comprising:
+receiving, at an intelligent electronic device with a memory card slot, a communication over a network; and
+programming a memory card with smartcard circuitry in the memory card slot of the intelligent electronic device in response to the communication.
+9. The method of claim 8 wherein receiving a communication over a network comprises receiving a communication over a wired network.
+10. The method of claim 8 wherein receiving a communication over a network comprises receiving a communication over a wireless network.
+11. The method of claim 8 wherein receiving a communication over a network comprises receiving a communication over a cellular telephone network.
+12. The method of claim 8 wherein programming a memory card comprises programming the memory card to operate as a credit card.
+13. The method of claim 8 wherein programming a memory card comprises programming the memory card to operate as a debit card.
+14. The method of claim 8 wherein programming a memory card comprises programming the memory card to operate as a stored value card.
+15. A method comprising:
+receiving, at a mobile phone with a memory card slot, a communication over a network; and
+in response to the communication, programming a memory card in the memory card slot of the mobile phone to perform financial transactions.
+16. The method of claim 15 wherein receiving a communication over a network comprises receiving a communication over a wired network.
+17. The method of claim 15 wherein receiving a communication over a network comprises receiving a communication over a wireless network.
+18. The method of claim 15 wherein receiving a communication over a network comprises receiving a communication over a cellular telephone network.
+19. The method of claim 15 wherein programming a memory card comprises programming the memory card to operate as a credit card.
+20. The method of claim 15 wherein programming a memory card comprises programming the memory card to operate as a debit card.
+21. The method of claim 15 wherein programming a memory card comprises programming the memory card to operate as a stored value card.
+Patent Citations (178)
+Publication number Priority date Publication date Assignee Title
+US6182891B2
+US4701601A 1985-04-26 1987-10-20 Visa International Service Association Transaction card with magnetic stripe emulator
+US4791283A 1986-06-03 1988-12-13 Intellicard International, Inc. Transaction card magnetic stripe emulator
+DE3632294A1 1986-09-23 1988-04-07 Siemens Ag Operating unit for smart cards (chip cards)
+US4786791A 1987-02-10 1988-11-22 Gateway Technology Data processing apparatus with portable card having magnetic strip simulator
+US6039260A 1988-12-12 2000-03-21 Smartdiskette Gmbh Intelligent cassette emulator device
+US20020044043A1 1990-07-27 2002-04-18 John Chaco Patient care and communication system
+US5955961A 1991-12-09 1999-09-21 Wallerstein; Robert S. Programmable transaction card
+US5585787A 1991-12-09 1996-12-17 Wallerstein; Robert S. Programmable credit card
+US5574273A 1993-06-14 1996-11-12 Hitachi Maxell, Ltd. Non-contact system parallel data transfer system
+US6182891B1 1994-07-18 2001-02-06 Ntt Data Communications Systems Corporation Electronic bankbook, and processing system for financial transaction information using electronic bankbook
+EP1178450A2 1994-10-28 2002-02-06 Behruz Vazvan Real time tele-payment system
+US6764005B2 1994-11-04 2004-07-20 Cooper J Carl Universal credit card apparatus and method
+US20040251303A1 1994-11-04 2004-12-16 Cooper J. Carl Universal credit card apparatus and method
+US20050017068A1 1995-02-15 2005-01-27 Zalewski Thomas W. System and method of making payments using an electronic device cover with embedded transponder
+US5710421A 1995-03-31 1998-01-20 Tokai-Rika-Denki-Seisakusho Kabushiki Kaisha IC card
+US6223984B1 1995-03-31 2001-05-01 Cybermark, Inc. Distinct smart card reader having wiegand, magnetic strip and bar code types emulation output
+US5952641A 1995-11-28 1999-09-14 C-Sam S.A. Security device for controlling the access to a personal computer or to a computer terminal
+US5700037A 1996-01-16 1997-12-23 Keller; John A. Security improved card
+US5834756A 1996-06-03 1998-11-10 Motorola, Inc. Magnetically communicative card
+US6206293B1 1996-06-03 2001-03-27 Motorola, Inc. Magnetically communicative card
+EP0818757A2 1996-07-12 1998-01-14 AT&amp;T Corp. Universal Authentication device for use over telephone lines
+GB2316908A 1996-09-06 1998-03-11 John Cowling Memory card with digitally encoded image of user
+US6189786B1 1996-09-24 2001-02-20 Hitachi, Ltd. Portable terminal device with stackable IC card slot opening
+US5909491A 1996-11-06 1999-06-01 Nokia Mobile Phones Limited Method for sending a secure message in a telecommunications system
+US6594759B1 1996-12-04 2003-07-15 Esignx Corporation Authorization firmware for conducting transactions with an electronic transaction system and methods therefor
+US6016476A 1997-08-11 2000-01-18 International Business Machines Corporation Portable information and transaction processing system and method utilizing biometric authorization and digital certificate security
+US6882900B1 1997-09-26 2005-04-19 Gilbarco Inc. Fuel dispensing and retail system for providing customer selected guidelines and limitations
+US6925568B1 1998-01-16 2005-08-02 Sonera Oyj Method and system for the processing of messages in a telecommunication system
+US6636833B1 1998-03-25 2003-10-21 Obis Patents Ltd. Credit card system and method
+US20030028481A1 1998-03-25 2003-02-06 Orbis Patents, Ltd. Credit card system and method
+US6315195B1 1998-04-17 2001-11-13 Diebold, Incorporated Transaction apparatus and method
+US20010013551A1 1998-04-17 2001-08-16 Diebold, Incorporated Portable automated banking apparatus and system
+US6905072B2 1998-04-17 2005-06-14 Diebold, Incorporated Apparatus and method of transmitting transaction signature
+US6068184A 1998-04-27 2000-05-30 Barnett; Donald A. Security card and system for use thereof
+US6402029B1 1998-05-29 2002-06-11 E-Micro Corporation Method and apparatus for combining data for multiple magnetic stripe cards or other sources
+US20020007434A1 1998-07-09 2002-01-17 Giovanni Campardo Non-volatile memory capable of autonomously executing a program
+US6219439B1 1998-07-09 2001-04-17 Paul M. Burger Biometric authentication system
+US6481623B1 1998-08-03 2002-11-19 Privicom, Inc. Card reader for transmission of data by sound
+US6250557B1 1998-08-25 2001-06-26 Telefonaktiebolaget Lm Ericsson (Publ) Methods and arrangements for a smart card wallet and uses thereof
+EP1117068A1 1998-08-31 2001-07-18 C. Media Co. Ltd. Noncontact ic medium and system using the same
+EP1014290A2 1998-11-26 2000-06-28 Nokia Mobile Phones Ltd. Data card holder and reader therefor
+US6568600B1 1999-01-19 2003-05-27 Bull Cp8 Chip card equipped with a loop antenna, and associated micromodule
+US6721196B1 1999-06-23 2004-04-13 Giesecke & Devrient Gmbh Semiconductor memory chip module
+US20030115126A1 1999-08-11 2003-06-19 Pitroda Satyan G. System and methods for servicing electronic transactions
+US6715679B1 1999-09-08 2004-04-06 At&T Corp. Universal magnetic stripe card
+US20020099665A1 1999-09-28 2002-07-25 Burger Todd O. Portable electronic authorization system and method
+US20030220876A1 1999-09-28 2003-11-27 Burger Todd O. Portable electronic authorization system and method
+US20050108096A1 1999-09-28 2005-05-19 Chameleon Network Inc. Portable electronic authorization system and method
+US20050116026A1 1999-09-28 2005-06-02 Chameleon Network, Inc. Portable electronic authorization system and method
+US20050050367A1 1999-09-28 2005-03-03 Chameleon Network, Inc. Portable electronic authorization system and method
+US20050060586A1 1999-09-28 2005-03-17 Chameleon Network, Inc. Portable electronic authorization system and method
+US20020130187A1 1999-10-14 2002-09-19 Berg Jon N. System for card to card transfer of secure data
+US6705520B1 1999-11-15 2004-03-16 Satyan G. Pitroda Point of sale adapter for electronic transaction device
+US6769607B1 1999-11-15 2004-08-03 Satyan G. Pitroda Point of sale and display adapter for electronic transaction device
+US20010002035A1 1999-11-29 2001-05-31 Georges Kayanakis Contactless or hybrid contact-contactless smart card designed to limit the risks of fraud
+US20020138422A1 1999-12-10 2002-09-26 Takeshi Natsuno Electronic commerce contracts mediating method and mobile communication network
+US20010006902A1 2000-01-05 2001-07-05 Takafumi Ito IC card with radio interface function, antenna module and data processing apparatus using the IC card
+US20050077349A1 2000-03-07 2005-04-14 American Express Travel Related Services Company, Inc. Method and system for facilitating a transaction using a transponder
+US6669487B1 2000-04-28 2003-12-30 Hitachi, Ltd. IC card
+US20030200180A1 2000-05-08 2003-10-23 Frank Phelan Money card system, method and apparatus
+US6609654B1 2000-05-15 2003-08-26 Privasys, Inc. Method for allowing a user to customize use of a payment card that generates a different payment card number for multiple transactions
+US6592044B1 2000-05-15 2003-07-15 Jacob Y. Wong Anonymous electronic card for generating personal coupons useful in commercial and security transactions
+US6805288B2 2000-05-15 2004-10-19 Larry Routhenstein Method for generating customer secure card numbers subject to use restrictions by an electronic card
+US20020043566A1 2000-07-14 2002-04-18 Alan Goodman Transaction card and method for reducing frauds
+US6598031B1 2000-07-31 2003-07-22 Edi Secure Lllp Apparatus and method for routing encrypted transaction card identifying data through a public telephone network
+US6223954B1 2000-08-10 2001-05-01 Robert N. Carow Pump actuator with plastic spring
+US20020139849A1 2000-09-18 2002-10-03 Gangi Frank J. Method and apparatus for associating identification and personal data for multiple magnetic stripe cards or other sources
+EP1189465A1 2000-09-19 2002-03-20 Sony International (Europe) GmbH Mobile terminal with removable memory having SIM card function
+US6588660B1 2000-09-29 2003-07-08 Hewlett-Packard Development Company, L.P. Passive contactless smartcard security system
+DE10054890A1 2000-10-18 2002-04-25 Bernd Schneider Mobile universal data terminal with insertion and head parts has at least one card reading unit in one or more insertion slots with different arrangements for reading different chip card types
+US20060169778A1 2000-11-20 2006-08-03 Chung Kevin K Electronic voting apparatus, system and method
+US20050092830A1 2000-12-06 2005-05-05 George Blossom Selectable multi-purpose card
+US6631849B2 2000-12-06 2003-10-14 Bank One, Delaware, National Association Selectable multi-purpose card
+US6907123B1 2000-12-21 2005-06-14 Cisco Technology, Inc. Secure voice communication system
+US20020095588A1 2001-01-12 2002-07-18 Satoshi Shigematsu Authentication token and authentication system
+US20020096570A1 2001-01-25 2002-07-25 Wong Jacob Y. Card with a dynamic embossing apparatus
+US20020138735A1 2001-02-22 2002-09-26 Felt Edward P. System and method for message encryption and signing in a transaction processing system
+US20020148892A1 2001-02-23 2002-10-17 Biometric Security Card, Inc. Biometric identification system using biometric images and personal identification number stored on a magnetic stripe and associated methods
+US20040077372A1 2001-03-07 2004-04-22 Halpern John W. Mobile phone communications system with increased functionality
+US20020153424A1 2001-04-19 2002-10-24 Chuan Li Method and apparatus of secure credit card transaction
+US20020180584A1 2001-04-26 2002-12-05 Audlem, Ltd. Bio-metric smart card, bio-metric smart card reader, and method of use
+US20050029349A1 2001-04-26 2005-02-10 Mcgregor Christopher M. Bio-metric smart card, bio-metric smart card reader, and method of use
+US20020158747A1 2001-04-26 2002-10-31 Mcgregor Christopher M. Bio-metric smart card, bio-metric smart card reader and method of use
+US20040243806A1 2001-04-30 2004-12-02 Mckinley Tyler J. Digital watermarking security systems
+US20020178124A1 2001-05-22 2002-11-28 Lewis Shawn Michael Credit card verification system
+US20020186845A1 2001-06-11 2002-12-12 Santanu Dutta Method and apparatus for remotely disabling and enabling access to secure transaction functions of a mobile terminal
+US6836843B2 2001-06-29 2004-12-28 Hewlett-Packard Development Company, L.P. Access control through secure channel using personal identification system
+US20050038736A1 2001-07-10 2005-02-17 Saunders Peter D. System and method for transmitting track 1/track 2 formatted information via Radio Frequency
+EP1291748A2 2001-09-11 2003-03-12 Alcatel Electronic device capable of wirelessly transmitting a password that can be used to unlock/lock a password protected electronic device
+US6811082B2 2001-09-18 2004-11-02 Jacob Y. Wong Advanced magnetic stripe bridge (AMSB)
+US6607127B2 2001-09-18 2003-08-19 Jacob Y. Wong Magnetic stripe bridge
+US20030052168A1 2001-09-18 2003-03-20 Wong Jacob Y. Magnetic Stripe bridge
+US20030057278A1 2001-09-18 2003-03-27 Wong Jacob Y. Advanced magnetic stripe bridge (AMSB)
+US20030061168A1 2001-09-21 2003-03-27 Larry Routhenstein Method for generating customer secure card numbers
+US20050044044A1 2001-10-01 2005-02-24 Chameleon Network, Inc. Portable electronic authorization system and method
+US20030080183A1 2001-10-31 2003-05-01 Sanguthevar Rajasekaran One-time credit card number generator and single round-trip authentication
+US6908030B2 2001-10-31 2005-06-21 Arcot Systems, Inc. One-time credit card number generator and single round-trip authentication
+US20050212657A1 2001-11-07 2005-09-29 Rudy Simon Identity verification system with self-authenticating card
+US6712277B2 2001-12-05 2004-03-30 Hewlett-Packard Development Company, L.P. Multiple interface memory card
+US6857566B2 2001-12-06 2005-02-22 Mastercard International Method and system for conducting transactions using a payment card with two technologies
+US20050121512A1 2001-12-06 2005-06-09 John Wankmueller Method and system for conducting transactions using a payment card with two technologies
+US20040035942A1 2001-12-07 2004-02-26 Silverman Martin S. Dynamic virtual magnetic stripe
+US20040058705A1 2001-12-21 2004-03-25 Russell Morgan Secure point-of-sale cellular telephone docking module system
+US20040094624A1 2001-12-26 2004-05-20 Vivotech, Inc. Adaptor for magnetic stripe card reader
+US20030159050A1 2002-02-15 2003-08-21 Alexander Gantman System and method for acoustic two factor authentication
+US20050127164A1 2002-03-19 2005-06-16 John Wankmueller Method and system for conducting a transaction using a proximity device and an identifier
+US20040133787A1 2002-03-28 2004-07-08 Innovation Connection Corporation System, method and apparatus for enabling transactions using a biometrically enabled programmable magnetic stripe
+US20050022002A1 2002-06-12 2005-01-27 Poisner David I. Protected configuration space in a protected environment
+US20030231550A1 2002-06-13 2003-12-18 General Motors Corporation Personalized key system for a mobile vehicle
+US20040030660A1 2002-07-03 2004-02-12 Will Shatford Biometric based authentication system with random generated PIN
+WO2004012352A1 2002-07-30 2004-02-05 Way Systems, Inc. Mobile device equipped with a contactless smart card reader/writer
+US20040050930A1 2002-09-17 2004-03-18 Bernard Rowe Smart card with onboard authentication facility
+US20040064612A1 2002-09-26 2004-04-01 Sandisk Corporation Method and system for using a memory card protocol inside a bus protocol
+US20040087339A1 2002-10-30 2004-05-06 Scott Goldthwaite Mobile communication device equipped with a magnetic stripe reader
+US20040199469A1 2003-03-21 2004-10-07 Barillova Katrina A. Biometric transaction system and method
+US20040188519A1 2003-03-31 2004-09-30 Kepler, Ltd. A Hong Kong Corporation Personal biometric authentication and authorization device
+WO2004095169A2 2003-04-21 2004-11-04 Josef Osterweil Method and system for data writing/reading onto/from and emulating a magnetic stripe
+US20040255145A1 2003-05-06 2004-12-16 Jerry Chow Memory protection systems and methods for writable memory
+US20050006462A1 2003-07-10 2005-01-13 Rouille David W. Security system
+US20050039027A1 2003-07-25 2005-02-17 Shapiro Michael F. Universal, biometric, self-authenticating identity computer having multiple communication ports
+WO2005027030A1 2003-09-09 2005-03-24 Human Technologies, Inc. Magnetic stripe generating device, authentication device, authentication system and magnetic stripe generating method
+US20050071282A1 2003-09-29 2005-03-31 Lu Hongqian Karen System and method for preventing identity theft using a secure computing device
+US20050109838A1 2003-10-10 2005-05-26 James Linlor Point-of-sale billing via hand-held devices
+US20050122209A1 2003-12-03 2005-06-09 Black Gerald R. Security authentication method and system
+US20050127166A1 2003-12-15 2005-06-16 Matsushita Electric Industrial Co., Ltd. Secure device and information processing apparatus
+US20050133606A1 2003-12-17 2005-06-23 Brown Kerry D. Programmable magnetic data storage card
+US20050136964A1 2003-12-22 2005-06-23 Le Saint Eric F. Intelligent remote device
+US20050197859A1 2004-01-16 2005-09-08 Wilson James C. Portable electronic data storage and retreival system for group data
+US20050177724A1 2004-01-16 2005-08-11 Valiuddin Ali Authentication system and method
+US20050168339A1 2004-02-04 2005-08-04 Semiconductor Energy Laboratory Co., Ltd. ID label, ID tag, and ID card
+US6883718B1 2004-02-27 2005-04-26 Imation Corp. Credit card sized memory card with host connector
+US20050224589A1 2004-04-11 2005-10-13 Electronics And Telecommunications Research Institute SD memory card for extension of function
+US20070257797A1 2004-04-14 2007-11-08 Arjowiggins Security Structure Including an Electronic Device, in Particular for Fabricating a Security Document or a Document of Value
+US20050240778A1 2004-04-26 2005-10-27 E-Smart Technologies, Inc., A Nevada Corporation Smart card for passport, electronic passport, and method, system, and apparatus for authenticating person holding smart card or electronic passport
+US20050258245A1 2004-05-20 2005-11-24 Bates Peter K Radio frequency fobs and methods of using the same
+US20050268058A1 2004-05-27 2005-12-01 Microsoft Corporation Alternative methods in memory protection
+WO2005119607A3 2004-06-03 2006-05-04 Siva G Narendra System and method for securing financial transactions
+WO2005119608A1 2004-06-03 2005-12-15 Tyfone, Inc. System and method for securing financial transactions
+WO2005119607A2 2004-06-03 2005-12-15 Tyfone, Inc. System and method for securing financial transactions
+US20060027655A1 2004-07-15 2006-02-09 Patrick Smets Method and system for conducting contactless payment card transactions
+US20060011731A1 2004-07-19 2006-01-19 Gemplus Durable plastic mini card and method for testing its durability
+US20060124755A1 2004-12-15 2006-06-15 Takafumi Ito Card-shaped memory device incorporating IC card function, adapter for the same and host device
+US20060186209A1 2005-02-22 2006-08-24 Tyfone, Inc. Electronic transaction card
+WO2006091709A2 2005-02-22 2006-08-31 Tyfone, Inc. Electronic transaction card
+US20090298540A1 2005-02-22 2009-12-03 Tyfone, Inc. Electronic transaction card
+US7828214B2 * 2005-02-22 2010-11-09 Tyfone, Inc. Mobile phone with electronic transaction card
+US20110053644A1 2005-02-22 2011-03-03 Tyfone, Inc. Mobile device with transaction card in add-on slot
+US7581678B2 2005-02-22 2009-09-01 Tyfone, Inc. Electronic transaction card
+WO2006091709A3 2005-02-22 2006-12-21 Tyfone Inc Electronic transaction card
+US7059520B1 2005-03-17 2006-06-13 Joel Shtesl Universal credit card integrated with cellular telephone
+WO2006108184A1 2005-04-07 2006-10-12 Tyfone, Inc. Sleeve for electronic transaction card
+US20060226217A1 2005-04-07 2006-10-12 Tyfone, Inc. Sleeve for electronic transaction card
+WO2007011937A2 2005-07-18 2007-01-25 Tyfone, Inc. Electronic stripe cards
+US7333062B2 2005-09-15 2008-02-19 Motorola, Inc. Wireless communication device with integrated antenna
+US20070076877A1 2005-09-30 2007-04-05 Sony Ericsson Mobile Communications Ab Shared key encryption using long keypads
+US20070145135A1 2005-12-28 2007-06-28 Fabrice Jogand-Coulomb Methods used in a nested memory system with near field communications capability
+US20070145152A1 2005-12-28 2007-06-28 Fabrice Jogand-Coulomb Nested memory system with near field communications capability
+US20080279381A1 2006-12-13 2008-11-13 Narendra Siva G Secure messaging
+US20080244208A1 2007-03-30 2008-10-02 Narendra Siva G Memory card hidden command protocol
+WO2008121566A1 2007-03-30 2008-10-09 Tyfone, Inc. Memory card hidden command protocol
+US20090065572A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Wirelessly executing transactions with different enterprises
+US20090069051A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Wirelessly accessing broadband services using intelligent covers
+US20090070272A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Wirelessly executing financial transactions
+US20090070861A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Wirelessly accessing broadband services using intelligent cards
+US20090108063A1 2007-09-12 2009-04-30 Deepak Jain Wirelessly Communicating Radio Frequency Signals
+US20090065571A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Selectively switching antennas of transaction cards
+US20090199283A1 2007-09-12 2009-08-06 Devicefidelity, Inc. Wirelessly receiving broadcast signals using intelligent cards
+US20090069050A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Updating mobile devices with additional elements
+US20090069049A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Interfacing transaction cards with host devices
+US20090069052A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Receiving broadcast signals using intelligent covers for mobile devices
+US20090070691A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Presenting web pages through mobile host devices
+US20090152361A1 2007-12-14 2009-06-18 Narendra Siva G Memory card based contactless devices
+WO2009147548A2 2008-05-27 2009-12-10 Nxp B.V. Method for storing nfc applications in a secure memory device
+US20100033310A1 2008-08-08 2010-02-11 Narendra Siva G Power negotation for small rfid card
+US20100033307A1 2008-08-08 2010-02-11 Narendra Siva G Small rfid card with integrated inductive element
+US20100213265A1 2009-02-24 2010-08-26 Tyfone, Inc. Contactless device with miniaturized antenna
+WO2010099093A1 2009-02-24 2010-09-02 Tyfone, Inc. Contactless device with miniaturized antenna
+* Cited by examiner, † Cited by third party
+Non-Patent Citations (14)
+Title
+International Preliminary Report and Written Opinion for PCT Application No. PCT/US2006/027847, issued on Jan. 22, 2008, 10 pages.
+International Preliminary Report and Written Opinion for the PCT Application No. PCT/US2005/022993, issued on Dec. 4, 2006, 6 pages.
+International Preliminary Report and Written Opinion on Patentability for PCT Application No. PCT/US2005/019988 , issued on Dec. 4, 2006, 9 pages.
+International Preliminary Report on Patentability and Written Opinion for PCT Application No. PCT/US2006/006361, issued on Aug. 28, 2007, 8 pages.
+International Preliminary Report on Patentability and Written Opinion for PCT Application No. PCT/US2008/057588, issued on Oct. 6, 2009, 6 pages.
+International Preliminary Report on Patentability and Written Opinion for the US Patent Application No. PCT/US2006/013603, issued on Oct. 9, 2007, 7 pages.
+International Search Report and Written Opinion for the PCT Application No. PCT/US2010/025014, mailed on Apr. 15, 2010, 9 pages.
+International Search Report for PCT Application No. PCT/US2005/019988, mailed on Dec. 16, 2005, 5 pages.
+International Search Report for PCT Application No. PCT/US2006/027847, mailed on Mar. 29, 2007, 5 pages.
+International Search Report for PCT Application No. PCT/US2008/057588, mailed on Aug. 7, 2008, 1 page.
+International Search Report for the PCT Application No. PCT/US2006/006361, mailed on Sep. 22, 2006, 4 pages.
+International Search Report for the PCT Application No. PCT/US2006/013603, mailed on Jan. 9, 2006, 3 pages.
+International Search Report received for the PCT Application No. PCT/US2005/022993, mailed on Oct. 21, 2005, 3 pages.
+Lee, Youbok "Anntenna Circuit Design for RFID Applications", Microchip, AN710, 2003, Microchip Technology Inc., 50 pages.
+* Cited by examiner, † Cited by third party
+Cited By (55)
+Search Within Citing Patents
+Publication number Priority date Publication date Assignee Title
+US8083145B2 2005-02-22 2011-12-27 Tyfone, Inc. Provisioning an add-on apparatus with smartcard circuity for enabling transactions
+US9251453B1 2005-02-22 2016-02-02 Tyfone, Inc. Wearable device with time-varying magnetic field and single transaction account numbers
+US9208423B1 2005-02-22 2015-12-08 Tyfone, Inc. Mobile device with time-varying magnetic field and single transaction account numbers
+US9202156B2 2005-02-22 2015-12-01 Tyfone, Inc. Mobile device with time-varying magnetic field
+US9004361B2 2005-02-22 2015-04-14 Tyfone, Inc. Wearable device transaction system
+US9092708B1 2005-02-22 2015-07-28 Tyfone, Inc. Wearable device with time-varying magnetic field
+US8136732B2 2005-02-22 2012-03-20 Tyfone, Inc. Electronic transaction card with contactless interface
+US8573494B2 2005-02-22 2013-11-05 Tyfone, Inc. Apparatus for secure financial transactions
+US8474718B2 2005-02-22 2013-07-02 Tyfone, Inc. Method for provisioning an apparatus connected contactless to a mobile device
+US8091786B2 2005-02-22 2012-01-10 Tyfone, Inc. Add-on card with smartcard circuitry powered by a mobile device
+US8408463B2 2005-02-22 2013-04-02 Tyfone, Inc. Mobile device add-on apparatus for financial transactions
+US8231063B2 2005-03-26 2012-07-31 Privasys Inc. Electronic card and methods for making same
+US8165635B2 2006-09-01 2012-04-24 Vivotech, Inc. Methods, systems, and computer readable media for over the air (OTA) provisioning of soft cards on devices with wireless communications capabilities
+US20090164322A1 * 2006-09-01 2009-06-25 Mohammad Khan Methods, systems, and computer readable media for over the air (ota) provisioning of soft cards on devices with wireless communications capabilities
+US20090266881A1 * 2008-04-29 2009-10-29 Ayman Hammad Device including form factor indicator
+US8770470B2 * 2008-04-29 2014-07-08 Visa U.S.A. Inc. Device including form factor indicator
+US20090271211A1 * 2008-04-29 2009-10-29 Ayman Hammad Device including user exclusive data tag
+US8937549B2 2008-08-08 2015-01-20 Tyfone, Inc. Enhanced integrated circuit with smartcard controller
+US8072331B2 2008-08-08 2011-12-06 Tyfone, Inc. Mobile payment device
+US8410936B2 2008-08-08 2013-04-02 Tyfone, Inc. Contactless card that receives power from host device
+US8451122B2 2008-08-08 2013-05-28 Tyfone, Inc. Smartcard performance enhancement circuits and systems
+US20110180610A1 * 2008-08-08 2011-07-28 Tyfone, Inc. Mobile payment device
+US9390359B2 2008-08-08 2016-07-12 Tyfone, Inc. Mobile device with a contactless smartcard device and active load modulation
+US9483722B2 2008-08-08 2016-11-01 Tyfone, Inc. Amplifier and transmission solution for 13.56MHz radio coupled to smartcard controller
+US9122965B2 2008-08-08 2015-09-01 Tyfone, Inc. 13.56 MHz enhancement circuit for smartcard controller
+US9117152B2 2008-08-08 2015-08-25 Tyfone, Inc. 13.56 MHz enhancement circuit for smartmx smartcard controller
+US9489608B2 2008-08-08 2016-11-08 Tyfone, Inc. Amplifier and transmission solution for 13.56MHz radio coupled to smartmx smartcard controller
+US8814053B2 2008-08-08 2014-08-26 Tyfone, Inc. Mobile payment device with small inductive device powered by a host device
+US8866614B2 2008-08-08 2014-10-21 Tyfone, Inc. Active circuit for RFID
+US20100041368A1 * 2008-08-12 2010-02-18 Pradeep Kumar Methods, systems and computer readable media for electronically delivering a prepaid card to a mobile device
+US8620299B2 2008-08-12 2013-12-31 Mastercard International Incorporated Methods, systems and computer readable media for electronically delivering a prepaid card to a mobile device
+US9129280B2 2008-08-20 2015-09-08 X-Card Holdings, Llc Secure smart card system
+US20110140841A1 * 2008-08-20 2011-06-16 X-Card Holdings, Llc Secure smart card system
+US8814052B2 2008-08-20 2014-08-26 X-Card Holdings, Llc Secure smart card system
+US8594730B2 * 2008-08-20 2013-11-26 X-Card Holdings, Llc Secure smart card system
+US20120052800A1 * 2008-08-20 2012-03-01 X-Card Holdings, Llc Secure smart card system
+US20100088188A1 * 2008-10-06 2010-04-08 Pradeep Kumar Systems, methods, and computer readable media for payment and non-payment virtual card transfer between mobile devices
+US20100174598A1 * 2008-12-31 2010-07-08 Mohammad Khan Methods, systems and computer readable media for redeeming and delivering electronic loyalty reward certificates using a mobile device
+US8231061B2 2009-02-24 2012-07-31 Tyfone, Inc Contactless device with miniaturized antenna
+US20100241494A1 * 2009-03-18 2010-09-23 Pradeep Kumar Methods, systems and computer readable media for selecting and delivering electronic value certificates using a mobile device
+US8645222B1 2009-03-20 2014-02-04 Jpmorgan Chase Bank, N.A. System and methods for mobile ordering and payment
+US9230259B1 2009-03-20 2016-01-05 Jpmorgan Chase Bank, N.A. Systems and methods for mobile ordering and payment
+US20120284180A1 * 2011-05-04 2012-11-08 Chien-Kang Yang Mobile transaction method and portable electronic device for mobile transaction
+US8875228B2 2011-11-01 2014-10-28 Jvl Ventures, Llc Systems, methods, and computer program products for managing secure elements
+US9544759B2 2011-11-01 2017-01-10 Google Inc. Systems, methods, and computer program products for managing states
+US9104887B2 2011-11-01 2015-08-11 Google Inc. Systems, methods, and computer program products for interfacing multiple service provider trusted service managers and secure elements
+US9323945B2 2011-11-01 2016-04-26 Google Inc. Systems, methods, and computer program products for managing secure elements
+US9305294B2 2012-03-30 2016-04-05 Mastercard International Incorporated Systems and methods for transmitting magnetic stripe data
+US9165293B2 2012-03-30 2015-10-20 Mastercard International Incorporated Systems and methods for waveform transmission of transaction card data
+US9479571B2 2012-09-18 2016-10-25 Google Inc. Systems, methods, and computer program products for interfacing multiple service provider trusted service managers and secure elements
+US9286049B2 2013-03-26 2016-03-15 Google Inc. Systems, methods, and computer program products for managing service installation
+US9495558B2 2013-03-26 2016-11-15 Google Inc. Systems, methods, and computer program products for managing access control
+US9408075B2 2013-06-17 2016-08-02 Google Inc. Systems, methods, and computer program products for processing a request relating to a mobile communication device
+US9292345B2 2013-07-08 2016-03-22 Google Inc. Systems, methods, and computer program products for processing sets of instructions for mobile devices
+US9311491B2 2013-09-30 2016-04-12 Google Inc. Systems, methods, and computer program products for securely managing data on a secure element
+* Cited by examiner, † Cited by third party
+Also Published As
+Publication number Publication date Type
+WO2006091709A3 2006-12-21 Application
+US20110269438A1 2011-11-03 Application
+US20160086073A1 2016-03-24 Application
+US20150294208A1 2015-10-15 Application
+US20090298540A1 2009-12-03 Application
+US20150213350A1 2015-07-30 Application
+US8083145B2 2011-12-27 Grant
+US20120280038A1 2012-11-08 Application
+US20110073665A1 2011-03-31 Application
+US20110053644A1 2011-03-03 Application
+US20110272468A1 2011-11-10 Application
+US20120318864A1 2012-12-20 Application
+US8091786B2 2012-01-10 Grant
+US20160055405A1 2016-02-25 Application
+US20110073663A1 2011-03-31 Application
+US7954715B2 2011-06-07 Grant
+US20110223972A1 2011-09-15 Application
+US7828214B2 2010-11-09 Grant
+US9208423B1 2015-12-08 Grant
+US9202156B2 2015-12-01 Grant
+US20060186209A1 2006-08-24 Application
+US20120178433A1 2012-07-12 Application
+US20120138675A1 2012-06-07 Application
+US20110272469A1 2011-11-10 Application
+US20110077052A1 2011-03-31 Application
+US8403219B2 2013-03-26 Grant
+US7581678B2 2009-09-01 Grant
+US20120067964A1 2012-03-22 Application
+US8408463B2 2013-04-02 Grant
+US8136732B2 2012-03-20 Grant
+US7954716B2 2011-06-07 Grant
+US20150363684A1 2015-12-17 Application
+US20110220726A1 2011-09-15 Application
+US20130168453A1 2013-07-04 Application
+WO2006091709A2 2006-08-31 Application
+US20130037611A1 2013-02-14 Application
+US9251453B1 2016-02-02 Grant
+US20120071205A1 2012-03-22 Application
+US9004361B2 2015-04-14 Grant
+US20120280039A1 2012-11-08 Application
+US8573494B2 2013-11-05 Grant
+US9092708B1 2015-07-28 Grant
+US20160019450A1 2016-01-21 Application
+US8474718B2 2013-07-02 Grant
+Similar Documents
+Publication Publication Date Title
+US5500517A 1996-03-19 Apparatus and method for data transfer between stand alone integrated circuit smart card terminal and remote computer of system operator
+US7252232B2 2007-08-07 Adaptor for magnetic stripe card reader
+US6883715B1 2005-04-26 Multi-mode smart card, system and associated methods
+US7357331B2 2008-04-15 Selectable multi-purpose card
+US20060124755A1 2006-06-15 Card-shaped memory device incorporating IC card function, adapter for the same and host device
+US20080035740A1 2008-02-14 Proximity payment card with user-actuated switch and methods of making the card
+US6439464B1 2002-08-27 Dual mode smart card and associated methods
+US20080061149A1 2008-03-13 Proximity payment card with security interlock
+US20080034221A1 2008-02-07 Portable consumer device configured to generate dynamic authentication data
+US20080011859A1 2008-01-17 Method and apparatus for personalizing contactless card with switch
+US20090159681A1 2009-06-25 Cards and devices with magnetic emulators and magnetic reader read-head detectors
+US20090240625A1 2009-09-24 Powering financial transaction token with onboard power source
+US20070131761A1 2007-06-14 Techniques for co-existence of multiple stored value applications on a single payment device managing a shared balance
+US20140001263A1 2014-01-02 Wireless card reader with one or more card interfaces
+US20080314971A1 2008-12-25 Mobile subscriber device for financial transaction tokens
+US20080121726A1 2008-05-29 Self-Programming Transaction Card
+US20090255996A1 2009-10-15 Three-legacy mode payment card with parametric authentication and data input elements
+US6145035A 2000-11-07 Card cradle system and method
+US20060065741A1 2006-03-30 Multi-application smartcard
+Shelfer et al. 2002 Smart card evolution
+US20090134218A1 2009-05-28 Multifunction removable cover for portable payment device
+EP0213534A2 1987-03-11 IC card
+US20080319912A1 2008-12-25 Powering financial transaction token with onboard and external power source
+KR20080039330A 2008-05-07 Display and control device for contact and contactless smart card terminal and circuit of the device
+US20100193583A1 2010-08-05 Casing for electronic key and system comprising such a casing
+Legal Events
+Date Code Title Description
+2014-07-16 AS Assignment
+
+Owner name: TYFONE, INC., OREGON
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNORS:NARENDRA, SIVA G;TADEPALLI, PRABHAKAR;SPITZER, THOMAS N;SIGNING DATES FROM 20050218 TO 20050219;REEL/FRAME:033339/0260
+2014-12-10 FPAY Fee payment
+
+Year of fee payment: 4
+2014-12-10 SULP Surcharge for late payment
+2015-05-15 AS Assignment
+
+Owner name: RPX CORPORATION, CALIFORNIA
+
+Free format text: SECURITY INTEREST;ASSIGNOR:TYFONE, INC.;REEL/FRAME:035685/0760
+
+Effective date: 20150515
+Data provided by IFI CLAIMS Patent Services
+About Send Feedback Terms Privacy Policy
+memorycard
+

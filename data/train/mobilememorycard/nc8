@@ -1,0 +1,410 @@
+
+ Patents
+13 of 3,53,082
+Search Terms
+Search Fields
+Before priority
+After filing
+Configuration with the payment button in the mobile communication device, the way the payment process is started
+Abstract
+On the interface side (7), a removable memory card (2), on which at least one payment card unit is located (5), appears to be a removable memory card (2) for the extension of the mobile communication device's (4) memory capacity up till the moment when the payment purpose button (1) is physically pressed. Then the removable memory card (2) switches into the payment function's access mode and is made accessible on its interface (7) as a card with a Secure Element (3) having at least one payment card unit (5). After the termination and/or interruption of the payment process, the removable memory card (2) switches into the access mode for the memory capacity extension function of the mobile communication device (4). This configuration and method increase the security of the payment process while retaining high level of manipulation comfort. At the mobile communication device with a payment purpose button (1) it is possible to switch the access mode exclusively by physical press of the hardware payment button (1) by which the unauthorized start of the payment application without the user's knowledge is prevented.
+Images (6)
+Classifications
+G06Q20/20 Point-of-sale [POS] network systems
+View 18 more classifications
+US20110021175A1
+
+US Application
+Download PDF
+Find Prior Art
+
+Legal status
+    Granted 
+Application number
+    US12899346
+Other versions
+    US8406809B2 (Grant) 
+
+Inventor
+    Miroslav Florek 
+    Michal Masaryk 
+Current Assignee
+    SMK Corp 
+Original Assignee
+    Logomotion sro 
+
+Priority date
+    2009-05-03 
+Filing date
+    2010-10-06 
+Publication date
+    2011-01-27
+
+Info
+    Patent citations (100)
+    Cited by (44)
+    Also published as (18)
+    Legal events
+    Similar documents
+External links
+    USPTO
+    USPTO Assignment
+    Espacenet
+    Global Dossier
+    Discuss
+
+Description
+
+    CROSS-REFERENCE TO RELATED APPLICATIONS
+    [0001]
+    This application is a continuation of PCT Application No. PCT/IB2010/051915, filed May 1, 2010, which claims priority from Slovak patent applications nos. PP00032-2009, filed May 3, 2009, PP50009-2010, filed Mar. 27, 2010, PP50012-2010, filed Apr. 8, 2010, and PP50016-2010, filed Apr. 19, 2010. The entire disclosure of each of the above-referenced patent applications is hereby incorporated herein by reference.
+    TECHNICAL FIELD
+    [0002]
+    The solution refers to increase in security and comfort of payments over the mobile communication device, such as a mobile phone, where data on the payment card and possibly even on the payment terminal are stored on the removable memory card that is e.g. in the form of a SD, microSD card and that is inserted into a corresponding slot of the mobile communication device.
+    BACKGROUND
+    [0003]
+    In times when the usage of mobile communication devices, such as mobile phones, for cashless payment applications is increasing, the request for increase in comfort and security of payment processes will rise. Mobile communication devices have the possibility of intentional but also unobserved connection to a mobile data network, a fact that raises the risk of penetration by harmful programs into the mobile communication device's environment.
+    [0004]
+    A purpose Pay-button is known according to the patent file published as WO 2010/011670 A2. The NFC communication element necessary for the run of contactless payment application is started by it. This button simplifies launch of the payment application, however its connection to the NFC communication element does not offer increased security in comparison to older solutions, where the payment application was started by a virtual button displayed in the menu on the mobile communication device's display. The analysis of possible attacks on the payment card stored within the mobile communication device pointed out a risk based on the fact that an unsuitable program, e.g. in the form of Trojan horse, can initialize the payment application without the user's knowledge. Because the payment card in the mobile communication device is inserted in the payment card reader all the time, then this kind of placement itself includes the possibility that there will be constant trials to read data from the card. For this reason there is a danger that in the future it will come to the failure of the payment card's security level, e.g. even of the EMV (EuropayMastercardVisa) standard, a situation that was considered to be improbable until recently since the payment card was inserted in the reader, e.g. in the POS (Point of sales) terminal, or in the ATM, for a long time and practically without interruption. For this reason, such a solution is required, which will not only increase the comfort but also the security of the payment card. The existing purpose buttons as e.g. the photo button in the mobile phone had only the purpose of accelerating and simplifying the access to selected function of the phone and it was not necessary to solve the security question of intentional start of the selected function.
+    [0005]
+    The new, more secure solution should be comfortable enough so it would not lower the comfort of the attendant, which is an important presumption in order to spread cashless payments using a mobile phone.
+    SUMMARY
+    [0006]
+    The deficiencies mentioned are to a great extent eliminated by a configuration with a payment button in the mobile communication device, where in accordance with this solution a removable memory card with at least one payment card unit is also located. The subject matter of this solution lies in the fact that the removable memory card has two independent access modes. One access mode is designed and set for the common function of the removable memory card which rests in the extension of the memory capacity of the mobile communication device, such as a mobile phone. This access mode prevents access to the unit with the payment card and to the contactless communication element on the removable memory card. Basically, on the removable memory card's interface this card appears to be a common removable card without the Secure Element and without the communication element on the removable memory card when the card is in this access mode.
+    [0007]
+    The second access mode is designed and set for the payment function of the removable memory card, where the access to the unit with the payment card and also to the contactless communication element on the removable memory card is allowed from the mobile communication device's circuits over an interface. In preferable configuration even the unit with the payment terminal can be located on the removable memory card and then this unit is also accessible just and only in the access mode for the payment function.
+    [0008]
+    The two modes are alternatively selectable, it is important that the access mode for the payment function of the removable memory card is active only after physical press of the hardware payment button. Even the common flash memory can be accessible in the payment function access mode.
+    [0009]
+    The removable memory card, on which at least one payment card unit is located, appears to be a removable memory card for the extension of the memory capacity of the mobile communication device on the interface and that up until the moment when the purpose payment button is physically pressed. Then the removable memory card is made accessible on the interface as a card with Secure Element and at least one payment card unit.
+    [0010]
+    The removable memory card according to this solution has an architecture which encompasses a commonly accessible flash memory and also has hardware and software elements of the payment card, or even of the payment terminal. During common usage of the mobile communication device, the removable memory card behaves as if it contained only a flash memory for the extension of the memory capacity with a corresponding microcontroller. In this state, the reading and writing of files is enabled in the memory of the removable memory card, however other elements, e.g. the Secure Element, the NFC communication element are hidden and cannot be managed or run in this mode.
+    [0011]
+    The existence of the purpose hardware payment button enables the change of the removable payment card's character on its interface level to be tied exclusively to the physical press of the payment button. The necessity of physical press of the button excludes the possibility to run the payment application by some undesirable software or script imitating the will of the user.
+    [0012]
+    By this configuration we will exclude the risk that the removable memory card's interface will be misused through the trials to overcome the security elements without the user's knowledge. The connection between the physical press of the button and the run of the corresponding Firmware can be stored in the memory in such a way that it is either never possible to rewrite it, change it or update it or that it is not possible to do it without the corresponding password. The unauthorized program then cannot emulate the signal from the physical payment button in such a way so this signal would appear to the other steps of the application's run as a real physical press of the button. Since the intruder will not have the possibility to physically press the described button on the remote mobile communication device, it is excluded that he could gain uncontrollable access to the payment card's unit or to the unit of the payment terminal on the removable memory card. The removable memory card will behave as a standard memory card and only after physical press of the payment button it will switch into the payment card mode. The end of payment application will automatically switch the card's mode into the common extension of the memory capacity mode.
+    [0013]
+    The new way of starting the payment process in the mobile communication device is based on the same principle of the two access modes. This way encompasses the communication between the interface of the mobile communication device and an inserted removable memory card with at least one payment card unit according to this solution, the subject matter of which is based on the fact that before the run of the payment process the removable memory card is in the access mode to the common extension of memory capacity function. Then the unit with the payment card, and pertinently even the contactless communication element and the unit with the payment terminal, in case they are located on the removable memory card, are inaccessible from the side of its interface. Only exclusively after the physical press of the hardware payment button, the removable memory card switches into access mode for the payment function of the removable memory card with allowed access to the unit with the payment card.
+    BRIEF DESCRIPTION OF THE DRAWINGS
+    [0014]
+    The solution is explained in detail on the FIGS. 1 to 5.
+    [0015]
+    On the FIG. 1, there is a schematically displayed diagram showing the successiveness of the payment application's run with the press of the hardware payment button, where it is possible to see the localization of the individual tasks and processes on the phone hardware/phone firmware/removable memory card level.
+    [0016]
+    On the FIG. 2 we can see the structure, with which the removable memory card presents itself on the outside in case it is in the common extension of the mobile phone's memory access mode.
+    [0017]
+    On the FIG. 3 there is the structure, with which the removable memory card presents itself on the outside in case of payment card access mode. In this configuration there is even the unit with the payment terminal located on the removable memory card.
+    [0018]
+    On the FIG. 4 there is an example of mobile phone with the payment button.
+    [0019]
+    On the FIG. 5 there is removable memory card of the microSD type with two independent Secure Elements and with the communication element that is located directly on the memory card just like antenna is. This figure can also depict the configuration with the unit of indifferent POS payment terminal and with four independent payment cards' units from various banks
+    DETAILED DESCRIPTION OF ILLUSTRATIVE EMBODIMENTS
+    [0020]
+    In this example according to the FIGS. 1 to 4, there is a description of the system, where a removable memory card 2 is in the form of microSD card. In this example there are two Secure Elements 3 located on it, where one Secure Element 3 is designed for the payment card unit 5, or respectively for several payment card units 5 from different issuers and the second Secure Element 3 contains the payment terminal unit 6. In another example the removable memory card 2 can contain only one payment card unit 5 without the payment terminal unit 6 being localized.
+    [0021]
+    The removable memory card 2 with a common flash memory 13 has the interface 7 of the common microSD standard and it is inserted into the mobile communication device's 4 slot. It is a common slot designed for the insertion of the extension memories.
+    [0022]
+    In this example, the NFC communication element 8 with an antenna 12 is located on the removable memory card 2. The mobile communication device 4 has a payment button 1 located in the keyboard field. The payment button 1 is connected with a microswitch on the printed circuit of the mobile communication device's 4. The specific realization of the microswitch is not important and can be of different formats, e.g. as a membrane switch, capacity switch and similar.
+    [0023]
+    The payment button 1 is connected to the Firmware in such a way that the only acceptable command for the change of access mode of the removable memory card 2 can come from the contact of the payment button 1 or at least in case the mobile communication device 4 is equipped with this kind of payment button 1. In case, the same removable memory card 2 will be inserted into the slot of the mobile communication device 4 without the purpose hardware payment button 1, the change of access mode will be realized over the menu on the display 10 of the mobile communication device 4. That being the case, the removable memory card 2 will be functional in both access modes, however the entire connection with the mobile communication device 4 will have lower security of the payment.
+    [0024]
+    In the mobile phone, which is equipped with the payment button 1, it will not be possible to access Secure Element 3 on the removable memory card by any other way then over the predefined firmware connected with the payment button 1. In this example it will be the LGM application.
+    [0025]
+    The two access modes can have the following characteristics:
+    [0000]
+    		access mode
+    	access mode 	for payment
+    function 	extension of the memory 	function
+    read/write files 	YES 	YES
+    NFC communication 	NO 	NO
+    extended access (SDIO . . .) 	YES/NO 	YES
+    	(according to the phone) 	
+    access to the SE from the 	NO 	YES
+    application in the phone 		
+    file cache memory in flash 	YES/NO 	NO
+    	(according to the phone) 	
+    permanent powering of the 	YES/NO 	YES
+    card 	(according to the phone)
+    [0026]
+    In the access mode of the payment function, the caching of the files on the removable memory card 2 will be switched off, the access to the flash memory 13 and the access into the file system will be supported.
+    [0027]
+    In case the mobile communication device 4 will be capable of supporting higher communication interface, e.g. the SDIO standard (Secure Digital Input Output), McEX, the corresponding interface can be accessible even in the access mode of the payment function.
+    INDUSTRIAL APPLICABILITY
+    [0028]
+    The industrial applicability is obvious. With this invention, it is possible to industrially and repeatedly arrange configurations including the hardware payment button in the mobile communication device, where this button presents the selector of the current access mode of the removable memory card.
+    LIST OF RELATED SYMBOLS
+    [0000]
+            1—a payment button
+            2—a removable memory card
+            3—a Secure Element
+            4—a mobile communication device
+            5—a payment card unit
+            6—a payment terminal application
+            7—an interface
+            8—a communication element
+            9—a keyboard
+            10—a display
+            11—a microcontroller
+            12—an antenna of the removable memory card
+            13—a memory
+
+Claims (18)
+1. A removable memory card for use in a mobile communication device (4) having a hardware payment button (1), the removable memory card (2) comprising:
+a secure element (3);
+a contactless communication element (8);
+a payment card unit (5); and
+a memory (13),
+wherein the removable memory card has a first access mode for extension of a memory capacity of the mobile communication device (4) in which access to the secure element (3) and to the contactless communication element (8) is blocked, and
+a second access mode for a payment function of the removable memory card (2) with authorized access to the secure element (3) with the payment card unit (5), wherein the second access mode is active only after a physical press of the hardware payment button (1).
+2. The removable memory card of claim 1, further comprising a payment terminal unit (6) that is accessible exclusively in the second access mode.
+3. The removable memory card of claim 1, further comprising an antenna (12) connected to the contactless communication element (8).
+4. The removable memory card of claim 1, wherein the removable memory card (2) is an SD or microSD card.
+5. The removable memory card of claim 1, wherein the communication element (8) is a near-field communication (NFC) element.
+6. A system for contactless payment, the system comprising:
+a mobile communication device (4) having a hardware payment button (1); and
+a removable memory card (2) comprising a secure element (3), a contactless communication element (8), a payment card unit (5), and a memory (13),
+wherein the removable memory card has a first access mode for extending a memory capacity of the mobile communication device (4), wherein access to the secure element (3) and to the contactless communication element (8) is blocked, and
+a second access mode for a payment function of the removable memory card (2) with authorized access to the secure element (3) with the payment card unit (5), wherein the second access mode is active only after a physical press of the hardware payment button (1).
+7. The system of claim 6, wherein the removable memory card further comprises a payment terminal unit (6) that is accessible exclusively in the second access mode.
+8. The system of claim 6, wherein the removable memory card further comprises an antenna (12) connected to the contactless communication element (8).
+9. The system of claim 6, wherein the mobile communication device (4) is adapted to block emulation of a signal from the payment button (1) on an impulse from another input to the mobile communication device (4).
+10. The system of claim 6, wherein the removable memory card (2) is an SD or microSD card.
+11. The system of claim 6, wherein the communication element (8) is a near-field communication (NFC) element.
+12. A method for starting a payment process from a mobile communication device (4) having a hardware payment button (1), the method comprising:
+communicating between the mobile communication device (4) and an interface (7) of a removable memory card (2) inserted into the mobile communication device (4), the removable memory card (2) having a payment card unit (5),
+wherein, before the payment process is started, the removable memory card (2) is in a first access mode for extending a memory capacity of the mobile communication device (4) in which the payment card unit (5) is inaccessible from a side of interface (7), and
+wherein, after a physical press of the hardware payment button (1), the removable memory card (2) switches into a second access mode for a payment function of the removable memory card (2) with allowed access to the payment card unit (5).
+13. The method of claim 12, wherein the removable memory card (2) comprises a secure element (3) with a payment terminal unit (6) that is accessible only after the removable memory card (2) is switched into the second access mode.
+14. The method of claim 12, wherein, after the payment process is ended or interrupted, the removable memory card (2) switches back into the first access mode.
+15. The method of claim 12, wherein the removable memory card further comprises an antenna (12) connected to the contactless communication element (8).
+16. The method of claim 12, further comprising blocking an emulation of a signal from the payment button (1) on an impulse from another input to the mobile communication device (4).
+17. The method of claim 12, wherein the removable memory card (2) is an SD or microSD card.
+18. The method of claim 12, wherein the communication element (8) is a near-field communication (NFC) element.
+Patent Citations (100)
+Publication number Priority date Publication date Assignee Title
+US5574470A * 1994-09-30 1996-11-12 Palomar Technologies Corporation Radio frequency identification transponder apparatus and method
+US5608417A * 1994-09-30 1997-03-04 Palomar Technologies Corporation RF transponder system with parallel resonant interrogation series resonant response
+US6070796A * 1995-08-21 2000-06-06 Sirbu; Cornel Conditional access method and device
+US6070795A * 1996-09-24 2000-06-06 Koninklijke Kpn N.V. Method of making recoverable smart card transactions, a method of recovering such a transaction, as well as a smart card allowing recoverable transactions
+US6062472A * 1996-12-23 2000-05-16 Koninklijke Ptt Nederland N.V. System and method for increasing a value of an electronic payment card including performing a restore transaction in response to interruption of a value increase transaction
+US6450407B1 * 1998-04-17 2002-09-17 Viztec, Inc. Chip card rebate system
+US6976011B1 * 1998-06-15 2005-12-13 Societe Francaise Du Radiotelephone Process for making remote payments for the purchase of goods and/or a service through a mobile radiotelephone, and the corresponding system and mobile radiotelephone
+US6745935B1 * 1998-10-13 2004-06-08 Regie Autonome Des Transports Parisiens Method for exchanging data between an automatic dispenser and a microcircuit card
+US6615243B1 * 1999-04-01 2003-09-02 Thomson Licensing S.A. System and method for programming and transmitting macros for controlling audio/video devices
+US20010000832A1 * 1999-06-29 2001-05-10 Newman Frederic M. Tool system for disassembling sucker rods
+US20020147658A1 * 1999-09-13 2002-10-10 Kwan Khai Hee Computer network method for conducting payment over a network by debiting and crediting telecommunication accounts
+US20020062249A1 * 2000-11-17 2002-05-23 Iannacci Gregory Fx System and method for an automated benefit recognition, acquisition, value exchange, and transaction settlement system using multivariable linear and nonlinear modeling
+US7481358B2 * 2001-02-23 2009-01-27 Sony Corporation Communication system, card, management server, communication method, program, and record medium having recorded thereon program
+US20030055738A1 * 2001-04-04 2003-03-20 Microcell I5 Inc. Method and system for effecting an electronic transaction
+US20020163479A1 * 2001-05-04 2002-11-07 Wei-Kang Lin Printed radio frequency sensing cards and fabricating methods therefor
+US20070083772A1 * 2001-07-09 2007-04-12 Shunji Harada Digital work protection system, record/ playback device, recording medium device, and model change device
+US20050092835A1 * 2001-08-02 2005-05-05 Chung Kevin K. Registration method, as for voting
+US20030138135A1 * 2002-01-23 2003-07-24 Chung Kevin Kwong-Tai Generation and verification of a digitized signature
+US20050222949A1 * 2002-02-07 2005-10-06 Balazs Inotay Architecture of simplified hardware requirements for bank card payment transactions in a large group of clients, transaction terminal unit, extended function sim card, and methods for individualisation and performing transaction
+US20040127256A1 * 2002-07-30 2004-07-01 Scott Goldthwaite Mobile device equipped with a contactless smart card reader/writer
+US20040066278A1 * 2002-10-04 2004-04-08 Hughes Michael A. Challenged-based tag authentication medel
+US20040087339A1 * 2002-10-30 2004-05-06 Scott Goldthwaite Mobile communication device equipped with a magnetic stripe reader
+US20070050871A1 * 2002-11-24 2007-03-01 Mashhour Ashraf K S Scheme for spreading and facilitating remote e-services
+US7436965B2 * 2003-02-19 2008-10-14 Microsoft Corporation Optical out-of-band key distribution
+US7568065B2 * 2003-06-17 2009-07-28 Thales Method for carrying out writing updating and allocating memory on a memory medium
+US20060224470A1 * 2003-07-02 2006-10-05 Lucia Garcia Ruano Digital mobile telephone transaction and payment system
+US20050072595A1 * 2003-10-01 2005-04-07 Cho Se-Hoon Method of manufacturing substrate for circuit board and smart label having the substrate
+US20060219776A1 * 2003-11-17 2006-10-05 Dpd Patent Trust Rfid reader with multiple interfaces
+US20050116050A1 * 2003-11-27 2005-06-02 Samsung Electronics Co., Ltd. Mobile terminal having smart card coupled with RFID tag and method for performing RFID function in such mobile terminal
+US7374100B2 * 2003-11-27 2008-05-20 Samsung Electronics Co., Ltd Mobile terminal having smart card coupled with RFID tag and method for performing RFID function in such mobile terminal
+US20050125745A1 * 2003-12-08 2005-06-09 Jyri Engestrom Apparatus, system, method and computer program product for creating shortcuts to functions in a personal communication device
+US20080048036A1 * 2004-08-04 2008-02-28 Sanden Corporation Contactless Ic Chip Reader/Writer
+US7689932B2 * 2004-12-28 2010-03-30 Nokia Corporation Maintenance of shortcut keys in a mobile device
+US20060143578A1 * 2004-12-28 2006-06-29 Nokia Corporation Maintenance of shortcut keys in a mobile device
+US20060146023A1 * 2005-01-04 2006-07-06 Oren Kidron Mobile computer mouse
+US20060152288A1 * 2005-01-07 2006-07-13 Texas Instruments Incorporated Method and system for amplifying a signal
+US20060186209A1 * 2005-02-22 2006-08-24 Tyfone, Inc. Electronic transaction card
+US7828214B2 * 2005-02-22 2010-11-09 Tyfone, Inc. Mobile phone with electronic transaction card
+US7581678B2 * 2005-02-22 2009-09-01 Tyfone, Inc. Electronic transaction card
+US20090098825A1 * 2005-03-07 2009-04-16 Heikki Huomo Method and mobile terminal device including smartcard module and near field communications
+US20080093467A1 * 2005-04-07 2008-04-24 Tyfone, Inc. Folding electronic transaction card
+US20060226217A1 * 2005-04-07 2006-10-12 Tyfone, Inc. Sleeve for electronic transaction card
+US20090088077A1 * 2005-04-11 2009-04-02 Innovision Research & Technology Plc Communications Apparatus
+US20060255160A1 * 2005-05-13 2006-11-16 Otto Winkler Memory card, the fabrication thereof and a mobile phone apparatus having a memory card
+US20070014408A1 * 2005-07-15 2007-01-18 Tyfone, Inc. Hybrid symmetric/asymmetric cryptography with user authentication
+US20070014407A1 * 2005-07-15 2007-01-18 Tyfone, Inc. Symmetric cryptography with user authentication
+US7805615B2 * 2005-07-15 2010-09-28 Tyfone, Inc. Asymmetric cryptography with user authentication
+US20070016957A1 * 2005-07-18 2007-01-18 Seaward Karen L Secure portable memory mouse device
+US7364092B2 * 2005-07-18 2008-04-29 Tyfone, Inc. Electronic stripe cards
+US20070106564A1 * 2005-11-04 2007-05-10 Utiba Pte Ltd. Mobile phone as a point of sale (POS) device
+US20070125840A1 * 2005-12-06 2007-06-07 Boncle, Inc. Extended electronic wallet management
+US20070158438A1 * 2005-12-15 2007-07-12 Fujitsu Limited Loop antenna and electronic equipment including loop antenna
+US20070152035A1 * 2005-12-29 2007-07-05 Adams Neil P Method and apparatus for contactless payment authentication
+US20070171079A1 * 2006-01-16 2007-07-26 Nec Tokin Corporation Device with coil antenna
+US7775446B2 * 2006-03-10 2010-08-17 Panasonic Corporation Card type information device and method for manufacturing same
+US20090119190A1 * 2006-03-30 2009-05-07 Obopay Inc. Virtual Pooled Account for Mobile Banking
+US20070233615A1 * 2006-03-30 2007-10-04 Obopay Inc. Member-Supported Mobile Payment System
+US20070235539A1 * 2006-04-05 2007-10-11 Jarkko Sevanto Mobile device with near field communication module and secure chip
+US20070241180A1 * 2006-04-14 2007-10-18 Harexinfotech Inc. Method of settling signatureless payment of bank card sales slip in mobile terminal, and system therefor
+US20090124273A1 * 2006-04-25 2009-05-14 Eberhard Back Method and Arrangement for Providing at Least One Piece of Information to a User Mobile Communication Device
+US20080120129A1 * 2006-05-13 2008-05-22 Michael Seubert Consistent set of interfaces derived from a business object model
+US20090199206A1 * 2006-06-12 2009-08-06 Klaus Finkenzeller Data storage medium and method for contactless communication between the data storage medium and a reader
+US20080059375A1 * 2006-09-06 2008-03-06 Basil Munir Abifaker Payment Card Terminal for Mobile Phones
+US20090132418A1 * 2006-12-19 2009-05-21 Morsillo Leon N Electronic payment processing system
+US20080233906A1 * 2007-03-19 2008-09-25 Kabushiki Kaisha Toshiba Frequency converter, radio receiver
+US20080250244A1 * 2007-04-05 2008-10-09 Michael Baentsch System and method for distribution of credentials
+US20080270246A1 * 2007-04-26 2008-10-30 Grace Chen Global electronic payment system
+US20090063312A1 * 2007-08-28 2009-03-05 Hurst Douglas J Method and System for Processing Secure Wireless Payment Transactions and for Providing a Virtual Terminal for Merchant Processing of Such Transactions
+US20100044444A1 * 2007-09-12 2010-02-25 Devicefidelity, Inc. Amplifying radio frequency signals
+US20090070272A1 * 2007-09-12 2009-03-12 Devicefidelity, Inc. Wirelessly executing financial transactions
+US20090070691A1 * 2007-09-12 2009-03-12 Devicefidelity, Inc. Presenting web pages through mobile host devices
+US20090070861A1 * 2007-09-12 2009-03-12 Devicefidelity, Inc. Wirelessly accessing broadband services using intelligent cards
+US20090069052A1 * 2007-09-12 2009-03-12 Devicefidelity, Inc. Receiving broadcast signals using intelligent covers for mobile devices
+US20090065571A1 * 2007-09-12 2009-03-12 Devicefidelity, Inc. Selectively switching antennas of transaction cards
+US20090069051A1 * 2007-09-12 2009-03-12 Devicefidelity, Inc. Wirelessly accessing broadband services using intelligent covers
+US20090065572A1 * 2007-09-12 2009-03-12 Devicefidelity, Inc. Wirelessly executing transactions with different enterprises
+US20090069050A1 * 2007-09-12 2009-03-12 Devicefidelity, Inc. Updating mobile devices with additional elements
+US20090199283A1 * 2007-09-12 2009-08-06 Devicefidelity, Inc. Wirelessly receiving broadcast signals using intelligent cards
+US20090069049A1 * 2007-09-12 2009-03-12 Devicefidelity, Inc. Interfacing transaction cards with host devices
+US20090108063A1 * 2007-09-12 2009-04-30 Deepak Jain Wirelessly Communicating Radio Frequency Signals
+US20100012721A1 * 2007-09-12 2010-01-21 Devicefidelity, Inc. Switching Between Internal and External Antennas
+US20100205432A1 * 2007-09-27 2010-08-12 Nxp B.V. Method, system, trusted service manager, service provider and memory element for managing access rights for trusted applications
+US20090200371A1 * 2007-10-17 2009-08-13 First Data Corporation Onetime passwords for smart chip cards
+US20090191812A1 * 2007-12-18 2009-07-30 Katsuyuki Teruyama Information processing apparatus, method, and program for performing near field communication with an external device
+US20110282753A1 * 2007-12-24 2011-11-17 Mullen Jeffrey D Payment cards and devices operable to receive point-of-sale actions before point-of-sale and forward actions at point-of-sale
+US20100203870A1 * 2008-01-04 2010-08-12 Logomotion, S.R.O. Systems and methods for contactless payment authorization
+US20090193491A1 * 2008-01-24 2009-07-30 Bindu Rao Secure element manager
+US20090265552A1 * 2008-03-28 2009-10-22 Celltrust Corporation Systems and methods for secure short messaging service and multimedia messaging service
+US20090261172A1 * 2008-04-18 2009-10-22 Pradeep Kumar Systems, methods, and computer program products for supporting multiple contactless applications using different security keys
+US20090265544A1 * 2008-04-21 2009-10-22 Rajat Moona Method and system for using personal devices for authentication and service access at service outlets
+US20100023449A1 * 2008-07-25 2010-01-28 First Data Corporation Mobile payment adoption by adding a dedicated payment button to mobile device form factors
+US8127999B2 * 2008-08-14 2012-03-06 Visa U.S.A. Inc. Wireless mobile communicator for contactless payment on account read from removable card
+US20100045425A1 * 2008-08-21 2010-02-25 Chivallier M Laurent data transmission of sensors
+US20100062808A1 * 2008-08-25 2010-03-11 Interdigital Patent Holdings, Inc. Universal integrated circuit card having a virtual subscriber identity module functionality
+US20100258639A1 * 2008-08-29 2010-10-14 Logomotion, S.R.O. Removable card for a contactless communication, its utilization and the method of production.
+US20100063893A1 * 2008-09-11 2010-03-11 Palm, Inc. Method of and system for secure on-line purchases
+US20100274677A1 * 2008-09-19 2010-10-28 Logomotion, S.R.O. Electronic payment application system and payment authorization method
+US20100274726A1 * 2008-09-19 2010-10-28 Logomotion, S.R.O system and method of contactless authorization of a payment
+US20100262503A1 * 2008-10-15 2010-10-14 Logomotion, S.R.O. The method of communication with the pos terminal, the frequency converter for the post terminal
+US20100213265A1 * 2009-02-24 2010-08-26 Tyfone, Inc. Contactless device with miniaturized antenna
+* Cited by examiner, † Cited by third party
+Cited By (44)
+Search Within Citing Patents
+Publication number Priority date Publication date Assignee Title
+US20120290438A1 * 2003-04-07 2012-11-15 Paul Poniatowski Mobile Payment System
+US8989705B1 2009-06-18 2015-03-24 Sprint Communications Company L.P. Secure placement of centralized media controller application in mobile access terminal
+US8712407B1 * 2012-04-05 2014-04-29 Sprint Communications Company L.P. Multiple secure elements in mobile electronic device with near field communication capability
+US9027102B2 2012-05-11 2015-05-05 Sprint Communications Company L.P. Web server bypass of backend process on near field communications and secure element chips
+US8862181B1 2012-05-29 2014-10-14 Sprint Communications Company L.P. Electronic purchase transaction trust infrastructure
+US9282898B2 2012-06-25 2016-03-15 Sprint Communications Company L.P. End-to-end trusted communications infrastructure
+US9066230B1 2012-06-27 2015-06-23 Sprint Communications Company L.P. Trusted policy and charging enforcement function
+US8649770B1 2012-07-02 2014-02-11 Sprint Communications Company, L.P. Extended trusted security zone radio modem
+US9210576B1 2012-07-02 2015-12-08 Sprint Communications Company L.P. Extended trusted security zone radio modem
+US9268959B2 2012-07-24 2016-02-23 Sprint Communications Company L.P. Trusted security zone access to peripheral devices
+US8667607B2 2012-07-24 2014-03-04 Sprint Communications Company L.P. Trusted security zone access to peripheral devices
+US8863252B1 2012-07-25 2014-10-14 Sprint Communications Company L.P. Trusted access to third party applications systems and methods
+US9183412B2 2012-08-10 2015-11-10 Sprint Communications Company L.P. Systems and methods for provisioning and using multiple trusted security zones on an electronic device
+US9384498B1 2012-08-25 2016-07-05 Sprint Communications Company L.P. Framework for real-time brokering of digital content delivery
+US9015068B1 2012-08-25 2015-04-21 Sprint Communications Company L.P. Framework for real-time brokering of digital content delivery
+US8954588B1 2012-08-25 2015-02-10 Sprint Communications Company L.P. Reservations in real-time brokering of digital content delivery
+US9215180B1 2012-08-25 2015-12-15 Sprint Communications Company L.P. File retrieval in real-time brokering of digital content
+US8752140B1 2012-09-11 2014-06-10 Sprint Communications Company L.P. System and methods for trusted internet domain networking
+US9161227B1 2013-02-07 2015-10-13 Sprint Communications Company L.P. Trusted signaling in long term evolution (LTE) 4G wireless communication
+US9104840B1 2013-03-05 2015-08-11 Sprint Communications Company L.P. Trusted security zone watermark
+US8881977B1 2013-03-13 2014-11-11 Sprint Communications Company L.P. Point-of-sale and automated teller machine transactions using trusted mobile access device
+US9049013B2 2013-03-14 2015-06-02 Sprint Communications Company L.P. Trusted security zone containers for the protection and confidentiality of trusted service manager data
+US9049186B1 2013-03-14 2015-06-02 Sprint Communications Company L.P. Trusted security zone re-provisioning and re-use capability for refurbished mobile devices
+US9374363B1 2013-03-15 2016-06-21 Sprint Communications Company L.P. Restricting access of a portable communication device to confidential data or applications via a remote network based on event triggers generated by the portable communication device
+US9191388B1 2013-03-15 2015-11-17 Sprint Communications Company L.P. Trusted security zone communication addressing on an electronic device
+US9298361B2 * 2013-03-15 2016-03-29 Apple Inc. Analyzing applications for different access modes
+US9021585B1 2013-03-15 2015-04-28 Sprint Communications Company L.P. JTAG fuse vulnerability determination and protection using a trusted execution environment
+US8984592B1 2013-03-15 2015-03-17 Sprint Communications Company L.P. Enablement of a trusted security zone authentication for remote mobile device management systems and methods
+US20140283142A1 * 2013-03-15 2014-09-18 Apple Inc. Analyzing Applications for Different Access Modes
+US9171243B1 2013-04-04 2015-10-27 Sprint Communications Company L.P. System for managing a digest of biographical information stored in a radio frequency identity chip coupled to a mobile communication device
+US9454723B1 2013-04-04 2016-09-27 Sprint Communications Company L.P. Radio frequency identity (RFID) chip electrically and communicatively coupled to motherboard of mobile communication device
+US9324016B1 2013-04-04 2016-04-26 Sprint Communications Company L.P. Digest of biographical information for an electronic device with static and dynamic portions
+US9443088B1 2013-04-15 2016-09-13 Sprint Communications Company L.P. Protection for multimedia files pre-downloaded to a mobile device
+US9069952B1 2013-05-20 2015-06-30 Sprint Communications Company L.P. Method for enabling hardware assisted operating system region for safe execution of untrusted code using trusted transitional memory
+US9560519B1 2013-06-06 2017-01-31 Sprint Communications Company L.P. Mobile communication device profound identity brokering framework
+US9183606B1 2013-07-10 2015-11-10 Sprint Communications Company L.P. Trusted processing location within a graphics processing unit
+US9208339B1 2013-08-12 2015-12-08 Sprint Communications Company L.P. Verifying Applications in Virtual Environments Using a Trusted Security Zone
+US9185626B1 2013-10-29 2015-11-10 Sprint Communications Company L.P. Secure peer-to-peer call forking facilitated by trusted 3rd party voice server provisioning
+US9191522B1 2013-11-08 2015-11-17 Sprint Communications Company L.P. Billing varied service based on tier
+US9161325B1 2013-11-20 2015-10-13 Sprint Communications Company L.P. Subscriber identity module virtualization
+US9118655B1 2014-01-24 2015-08-25 Sprint Communications Company L.P. Trusted display and transmission of digital ticket documentation
+US9226145B1 2014-03-28 2015-12-29 Sprint Communications Company L.P. Verification of mobile device integrity during activation
+US9230085B1 2014-07-29 2016-01-05 Sprint Communications Company L.P. Network based temporary trust extension to a remote or mobile device enabled via specialized cloud services
+US9473945B1 2015-04-07 2016-10-18 Sprint Communications Company L.P. Infrastructure for secure short message transmission
+* Cited by examiner, † Cited by third party
+Also Published As
+Publication number Publication date Type
+EP2462567A2 2012-06-13 Application
+CN102460520B 2015-01-21 Grant
+WO2010128442A4 2011-06-16 Application
+US8606711B2 2013-12-10 Grant
+CA2739858A1 2010-11-11 Application
+RU2011148267A 2013-06-10 Application
+US20110112968A1 2011-05-12 Application
+US20110022482A1 2011-01-27 Application
+WO2010128442A3 2011-04-28 Application
+KR20120030408A 2012-03-28 Application
+US20140058953A1 2014-02-27 Application
+JP2012526306A 2012-10-25 Application
+US8406809B2 2013-03-26 Grant
+CN102460520A 2012-05-16 Application
+US8583493B2 2013-11-12 Grant
+WO2010128442A2 2010-11-11 Application
+RU2543935C2 2015-03-10 Grant
+JP5738844B2 2015-06-24 Grant
+Similar Documents
+Publication Publication Date Title
+US6375082B1 2002-04-23 Portable electronic device with contacting and noncontacting interfaces
+US6056193A 2000-05-02 Computer keyboard with integral encoded device reader
+US20100264211A1 2010-10-21 Magnetically coupling radio frequency antennas
+US6456039B1 2002-09-24 Interchangeable battery with additional communications capabilities for mobile telephones
+US20080207124A1 2008-08-28 Mobile Device With Near Field Communication Module And Secure Chip
+US8109444B2 2012-02-07 Selectively switching antennas of transaction cards
+US8358596B2 2013-01-22 Communications system providing mobile wireless communications device application module associations for respective wireless communications formats and related methods
+US20100044444A1 2010-02-25 Amplifying radio frequency signals
+US20100012721A1 2010-01-21 Switching Between Internal and External Antennas
+US20090108063A1 2009-04-30 Wirelessly Communicating Radio Frequency Signals
+US20090101716A1 2009-04-23 Nfc reader having a passive operating mode with low electrical consumption
+US20090152361A1 2009-06-18 Memory card based contactless devices
+US20070293155A1 2007-12-20 Chipset for mobile wallet system
+US20110171907A1 2011-07-14 Method and apparatus for communicating with external device using contactless interface
+US20070262134A1 2007-11-15 System and method for activating telephone-based payment instrument
+US20080121687A1 2008-05-29 Method and system for detecting an end of transaction for contactless transactions on a mobile device
+US20020016186A1 2002-02-07 Mobile phone
+US20120178366A1 2012-07-12 Multiple NFC Card Applications in Multiple Execution Environments
+US7631810B2 2009-12-15 Systems, methods, and computer program products for supporting multiple applications and multiple instances of the same application on a wireless smart device
+US6456859B1 2002-09-24 Method of delivering a telephone number associated with a telephone subscription, and telephone sets and mobile telephones implementing the method
+WO2000069183A2 2000-11-16 Storage media
+US20100023449A1 2010-01-28 Mobile payment adoption by adding a dedicated payment button to mobile device form factors
+US20100190437A1 2010-07-29 Wireless Communication Device for Providing at Least One Near Field Communication Service
+US20080163201A1 2008-07-03 Apparatuses for launching a program application
+US8060012B2 2011-11-15 Method and apparatus for automatic near field communication application selection in an electronic device
+Legal Events
+Date Code Title Description
+2012-12-13 AS Assignment
+
+Owner name: LOGOMOTION, S.R.O., SLOVAKIA
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNORS:FLOREK, MIROSLAV;MASARYK, MICHAL;REEL/FRAME:029459/0807
+
+Effective date: 20100909
+2015-06-30 AS Assignment
+
+Owner name: SMK-LOGOMOTION CORPORATION, JAPAN
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:LOGOMOTION, S.R.O.;REEL/FRAME:035939/0430
+
+Effective date: 20150511
+2015-07-24 AS Assignment
+
+Owner name: SMK CORPORATION, JAPAN
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:SMK-LOGOMOTION CORPORATION;REEL/FRAME:036171/0274
+
+Effective date: 20150723
+2016-09-22 FPAY Fee payment
+
+Year of fee payment: 4
+Data provided by IFI CLAIMS Patent Services
+About Send Feedback Terms Privacy Policy
+memorycard
+

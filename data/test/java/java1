@@ -1,0 +1,975 @@
+
+CHAPTER 12.  THREADS AND MULTIPROCESSING
+607
+}
+updateForNextFrame();
+display.repaint();
+}
+}
+}
+To run the animation, you would create an object belonging to
+this class and call its
+start()
+method. As it stands, there would be no way to stop the animati
+on once it is started. One way
+to make it possible to stop the animation would be to end the lo
+op when a
+volatile
+boolean
+variable,
+terminate
+, becomes
+true
+, as discussed in
+Subsection 12.1.4
+. Since thread objects can
+only be executed once, in order to restart the animation afte
+r it has been stopped in this way,
+it would be necessary to create a new thread. In the next secti
+on, we’ll see some more versatile
+techniques for controlling threads.
+There is a subtle difference between using threads and using t
+imers for animation. The
+thread that is used by a Swing
+Timer
+does nothing but generate events. The event-handling
+code that is executed in response to those events is actually
+executed in the Swing event-handling
+GUI thread, which also handles repainting of components and
+responses to user actions. This is
+important because the Swing GUI is not
+thread-safe
+. That is, it does not use synchronization
+to avoid race conditions among threads trying to access GUI c
+omponents and their state vari-
+ables. As long as everything is done in the Swing event thread
+, there is no problem. A problem
+can arise when another thread manipulates components or the
+variables that are also used in the
+GUI thread. In the
+Animator
+example given above, this could happen when the thread calls
+the
+updateForNextFrame()
+method. The variables that are modified in
+updateForNextFrame()
+would also be used by the
+paintComponent()
+method that draws the frame. There is a race
+condition here: If these two methods are being executed simu
+ltaneously, there is a possibility
+that
+paintComponent()
+will use inconsistent variable values—some appropriate fo
+r the new
+frame, some for the previous frame.
+One  solution  to  this  problem  would  be  to  declare  both
+paintComponent()
+and
+updateForNextFrame()
+to be
+synchronized
+methods.  A better solution in this case is to
+use a timer rather than a thread. In practice, race condition
+s might not be a problem for a
+simple animation, even if they are implemented using thread
+s. But it can become a real issue
+when threads are used for more complex tasks.
+I should note that the
+repaint()
+method of a component can be safely called from any
+thread, without worrying about synchronization. Recall th
+at
+repaint()
+does not actually do
+any painting itself. It just tells the system to schedule a pa
+int event. The actual painting will
+be done later, in the Swing event-handling thread. I will als
+o note that Java has another timer
+class,
+java.util.Timer
+, that is appropriate for use in non-GUI programs.
+The sample program
+RandomArtWithThreads.java
+uses a thread to drive a very simple
+animation.  You can compare it to
+RandomArt.java
+, from
+Section 6.4
+, which implemented
+the same animation with a timer.  In this example, the thread d
+oes nothing except to call
+repaint()
+, so there is no need for synchronization.
+12.2.2  Recursion in a Thread
+Although timers should be used in preference to threads when
+possible, there are times when
+it is reasonable to use a thread even for a straightforward an
+imation. One reason to do so is
+when the thread is running a recursive algorithm, and you wan
+t to repaint the display many
+times over the course of the recursion. (Recursion is covere
+d in
+Section 9.1
+.) It’s difficult to
+CHAPTER 12.  THREADS AND MULTIPROCESSING
+608
+drive a recursive algorithm with a series of events from a tim
+er; it’s much more natural to use
+a single recursive method call to do the recursion, and it’s e
+asy to do that in a thread.
+As an example, the program
+QuicksortThreadDemo.java
+uses an animation to illustrate the
+recursive QuickSort algorithm for sorting an array. In this
+case, the array contains colors, and
+the goal is to sort the colors into a standard spectrum from re
+d to violet. In the program, the
+user randomizes the array and starts the sorting process by c
+licking the “Start” button below
+the display. The “Start” button changes to a “Finish” button
+that can be used to abort the
+sort before it finishes on its own. (It’s an interesting progr
+am to watch, and it might even help
+you to understand QuickSort better, so you should try runnin
+g it.)
+In this program, the display’s
+repaint()
+method is called every time the algorithm makes a
+change to the array. Whenever this is done, the thread sleeps
+for 100 milliseconds to allow time
+for the display to be repainted and for the user to see the chan
+ge. There is also a longer delay, one
+full second, just after the array is randomized, before the s
+orting starts. Since these delays occur
+at several points in the code,
+QuicksortThreadDemo
+defines a
+delay()
+method that makes the
+thread that calls it sleep for a specified period. The
+delay()
+method calls
+display.repaint()
+just before sleeping. While the animation thread sleeps, th
+e event-handling thread will have a
+chance to run and will have plenty of time to repaint the displ
+ay. (I didn’t use synchronization
+in this example, but it would have been a good idea to do so.)
+An interesting question is how to implement the “Finish” but
+ton, which should abort the
+sort and terminate the thread. Pressing this button causes t
+he value of a
+volatile
+boolean
+variable,
+running
+, to be set to
+false
+, as a signal to the thread that it should terminate. The
+problem is that this button can be clicked at any time, even wh
+en the algorithm is many levels
+down in the recursion. Before the thread can terminate, all o
+f those recursive method calls must
+return. A nice way to cause that is to throw an exception.
+QuickSortThreadDemo
+defines a new
+exception class,
+ThreadTerminationException
+, for this purpose. The
+delay()
+method checks the
+value of the signal variable,
+running
+. If
+running
+is
+false
+, the
+delay()
+method throws the
+exception that will cause the recursive algorithm, and even
+tually the animation thread itself,
+to terminate. Here, then, is the
+delay()
+method:
+private void delay(int millis) {
+if (! running)
+throw new ThreadTerminationException();
+display.repaint();
+try {
+Thread.sleep(millis);
+}
+catch (InterruptedException e) {
+}
+if (! running) // Check again, in case it changed during the sl
+eep period.
+throw new ThreadTerminationException();
+}
+The
+ThreadTerminationException
+is caught in the thread’s
+run()
+method:
+/**
+* This class defines the threads that run the recursive
+* QuickSort algorithm.  The thread begins by randomizing the
+* array, hue.  It then calls quickSort() to sort the entire arr
+ay.
+* If quickSort() is aborted by a ThreadTerminationExceptio
+n,
+* which would be caused by the user clicking the Finish button
+,
+* then the thread will restore the array to sorted order befor
+e
+CHAPTER 12.  THREADS AND MULTIPROCESSING
+616
+method is called
+run()
+and the task object implements the standard
+Runnable
+interface that
+was discussed in
+Subsection 12.1.1
+. This interface is a natural way to represent computational
+tasks. It’s possible to create a new thread for each
+Runnable
+. However, that doesn’t really
+make sense when there are many tasks, since there is a signific
+ant amount of overhead involved
+in creating each new thread. A better alternative is to creat
+e just a few threads and let each
+thread execute a number of tasks.
+The optimal number of threads to use is not entirely clear, an
+d it can depend on exactly
+what problem you are trying to solve. The goal is to keep all of
+the computer’s processors busy.
+In the image-computing example, it works well to create one t
+hread for each available processor,
+but that won’t be true for all problems. In particular, if a th
+read can block for a non-trivial
+amount of time while waiting for some event or for access to so
+me resource, you want to have
+extra threads around for the processor to run while other thr
+eads are blocked. We’ll encounter
+exactly that situation when we turn to using threads with net
+working in
+Section 12.4
+.
+When several threads are available for performing tasks, th
+ose threads are called a
+thread
+pool
+. Thread pools are used to avoid creating a new thread to perfo
+rm each task. Instead,
+when a task needs to be performed, it can be assigned to any idl
+e thread in the “pool.”
+Once all the threads in the thread pool are busy, any addition
+al tasks will have to wait until
+one of the threads becomes idle. This is a natural applicatio
+n for a queue: Associated with
+the thread pool is a queue of waiting tasks. As tasks become av
+ailable, they are added to the
+queue. Every time that a thread finishes a task, it goes to the q
+ueue to get another task to
+work on.
+Note that there is only one task queue for the thread pool. All
+the threads in the pool
+use the same queue, so the queue is a shared resource. As alway
+s with shared resources, race
+conditions are possible and synchronization is essential.
+Without synchronization, for example,
+it is possible that two threads trying to get items from the qu
+eue at the same time will end up
+retrieving the same item. (See if you can spot the race condit
+ions in the
+dequeue()
+method in
+Subsection 9.3.2
+.)
+Java has a built-in class to solve this problem:
+ConcurrentLinkedQueue
+. This class and others
+that can be useful in parallel programming are defined in the p
+ackage
+java.util.concurrent
+.
+It is a parameterized class so that to create a queue that can h
+old objects of type
+Runnable
+,
+you can say
+ConcurrentLinkedQueue<Runnable> queue = new ConcurrentL
+inkedQueue<Runnable>();
+This class represents a queue, implemented as a linked list,
+in which operations on the queue are
+properly synchronized. The operations on a
+ConcurrentLinkedQueue
+are not exactly the queue
+operations that we are used to. The method for adding a new ite
+m,
+x
+, to the end of
+queue
+is
+queue.add(x)
+. The method for removing an item from the front of
+queue
+is
+queue.poll()
+.
+The
+queue.poll()
+method returns
+null
+if the queue is empty; thus,
+poll()
+can be used to test
+whether the queue is empty and to retrieve an item if it is not.
+It makes sense to do things in
+this way because testing whether the queue is non-empty befo
+re taking an item from the queue
+involves a race condition: Without synchronization, it is p
+ossible for another thread to remove
+the last item from the queue between the time when you check th
+at the queue is non-empty
+and the time when you try to take the item from the queue. By the
+time you try to get the
+item, there’s nothing there!
+∗ ∗ ∗
+To use
+ConcurrentLinkedQueue
+in our image-computing example, we can use the queue along
+with a thread pool. To begin the computation of the image, we c
+reate all the tasks that make
+CHAPTER 12.  THREADS AND MULTIPROCESSING
+617
+up the image and add them to the queue. Then, we can create and s
+tart the worker threads that
+will execute the tasks. Each thread will run in a loop in which
+it gets one task from the queue,
+by calling the queue’s
+poll()
+method, and carries out that task. Since the task is an object
+of
+type
+Runnable
+, it is only necessary for the thread to call the task’s
+run()
+method. When the
+poll()
+method returns
+null
+, the queue is empty and the thread can terminate because all t
+he
+tasks have been assigned to threads.
+The sample program
+MultiprocessingDemo2.java
+implements this idea.  It uses a queue
+taskQueue
+of type
+ConcurrentLinkedQueue
+<
+Runnable
+>
+to hold the tasks. In addition, in order
+to allow the user to abort the computation before it finishes,
+it uses the
+volatile
+boolean
+variable
+running
+to signal the thread when the user aborts the computation.  Th
+e thread
+should terminate when this variable is set to
+false
+. The threads are defined by a nested class
+named
+WorkerThread
+. It is quite short and simple to write at this point:
+private class WorkerThread extends Thread {
+public void run() {
+try {
+while (running) {
+Runnable task = taskQueue.poll(); // Get a task from the queu
+e.
+if (task == null)
+break; // (because the queue is empty)
+task.run();  // Execute the task;
+}
+}
+finally {
+threadFinished(); // Records fact that this thread has term
+inated.
+}
+}
+}
+The program uses a nested class named
+MandelbrotTask
+to represent the task of computing
+one row of pixels in the image. This class implements the
+Runnable
+interface. Its
+run()
+method
+does the actual work: Compute the color of each pixel, and app
+ly the colors to the image. Here
+is what the program does to start the computation (with a few d
+etails omitted):
+taskQueue = new ConcurrentLinkedQueue<Runnable>(); // Cr
+eate the queue.
+int height = ... ; // Number of rows in the image.
+for (int row = 0; row < height; row++) {
+MandelbrotTask task;
+task = ... ;  // Create a task to compute one row of the image.
+taskQueue.add(task); // Add the task to the queue.
+}
+int threadCount = ... ; // Number of threads in the pool
+workers = new WorkerThread[threadCount];
+running = true;  // Set the signal before starting the threads
+!
+threadsCompleted = 0;  // Records how many of the threads have
+terminated.
+for (int i = 0; i < threadCount; i++) {
+workers[i] = new WorkerThread();
+try {
+workers[i].setPriority( Thread.currentThread().getPr
+iority() - 1 );
+}
+catch (Exception e) {
+}
+workers[i].start();
+CHAPTER 13.  ADVANCED GUI PROGRAMMING
+692
+fourth button is a push button that the user can click to clear
+the drawing.
+Tool bars are easy to use. You just have to create the
+JToolBar
+object, add it to a container,
+and add some buttons and possibly other components to the too
+l bar. One fine point is adding
+space to a tool bar, such as the gap between the radio buttons a
+nd the push button in the
+above picture. You can leave a gap by adding a separator to the
+tool bar. For example:
+toolbar.addSeparator(new Dimension(20,20));
+This adds an invisible 20-by-20 pixel block to the tool bar. T
+his will appear as a 20 pixel gap
+between components.
+Here is the constructor from the
+ToolBarDemo
+program. It shows how to create the tool
+bar and place it in a container. Note that class
+ToolBarDemo
+is a subclass of
+JPanel
+, and the
+tool bar and display are added to the panel object that is bein
+g constructed:
+public ToolBarDemo() {
+setLayout(new BorderLayout(2,2));
+setBackground(Color.GRAY);
+setBorder(BorderFactory.createLineBorder(Color.GRAY
+,2));
+display = new Display();  // the area where the user draws.
+add(display, BorderLayout.CENTER);
+JToolBar toolbar = new JToolBar();
+add(toolbar, BorderLayout.NORTH);
+ButtonGroup group = new ButtonGroup();
+toolbar.add( makeColorRadioButton(Color.RED,group,tr
+ue) );
+toolbar.add( makeColorRadioButton(Color.GREEN,group,
+false) );
+toolbar.add( makeColorRadioButton(Color.BLUE,group,f
+alse) );
+toolbar.addSeparator(new Dimension(20,20));
+toolbar.add( makeClearButton() );
+}
+If you want a vertical tool bar that can be placed in the
+EAST
+or
+WEST
+position of a
+Border-
+Layout
+, you should specify the orientation in the tool bar’s constr
+uctor:
+JToolBar toolbar = new JToolBar( JToolBar.VERTICAL );
+The default orientation is
+JToolBar.HORIZONTAL
+. The orientation is adjusted automatically
+when the user drags the tool bar into a new position. If you wan
+t to prevent the user from
+dragging the tool bar, just say
+toolbar.setFloatable(false)
+.
+13.3.5  Keyboard Accelerators
+In most programs, commonly used menu commands have keyboard
+equivalents.  The user
+can type the keyboard equivalent instead of selecting the co
+mmand from the menu, and the
+result will be exactly the same. Typically, for example, the
+“Save” command has keyboard
+equivalent
+CONTROL-S
+, and the “Undo” command corresponds to
+CONTROL-Z
+. (Under Mac OS,
+the keyboard equivalents for these commands would probably
+be
+META-S
+and
+META-Z
+, where
+META
+refers to holding down the “apple” key.) The keyboard equiva
+lents for menu commands
+are referred to as
+accelerators
+.
+The class
+javax.swing.KeyStroke
+is used to represent key strokes that the user can type
+on the keyboard. Keystrokes can refer to pressing a key, rele
+asing a key, or typing a character,
+CHAPTER 13.  ADVANCED GUI PROGRAMMING
+693
+possibly while holding down one or more of the modifier keys
+control
+,
+shift
+,
+alt
+, and
+meta
+.
+The
+KeyStroke
+class has a convenient static method,
+getKeyStroke(String)
+, that makes it
+easy to create key stroke objects representing key pressed e
+vents. For example,
+KeyStroke.getKeyStroke( "ctrl S" )
+returns a
+KeyStroke
+that represents the action of pressing the “S” key while hold
+ing down the
+control key. In addition to “ctrl”, you can use the modifiers “
+shift”, “alt”, and “meta” in the
+string that describes the key stroke. You can even combine se
+veral modifiers, so that
+KeyStroke.getKeyStroke( "ctrl shift Z" )
+represents the action of pressing the “Z” key while holding d
+own both the control and the shift
+keys. When the key stroke involves pressing a character key,
+the character must appear in the
+string in upper case form. You can also have key strokes that c
+orrespond to non-character keys.
+The number keys can be referred to as “1”, “2”, etc., while cer
+tain special keys have names
+such as “F1”, “ENTER”, and “LEFT” (for the left arrow key). Th
+e class
+KeyEvent
+defines
+many constants such as
+VK
+ENTER
+,
+VK
+LEFT
+, and
+VK
+S
+. The names that are used for keys in the
+keystroke description are just these constants with the lea
+ding “
+VK
+” removed.
+There are at least two ways to associate a keyboard accelerat
+or with a menu item. One is
+to use the
+setAccelerator()
+method of the menu item object:
+JMenuItem saveCommand = new JMenuItem( "Save..." );
+saveCommand.setAccelerator( KeyStroke.getKeyStroke("
+ctrl S") );
+The other technique can be used if the menu item is created fro
+m an
+Action
+. The action property
+Action.ACCELERATOR
+KEY
+can be used to associate a
+KeyStroke
+with an
+Action
+. When a menu
+item is created from the action, the keyboard accelerator fo
+r the menu item is taken from the
+value of this property. For example, if
+redoAction
+is an
+Action
+representing a “Redo” action,
+then you might say:
+redoAction.putValue( Action.ACCELERATOR
+KEY,
+KeyStroke.getKeyStroke("ctrl shift Z") );
+JMenuItem redoCommand = new JMenuItem( redoAction );
+or,  alternatively,  you  could  simply  add  the  action  to  a
+JMenu
+,
+editMenu
+,  with
+editMenu.add(redoAction)
+. (Note, by the way, that accelerators apply only to menu item
+s,
+not to push buttons. When you create a
+JButton
+from an action, the
+ACCELERATOR
+KEY
+property
+of the action is ignored.)
+Note that you can use accelerators for
+JCheckBoxMenuItems
+and
+JRadioButtonMenuItems
+,
+as well as for simple
+JMenuItems
+.
+For examples of using keyboard accelerators, see
+ChoiceDemo.java
+and the solution to Ex-
+ercise 13.2.
+∗ ∗ ∗
+By the way, as noted above, in the Mac OS operating system, the
+meta (or apple) key is
+usually used for keyboard accelerators instead of the contr
+ol key. Java has a way of determining
+the correct modifier for the computer on which it is running. H
+owever, it requires the use of a
+different method for constructing the
+KeyStroke
+. The function call
+int shortcutMask = Toolkit.getDefaultToolkit().getMenu
+ShortcutKeyMask()
+returns a “mask” that can be used to represent the correct mod
+ifier key when the keystroke is
+created by the function
+KeyStroke stoke = KeyStroke( keyCode, shortcutMask );
+CHAPTER 13.  ADVANCED GUI PROGRAMMING
+703
+// needs to be changed because the user has edited the cell.
+// It can also be called to change the value programmatically
+.
+// In this case, only columns 1 and 2 can be modified, and the da
+ta
+// type for obj must be Double.  The method fireTableCellUpda
+ted()
+// has to be called to send an event to registered listeners to
+// notify them of the modification to the table model.)
+if (col == 1)
+xCoord[row] = (Double)obj;
+else if (col == 2)
+yCoord[row] = (Double)obj;
+fireTableCellUpdated(row, col);
+}
+}  // end nested class CoordInputTableModel
+In addition to defining a custom table model, I customized the
+appearance of the table in
+several ways. Because this involves changes to the view, mos
+t of the changes are made by calling
+methods in the
+JTable
+object. For example, since the default height of the cells wa
+s too small
+for my taste, I called
+table.setRowHeight(25)
+to increase the height. To make lines appear
+between the rows and columns, I found that I had to call both
+table.setShowGrid(true)
+and
+table.setGridColor(Color.BLACK)
+. Some of the customization has to be done to other
+objects. For example, to prevent the user from changing the o
+rder of the columns by dragging
+the column headers, I had to use
+table.getTableHeader().setReorderingAllowed(false);
+Tables are quite complex, and I have only discussed a part of t
+he table API here. Nevertheless,
+I hope that you have learned enough to start using them and to l
+earn more about them on your
+own.
+13.4.4  Documents and Editors
+As a final example of complex components, we look briefly at
+JTextComponent
+and its sub-
+classes.  A
+JTextComponent
+displays text that can, optionally, be edited by the user.  Tw
+o
+subclasses,
+JTextField
+and
+JTextArea
+, were introduced in
+Subsection 6.5.4
+. But the real com-
+plexity comes in another subclass,
+JEditorPane
+, that supports display and editing of styled text.
+This allows features such as boldface and italic. A
+JEditorPane
+can even work with basic HTML
+documents.
+It is almost absurdly easy to write a simple web browser progr
+am using a
+JEditorPane
+(al-
+though the program that you get can only handle basic web page
+s and does a pretty bad job
+on many modern web pages). This is done in the sample program
+SimpleWebBrowser.java
+. In
+this program, the user enters the URL of a web page, and the pro
+gram tries to load and display
+the web page at that location. A
+JEditorPane
+can handle pages with content type “text/plain”,
+“text/html”, and “text/rtf”. (The content type “text/rtf”
+represents styled or “rich text for-
+mat” text.  URLs and content types were covered in
+Subsection 11.4.1
+.)  If
+editPane
+is of
+type
+JEditorPane
+and
+url
+is of type
+URL
+, then the statement “
+editPane.setPage(url);
+” is
+sufficient to load the page and display it. Since this can gener
+ate an exception, the following
+method is used in
+SimpleWebBrowser.java
+to display a page:
+private void loadURL(URL url) {
+try {
+editPane.setPage(url);
+}
+CHAPTER 13.  ADVANCED GUI PROGRAMMING
+704
+catch (Exception e) {
+editPane.setContentType("text/plain"); // Set pane to di
+splay plain text.
+editPane.setText( "Sorry, the requested document was not f
+ound\n"
++"or cannot be displayed.\n\nError:" + e);
+}
+}
+An HTML document can include links to other pages. When the us
+er clicks on a link, the
+web browser should go to the linked page. A
+JEditorPane
+does not do this automatically, but
+it does generate an event of type
+HyperLinkEvent
+when the user clicks a link (provided that the
+edit pane has been set to be non-editable by the user). A progr
+am can register a listener for
+such events and respond by loading the new page.
+There are a lot of web pages that a
+JEditorPane
+won’t be able to display correctly, but it
+can be very useful in cases where you have control over the pag
+es that will be displayed. A
+nice application is to distribute HTML-format help and info
+rmation files with a program. The
+files can be stored as resource files in the jar file of the progra
+m, and a URL for a resource
+file can be obtained in the usual way, using the
+getResource()
+method of a
+ClassLoader
+. (See
+Subsection 13.1.3
+.)
+It turns out, by the way, that
+SimpleWebBrowser.java
+is a little too simple. A modified
+version,
+SimpleWebBrowserWithThread.java
+, improves on the original by using a thread to
+load a page and by checking the content type of a page before tr
+ying to load it. It actually does
+work as a simple web browser. Try it!
+The model for a
+JTextComponent
+is an object of type
+Document
+. If you want to be notified
+of changes in the model, you can add a listener to the model usi
+ng
+textComponent.getDocument().addDocumentListener(lis
+tener)
+where
+textComponent
+is of type
+JTextComponent
+and
+listener
+is of type
+DocumentListener
+.
+The
+Document
+class also has methods that make it easy to read a document fro
+m a file and
+write a document to a file. I won’t discuss all the things you ca
+n do with text components here.
+For one more peek at their capabilities, see the sample progr
+am
+SimpleRTFEdit.java
+, a very
+minimal editor for files that contain styled text of type “tex
+t/rtf.”
+13.4.5  Custom Components
+Java’s standard component classes are usually all you need t
+o construct a user interface. At
+some point, however, you might need a component that Java doe
+sn’t provide. In that case,
+you can write your own component class, building on one of the
+components that Java does
+provide. We’ve already done this, actually, every time we’v
+e written a subclass of the
+JPanel
+class to use as a drawing surface. A
+JPanel
+is a blank slate. By defining a subclass, you can
+make it show any picture you like, and you can program it to res
+pond in any way to mouse and
+keyboard events. Sometimes, if you are lucky, you don’t need
+such freedom, and you can build
+on one of Java’s more sophisticated component classes.
+For example, suppose I have a need for a “stopwatch” componen
+t. When the user clicks
+on the stopwatch, I want it to start timing. When the user clic
+ks again, I want it to display
+the elapsed time since the first click.  The textual display ca
+n be done with a
+JLabel
+, but
+we want a
+JLabel
+that can respond to mouse clicks. We can get this behavior by d
+efining a
+StopWatchLabel
+component as a subclass of the
+JLabel
+class. A
+StopWatchLabel
+object will
+listen for mouse clicks on itself.  The first time the user clic
+ks, it will change its display to
+“Timing...” and remember the time when the click occurred. W
+hen the user clicks again, it
+CHAPTER 13.  ADVANCED GUI PROGRAMMING
+705
+will check the time again, and it will compute and display the
+elapsed time. (Of course, I don’t
+necessarily have to define a subclass. I could use a regular la
+bel in my program, set up a listener
+to respond to mouse events on the label, and let the program do
+the work of keeping track of
+the time and changing the text displayed on the label.  Howeve
+r, by writing a new class, I
+have something that can be
+reused
+in other projects. I also have all the code involved in the
+stopwatch function collected together neatly in one place.
+For more complicated components,
+both of these considerations are very important.)
+The
+StopWatchLabel
+class is not very hard to write. I need an instance variable to
+record
+the time when the user starts the stopwatch. Times in Java are
+measured in milliseconds and
+are stored in variables of type
+long
+(to allow for very large values). In the
+mousePressed()
+method, I need to know whether the timer is being started or st
+opped, so I need a
+boolean
+instance variable,
+running
+, to keep track of this aspect of the component’s state.  There
+is
+one more item of interest: How do I know what time the mouse was
+clicked? The method
+System.currentTimeMillis()
+returns the current time. But there can be some delay between
+the time the user clicks the mouse and the time when the
+mousePressed()
+routine is called.
+To make my stopwatch as accurate as possible, I don’t want to k
+now the current time. I want
+to know the exact time when the mouse was pressed. When I wrote
+the
+StopWatchLabel
+class,
+this need sent me on a search in the Java documentation. I foun
+d that if
+evt
+is an object of
+type
+MouseEvent
+, then the function
+evt.getWhen()
+returns the time when the event occurred.
+I call this function in the
+mousePressed()
+routine to determine the exact time when the user
+clicked on the label. The complete
+StopWatch
+class is rather short:
+import java.awt.event.*;
+import javax.swing.*;
+/**
+* A custom component that acts as a simple stop-watch.  When th
+e user clicks
+* on it, this component starts timing.  When the user clicks ag
+ain,
+* it displays the time between the two clicks.  Clicking a thir
+d time
+* starts another timer, etc.  While it is timing, the label jus
+t
+* displays the message "Timing....".
+*/
+public class StopWatchLabel extends JLabel implements Mou
+seListener {
+private long startTime;   // Start time of timer.
+//   (Time is measured in milliseconds.)
+private boolean running;  // True when the timer is running.
+/**
+* Constructor sets initial text on the label to
+* "Click to start timer." and sets up a mouse listener
+* so the label can respond to clicks.
+*/
+public StopWatchLabel() {
+super("  Click to start timer.  ", JLabel.CENTER);
+addMouseListener(this);
+}
+/**
+* Tells whether the timer is currently running.
+*/
+public boolean isRunning() {
+

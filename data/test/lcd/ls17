@@ -1,0 +1,56 @@
+Screen brightness control
+Abstract
+A screen-illuminating panel for a backlit LCD is intermittently adjusted to an optimal brightness level varying depending on ambient illumination at predetermined time intervals. The screen-illuminating panel is driven to hold the optimal brightness level while the screen-illuminating panel is not adjusted, a timer is used to detect a lapse of a time period to produce a timing signal after a trigger signal is received, and a power controller supplies power for brightness adjustment when the timing signal is received from the timer and outputs the trigger signal to the timer when the screen-illuminating panel has been adjusted.
+
+Description
+BACKGROUND OF THE INVENTION
+
+1. Field of the Invention
+
+The present invention generally relates to screen brightness control, and in particular to a control method for a screen-illuminating panel.
+
+2. Description of the Related Art
+
+Backlit LCD displays have been widely used in handy or laptop computers and small, battery-powered electronic devices. To further improve the LCD screen's readability, there have been proposed backlit LCD displays which are capable of automatically adjusting their brightness depending on ambient illumination.
+
+In Japanese Patent Unexamined Publication No. 5-265401, a backlit LCD system is provided with a photo sensor and a brightness controller. The brightness controller calculates the optimal level of brightness based on illumination data received from the photo sensor, and then controls the drive current supplied to the backlighting panel so that the calculated optimal brightness is obtained on the LCD screen.
+
+A backlit LCD display improves the LCD screen's readability but draws more power than an ordinary LCD display does. Therefore, it is desirable to be able to reduce power consumption, especially in the case of a battery-powered device such as a mobile telephone terminal.
+SUMMARY OF THE INVENTION
+
+An object of the present invention is to provide a screen-illumination control method and system which can achieve reduced power consumption.
+
+According to the present invention, the screen-illuminating panel is intermittently adjusted to an optimal brightness level varying depending on ambient illumination at predetermined time intervals. The screen-illuminating panel is driven to hold the optimal brightness level while the screen-illuminating panel is not adjusted. The control system may be provided with a timer for detecting a lapse of a time period to produce a timing signal after a trigger signal is received, and a power controller for supplying power to the adjuster when the timing signal is received from the timer and outputs the trigger signal to the timer when the adjuster has adjusted the screen-illuminating panel.
+BRIEF DESCRIPTION OF THE DRAWINGS
+
+FIG. 1 is a block diagram showing a backlit-LCD control system according to an embodiment of the present invention;
+
+FIG. 2 is a flowchart showing a backlighting control operation of the embodiment; and
+
+FIG. 3 is a time chart for explanation of the backlighting control operation of FIG. 2
+DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENT
+
+Ref erring to FIG. 1, a backlit LCD display 100 is comprised of an LCD display 101 and a backlighting panel 102 which illuminates the back of the LCD screen. The backlighting panel 102 may be an electroluminescent panel placed behind the LCD screen.
+
+The backlighting control system is provided with a photo sensor 103 which detects the ambient illumination of the LCD screen at controlled time intervals. The photo sensor 103 outputs ambient illumination data to an optimal brightness calculator 104 which calculates an optimal level of brightness at which a user can read information on backlit screen without causing eyestrain. The calculation is performed according to a predetermined expression at the controlled time intervals. When receiving the optimal brightness level data from the optimal brightness calculator 104, a drive current controller 105 produces optimal drive current setting data which causes the backlighting panel 102 to be set to the optimal brightness level at the controlled time intervals.
+
+A drive current adjuster 106 receives and holds the optimal drive current setting data. The drive current adjuster 106 sets a driver 107 so that the optimal drive current ID is supplied to the backlighting panel 102. For example, the drive current adjuster 106 performs the pulse width control of the drive current ID depending on the optimal drive current setting data. In this embodiment, the drive current adjuster 106 can be manually adjusted by a user twisting a potentiometer for brightness control (not shown).
+
+The photo sensor 103, the optimal brightness calculator 104 and the drive current controller 105 are supplied with power at the controlled time intervals. Such an intermittent power control is performed by a power on-off controller 108 under the control of a processor 109. The time interval of the intermittent power control is adjusted by a timer 110 which can be set to a manually adjustable time period. More specifically, the timer 110 is reset for the adjusted time period and starts counting when receiving a trigger pulse from the processor 109. When counting the time period, the timer 110 outputs a timing pulse back to the processor 109. According to the timing pulse, the processor 109 controls the power on/off controller 108 to supply power to the photo sensor 103, the optimal brightness calculator 104 and the drive current controller 105 for illumination detection and optimal brightness control.
+
+A power controller 111 connected to a battery 112 supplies power to the driver 107 and the power on/off controller 108. The driver 107 supplies the drive current ID to the backlighting panel 102 depending on the optimal drive current setting data produced by the drive current controller 105. The processor 109 controls the driver current adjuster 106 according to the on/off timing. More specifically, when the photo sensor 103, the optimal brightness calculator 104 and drive current controller 105 are powered on, the drive current ID is varied depending on the calculated optimal brightness level. On the other hand, during a power-off period, the drive current ID is kept at a current corresponding to the latest optimal brightness level.
+
+The optimal brightness calculator 104 calculates the optimal brightness level L using the following expression: L=L1 +(R-R1)×(L2-L 1)/LOG(R2 -R1), where L1 is a reference brightness level at lowest performance of the photo sensor, L2 is a reference brightness level at highest performance of the photo sensor, R is an illumination level detected by the photo sensor, R1 is a minimum illumination level detected by the photo sensor, and R2 is a maximum illumination level detected by the photo sensor.
+
+Referring to FIG. 2, when the power is turned on, the processor 109 outputs a trigger pulse to the timer 110 (step S201). The trigger pulse causes the timer 110 to be reset for an adjustable time period and start counting (step S202).
+
+The processor 109 checks whether the timing pulse is received from the timer 110 (step S203). When receiving the timing pulse (YES in step S203). the processor 109 turns on the power ON/OFF controller 108 so that power is supplied to the photo sensor 103, the optimal brightness calculator 104 and the drive current controller 105 (step S204). This causes ambient illumination measurement and optimal brightness calculation. After the optimal drive current setting data has been set and held in the drive current adjuster 106 (step S205), the power ON/OFF controller 108 is turned off so that power is not supplied to the photo sensor 103, the optimal brightness calculator 104 and the drive current controller 105 (step S206). Subsequently, control goes back to the step S201 where the processor 109 outputs the trigger pulse to the timer 110.
+
+In this manner, ambient illumination measurement and optimal brightness control are intermittently performed at the time intervals determined by the timer 110. An example of operation will be described hereinafter in detail.
+
+As shown in FIG. 3, it is assumed that the timer 110 is reset for CMAX and the ambient illumination becomes higher with time (see b) and g) of FIG. 3).
+
+When the processor 109 outputs a trigger pulse to the timer 110, the timer 110 is reset for the maximum count CMAX and starts counting (see f) of FIG. 3). When the timer 110 exceeds the maximum count CMAX, the timer 110 outputs the timing pulse (see c) of FIG. 3). When receiving the timing pulse, the processor 109 turns on the power ON/OFF controller 108 so that power is supplied to the photo sensor 103, the optimal brightness calculator 104 and the drive current controller 105 (see d) and e) of FIG. 3). The optimal brightness calculator 104 calculates an optimal brightness level depending on the ambient illumination detected by the photo sensor 103. When the optimal drive current setting data has been set and held in the drive current adjuster 106, the driver 107 supplies the optimal drive current ID to the backlighting panel 102. At the same time, the power ON/OFF controller 108 is turned off so that power is not supplied to the photo sensor 103, the optimal brightness calculator 104 and the drive current controller 105 (see d) and e) of FIG. 3).
+
+In this manner, ambient illumination measurement and optimal brightness control are intermittently performed at the time intervals determined by the timer 110. With varying in ambient illumination, the brightness of the backlighting panel 102 becomes higher or lower so as to improve the screen's legibility.
+

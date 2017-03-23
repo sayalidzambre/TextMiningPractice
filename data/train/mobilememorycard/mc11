@@ -1,0 +1,639 @@
+
+ Patents
+2 of 3,53,082
+Search Terms
+Search Fields
+Before priority
+After filing
+Mobile payment device
+Abstract
+A memory card compatible RFID card includes a smartcard controller that receives power from a host device. The RFID card also includes a small inductive device capable of inductive coupling with an RFID reader. The small inductive device is small enough to fit in the form factor of a memory card. Commands may be sent to the RFID card to keep the RFID card powered.
+Images (14)
+Classifications
+G06K19/0723 Record carriers with conductive marks, printed circuits or semiconductor circuit elements, e.g. credit or identity cards also with resonating or responding marks without active components with integrated circuit chips the record carrier comprising an arrangement for non-contact communication, e.g. wireless communication circuits on transponder cards, non-contact smart cards or RFIDs
+View 5 more classifications
+US8072331B2
+
+US Grant
+Download PDF
+Find Prior Art
+
+Legal status
+    Active 
+Application number
+    US13081775
+Other versions
+    US20110180610A1 (Application) 
+
+Inventor
+    Siva G. Narendra 
+    Prabhakar Tadepalli 
+    Saurav Chakraborty 
+Current Assignee
+    Tyfone Inc 
+Original Assignee
+    Tyfone Inc 
+
+Priority date
+    2008-08-08 
+Filing date
+    2011-04-07 
+Publication date
+    2011-12-06
+Grant date
+    2011-12-06
+
+Info
+    Patent citations (274)
+    Non-patent citations (15)
+    Cited by (44)
+    Also published as (7)
+    Legal events
+    Similar documents
+External links
+    USPTO
+    USPTO Assignment
+    Espacenet
+    Global Dossier
+    Discuss
+
+Description
+RELATED APPLICATION
+
+This application is a Divisional of U.S. Nonprovisional application Ser. No. 12/188,346, by Narendra et al., filed Aug. 8, 2008, which is incorporated herein by reference in its entirety for all purposes.
+FIELD
+
+The present invention relates generally to contactless communications devices, and more specifically to small radio frequency identification (RFID) cards.
+BACKGROUND
+
+RFID “tags” can be separated into two broad categories: active tags and passive tags. Active tags are characterized by a local power source such as a battery. Active tags generally transmit information by broadcasting on an RF carrier frequency of choice using a locally generated RF carrier. Active tags are typically used to transmit over long distances, often referred to as “far field communications” (FFC). Antennas used with active RFID tags tend to be large to allow for the communications over long distances.
+
+Passive tags are not powered. Passive tags derive the energy needed to power the tag from an interrogating RF field, and use that energy to transmit response codes by modulating the impedance that the antenna presents to the interrogating field, thereby modulating the signal reflected back to the reader antenna. Passive tags are typically used to transmit over short distances, often referred to as “near field communications” (NFC). For example, passive tags operating at 13.56 MHz are typically designed to communicate with RFID readers a few centimeters away.
+
+Passive tags are typically connected to “loop antennas.” One example of a loop antenna is shown in U.S. Pat. No. 6,568,600, issued to Carpier et al. on May 27, 2003 (the '600 patent). The device described in the '600 patent is recognizable as a “credit card sized” passive RFID card (more specifically, a card that conforms to ISO 7816 size requirements). The loop antenna is necessarily large because passive tags are powered using energy received by the antenna from signals transmitted by the RFID reader.
+
+FIG. 12 shows a power supply voltage developed over time by rectifying a voltage induced in a loop antenna in the presence of an interrogating RF field. Once the power supply voltage reaches a critical value, the tag is powered up and can operate. As the antenna size is reduced, it takes longer for the power supply voltage to reach the critical value, and the tag operation may not meet response time specifications. Below a certain antenna size, the power supply voltage may never reach the critical value, and the tag may never power up.
+
+Antenna design for RFID applications is described in a Microchip Technology, Inc. application note entitled “Antenna Circuit Design for RFID Applications” by Youbok Lee, Ph.D., published in 2003 (no month given). Dr. Lee's application note describes in great detail how to determine size requirements for a passive RFID tag antenna to operate at 13.56 MHz. On page 5 of the application note, Dr. Lee shows that the optimum radius of the loop antenna coil is equal to 1.414 times the required read range. This analysis confirms that for a read range on the order of a few centimeters, a credit card sized loop antenna can be made near optimal.
+
+Passive tags are seeing widespread use in many applications. For example, mobile device manufacturers are embedding passive RFID tags in mobile devices for NFC applications. Example mobile applications include, but are not limited to, ticketing and mobile payments. U.S. Pat. No. 7,333,062 issued to Leizerovich et al. on Feb. 19, 2008 (the '062 patent) shows a mobile phone with an integrated loop antenna for an NFC device. As shown in the '062 patent, the mobile phone provides the real estate necessary to implement a loop antenna at 13.56 MHz.
+
+There have been attempts to implement passive tags in smaller mobile devices. These attempts have met with limited success due in part to the size of the loop antenna. For example, FIG. 13 shows an RFID tag implementation in a secure digital (SD) memory card manufactured by Wireless Dynamics, Inc. of Calgary, Alberta Canada. Card 1300 includes an antenna, but the SD card is significantly oversized as a result. Also for example, U.S. Patent Application Publication No.: US 2006/0124755 A1 shows a memory card having a passive tag, but the card must be inserted into a slot to access a loop antenna on a different device. In this implementation, mobile device real estate is still relied upon for loop antenna implementation. It can be seen, therefore, that the size of antennas are proving to be a barrier to further miniaturization of passive RFID tags.
+
+A need exists for a small footprint RFID tag that does not rely on an external device to house an antenna. A need also exists for a memory card compatible RFID tag that is compatible with standard memory card slots on mobile devices.
+BRIEF DESCRIPTION OF THE DRAWINGS
+
+FIG. 1 shows a mobile computing device and a small RFID card compatible with a memory card slot;
+
+FIG. 2 shows a block diagram of a mobile computing device;
+
+FIGS. 3A-3B show block diagrams of memory card compatible RFID cards with integrated inductive elements;
+
+FIG. 4 shows a photograph of a memory card compatible RFID card with an integrated inductive element;
+
+FIG. 5 shows a data portion of a memory card write command;
+
+FIG. 6-11 show flowcharts of methods in accordance with various embodiments of the present invention;
+
+FIG. 12 shows a power supply voltage developed over time by rectifying a voltage induced in a loop antenna in the presence of an interrogating RF field; and
+
+FIG. 13 shows a prior art RFID tag implementation in a secure digital (SD) memory card.
+DESCRIPTION OF EMBODIMENTS
+
+In the following detailed description, reference is made to the accompanying drawings that show, by way of illustration, various embodiments of an invention. These embodiments are described in sufficient detail to enable those skilled in the art to practice the invention. It is to be understood that the various embodiments of the invention, although different, are not necessarily mutually exclusive. For example, a particular feature, structure, or characteristic described in connection with one embodiment may be implemented within other embodiments without departing from the spirit and scope of the invention. In addition, it is to be understood that the location or arrangement of individual elements within each disclosed embodiment may be modified without departing from the spirit and scope of the invention. The following detailed description is, therefore, not to be taken in a limiting sense, and the scope of the present invention is defined only by the appended claims, appropriately interpreted, along with the full range of equivalents to which the claims are entitled. In the drawings, like numerals refer to the same or similar functionality throughout the several views.
+
+FIG. 1 shows a mobile computing device and a small RFID card compatible with a memory card slot. Mobile computing device 110 is shown as a mobile phone in FIG. 1, but this is not a limitation of the present invention. For example, mobile computing device 110 may be a personal digital assistant (PDA), a smartphone, a mobile phone, a handheld computer, a desktop computer, or any other device capable of operating as described herein.
+
+Mobile computing device 110 includes memory card slot 112. Memory card slot 112 is a slot capable of accepting RFID card 120. For example, memory card slot 112 may have physical dimensions compatible with RFID card 120, and may have a communications interface that operates using a protocol compatible with RFID card 120. In some embodiments of the present invention, memory card slot 112 is a memory card slot designed to accept and communicate with memory cards. As used herein, the term “memory card slot” refers to any add-on slot capable of accepting a card having memory accessible by a mobile computing device such as that shown in FIG. 1. For example, a memory card slot may be compatible with an industry standard communications protocol, or may be compatible with a widely accepted communications protocol that is not necessarily formally documented as an industry standard. Examples include slots that are compatible with the Multimedia Memory Card (MMC) protocol, Memory Stick DUO protocol, secure digital (SD) protocol, and Smart Media protocol. The foregoing list is meant to be exemplary, and not exhaustive. Memory card slot 112 may be compatible with many memory card slot protocols other than those explicitly listed above without departing from the scope of the invention.
+
+RFID card 120 includes electrical contacts 122 as part of a host interface that communicates with memory card slot 112. For example, electrical contacts 122 may provide connectivity compliant with a communications protocol for memory cards. RFID card 120 includes RFID functionality, and may also include memory accessible by mobile computing device 110. For example, in some embodiments, RFID card 120 includes a smartcard controller and an inductive element capable of interacting with an NFC reader (e.g., an ISO 14443 compliant interface). In other embodiments, RFID card 120 does not include memory accessible by mobile computing device 110. RFID card 120 may include functionality beyond memory and RFID.
+
+In various embodiments of the present invention, the RFID functionality in RFID card 120 is accessed by mobile computing device 110 using memory card access commands already defined for use in memory card slot 112. Accordingly, the various embodiments of the present invention enable the implementation of RFID functions beyond memory accesses without defining new commands. In some embodiments, new commands for the RFID card are embedded inside the data bits subsequent to memory card read/write commands. RFID card 120 then decides if the incoming data bits are meant for regular read/write memory functions or for RFID functions. In other words, functions in addition to standard memory card functions may be accessed through commands “hidden” in the data stream that can be exchanged using existing memory card access commands and functions. According to the various embodiments of the invention, both existing memory card functions and RFID functions may be implemented without requiring changes in how the host protocol is built.
+
+The combination of mobile computing device 110 and RFID card 120 may be used for any purpose. For example, in some embodiments, RFID card 120 may interact with a point-of-sale payment device to effect mobile payments. Also for example, in some embodiments, RFID card 120 may be used in wave-and-pay ticketing in mass transit environments, such as MIFARE.
+
+FIG. 2 shows a block diagram of a mobile computing device. Mobile computing device 110 includes antenna 240, radio circuits 230, processor 210, memory 220, and memory card slot 112. In some embodiments, mobile computing device 110 is a mobile phone, or includes mobile phone functionality. For example, antenna 240 and radio circuits 230 may be utilized to communicate with a cellular telephone network. Further, in some embodiments, mobile computing device 110 is a wireless local area network (WLAN) or wireless wide area network (WWAN) device. For example, antenna 240 and radio circuits 230 may be utilized to communicate with a wireless access point. In some embodiments, antenna 240 and radio circuits 230 are omitted, and mobile computing device 110 does not utilize wireless connectivity.
+
+Processor 210 represents a processor capable of communicating with the other blocks shown in mobile computing device 110. For example, processor 210 may be a microprocessor, a digital signal processor (DSP), a microcontroller, or the like. Further, processor 210 may be formed from state machines or other sequential logic. In operation, processor 210 may read instructions from memory 220 and perform actions in response thereto. For example, processor 210 may execute program instructions that influence communications between mobile computing device 110 and a device coupled to memory card slot 112.
+
+Memory card slot 112 is described above with reference to FIG. 1. Memory card slot 112 includes circuitry compatible with RFID card 120. Mobile computing device 110 may communicate with RFID card 120 by using a standard set of memory card access commands. For example, processor 210 may use memory card write commands to write to memory in RFID card 120, and may use memory card read commands to read from memory in RFID card 120.
+
+Mobile computing device 110 may access the RFID functionality in RFID card 120 using “hidden” commands embedded in memory card access commands. For example, a memory card write command may include a unique data string to identify the memory card write command as a command to be diverted for purposes other than a memory write. In addition, the sector address provided with the memory card write command may be set to a particular address value to further identify the memory card write command as a command to be diverted. In addition to specific address/data values to identify the memory card access command as a command to be diverted for a purpose other than a memory access, the memory access command may include data bits to further specify the type and function of hidden command. Example formats of hidden commands are described further below. In some embodiments, a read command is issued right after a write command to enable data flow from the non-memory card functions to the host, where the write command's data had the hidden commands. The combination of a memory card write command and a memory card read command can be used in this manner to form a hidden read command.
+
+In some embodiments, memory card slot 112 is powered down after periods of inactivity to save power. For example, memory card slot 112 may be powered up when processor 210 issues a memory card write or read command, but may then be powered down to save power. When memory card slot 112 is powered down, any device coupled to the memory card slot is also powered down. For example, if RFID card 120 (FIG. 1) is coupled to the memory card slot, then RFID card 120 is powered down when memory card slot 112 is powered down.
+
+In various embodiments of the present invention, processor 210 executes software resident in memory 220 to maintain power to memory card slot 112 (and to RFID card 120). For example, periodic hidden commands may be sent to RFID card 120 for the purpose of keeping power applied while RFID card 120 is expected to be providing RFID functionality. Also for example, a hidden command may be sent to RFID card 120 for the purpose of cycling power to a smartcard controller resident on the card. These hidden commands are described further below with respect to later figures.
+
+FIG. 3A shows a block diagram of a memory card compatible RFID card with an integrated inductive element. RFID card 300 represents possible embodiments of RFID card 120 (FIG. 1). RFID card 300 includes host interface 310, memory card controller 340, memory 360, smartcard controller 340, program memory 332, and small inductive element 350. RFID card 300 is capable of communicating with a memory card slot in a mobile computing device. Further, RFID card 300 does not require memory card slots to implement extended input/output functions. For example, and not by way of limitation, in SD embodiments, RFID card 300 is operable in any SD memory card slot, and does not require a secure digital input output (SDIO) memory card slot.
+
+Host interface 310 includes electrical contacts to interface with a memory card slot. For example, host interface 310 includes contacts such as contacts 122 (FIG. 1). Also for example, in some embodiments, host interface 310 includes recessed electrical contacts. Host interface 310 may also include circuitry such as drivers, receivers, terminations, and the like.
+
+In embodiments represented by FIG. 3A, memory card controller 340 communicates with the mobile device using memory card access commands. Memory card controller 340 also communicates with memory 360. Memory card controller 340 determines whether each command should result in a memory operation with memory 360, whether a hidden command should be diverted to smartcard controller 330, or whether memory card controller 340 should take action in response to a hidden command. In some embodiments, memory card controller 340 executes instructions that are stored in an internal memory or stored in memory 360. In some embodiments, memory card controller 340 includes special purpose hardware useful to determine whether a command should be diverted. In other embodiments, memory card controller 340 may be a microcontroller identical in all respects to a controller found in memory cards, except for the program that it executes.
+
+Memory 360 may be any type of volatile or non-volatile memory. For example, memory 360 may be volatile memory such as static random access memory (SRAM) or dynamic random access memory (DRAM). Also for example, memory 360 may be nonvolatile memory such as NOR FLASH memory or NAND FLASH memory. In various embodiments of the present invention, memory 360 represents memory that is accessed by a mobile computing device using memory card access commands defined for that purpose.
+
+When RFID card 300 is communicating with a memory card slot in a mobile computing device, the mobile computing device may send a memory card access command in order to access memory 360. Also for example, the mobile computing device may send a memory card access command that contains a hidden command. Memory card controller 340 detects the presence of the hidden command, and diverts all or a portion of the memory access command to smartcard controller 330 using communication bus 342. Communication bus 342 may have any number of conductors and may take any form. For example, communication bus 342 may be a serial port, a parallel port, or may include multiple data conductors, multiple address conductors, and/or conductors to carry control signals such as clock signals. In some embodiments, memory card controller 340 takes one or more actions in response to a hidden command. For example, memory card controller 340 may modify clock signals in response to a hidden command.
+
+Memory card controller 340 can detect the hidden command in many ways. For example, in some embodiments, the memory card access command may include a specific address value or a specific data value. Memory card controller 340 detects commands that include one or both of the specific address value or specific data value and routes the command appropriately. The specific address value and specific data value used for this purpose are referred to herein as the hidden command address value and the hidden command data value.
+
+In some embodiments, memory card controller 340 detects the presence of hidden commands based only on the hidden command address value. In these embodiments, memory card controller 340 checks the address value included in a memory card access command, and diverts the command (or takes some other action) if it matches the hidden command address value. In some embodiments, memory card controller 340 detects the presence of hidden commands based only on the hidden command data value. In these embodiments, memory card controller 340 checks a data value included in the memory card access command, and diverts the command if it matches the hidden command data value. In still further embodiments, memory card controller 340 detects the presence of hidden commands based on both the hidden command address value and the hidden command data value. In these embodiments, memory card controller 340 diverts the command only if both the memory card access address and data match the hidden command address value and data value, respectively.
+
+The hidden command address value and hidden command data value may be specified in many ways. For example, all RFID cards may be issued with fixed values. In these embodiments, each time the RFID functions are accessed, the same hidden command address and/or data value is included in the memory card access command. Also for example, different RFID cards may be issued with unique values. In these embodiments, each RFID card may provide these values to a mobile computing device when queried. Also for example, hidden command address and/or data values may be specified by the mobile computing device. In still further embodiments, hidden command address and data values may be dynamic. The hidden command address and data values may change each time power is applied or on a periodic basis.
+
+Smartcard controller 330 receives hidden commands diverted by memory card controller 340. Smartcard controller 330 further interprets the hidden commands and performs actions in response thereto. Smartcard controller 330 executes instructions stored in program memory 332. In some embodiments, program memory 332 is embedded in smartcard controller 330, and in other embodiments, program memory 332 is part of memory 360.
+
+Smartcard controller 330 is a dual interface smartcard controller with one of the interfaces including RFID functionality. In some embodiments, smartcard controller 330 is compatible with passive RFID tag readers in NFC applications. For example, smartcard controller 330 may be a device capable of implementing all or part of the ISO 14443 standard for contactless NFC devices. Also for example, smartcard controller 330 may be a dual interface smartcard controller capable of implementing both ISO 7816 and ISO 14443 standards for contact/contactless requirements. The “SmartMX” family of controllers available from NXP of The Netherlands are examples of suitable dual interface smartcard controllers. These controllers provide RFID functionality at 13.56 MHz. The various embodiments of the present invention operate at 13.56 MHz, but are not limited to operation at this frequency. In some embodiments, smartcard controller interoperates with MIFARE systems for ticketing applications.
+
+Smartcard controller 330 receives power from the host interface. By not receiving power from the interrogating RF field, the necessity of a loop antenna for power generation is negated. Smartcard controller 330 includes antenna port 334. Antenna port 334 is coupled to small inductive element 350.
+
+Small inductive element 350 includes a coil wound around a magnetic core. The coil is too small to draw power from the interrogating RF field, but this is not necessary since smartcard controller 330 is powered by the host device through host interface 310. Small inductive element 350 interacts with an antenna in an RFID reader similar to the way that primary and secondary coils in a transformer interact. The RFID reader has a coil resonant at 13.56 MHz functioning as the primary coil of a transformer. Small inductive element 350 functions as the secondary coil of the transformer. Accordingly, the transmitter “sees” the impedance of the secondary coil (small inductive element 350). Smartcard controller 334 is able to modulate reflected RF signals using circuitry to modify the impedance at the antenna port 334.
+
+Small inductive element 350 can be made very small. For example, in some embodiments, RFID card 120 is a miniSD card, and small inductive element 350 is small enough to be completely contained in the miniSD form factor. A specific embodiment of a small inductive element in a memory card form factor is described below with reference to FIG. 4.
+
+In various embodiments of the invention, memory card controller 340 and smartcard controller 330 are implemented in many different ways. For example, in some embodiments, the various components are implemented in hardware. In these embodiments, the various components may be implemented as separate integrated circuits, or in a combined integrated circuit. Also for example, in some embodiments, the various components may be implemented in software, or in a combination of hardware and software. In some embodiments, RFID card 300 may include a microprocessor, and the components may be implemented as software modules running on the microprocessor. In other embodiments, RFID card 300 may include multiple processors, and the components may be implemented as software modules distributed across the multiple processors.
+
+FIG. 3B shows a block diagram of a memory card compatible RFID card with an integrated inductive element. RFID card 302 represents possible embodiments of RFID card 120 (FIG. 1). RFID card 302 includes host interface 310, memory card controller 340, memory 360, smartcard controller 340, program memory 332, and small inductive element 350, all of which are described above with reference to FIG. 3A. RFID card 302 is capable of communicating with a memory card slot in a mobile computing device. Further, RFID card 302 does not require memory card slots to implement extended input/output functions. For example, and not by way of limitation, in SD embodiments, RFID card 302 is operable in any SD memory card slot, and does not require a secure digital input output (SDIO) memory card slot.
+
+In embodiments represented by FIG. 3B, smartcard controller 330 receives power from memory controller 340. In these embodiments, memory controller 340 has direct control over the power provided to smartcard controller 330. Memory controller 340 may apply and/or remove power from smartcard controller 330 in response to commands received over the host interface. For example, memory controller 340 may receive a hidden command to reset smartcard controller 330 by causing a reboot through a power cycle.
+
+FIG. 4 shows a photograph of a memory card compatible RFID card with an integrated inductive element. RFID card 120 is shown in an SD card form factor, although this is not a limitation of the present invention. RFID card 120 includes electrical contacts 122, memory card controller 340, smartcard controller 330, memory 360, magnetic core 450, and coil 452, all affixed to circuit board 402.
+
+Magnetic core 450 and coil 452 implement small inductive element 350 (FIG. 3). As can be seen in the photograph, the small inductive element fits entirely within the memory card form factor. The small inductive element does not provide power generation for smartcard controller 330, and so does not need to be made large for that purpose.
+
+FIG. 5 shows a data portion of a memory card write command. Included are hidden command data value 510, status field 520, password field 530, device ID 532, command index 540, and hidden command related data 550. In the example of FIG. 5, the data portion is 512 bytes in length, although this is not a limitation of the present invention. Any amount of data may be included in the write command, and each field shown in FIG. 5 may be any length.
+
+In the example of FIG. 5, the hidden command data value is 256 bits long, although any length may be used without departing from the scope of the present invention. In some embodiments, hidden command data value 510 is used to identify a memory write command as a hidden command. When a write command is received having data in the first 256 bits that match the hidden command data value, the command is identified as one to be diverted to the smartcard controller. As described above, a hidden command address value may be used in conjunction with, or instead of, a hidden command data value to identify the memory write command as a hidden command.
+
+The remaining fields have significance when the memory write is a hidden command. For example, if the first 256 bits do not match the hidden command data value (or if the write address does not match the hidden command address value, or both) then the remaining bits in the data field are to be treated as data in a normal memory write command. In contrast, when the memory write is a hidden command, the remaining fields are used to further interpret the hidden command.
+
+Memory card controller 340 (FIGS. 3, 4) inspect the hidden command data value 510, status field 520, and possibly password field 530 and device ID 532. In some embodiments, if the command is identified as a hidden command, memory card controller 340 forwards the password 530, command index 540, and related data 550 to smartcard controller 330. In other embodiments, memory card controller 340 may directly take actions based on the hidden command.
+
+Status field 520 may include any information relating to the status of the hidden command. For example, status field 520 may include one more bits to signify to memory card controller 340 whether the host (mobile computing device) is expecting the smartcard controller to return data in response to the hidden command. For example, when status field 520 signifies a write, memory card controller 340 forwards the password device ID, command index, and related data without expecting to return any data to the host. Also for example, when status field 520 signifies a read, memory card controller 340 forwards the password, device ID, command index, and related data with the expectation that smartcard controller 330 will provide data to be sent to the host in response to a memory card read command. The combination of a memory card write command followed shortly thereafter by a memory card read command may be used to provide “read” functionality to the smartcard controller. Read operations from the smartcard controller are described further below with reference to FIG. 8.
+
+Password field 530 includes a password to allow smartcard controller 330 to authenticate the host to the token. In some embodiments, every hidden command includes a password. Each time the password, device ID, command index, and related data is diverted to the smartcard controller, the password is checked to authenticate the host to the token.
+
+Device ID 532 uniquely identifies the host (mobile computing device). The device ID may be checked by the smartcard controller to ensure that the token is inserted in the host to which it is authenticated. Some embodiments of the present invention enforce a unique host/card pairing using the device ID, and other embodiments allow smartcard controller functions to be accessed by any host.
+
+Command index 540 identifies the type of hidden command. The number of possible hidden commands is limited only by the number of bits allocated thereto. Any number of bits may be allocated to command index 540 without departing from the scope of the present invention. Hidden command related data 550 may be utilized differently for each type of hidden command. Any number of bits may be used for hidden command related data 550.
+
+The data shown in FIG. 5 is provided as an example, and the data field of a memory card access command may include more or fewer data fields than those shown in FIG. 5. The present invention is not limited by the number or content of the fields in a memory card access command.
+
+FIG. 6 shows a flowchart in accordance with various embodiments of the present invention. In some embodiments, method 600 may be used by a mobile computing device to communicate with an RFID card in a memory card slot. In some embodiments, method 600, or portions thereof, is performed by a mobile computing device with a memory card slot, and in other embodiments, method 600, or portions thereof, is performed by software. The various actions in method 600 may be performed in the order presented, in a different order, or simultaneously. Further, in some embodiments, some actions listed in FIG. 6 are omitted from method 600.
+
+Method 600 begins at 610 in which a data pattern and an address value are received from an RFID card in a memory card slot. The data pattern corresponds to the hidden command data value, and the address value corresponds to the hidden command address value. In some embodiments, the mobile device only receives the data value and in other embodiments, the mobile device only receives the address value. In some embodiments, the actions of 610 may occur once when the RFID card is first inserted in the memory card slot. The mobile computing device may then use the address and data values each time it creates a hidden command. In other embodiments, the actions of 610 may occur each time the RFID card is inserted in the memory slot. In still further embodiments, the actions of 610 may occur periodically. Each time the actions 610 occur, the data pattern may be the same or different, and the address value may be the same or different.
+
+At 620, a data field of a memory card access command is populated with the data pattern to cause the command to be diverted to a smartcard controller on the RFID card. For example, the data pattern may be written to the data field as the hidden command data value 510 (FIG. 5).
+
+At 630, an address field of the memory card access command is populated with the address value to further cause the command to be diverted to the smartcard controller. In some embodiments, only one of 620 or 630 is utilized. In these embodiments, the presence of a hidden command is signified by the data pattern alone, or the address value alone.
+
+At 640, the data field of the memory card access command is populated with a command string to specify a purpose other than a memory card access. For example, the command string may be written to the data field as the command index 540 for the smart card controller. This command may be used for any purpose. For example, one or more hidden commands may have as a sole purpose keeping power provided to the memory card slot so that the RFID card continues to receive power.
+
+At 650, the data field of a memory card access command is populated with a password to authenticate access to the RFID card coupled to the memory card slot. In some embodiments, a password is included in the data field for every hidden command. In other embodiments, a password is only included at the beginning of an exchange.
+
+At 660, the memory card access command is sent to the RFID card coupled to the memory card slot. For example, a mobile computing device (110, FIGS. 1, 2) may send the memory card access command to an RFID card (120, FIGS. 1, 3, 4) in a memory card slot (112, FIGS. 1, 2). The RFID card includes a memory card controller (340, FIG. 3) to divert the command (or take some other action) based on the data fields populated in method 600.
+
+FIG. 7 shows a flowchart in accordance with various embodiments of the present invention. In some embodiments, method 700 may be used by an RFID card in a memory card slot. In some embodiments, method 700, or portions thereof, is performed by a memory card controller within a memory card compatible RFID card, and in other embodiments, method 700, or portions thereof, is performed by software. The various actions in method 700 may be performed in the order presented, in a different order, or simultaneously. Further, in some embodiments, some actions listed in FIG. 7 are omitted from method 700.
+
+Method 700 begins at 710 in which a memory card access command is received from a mobile computing device via a host interface. The actions of 710 correspond to an RFID card in a memory card slot of a mobile computing device receiving a memory card access command.
+
+At 720, the memory card controller checks criteria in the memory card access command to determine if the memory card access command should be diverted to a smartcard controller resident on the RFID card. The criteria may be one or both of a hidden command data value, a hidden command address value, or both. If there is a criteria match at 730, then a hidden command is present, and at least a portion of the memory card access command is diverted at 740. If there is not a criteria match, then no hidden command is present, and a memory access is performed at 750.
+
+FIG. 8 shows a flowchart in accordance with various embodiments of the present invention. In some embodiments, method 800 may be used by an RFID card in a memory card slot. In some embodiments, method 800, or portions thereof, is performed by a memory card controller within an RFID card, and in other embodiments, method 800, or portions thereof, is performed by software. The various actions in method 800 may be performed in the order presented, in a different order, or simultaneously. Further, in some embodiments, some actions listed in FIG. 8 are omitted from method 800.
+
+Method 800 begins at 810 in which a memory card write command is received from a mobile computing device via a host interface. If the memory card write command is determined to be a hidden command, processing continues with 840; otherwise, a memory write is performed at 830.
+
+At 840, the hidden command is diverted to a smartcard controller. If the hidden command is determined to be a “read” at 850, processing continues at 860; otherwise, the hidden command processing is done. At 860, the memory card controller retrieves non-memory data from the smartcard controller, and at 870, a memory card read command is received from the mobile computing device. At 880, the non-memory data is returned to the mobile computing device.
+
+Method 800 demonstrates how a mobile computing device can perform a read from a smartcard controller in a memory card compatible RFID card. The mobile computing device issues a memory card write command with a hidden command having a status field designating a read, and then the mobile computing device issues a memory card read command. The processing in the card receives the hidden command, identifies it as a read, and then returns data to the mobile computing device in response to a subsequent memory card read command.
+
+FIG. 9 shows a flowchart in accordance with various embodiments of the present invention. In some embodiments, method 900 may be used by an RFID card in a memory card slot. In some embodiments, method 900, or portions thereof, is performed by a smartcard controller within an RFID card, and in other embodiments, method 900, or portions thereof, is performed by software. The various actions in method 900 may be performed in the order presented, in a different order, or simultaneously. Further, in some embodiments, some actions listed in FIG. 9 are omitted from method 900.
+
+Method 900 begins at 910 in which a smartcard controller receives a command from the memory card controller. This command corresponds to a hidden command received by the memory card controller. At 950, the smartcard controller determines whether the command is a “dummy” command used solely for the purpose of maintaining power to the memory card slot. If no, then the smartcard function specified in the command is performed at 930. If yes, then the command is disregarded at 960.
+
+Method 900 allows a memory card compatible RFID card in a memory card slot to remain powered during periods when the memory card slot in the host device would otherwise remove power to save energy. This is a coordinated effort between software building hidden commands in a memory card access command, the memory card controller diverting the hidden command to the smartcard controller, and the smartcard controller disregarding the command. According to embodiments represented by FIG. 3A, providing power to the RFID card also provides power the smartcard controller, thereby allowing the use of a small inductive device such as those shown in FIGS. 3 and 4.
+
+FIG. 10 shows a flowchart in accordance with various embodiments of the present invention. In some embodiments, method 1000 may be used by an RFID card in a memory card slot. In some embodiments, method 1000, or portions thereof, is performed by a memory card controller within an RFID card, and in other embodiments, method 1000, or portions thereof, is performed by software. The various actions in method 1000 may be performed in the order presented, in a different order, or simultaneously. Further, in some embodiments, some actions listed in FIG. 10 are omitted from method 1000.
+
+Method 1000 begins at 1010 in which a memory card controller receives a hidden command from a mobile computing device. If at 1020, the memory card controller determines that the hidden command is to be diverted to the smartcard controller, then the command is diverted at 1030. If the command is not to be diverted, then the memory card controller does not divert the command; however, the memory card controller may take other actions at 1040 based on the hidden command. For example, the memory card controller may modify a clock signal provided to the smartcard controller. Also for example, the memory card controller may assert a reset signal to the smartcard controller. Still for example, the memory card controller may cycle power to the smartcard controller. The memory card controller is able to cycle power to the smartcard controller in embodiments represented by FIG. 3B.
+
+Cycling power to the smartcard controller may be a coordinated effort between the hosting computing device and the memory card controller in the RFID card. For example, power to the memory card slot may be maintained by supplying dummy hidden commands to the RFID card as described above with reference to FIG. 9. While power is maintained to the memory card slot, hidden commands may be used to cause the memory card controller to cycle power to the smartcard controller.
+
+FIG. 11 shows a method authenticating a mobile computing device to one or more functions in a memory card compatible RFID card. Method 1100 begins at block 1110 in which an activation code is received at an RFID card from a mobile computing device. At 1120, the received activation code is compared to a code stored in the RFID card. If the activation code matches, the RFID card receives a password from the mobile computing device at 1140, and stores the password in the RFID card for later use at 1150. If the activation code does not match, the RFID card determines whether a number of allowable tries has been exceeded at 1160. If the number of allowable tries has been exceeded, the RFID card issuer is contacted at 1170, and if the number of allowable tries has not been exceeded, the method repeats until either the activation code matches or the number of allowable tries has been exceeded.
+
+Method 1100 may be performed when an RFID card is issued to a user. For example, the RFID card may be a mobile payment card issued by a financial institution. The user may be provided an activation code to “activate” the RFID card. When the user successfully enters the activation code, the user is prompted for a password, and that password is stored for use in future hidden commands.
+
+In some embodiments, multiple non-memory functions in an RFID card are authenticated using method 1100. For example, each of multiple non-memory functions may have stored activation codes, and each is activated separately. Each of the separately activated functions may have a different password, or the multiple functions may share a password.
+
+Although the present invention has been described in conjunction with certain embodiments, it is to be understood that modifications and variations may be resorted to without departing from the spirit and scope of the invention as those skilled in the art readily understand. Such modifications and variations are considered to be within the scope of the invention and the appended claims.
+Claims (7)
+1. A mobile payment device comprising:
+a magnetic core having a coil wound thereabout to inductively couple with an interrogating radio frequency field transmitted by a mobile payment reader;
+a dual interface smartcard controller having an antenna port coupled to the coil, the dual interface smartcard controller further coupled to receive power from other than the antenna port;
+a memory card controller coupled to communicate with the dual interface smartcard controller; and
+a memory card compatible circuit board upon which the magnetic core, the dual interface smartcard, and the memory card controller are mounted.
+2. The mobile payment device of claim 1 further comprising metallic contacts compatible with a memory card slot in a host device.
+3. The mobile payment device of claim 1 wherein the dual interface smartcard controller is coupled to the metallic contacts to receive power from the host device.
+4. The mobile payment device of claim 1 wherein the dual interface smartcard controller is coupled to receive power from the memory card controller.
+5. The mobile payment device of claim 1 wherein the mobile payment device conforms to memory card size requirements of one of: Secure Digital (SD) cards, mini SD cards, and micro SD cards.
+6. The mobile payment device of claim 5 further comprising nonvolatile memory coupled to the memory card controller.
+7. The mobile payment device of claim 1 wherein the dual interface smartcard controller is operable to reflect signals received at substantially 13.56 MHz.
+Patent Citations (274)
+Publication number Priority date Publication date Assignee Title
+US6182891B2
+US4864109A 1984-11-12 1989-09-05 Nobuo Minematsu Electronic bankbook and transaction system for use therewith
+US4701601A 1985-04-26 1987-10-20 Visa International Service Association Transaction card with magnetic stripe emulator
+US4791283A 1986-06-03 1988-12-13 Intellicard International, Inc. Transaction card magnetic stripe emulator
+DE3632294A1 1986-09-23 1988-04-07 Siemens Ag Operating unit for smart cards (chip cards)
+US4786791A 1987-02-10 1988-11-22 Gateway Technology Data processing apparatus with portable card having magnetic strip simulator
+US6039260A 1988-12-12 2000-03-21 Smartdiskette Gmbh Intelligent cassette emulator device
+US5212478A 1989-03-31 1993-05-18 Lutron Electronics Co., Inc. Dynamic power recovery system
+US5537584A 1989-06-13 1996-07-16 Hitachi Maxell, Ltd. Power instability control of a memory card and a data processing device therefor
+US20020044043A1 1990-07-27 2002-04-18 John Chaco Patient care and communication system
+US5378887A 1991-05-22 1995-01-03 Kyodo Printing Co., Ltd. Non-contact type IC card
+US5585787A 1991-12-09 1996-12-17 Wallerstein; Robert S. Programmable credit card
+US5955961A 1991-12-09 1999-09-21 Wallerstein; Robert S. Programmable transaction card
+US5574273A 1993-06-14 1996-11-12 Hitachi Maxell, Ltd. Non-contact system parallel data transfer system
+US6182891B1 1994-07-18 2001-02-06 Ntt Data Communications Systems Corporation Electronic bankbook, and processing system for financial transaction information using electronic bankbook
+US5629981A 1994-07-29 1997-05-13 Texas Instruments Incorporated Information management and security system
+EP1178450A2 1994-10-28 2002-02-06 Behruz Vazvan Real time tele-payment system
+US6764005B2 1994-11-04 2004-07-20 Cooper J Carl Universal credit card apparatus and method
+US20040251303A1 1994-11-04 2004-12-16 Cooper J. Carl Universal credit card apparatus and method
+US20050017068A1 1995-02-15 2005-01-27 Zalewski Thomas W. System and method of making payments using an electronic device cover with embedded transponder
+US5710421A 1995-03-31 1998-01-20 Tokai-Rika-Denki-Seisakusho Kabushiki Kaisha IC card
+US6223984B1 1995-03-31 2001-05-01 Cybermark, Inc. Distinct smart card reader having wiegand, magnetic strip and bar code types emulation output
+US5952641A 1995-11-28 1999-09-14 C-Sam S.A. Security device for controlling the access to a personal computer or to a computer terminal
+US5700037A 1996-01-16 1997-12-23 Keller; John A. Security improved card
+US5834756A 1996-06-03 1998-11-10 Motorola, Inc. Magnetically communicative card
+US6206293B1 1996-06-03 2001-03-27 Motorola, Inc. Magnetically communicative card
+EP0818757A2 1996-07-12 1998-01-14 AT&amp;T Corp. Universal Authentication device for use over telephone lines
+GB2316908A 1996-09-06 1998-03-11 John Cowling Memory card with digitally encoded image of user
+US6189786B1 1996-09-24 2001-02-20 Hitachi, Ltd. Portable terminal device with stackable IC card slot opening
+US6021944A 1996-10-18 2000-02-08 Hewlett-Packard Company Transaction terminal for electronic purse transactions and the like
+US5909491A 1996-11-06 1999-06-01 Nokia Mobile Phones Limited Method for sending a secure message in a telecommunications system
+US6594759B1 1996-12-04 2003-07-15 Esignx Corporation Authorization firmware for conducting transactions with an electronic transaction system and methods therefor
+US6016476A 1997-08-11 2000-01-18 International Business Machines Corporation Portable information and transaction processing system and method utilizing biometric authorization and digital certificate security
+US6882900B1 1997-09-26 2005-04-19 Gilbarco Inc. Fuel dispensing and retail system for providing customer selected guidelines and limitations
+US6925568B1 1998-01-16 2005-08-02 Sonera Oyj Method and system for the processing of messages in a telecommunication system
+USRE41352E1 1998-02-19 2010-05-25 Keystone Technology Solutions, Llc Method of addressing messages and communications
+USRE41471E1 1998-02-19 2010-08-03 Round Rock Research, Llc Method of Addressing Messages and Communications System
+USRE42254E1 1998-02-19 2011-03-29 Round Rock Research, Llc Method of addressing messages and communications system
+US20030028481A1 1998-03-25 2003-02-06 Orbis Patents, Ltd. Credit card system and method
+US6636833B1 1998-03-25 2003-10-21 Obis Patents Ltd. Credit card system and method
+US6315195B1 1998-04-17 2001-11-13 Diebold, Incorporated Transaction apparatus and method
+US6905072B2 1998-04-17 2005-06-14 Diebold, Incorporated Apparatus and method of transmitting transaction signature
+US20010013551A1 1998-04-17 2001-08-16 Diebold, Incorporated Portable automated banking apparatus and system
+US6068184A 1998-04-27 2000-05-30 Barnett; Donald A. Security card and system for use thereof
+US6402029B1 1998-05-29 2002-06-11 E-Micro Corporation Method and apparatus for combining data for multiple magnetic stripe cards or other sources
+US6747547B2 1998-06-15 2004-06-08 Imbros Corporation Communication method and apparatus improvements
+JP2000010668A 1998-06-18 2000-01-14 Hitachi Information Technology Co Ltd Memory card supply voltage control system
+US6219439B1 1998-07-09 2001-04-17 Paul M. Burger Biometric authentication system
+US20020007434A1 1998-07-09 2002-01-17 Giovanni Campardo Non-volatile memory capable of autonomously executing a program
+US6481623B1 1998-08-03 2002-11-19 Privicom, Inc. Card reader for transmission of data by sound
+US6250557B1 1998-08-25 2001-06-26 Telefonaktiebolaget Lm Ericsson (Publ) Methods and arrangements for a smart card wallet and uses thereof
+EP1117068A1 1998-08-31 2001-07-18 C. Media Co. Ltd. Noncontact ic medium and system using the same
+EP1014290A2 1998-11-26 2000-06-28 Nokia Mobile Phones Ltd. Data card holder and reader therefor
+US6568600B1 1999-01-19 2003-05-27 Bull Cp8 Chip card equipped with a loop antenna, and associated micromodule
+US20050268330A1 1999-05-10 2005-12-01 Di Rienzo Andrew L Authentication
+US6721196B1 1999-06-23 2004-04-13 Giesecke & Devrient Gmbh Semiconductor memory chip module
+US20030115126A1 1999-08-11 2003-06-19 Pitroda Satyan G. System and methods for servicing electronic transactions
+US6715679B1 1999-09-08 2004-04-06 At&T Corp. Universal magnetic stripe card
+US20050050367A1 1999-09-28 2005-03-03 Chameleon Network, Inc. Portable electronic authorization system and method
+US20050108096A1 1999-09-28 2005-05-19 Chameleon Network Inc. Portable electronic authorization system and method
+US20050116026A1 1999-09-28 2005-06-02 Chameleon Network, Inc. Portable electronic authorization system and method
+US20020099665A1 1999-09-28 2002-07-25 Burger Todd O. Portable electronic authorization system and method
+US20030220876A1 1999-09-28 2003-11-27 Burger Todd O. Portable electronic authorization system and method
+US20050060586A1 1999-09-28 2005-03-17 Chameleon Network, Inc. Portable electronic authorization system and method
+US20020130187A1 1999-10-14 2002-09-19 Berg Jon N. System for card to card transfer of secure data
+US6769607B1 1999-11-15 2004-08-03 Satyan G. Pitroda Point of sale and display adapter for electronic transaction device
+US6705520B1 1999-11-15 2004-03-16 Satyan G. Pitroda Point of sale adapter for electronic transaction device
+US20010002035A1 1999-11-29 2001-05-31 Georges Kayanakis Contactless or hybrid contact-contactless smart card designed to limit the risks of fraud
+US20020138422A1 1999-12-10 2002-09-26 Takeshi Natsuno Electronic commerce contracts mediating method and mobile communication network
+US20010006902A1 2000-01-05 2001-07-05 Takafumi Ito IC card with radio interface function, antenna module and data processing apparatus using the IC card
+US20050077349A1 2000-03-07 2005-04-14 American Express Travel Related Services Company, Inc. Method and system for facilitating a transaction using a transponder
+US6669487B1 2000-04-28 2003-12-30 Hitachi, Ltd. IC card
+US20030200180A1 2000-05-08 2003-10-23 Frank Phelan Money card system, method and apparatus
+US6592044B1 2000-05-15 2003-07-15 Jacob Y. Wong Anonymous electronic card for generating personal coupons useful in commercial and security transactions
+US6609654B1 2000-05-15 2003-08-26 Privasys, Inc. Method for allowing a user to customize use of a payment card that generates a different payment card number for multiple transactions
+US6805288B2 2000-05-15 2004-10-19 Larry Routhenstein Method for generating customer secure card numbers subject to use restrictions by an electronic card
+US20020043566A1 2000-07-14 2002-04-18 Alan Goodman Transaction card and method for reducing frauds
+US6598031B1 2000-07-31 2003-07-22 Edi Secure Lllp Apparatus and method for routing encrypted transaction card identifying data through a public telephone network
+US6223954B1 2000-08-10 2001-05-01 Robert N. Carow Pump actuator with plastic spring
+US7716082B1 * 2000-08-24 2010-05-11 Gilbarco, Inc. Wireless payment mat device and method for retail environments
+US20020139849A1 2000-09-18 2002-10-03 Gangi Frank J. Method and apparatus for associating identification and personal data for multiple magnetic stripe cards or other sources
+EP1189465A1 2000-09-19 2002-03-20 Sony International (Europe) GmbH Mobile terminal with removable memory having SIM card function
+US6588660B1 2000-09-29 2003-07-08 Hewlett-Packard Development Company, L.P. Passive contactless smartcard security system
+DE10054890A1 2000-10-18 2002-04-25 Bernd Schneider Mobile universal data terminal with insertion and head parts has at least one card reading unit in one or more insertion slots with different arrangements for reading different chip card types
+US20060169778A1 2000-11-20 2006-08-03 Chung Kevin K Electronic voting apparatus, system and method
+US6631849B2 2000-12-06 2003-10-14 Bank One, Delaware, National Association Selectable multi-purpose card
+US20050092830A1 2000-12-06 2005-05-05 George Blossom Selectable multi-purpose card
+US6907123B1 2000-12-21 2005-06-14 Cisco Technology, Inc. Secure voice communication system
+US20020095588A1 2001-01-12 2002-07-18 Satoshi Shigematsu Authentication token and authentication system
+US20020096570A1 2001-01-25 2002-07-25 Wong Jacob Y. Card with a dynamic embossing apparatus
+US20020138735A1 2001-02-22 2002-09-26 Felt Edward P. System and method for message encryption and signing in a transaction processing system
+US20020148892A1 2001-02-23 2002-10-17 Biometric Security Card, Inc. Biometric identification system using biometric images and personal identification number stored on a magnetic stripe and associated methods
+US20040077372A1 2001-03-07 2004-04-22 Halpern John W. Mobile phone communications system with increased functionality
+US20040177045A1 2001-04-17 2004-09-09 Brown Kerry Dennis Three-legacy mode payment card with parametric authentication and data input elements
+US20020153424A1 2001-04-19 2002-10-24 Chuan Li Method and apparatus of secure credit card transaction
+US20020158747A1 2001-04-26 2002-10-31 Mcgregor Christopher M. Bio-metric smart card, bio-metric smart card reader and method of use
+US20020180584A1 2001-04-26 2002-12-05 Audlem, Ltd. Bio-metric smart card, bio-metric smart card reader, and method of use
+US20050029349A1 2001-04-26 2005-02-10 Mcgregor Christopher M. Bio-metric smart card, bio-metric smart card reader, and method of use
+US20040243806A1 2001-04-30 2004-12-02 Mckinley Tyler J. Digital watermarking security systems
+US20020178124A1 2001-05-22 2002-11-28 Lewis Shawn Michael Credit card verification system
+US20050204077A1 2001-06-05 2005-09-15 Kou Wallace C. Method and apparatus for CD with independent audio functionality
+US20020186845A1 2001-06-11 2002-12-12 Santanu Dutta Method and apparatus for remotely disabling and enabling access to secure transaction functions of a mobile terminal
+US6836843B2 2001-06-29 2004-12-28 Hewlett-Packard Development Company, L.P. Access control through secure channel using personal identification system
+US20050038736A1 2001-07-10 2005-02-17 Saunders Peter D. System and method for transmitting track 1/track 2 formatted information via Radio Frequency
+US20040006654A1 2001-07-25 2004-01-08 Hideaki Bando Interface apparatus
+US7221473B2 2001-08-03 2007-05-22 Hewlett-Packard Development Company, L.P. Printing system for updating printing characteristics with a printing consumable
+US20030025939A1 2001-08-03 2003-02-06 Jeran Paul L. Flexible printing system
+EP1291748A2 2001-09-11 2003-03-12 Alcatel Electronic device capable of wirelessly transmitting a password that can be used to unlock/lock a password protected electronic device
+US20070033334A1 2001-09-12 2007-02-08 Kunihiro Katayama Non-volatile memory card and transfer interruption means
+US6607127B2 2001-09-18 2003-08-19 Jacob Y. Wong Magnetic stripe bridge
+US20030057278A1 2001-09-18 2003-03-27 Wong Jacob Y. Advanced magnetic stripe bridge (AMSB)
+US6811082B2 2001-09-18 2004-11-02 Jacob Y. Wong Advanced magnetic stripe bridge (AMSB)
+US20030052168A1 2001-09-18 2003-03-20 Wong Jacob Y. Magnetic Stripe bridge
+US20030061168A1 2001-09-21 2003-03-27 Larry Routhenstein Method for generating customer secure card numbers
+US20050044044A1 2001-10-01 2005-02-24 Chameleon Network, Inc. Portable electronic authorization system and method
+US20030079096A1 2001-10-22 2003-04-24 Kabushiki Kaisha Toshiba Apparatus and method for controlling a card device
+US6908030B2 2001-10-31 2005-06-21 Arcot Systems, Inc. One-time credit card number generator and single round-trip authentication
+US20030080183A1 2001-10-31 2003-05-01 Sanguthevar Rajasekaran One-time credit card number generator and single round-trip authentication
+US20030085288A1 2001-11-06 2003-05-08 Luu Deniel V.H. Contactless SIM card carrier with detachable antenna and carrier therefore
+US20050212657A1 2001-11-07 2005-09-29 Rudy Simon Identity verification system with self-authenticating card
+US6712277B2 2001-12-05 2004-03-30 Hewlett-Packard Development Company, L.P. Multiple interface memory card
+US6857566B2 2001-12-06 2005-02-22 Mastercard International Method and system for conducting transactions using a payment card with two technologies
+US20050121512A1 2001-12-06 2005-06-09 John Wankmueller Method and system for conducting transactions using a payment card with two technologies
+US20040035942A1 2001-12-07 2004-02-26 Silverman Martin S. Dynamic virtual magnetic stripe
+US20060097851A1 2001-12-17 2006-05-11 Franz Amtmann Communication station for inventorizing transponders by means of selectable memory areas of the transponders
+US6995651B2 2001-12-17 2006-02-07 Koninklijke Phillips Electronics N.V. Communication station for inventorizing transponders by means of selectable memory areas of the transponders
+US20030128124A1 2001-12-17 2003-07-10 Franz Amtmann Communication station for inventorizing transponders by means of selectable memory areas of the transponders
+US20040058705A1 2001-12-21 2004-03-25 Russell Morgan Secure point-of-sale cellular telephone docking module system
+US20040094624A1 2001-12-26 2004-05-20 Vivotech, Inc. Adaptor for magnetic stripe card reader
+US20030159050A1 2002-02-15 2003-08-21 Alexander Gantman System and method for acoustic two factor authentication
+US7607580B2 * 2002-03-01 2009-10-27 Nidec Sankyo Corporation Object sensor and IC card reader with the object sensor
+US20050127164A1 2002-03-19 2005-06-16 John Wankmueller Method and system for conducting a transaction using a proximity device and an identifier
+US20040133787A1 2002-03-28 2004-07-08 Innovation Connection Corporation System, method and apparatus for enabling transactions using a biometrically enabled programmable magnetic stripe
+US6952788B2 2002-05-10 2005-10-04 Xerox Corporation Customer replacement unit monitor programming cable
+US20050022002A1 2002-06-12 2005-01-27 Poisner David I. Protected configuration space in a protected environment
+US20030231550A1 2002-06-13 2003-12-18 General Motors Corporation Personalized key system for a mobile vehicle
+US20040030660A1 2002-07-03 2004-02-12 Will Shatford Biometric based authentication system with random generated PIN
+US20040065733A1 2002-07-30 2004-04-08 Shinichiro Fukuoka RFID tag and method for processing RFID data
+WO2004012352A1 2002-07-30 2004-02-05 Way Systems, Inc. Mobile device equipped with a contactless smart card reader/writer
+US7088246B2 2002-07-30 2006-08-08 Omron Corporation RFID tag and method for processing RFID data
+US6937526B2 2002-08-08 2005-08-30 Fujitsu Limited Memory card enabling simplified test process and memory card test method
+US20040027881A1 2002-08-08 2004-02-12 Fujitsu Limited Memory card enabling simplified test process and memory card test method
+US20040050930A1 2002-09-17 2004-03-18 Bernard Rowe Smart card with onboard authentication facility
+US7558107B2 2002-09-25 2009-07-07 Renesas Technology Corp. Non volatile memory
+US20040064612A1 2002-09-26 2004-04-01 Sandisk Corporation Method and system for using a memory card protocol inside a bus protocol
+US20040087339A1 2002-10-30 2004-05-06 Scott Goldthwaite Mobile communication device equipped with a magnetic stripe reader
+US7281101B2 2003-02-06 2007-10-09 Renesas Technology Corp. Memory device storing data relating to specific application programs
+US20040162932A1 2003-02-06 2004-08-19 Renesas Technology Corp. Memory device
+US20040199469A1 2003-03-21 2004-10-07 Barillova Katrina A. Biometric transaction system and method
+US20040188519A1 2003-03-31 2004-09-30 Kepler, Ltd. A Hong Kong Corporation Personal biometric authentication and authorization device
+WO2004095169A2 2003-04-21 2004-11-04 Josef Osterweil Method and system for data writing/reading onto/from and emulating a magnetic stripe
+US20040255145A1 2003-05-06 2004-12-16 Jerry Chow Memory protection systems and methods for writable memory
+US20040227859A1 2003-05-16 2004-11-18 Hsien-Rong Liang Multifunctional remote control device
+US20040243785A1 2003-05-27 2004-12-02 Venkatachalam Shanmugasundaram Memory controller providing dynamic arbitration of memory commands
+JP2005018671A 2003-06-30 2005-01-20 Hitachi Ltd Memory card and cellular phone
+US20050006462A1 2003-07-10 2005-01-13 Rouille David W. Security system
+US20050246546A1 2003-07-16 2005-11-03 Yoshihiko Takagi Access method
+US20050039027A1 2003-07-25 2005-02-17 Shapiro Michael F. Universal, biometric, self-authenticating identity computer having multiple communication ports
+US20050253687A1 2003-08-07 2005-11-17 Intermec Ip Corp. Enhanced identification protocol for RFID systems
+US20050052924A1 2003-09-08 2005-03-10 Renesas Technology Corp. Memory card
+US20080073436A1 2003-09-08 2008-03-27 Hirotaka Nishizawa Memory Card
+WO2005027030A1 2003-09-09 2005-03-24 Human Technologies, Inc. Magnetic stripe generating device, authentication device, authentication system and magnetic stripe generating method
+US20050071282A1 2003-09-29 2005-03-31 Lu Hongqian Karen System and method for preventing identity theft using a secure computing device
+US20050109838A1 2003-10-10 2005-05-26 James Linlor Point-of-sale billing via hand-held devices
+US20060219776A1 2003-11-17 2006-10-05 Dpd Patent Trust Rfid reader with multiple interfaces
+US20050122209A1 2003-12-03 2005-06-09 Black Gerald R. Security authentication method and system
+US20050127166A1 2003-12-15 2005-06-16 Matsushita Electric Industrial Co., Ltd. Secure device and information processing apparatus
+US20050133606A1 2003-12-17 2005-06-23 Brown Kerry D. Programmable magnetic data storage card
+US20050136964A1 2003-12-22 2005-06-23 Le Saint Eric F. Intelligent remote device
+US20050197859A1 2004-01-16 2005-09-08 Wilson James C. Portable electronic data storage and retreival system for group data
+US20050177724A1 2004-01-16 2005-08-11 Valiuddin Ali Authentication system and method
+US20050168339A1 2004-02-04 2005-08-04 Semiconductor Energy Laboratory Co., Ltd. ID label, ID tag, and ID card
+US7673080B1 2004-02-12 2010-03-02 Super Talent Electronics, Inc. Differential data transfer for flash memory card
+US20100049878A1 2004-02-12 2010-02-25 Super Talent Electronics, Inc. Differential Data Transfer For Flash Memory Card
+US6883718B1 2004-02-27 2005-04-26 Imation Corp. Credit card sized memory card with host connector
+US20050204092A1 2004-03-11 2005-09-15 Taishi Masuyama Memory card device, and memory card control method for controlling the device
+US7185146B2 2004-03-11 2007-02-27 Kabushiki Kaisha Toshiba Memory card device, and memory card control method for controlling the device
+US20050223143A1 2004-04-01 2005-10-06 Kang Sang-Wook Multi-channel integrated circuit card and method of controlling the same
+US20050224589A1 2004-04-11 2005-10-13 Electronics And Telecommunications Research Institute SD memory card for extension of function
+US20070257797A1 2004-04-14 2007-11-08 Arjowiggins Security Structure Including an Electronic Device, in Particular for Fabricating a Security Document or a Document of Value
+US20050240778A1 2004-04-26 2005-10-27 E-Smart Technologies, Inc., A Nevada Corporation Smart card for passport, electronic passport, and method, system, and apparatus for authenticating person holding smart card or electronic passport
+US20050258245A1 2004-05-20 2005-11-24 Bates Peter K Radio frequency fobs and methods of using the same
+US20050268058A1 2004-05-27 2005-12-01 Microsoft Corporation Alternative methods in memory protection
+WO2005119607A2 2004-06-03 2005-12-15 Tyfone, Inc. System and method for securing financial transactions
+WO2005119607A3 2004-06-03 2006-05-04 Siva G Narendra System and method for securing financial transactions
+WO2005119608A1 2004-06-03 2005-12-15 Tyfone, Inc. System and method for securing financial transactions
+US7493484B2 2004-07-03 2009-02-17 Samsung Electronics Co., Ltd. Method and apparatus for executing the boot code of embedded systems
+US20060027655A1 2004-07-15 2006-02-09 Patrick Smets Method and system for conducting contactless payment card transactions
+US20060011731A1 2004-07-19 2006-01-19 Gemplus Durable plastic mini card and method for testing its durability
+US20060045555A1 2004-09-02 2006-03-02 Matsushita Electric Industrial Co., Ltd. Image forming apparatus and control method
+US7295790B2 2004-09-02 2007-11-13 Matsushita Electric Industrial Co, Ltd. Image forming apparatus and control method
+US20060077039A1 2004-09-30 2006-04-13 Fujitsu Limited Reader/writer and RFID system
+US7948356B2 2004-11-04 2011-05-24 Panasonic Corporation Portable terminal
+US20090315667A1 2004-11-04 2009-12-24 Hiromi Kawamura Portable terminal
+US7792516B2 2004-11-08 2010-09-07 Tonie Soderstrom Purchase card system and method therefor
+US7353993B2 2004-11-26 2008-04-08 Kabushiki Kaisha Toshiba Card and host device
+US20060124755A1 2004-12-15 2006-06-15 Takafumi Ito Card-shaped memory device incorporating IC card function, adapter for the same and host device
+US20060172606A1 2005-01-31 2006-08-03 Tatsuya Irisawa Interface unit for interfacing host unit and peripheral unit
+US20110073665A1 2005-02-22 2011-03-31 Tyfone, Inc. Electronic transaction card powered by mobile device
+US20110223972A1 2005-02-22 2011-09-15 Tyfone, Inc. Provisioning an add-on apparatus with smartcard circuity for enabling transactions
+WO2006091709A3 2005-02-22 2006-12-21 Tyfone Inc Electronic transaction card
+WO2006091709A2 2005-02-22 2006-08-31 Tyfone, Inc. Electronic transaction card
+US7954715B2 2005-02-22 2011-06-07 Tyfone, Inc. Mobile device with transaction card in add-on slot
+US7954716B2 2005-02-22 2011-06-07 Tyfone, Inc. Electronic transaction card powered by mobile device
+US7954717B2 2005-02-22 2011-06-07 Tyfone, Inc. Provisioning electronic transaction card in mobile device
+US7828214B2 2005-02-22 2010-11-09 Tyfone, Inc. Mobile phone with electronic transaction card
+US20110073663A1 2005-02-22 2011-03-31 Tyfone, Inc. Memory card compatible financial transaction card
+US20110220726A1 2005-02-22 2011-09-15 Tyfone, Inc. Add-on card with smartcard circuitry powered by a mobile device
+US20110077052A1 2005-02-22 2011-03-31 Tyfone, Inc. Provisioning electronic transaction card in mobile device
+US20110053644A1 2005-02-22 2011-03-03 Tyfone, Inc. Mobile device with transaction card in add-on slot
+US7581678B2 2005-02-22 2009-09-01 Tyfone, Inc. Electronic transaction card
+US20060186209A1 2005-02-22 2006-08-24 Tyfone, Inc. Electronic transaction card
+US20090298540A1 2005-02-22 2009-12-03 Tyfone, Inc. Electronic transaction card
+US7059520B1 2005-03-17 2006-06-13 Joel Shtesl Universal credit card integrated with cellular telephone
+US20060279413A1 2005-03-28 2006-12-14 Sirit Technologies, Inc. Radio frequency identification device
+WO2006108184A1 2005-04-07 2006-10-12 Tyfone, Inc. Sleeve for electronic transaction card
+US20060226217A1 * 2005-04-07 2006-10-12 Tyfone, Inc. Sleeve for electronic transaction card
+US20080065830A1 2005-05-18 2008-03-13 Yoshitaka Aoki Memory Card and Card Adapter
+US20060268764A1 2005-05-26 2006-11-30 Harris John M Method, apparatus and system for use in allocating reverse channel resources
+WO2007011937A2 2005-07-18 2007-01-25 Tyfone, Inc. Electronic stripe cards
+US7789303B2 2005-08-29 2010-09-07 Canon Kabushiki Kaisha Information processing apparatus, device, information processing system, information processing program, and storage medium storing the information processing program
+US7333062B2 2005-09-15 2008-02-19 Motorola, Inc. Wireless communication device with integrated antenna
+US20070076877A1 2005-09-30 2007-04-05 Sony Ericsson Mobile Communications Ab Shared key encryption using long keypads
+US20070108280A1 2005-10-31 2007-05-17 Huawei Technologies Co., Ltd. Memory card and terminal equipment incorporating the same
+US20070110404A1 2005-11-11 2007-05-17 Ching Liu Y Automotive display having a function of reading data storage media
+US7350717B2 2005-12-01 2008-04-01 Conner Investments, Llc High speed smart card with flash memory
+US20070145135A1 2005-12-28 2007-06-28 Fabrice Jogand-Coulomb Methods used in a nested memory system with near field communications capability
+US20070145152A1 2005-12-28 2007-06-28 Fabrice Jogand-Coulomb Nested memory system with near field communications capability
+JP2007199847A 2006-01-24 2007-08-09 Tokyo Electronic Systems Corp Nonvolatile memory medium with rfid function and its system
+US20070205864A1 2006-02-17 2007-09-06 Datamars S.A. Secure radio frequency identification system
+US20070195458A1 2006-02-23 2007-08-23 Sony Corporation Recording medium and apparatus for holding the same
+US20090290582A1 2006-04-26 2009-11-26 Suenaga Hiroshi Signal transmission method, transmission/reception device, and communication system
+US7558110B2 2006-04-28 2009-07-07 Renesas Technology Corp. IC module and cellular phone
+US20070293202A1 2006-05-25 2007-12-20 Celltrust Corporation Secure mobile information management system and method
+US20090270127A1 2006-06-05 2009-10-29 Takashi Kakimoto Modem card
+JP2007328689A 2006-06-09 2007-12-20 Dainippon Printing Co Ltd Portable information recording medium and reader
+US20080046649A1 2006-08-17 2008-02-21 Takafumi Ito Method of controlling semiconductor memory card system
+US20110110404A1 2006-09-11 2011-05-12 Sony Corporation Communication system and communication apparatus
+US20080153416A1 2006-09-11 2008-06-26 Takanori Washiro Communication System and Communication Apparatus
+US20080068173A1 2006-09-13 2008-03-20 Sensormatic Electronics Corporation Radio frequency identification (RFID) system for item level inventory
+US20080136619A1 2006-12-07 2008-06-12 Neology, Inc. Systems and methods for incorporating an rfid circuit into a sensor device
+US7991158B2 2006-12-13 2011-08-02 Tyfone, Inc. Secure messaging
+US20080279381A1 2006-12-13 2008-11-13 Narendra Siva G Secure messaging
+US20080147950A1 2006-12-19 2008-06-19 Phison Electronics Corp. Flash memory card test device with multiple interfaces
+US20080148077A1 2006-12-19 2008-06-19 An-Ming Lee Memory card control apparatus and protection method thereof
+US20080186174A1 2007-02-02 2008-08-07 Sensormatic Electronics Corporation Item level inventory with a radio frequency identification (RFID) system
+US20080214111A1 2007-03-02 2008-09-04 Celltrust Corporation Lost phone alarm system and method
+WO2008121566A1 2007-03-30 2008-10-09 Tyfone, Inc. Memory card hidden command protocol
+US20080244208A1 2007-03-30 2008-10-02 Narendra Siva G Memory card hidden command protocol
+US20080311849A1 2007-06-14 2008-12-18 Takanori Washiro Communication system and communication apparatus
+US20080318535A1 2007-06-20 2008-12-25 Motorola, Inc. Method and apparatus for selecting a communication mode based on engery sources in a hybrid power supply
+US7933571B2 2007-06-20 2011-04-26 Motorola Mobility, Inc. Method and apparatus for selecting a communication mode based on energy sources in a hybrid power supply
+US20090065571A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Selectively switching antennas of transaction cards
+US20090070691A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Presenting web pages through mobile host devices
+US20090070272A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Wirelessly executing financial transactions
+US20090069052A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Receiving broadcast signals using intelligent covers for mobile devices
+US20090069051A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Wirelessly accessing broadband services using intelligent covers
+US20090070861A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Wirelessly accessing broadband services using intelligent cards
+US20090069049A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Interfacing transaction cards with host devices
+US20090108063A1 2007-09-12 2009-04-30 Deepak Jain Wirelessly Communicating Radio Frequency Signals
+US20090199283A1 2007-09-12 2009-08-06 Devicefidelity, Inc. Wirelessly receiving broadcast signals using intelligent cards
+US7941197B2 2007-09-12 2011-05-10 Devicefidelity, Inc. Updating mobile devices with additional elements
+US20090065572A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Wirelessly executing transactions with different enterprises
+US20090069050A1 2007-09-12 2009-03-12 Devicefidelity, Inc. Updating mobile devices with additional elements
+US20090150610A1 2007-12-05 2009-06-11 Chun-Wei Hsu Two-in-one memory card
+US20090152361A1 2007-12-14 2009-06-18 Narendra Siva G Memory card based contactless devices
+US20090265552A1 2008-03-28 2009-10-22 Celltrust Corporation Systems and methods for secure short messaging service and multimedia messaging service
+WO2009147548A2 2008-05-27 2009-12-10 Nxp B.V. Method for storing nfc applications in a secure memory device
+US20100033310A1 2008-08-08 2010-02-11 Narendra Siva G Power negotation for small rfid card
+US20100033307A1 2008-08-08 2010-02-11 Narendra Siva G Small rfid card with integrated inductive element
+US20110171996A1 2008-08-08 2011-07-14 Tyfone, Inc. Smartcard performance enhancement circuits and systems
+US7961101B2 2008-08-08 2011-06-14 Tyfone, Inc. Small RFID card with integrated inductive element
+WO2010099093A1 2009-02-24 2010-09-02 Tyfone, Inc. Contactless device with miniaturized antenna
+US20100213265A1 2009-02-24 2010-08-26 Tyfone, Inc. Contactless device with miniaturized antenna
+* Cited by examiner, † Cited by third party
+Non-Patent Citations (15)
+Title
+International Preliminary Report and Written Opinion on Patentability received for PCT Application No. PCT/US2005/019988 , issued on Dec. 4, 2006, 9 Pages.
+International Preliminary Report and Written Opinion received for PCT Application No. PCT/US2006/027847, issued on Jan. 22, 2008, 10 pages.
+International Preliminary Report and Written Opinion received for the PCT Application No. PCT/US2005/022993, issued on Dec. 4, 2006, 6 pages.
+International Preliminary Report on Patentability and Written Opinion received for PCT Application No. PCT/US2006/006361, issued on Aug. 28, 2007, 8 pages.
+International Preliminary Report on Patentability and Written Opinion received for PCT Application No. PCT/US2008/057588, issued on Oct. 6, 2009, 6 pages.
+International Preliminary Report on Patentability and Written Opinion received for PCT Application No. PCT/US2010/025014, mailed on Sep. 9, 2011, 6 pages.
+International Preliminary Report on Patentability and Written Opinion received for the US Patent Application No. PCT/US2006/013603, issued on Oct. 9, 2007, 7 pages.
+International Search Report and Written Opinion received for the PCT Application No. PCT/US2010/025014, mailed on Apr. 15, 2010, 9 pages.
+International Search Report received for PCT Application No. PCT/US2005/019988, mailed on Dec. 16, 2005, 5 pages.
+International Search Report received for PCT Application No. PCT/US2006/027847, mailed on Mar. 29, 2007, 5 pages.
+International Search Report received for PCT Application No. PCT/US2008/057588, mailed on Aug. 7, 2008, 1 page.
+International Search Report received for the PCT Application No. PCT/US2005/022993, mailed on Oct. 21, 2005, 3 pages.
+International Search Report received for the PCT Application No. PCT/US2006/006361, mailed on Sep. 22, 2006, 4 pages.
+International Search Report received for the PCT Application No. PCT/US2006/013603, mailed on Jan. 9, 2006, 3 pages.
+Lee, Youbok "Anntenna Circuit Design For RFID Applications", Microchip, AN710, 2003, Microchip Technology Inc., 50 pages.
+* Cited by examiner, † Cited by third party
+Cited By (44)
+Search Within Citing Patents
+Publication number Priority date Publication date Assignee Title
+US8573494B2 2005-02-22 2013-11-05 Tyfone, Inc. Apparatus for secure financial transactions
+US9004361B2 2005-02-22 2015-04-14 Tyfone, Inc. Wearable device transaction system
+US9092708B1 2005-02-22 2015-07-28 Tyfone, Inc. Wearable device with time-varying magnetic field
+US9202156B2 2005-02-22 2015-12-01 Tyfone, Inc. Mobile device with time-varying magnetic field
+US9208423B1 2005-02-22 2015-12-08 Tyfone, Inc. Mobile device with time-varying magnetic field and single transaction account numbers
+US8408463B2 2005-02-22 2013-04-02 Tyfone, Inc. Mobile device add-on apparatus for financial transactions
+US9251453B1 2005-02-22 2016-02-02 Tyfone, Inc. Wearable device with time-varying magnetic field and single transaction account numbers
+US8474718B2 2005-02-22 2013-07-02 Tyfone, Inc. Method for provisioning an apparatus connected contactless to a mobile device
+US9117152B2 2008-08-08 2015-08-25 Tyfone, Inc. 13.56 MHz enhancement circuit for smartmx smartcard controller
+US8866614B2 2008-08-08 2014-10-21 Tyfone, Inc. Active circuit for RFID
+US9390359B2 2008-08-08 2016-07-12 Tyfone, Inc. Mobile device with a contactless smartcard device and active load modulation
+US8410936B2 * 2008-08-08 2013-04-02 Tyfone, Inc. Contactless card that receives power from host device
+US9483722B2 2008-08-08 2016-11-01 Tyfone, Inc. Amplifier and transmission solution for 13.56MHz radio coupled to smartcard controller
+US9489608B2 2008-08-08 2016-11-08 Tyfone, Inc. Amplifier and transmission solution for 13.56MHz radio coupled to smartmx smartcard controller
+US8814053B2 2008-08-08 2014-08-26 Tyfone, Inc. Mobile payment device with small inductive device powered by a host device
+US9122965B2 2008-08-08 2015-09-01 Tyfone, Inc. 13.56 MHz enhancement circuit for smartcard controller
+US8937549B2 2008-08-08 2015-01-20 Tyfone, Inc. Enhanced integrated circuit with smartcard controller
+US8814052B2 2008-08-20 2014-08-26 X-Card Holdings, Llc Secure smart card system
+US9129280B2 2008-08-20 2015-09-08 X-Card Holdings, Llc Secure smart card system
+US8594730B2 * 2008-08-20 2013-11-26 X-Card Holdings, Llc Secure smart card system
+US20120052800A1 * 2008-08-20 2012-03-01 X-Card Holdings, Llc Secure smart card system
+US20110140841A1 * 2008-08-20 2011-06-16 X-Card Holdings, Llc Secure smart card system
+US20100176206A1 * 2009-01-13 2010-07-15 Samsung Electronics Co., Ltd. Memory Card
+US8231061B2 2009-02-24 2012-07-31 Tyfone, Inc Contactless device with miniaturized antenna
+US20120295551A1 * 2011-05-09 2012-11-22 Boris Radovcic Modular radio communications systems architecture
+US8983375B2 * 2011-05-09 2015-03-17 Bae Systems Information And Electronic Systems Integration Inc. Personality adapter for modular radio communications systems
+US20140111314A1 * 2011-05-31 2014-04-24 Manfred Rietzler Method and arrangement for providing and managing information linked to rfid data storage media in a network
+US9323945B2 2011-11-01 2016-04-26 Google Inc. Systems, methods, and computer program products for managing secure elements
+US9104887B2 2011-11-01 2015-08-11 Google Inc. Systems, methods, and computer program products for interfacing multiple service provider trusted service managers and secure elements
+US9544759B2 2011-11-01 2017-01-10 Google Inc. Systems, methods, and computer program products for managing states
+US8875228B2 2011-11-01 2014-10-28 Jvl Ventures, Llc Systems, methods, and computer program products for managing secure elements
+US8649820B2 2011-11-07 2014-02-11 Blackberry Limited Universal integrated circuit card apparatus and related methods
+USD702240S1 2012-04-13 2014-04-08 Blackberry Limited UICC apparatus
+US8936199B2 2012-04-13 2015-01-20 Blackberry Limited UICC apparatus and related methods
+USD703208S1 2012-04-13 2014-04-22 Blackberry Limited UICC apparatus
+USD702241S1 2012-04-23 2014-04-08 Blackberry Limited UICC apparatus
+USD701864S1 * 2012-04-23 2014-04-01 Blackberry Limited UICC apparatus
+US9479571B2 2012-09-18 2016-10-25 Google Inc. Systems, methods, and computer program products for interfacing multiple service provider trusted service managers and secure elements
+US9286049B2 2013-03-26 2016-03-15 Google Inc. Systems, methods, and computer program products for managing service installation
+US9495558B2 2013-03-26 2016-11-15 Google Inc. Systems, methods, and computer program products for managing access control
+US9408075B2 2013-06-17 2016-08-02 Google Inc. Systems, methods, and computer program products for processing a request relating to a mobile communication device
+US9292345B2 2013-07-08 2016-03-22 Google Inc. Systems, methods, and computer program products for processing sets of instructions for mobile devices
+US9311491B2 2013-09-30 2016-04-12 Google Inc. Systems, methods, and computer program products for securely managing data on a secure element
+USD776664S1 * 2015-05-20 2017-01-17 Chaya Coleena Hendrick Smart card
+* Cited by examiner, † Cited by third party
+Also Published As
+Publication number Publication date Type
+US20120305653A1 2012-12-06 Application
+US7961101B2 2011-06-14 Grant
+US20100033307A1 2010-02-11 Application
+US8410936B2 2013-04-02 Grant
+US20110180610A1 2011-07-28 Application
+US20130043317A1 2013-02-21 Application
+US8814053B2 2014-08-26 Grant
+Similar Documents
+Publication Publication Date Title
+US6776339B2 2004-08-17 Wireless communication device providing a contactless interface for a smart card reader
+US20100090805A1 2010-04-15 Electronic device and management of competing contactless communication of such a device and a host equipment
+US20100009627A1 2010-01-14 Nfc communicator and method of data communication
+US20070293155A1 2007-12-20 Chipset for mobile wallet system
+US20100264211A1 2010-10-21 Magnetically coupling radio frequency antennas
+EP0534559A1 1993-03-31 Chip card allowing remote identification
+US20080238621A1 2008-10-02 Multi-mode rfid reader architecture
+US20090221240A1 2009-09-03 Low power device activated by an external near-field reader
+US20040110533A1 2004-06-10 IC card, information processing terminal, and three-way data communication system and method
+US20070108280A1 2007-05-17 Memory card and terminal equipment incorporating the same
+US20110226853A1 2011-09-22 Method of conducting a transaction using an nfc device
+US20060124755A1 2006-06-15 Card-shaped memory device incorporating IC card function, adapter for the same and host device
+US20120052801A1 2012-03-01 Near field communication device
+JP2004145449A 2004-05-20 Ic module
+US20100181377A1 2010-07-22 Card reader with near field communication function and near field communication device thereof
+US20120135681A1 2012-05-31 Multi-mode communication system for a mobile phone
+US8260199B2 2012-09-04 NFC module, in particular for mobile phone
+US20090101716A1 2009-04-23 Nfc reader having a passive operating mode with low electrical consumption
+CN1933351A 2007-03-21 Mobile telephone apparatus realizing method with non-contact IC card or electronic label and non-contact IC card or electronic label read/write device application
+JP2008210301A 2008-09-11 Storage medium, communication system, and control device
+US20080244208A1 2008-10-02 Memory card hidden command protocol
+US20090152361A1 2009-06-18 Memory card based contactless devices
+US20110271044A1 2011-11-03 Memory card having one or more secure elements accessed with hidden commands
+CN1627321A 2005-06-15 Mobile terminal having smart card coupled with RFID tag and method for performing RFID function in such mobile terminal
+US20060131413A1 2006-06-22 Contact-type data communication apparatus, transmission and reception apparatus, and transmission and reception method
+Legal Events
+Date Code Title Description
+2014-03-17 AS Assignment
+
+Owner name: TYFONE, INC., OREGON
+
+Free format text: ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNORS:NARENDRA, SIVA G;TADEPALLI, PRABHAKAR;CHAKRABORTY, SAURAV;SIGNING DATES FROM 20140312 TO 20140314;REEL/FRAME:032454/0708
+2014-12-11 FPAY Fee payment
+
+Year of fee payment: 4
+2015-05-15 AS Assignment
+
+Owner name: RPX CORPORATION, CALIFORNIA
+
+Free format text: SECURITY INTEREST;ASSIGNOR:TYFONE, INC.;REEL/FRAME:035685/0760
+
+Effective date: 20150515
+Data provided by IFI CLAIMS Patent Services
+About Send Feedback Terms Privacy Policy
+memorycard
+
